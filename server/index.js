@@ -165,7 +165,7 @@ io.on('connection', (socket) => {
     }, 1000);
   }
 
-  function endQuestion(roomCode) {
+    function endQuestion(roomCode) {
     const room = rooms.get(roomCode);
     if (!room || !room.isPlaying) return;
 
@@ -185,7 +185,23 @@ io.on('connection', (socket) => {
       maxQuestions: MAX_QUESTIONS
     });
 
-    // Otomatis soal berikutnya setelah 3 detik
+    // Jika sudah mencapai batas 15 soal → berhenti total (tidak auto lanjut)
+    if (room.questionCount >= MAX_QUESTIONS) {
+      // Reset skor & counter agar siap untuk game baru
+      for (const id of room.players.keys()) {
+        room.scores[id] = 0;
+      }
+      room.questionCount = 0;
+      room.usedQuestionIds.clear();
+
+      io.to(roomCode).emit('gameFinished', {
+        message: '15 soal telah selesai! Permainan berhenti. Tekan tombol "Mulai" untuk memulai game baru.'
+      });
+      io.to(roomCode).emit('playerList', getPlayerList(room));
+      return; // berhenti di sini, tidak auto-lanjut
+    }
+
+    // Belum 15 soal → otomatis lanjut setelah 7 detik
     setTimeout(() => {
       if (rooms.has(roomCode)) {
         const r = rooms.get(roomCode);

@@ -8,7 +8,7 @@
   <script src="/socket.io/socket.io.js"></script>
   <style>
     body {
-      background: #0f172a url('https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif') center center / cover no-repeat fixed;
+      background: #0f172a url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnZqbjE1M3F3YjhwdnZ0cjQyMTRpM25vOHd2MTB4dmZhY3plYnZiaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wrmVCNbpOyqgJ9zQTn/giphy.gif') center center / cover no-repeat fixed;
       min-height: 100vh;
     }
     .bg-overlay {
@@ -148,8 +148,12 @@
       document.getElementById('timerDisplay').textContent = '--';
     });
 
-    socket.on('gameReset', (data) => {
+    socket.on('gameFinished', (data) => {
       alert(data.message);
+      document.getElementById('status').textContent = 'Permainan selesai. Menunggu Host memulai lagi...';
+      document.getElementById('timerDisplay').textContent = '--';
+      document.getElementById('options').classList.add('hidden');
+      document.getElementById('feedback').classList.add('hidden');
     });
 
     socket.on('error', (msg) => alert(msg));

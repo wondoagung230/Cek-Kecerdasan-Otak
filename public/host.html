@@ -8,7 +8,7 @@
   <script src="/socket.io/socket.io.js"></script>
   <style>
     body {
-      background: #0f172a url('https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif') center center / cover no-repeat fixed;
+      background: #0f172a url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXM5bGc5bHU2eWdrN280ZHFpajN4dWhnb3N3aDgyb2VnN3F2bWJxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1Et7Qw1XjvunS0Io/giphy.gif') center center / cover no-repeat fixed;
       min-height: 100vh;
     }
     .bg-overlay {
@@ -41,7 +41,7 @@
           <span id="musicIcon">🎵</span> <span id="musicText">Putar Musik Relax</span>
         </button>
         <audio id="bgMusic" loop preload="auto">
-          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg">
+          <source src="https://drive.google.com/file/d/1Lx1QQCoGYsBmQ6KZ6cQbPmI1ZwL6XNHt/view?usp=drive_link" type="audio/mpeg">
         </audio>
       </div>
 
@@ -53,7 +53,7 @@
         <div id="roomInfo" class="mt-5 hidden">
           <p class="text-indigo-200">Kode Room:</p>
           <p id="roomCode" class="text-5xl md:text-6xl font-mono font-bold tracking-widest my-3 text-yellow-300 drop-shadow-lg"></p>
-          <p class="text-sm text-indigo-300">Pemain buka player.html dan masukkan kode ini</p>
+          <p class="text-sm text-indigo-300">Pemain buka link Cek-Kecerdasan-Otak.onrender.com/player.html</p>
         </div>
       </div>
 
@@ -115,7 +115,7 @@
             <p id="explanation" class="text-indigo-200 mb-4 text-sm"></p>
             <p class="text-yellow-300 text-sm mb-2">Skor saat ini:</p>
             <div id="tempLeaderboard" class="text-left max-w-md mx-auto space-y-2"></div>
-            <p class="text-indigo-300 text-xs mt-4">Soal berikutnya otomatis dalam 3 detik...</p>
+            <p class="text-indigo-300 text-xs mt-4">Soal berikutnya otomatis dalam 7 detik...</p>
           </div>
         </div>
 
@@ -231,9 +231,16 @@
       updatePlayerList(data.scores);
     });
 
-    socket.on('gameReset', (data) => {
+      socket.on('gameFinished', (data) => {
       alert(data.message);
+
       document.getElementById('qCounter').textContent = 'Soal: 0/15';
+      document.getElementById('waiting').classList.remove('hidden');
+      document.getElementById('questionContent').classList.add('hidden');
+      document.getElementById('resultBox').classList.add('hidden');
+      document.getElementById('nextBtn').disabled = false;
+      document.getElementById('nextBtn').classList.remove('opacity-50');
+      isPlaying = false;
     });
 
     socket.on('playerList', (players) => {
