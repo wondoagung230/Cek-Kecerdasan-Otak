@@ -4587,5 +4587,325 @@
     ],
     "correct": "eksoterm",
     "explanation": "Eksoterm"
-  }
+  },
+  {
+  "id": 354,
+  "category": "Pengetahuan Umum",
+  "text": "Warna bendera Indonesia dari atas ke bawah adalah …",
+  "options": ["Putih - Merah", "Merah - Putih", "Merah - Biru", "Kuning - Merah"],
+  "correct": "Merah - Putih",
+  "explanation": "Bendera Indonesia adalah Merah Putih"
+},
+{
+  "id": 355,
+  "category": "Pengetahuan Umum",
+  "text": "Ibukota negara Indonesia adalah …",
+  "options": ["Surabaya", "Bandung", "Jakarta", "Medan"],
+  "correct": "Jakarta",
+  "explanation": "Ibukota Indonesia adalah Jakarta"
+},
+{
+  "id": 356,
+  "category": "Pengetahuan Umum",
+  "text": "Hewan yang punya belalai panjang adalah …",
+  "options": ["Harimau", "Gajah", "Kuda", "Sapi"],
+  "correct": "Gajah",
+  "explanation": "Gajah memiliki belalai"
+},
+{
+  "id": 357,
+  "category": "Pengetahuan Umum",
+  "text": "Hari kemerdekaan Indonesia diperingati setiap tanggal …",
+  "options": ["1 Juni", "17 Agustus", "10 November", "21 April"],
+  "correct": "17 Agustus",
+  "explanation": "17 Agustus 1945"
+},
+{
+  "id": 358,
+  "category": "Pengetahuan Umum",
+  "text": "Jumlah hari dalam satu minggu adalah …",
+  "options": ["5", "6", "7", "8"],
+  "correct": "7",
+  "explanation": "Satu minggu terdiri dari 7 hari"
+},
+{
+  "id": 359,
+  "category": "Pengetahuan Umum",
+  "text": "Alat untuk menulis di papan tulis biasanya adalah …",
+  "options": ["Pensil", "Spidol", "Pulpen", "Krayon"],
+  "correct": "Spidol",
+  "explanation": "Spidol whiteboard atau kapur"
+},
+{
+  "id": 360,
+  "category": "Pengetahuan Umum",
+  "text": "Buah yang kulitnya berwarna kuning dan isinya manis adalah …",
+  "options": ["Apel", "Pisang", "Anggur", "Stroberi"],
+  "correct": "Pisang",
+  "explanation": "Pisang kulitnya kuning"
+},
+{
+  "id": 361,
+  "category": "Pengetahuan Umum",
+  "text": "Lambang negara Indonesia adalah …",
+  "options": ["Garuda Pancasila", "Harimau", "Komodo", "Merpati"],
+  "correct": "Garuda Pancasila",
+  "explanation": "Garuda Pancasila"
+},
+{
+  "id": 362,
+  "category": "Pengetahuan Umum",
+  "text": "Matahari terbit dari arah …",
+  "options": ["Barat", "Timur", "Utara", "Selatan"],
+  "correct": "Timur",
+  "explanation": "Matahari terbit di Timur"
+},
+{
+  "id": 363,
+  "category": "Pengetahuan Umum",
+  "text": "Hewan yang bisa terbang adalah …",
+  "options": ["Ikan", "Burung", "Ular", "Kucing"],
+  "correct": "Burung",
+  "explanation": "Burung memiliki sayap"
+},
+{
+  "id": 364,
+  "category": "Pengetahuan Umum",
+  "text": "Air yang membeku menjadi …",
+  "options": ["Uap", "Es", "Awan", "Hujan"],
+  "correct": "Es",
+  "explanation": "Air membeku menjadi es"
+},
+{
+  "id": 365,
+  "category": "Pengetahuan Umum",
+  "text": "Jumlah jari tangan manusia biasanya adalah …",
+  "options": ["8", "10", "12", "5"],
+  "correct": "10",
+  "explanation": "5 jari di setiap tangan"
+},
+{
+  "id": 366,
+  "category": "Pengetahuan Umum",
+  "text": "Lagu kebangsaan Indonesia adalah …",
+  "options": ["Indonesia Pusaka", "Indonesia Raya", "Garuda Pancasila", "Hari Merdeka"],
+  "correct": "Indonesia Raya",
+  "explanation": "Indonesia Raya"
+},
+{
+  "id": 367,
+  "category": "Pengetahuan Umum",
+  "text": "Binatang yang menghasilkan susu adalah …",
+  "options": ["Ayam", "Sapi", "Ikan", "Burung"],
+  "correct": "Sapi",
+  "explanation": "Sapi menghasilkan susu"
+},
+{
+  "id": 368,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Benua terbesar di dunia adalah …",
+  "options": ["Afrika", "Amerika", "Asia", "Eropa"],
+  "correct": "Asia",
+  "explanation": "Asia adalah benua terluas"
+},
+{
+  "id": 369,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Planet yang paling dekat dengan Matahari adalah …",
+  "options": ["Venus", "Mars", "Merkurius", "Bumi"],
+  "correct": "Merkurius",
+  "explanation": "Merkurius adalah yang terdekat"
+},
+{
+  "id": 370,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Ibukota negara Jepang adalah …",
+  "options": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
+  "correct": "Tokyo",
+  "explanation": "Ibukota Jepang adalah Tokyo"
+},
+{
+  "id": 371,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Sungai terpanjang di dunia adalah …",
+  "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
+  "correct": "Nil",
+  "explanation": "Sungai Nil umumnya dianggap terpanjang"
+},
+{
+  "id": 372,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Organisasi ASEAN didirikan pada tahun …",
+  "options": ["1945", "1967", "1999", "2000"],
+  "correct": "1967",
+  "explanation": "ASEAN didirikan 8 Agustus 1967"
+},
+{
+  "id": 373,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Gunung tertinggi di dunia adalah …",
+  "options": ["Kilimanjaro", "Everest", "Fuji", "Elbrus"],
+  "correct": "Everest",
+  "explanation": "Gunung Everest"
+},
+{
+  "id": 374,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Mata uang negara Amerika Serikat adalah …",
+  "options": ["Euro", "Yen", "Dollar", "Pound"],
+  "correct": "Dollar",
+  "explanation": "US Dollar"
+},
+{
+  "id": 375,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Samudra terbesar di dunia adalah …",
+  "options": ["Atlantik", "Hindia", "Pasifik", "Arktik"],
+  "correct": "Pasifik",
+  "explanation": "Samudra Pasifik"
+},
+{
+  "id": 376,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Penemu lampu pijar adalah …",
+  "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Albert Einstein"],
+  "correct": "Thomas Edison",
+  "explanation": "Thomas Alva Edison"
+},
+{
+  "id": 377,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Hari Pahlawan diperingati setiap tanggal …",
+  "options": ["10 November", "17 Agustus", "21 April", "2 Mei"],
+  "correct": "10 November",
+  "explanation": "10 November 1945"
+},
+{
+  "id": 378,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Ibukota negara Australia adalah …",
+  "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+  "correct": "Canberra",
+  "explanation": "Canberra, bukan Sydney"
+},
+{
+  "id": 379,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Hewan marsupial khas Australia adalah …",
+  "options": ["Panda", "Kanguru", "Koala", "Kanguru dan Koala"],
+  "correct": "Kanguru dan Koala",
+  "explanation": "Kanguru dan koala adalah marsupial"
+},
+{
+  "id": 380,
+  "category": "SMP Pengetahuan Umum",
+  "text": "Gas yang paling banyak di atmosfer bumi adalah …",
+  "options": ["Oksigen", "Nitrogen", "Karbon dioksida", "Hidrogen"],
+  "correct": "Nitrogen",
+  "explanation": "Nitrogen sekitar 78%"
+},
+{
+  "id": 381,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Siapa penemu teori relativitas?",
+  "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+  "correct": "Albert Einstein",
+  "explanation": "Albert Einstein"
+},
+{
+  "id": 382,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Perjanjian yang mengakhiri Perang Dunia I adalah …",
+  "options": ["Perjanjian Versailles", "Perjanjian Paris", "Perjanjian Yalta", "Perjanjian Potsdam"],
+  "correct": "Perjanjian Versailles",
+  "explanation": "Treaty of Versailles 1919"
+},
+{
+  "id": 383,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Organisasi dunia yang bertujuan menjaga perdamaian adalah …",
+  "options": ["ASEAN", "NATO", "PBB", "WTO"],
+  "correct": "PBB",
+  "explanation": "Perserikatan Bangsa-Bangsa"
+},
+{
+  "id": 384,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Unsur kimia dengan simbol Fe adalah …",
+  "options": ["Fluor", "Besi", "Fosfor", "Fermium"],
+  "correct": "Besi",
+  "explanation": "Fe = Ferrum (besi)"
+},
+{
+  "id": 385,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Siapa yang menemukan penisilin?",
+  "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Edward Jenner"],
+  "correct": "Alexander Fleming",
+  "explanation": "Alexander Fleming tahun 1928"
+},
+{
+  "id": 386,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Teori Big Bang menjelaskan tentang …",
+  "options": ["Evolusi manusia", "Asal-usul alam semesta", "Pergerakan lempeng bumi", "Siklus air"],
+  "correct": "Asal-usul alam semesta",
+  "explanation": "Big Bang Theory"
+},
+{
+  "id": 387,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Ibukota Kazakhstan saat ini adalah …",
+  "options": ["Almaty", "Astana", "Tashkent", "Bishkek"],
+  "correct": "Astana",
+  "explanation": "Astana (sebelumnya Nur-Sultan)"
+},
+{
+  "id": 388,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Siapa penulis novel 'Laskar Pelangi'?",
+  "options": ["Pramoedya Ananta Toer", "Andrea Hirata", "Tere Liye", "Dee Lestari"],
+  "correct": "Andrea Hirata",
+  "explanation": "Andrea Hirata"
+},
+{
+  "id": 389,
+  "category": "SMA Pengetahuan Umum",
+  "text": "GDP adalah singkatan dari …",
+  "options": ["Gross Domestic Product", "General Development Plan", "Global Debt Percentage", "Government Development Program"],
+  "correct": "Gross Domestic Product",
+  "explanation": "Produk Domestik Bruto"
+},
+{
+  "id": 390,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Planet terbesar di tata surya adalah …",
+  "options": ["Saturnus", "Jupiter", "Uranus", "Neptunus"],
+  "correct": "Jupiter",
+  "explanation": "Jupiter"
+},
+{
+  "id": 391,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Hari Bumi diperingati setiap tanggal …",
+  "options": ["22 April", "5 Juni", "21 Maret", "1 Desember"],
+  "correct": "22 April",
+  "explanation": "Earth Day 22 April"
+},
+{
+  "id": 392,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Siapa presiden pertama Amerika Serikat?",
+  "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+  "correct": "George Washington",
+  "explanation": "George Washington"
+},
+{
+  "id": 393,
+  "category": "SMA Pengetahuan Umum",
+  "text": "Candi Borobudur dibangun pada masa dinasti …",
+  "options": ["Majapahit", "Sriwijaya", "Sailendra", "Singasari"],
+  "correct": "Sailendra",
+  "explanation": "Dinasti Sailendra"
+}
 ]
