@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Player - Kuis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    body {
+      background: #0f172a url('https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif') center center / cover no-repeat fixed;
+      min-height: 100vh;
+    }
+    .bg-overlay {
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.88) 0%, rgba(76, 29, 149, 0.82) 100%);
+      min-height: 100vh;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  </style>
+</head>
+<body class="text-white">
+  <div class="bg-overlay flex flex-col min-h-screen">
+    <div class="flex-1 flex flex-col p-4 max-w-md mx-auto w-full">
+
+      <div id="login" class="flex-1 flex flex-col justify-center space-y-5">
+        <div class="text-center">
+          <h1 class="text-3xl font-bold mb-1 drop-shadow-lg">Kuis Pendidikan</h1>
+          <p class="text-indigo-200 text-sm">SD · SMP · SMA · English · 353 Soal</p>
+        </div>
+        <input id="nickname" type="text" placeholder="Nama kamu" maxlength="16"
+               class="w-full glass rounded-xl px-5 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 placeholder-indigo-300">
+        <input id="roomCode" type="text" placeholder="Kode Room (6 digit)" maxlength="6" inputmode="numeric"
+               class="w-full glass rounded-xl px-5 py-4 text-lg text-center tracking-widest focus:outline-none focus:ring-2 focus:ring-yellow-400 placeholder-indigo-300">
+        <button onclick="joinRoom()" class="w-full bg-green-500 hover:bg-green-600 active:bg-green-700 font-bold py-4 rounded-xl text-xl transition active:scale-95 shadow-lg">
+          Gabung Sekarang
+        </button>
+      </div>
+
+      <div id="game" class="hidden flex-1 flex flex-col">
+        <div class="text-center py-3">
+          <p class="text-indigo-200 text-sm">Room: <span id="displayCode" class="font-mono font-bold text-yellow-300"></span></p>
+          <p id="status" class="text-base mt-1 font-medium drop-shadow">Menunggu soal...</p>
+          <p id="qNum" class="text-xs text-indigo-300 mt-1"></p>
+        </div>
+
+        <div class="text-center mb-3">
+          <div id="timerDisplay" class="inline-block glass rounded-full px-5 py-1.5 text-xl font-bold tabular-nums">--</div>
+        </div>
+
+        <div id="options" class="flex-1 flex flex-col justify-center gap-3"></div>
+
+        <div id="feedback" class="hidden text-center py-8">
+          <p id="feedbackText" class="text-3xl font-bold drop-shadow"></p>
+          <p id="pointsText" class="text-yellow-300 text-xl mt-2 font-semibold"></p>
+          <p class="text-indigo-200 text-sm mt-4">Menunggu semua pemain / soal berikutnya...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const socket = io();
+    let currentRoom = null;
+    let answered = false;
+
+    function joinRoom() {
+      const nickname = document.getElementById('nickname').value.trim();
+      const roomCode = document.getElementById('roomCode').value.trim();
+      if (!nickname) return alert('Isi nama kamu dulu');
+      if (!roomCode) return alert('Masukkan kode room');
+      socket.emit('joinRoom', { roomCode, nickname });
+    }
+
+    document.getElementById('roomCode').addEventListener('keyup', e => { if (e.key === 'Enter') joinRoom(); });
+    document.getElementById('nickname').addEventListener('keyup', e => { if (e.key === 'Enter') document.getElementById('roomCode').focus(); });
+
+    socket.on('joined', (data) => {
+      currentRoom = data.roomCode;
+      document.getElementById('login').classList.add('hidden');
+      document.getElementById('game').classList.remove('hidden');
+      document.getElementById('displayCode').textContent = data.roomCode;
+    });
+
+    socket.on('newQuestion', (q) => {
+      answered = false;
+      document.getElementById('status').textContent = q.category + ' • Jawab sekarang!';
+      document.getElementById('qNum').textContent = `Soal ${q.questionNumber} dari ${q.maxQuestions}`;
+      document.getElementById('feedback').classList.add('hidden');
+      document.getElementById('options').classList.remove('hidden');
+      document.getElementById('timerDisplay').textContent = q.timeLeft || 20;
+      document.getElementById('timerDisplay').classList.remove('text-red-400', 'animate-pulse');
+
+      const colors = [
+        'bg-red-500/90 active:bg-red-600',
+        'bg-blue-500/90 active:bg-blue-600',
+        'bg-yellow-500/90 active:bg-yellow-600 text-black',
+        'bg-green-500/90 active:bg-green-600'
+      ];
+      const opts = document.getElementById('options');
+      opts.innerHTML = '';
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.className = `${colors[i]} w-full py-4 rounded-2xl text-lg font-bold shadow-lg transition active:scale-95`;
+        btn.textContent = opt;
+        btn.onclick = () => {
+          if (answered) return;
+          answered = true;
+          socket.emit('submitAnswer', { roomCode: currentRoom, answer: opt });
+          document.querySelectorAll('#options button').forEach(b => {
+            b.disabled = true;
+            b.classList.add('opacity-40');
+          });
+          btn.classList.remove('opacity-40');
+          btn.classList.add('ring-4', 'ring-white', 'opacity-100');
+        };
+        opts.appendChild(btn);
+      });
+    });
+
+    socket.on('timerUpdate', (time) => {
+      document.getElementById('timerDisplay').textContent = time;
+      if (time <= 5) {
+        document.getElementById('timerDisplay').classList.add('text-red-400', 'animate-pulse');
+      }
+    });
+
+    socket.on('answerFeedback', (data) => {
+      document.getElementById('options').classList.add('hidden');
+      document.getElementById('feedback').classList.remove('hidden');
+      if (data.isCorrect) {
+        document.getElementById('feedbackText').textContent = '✓ Benar!';
+        document.getElementById('feedbackText').className = 'text-3xl font-bold text-green-400 drop-shadow';
+        document.getElementById('pointsText').textContent = `+${data.points} poin`;
+      } else {
+        document.getElementById('feedbackText').textContent = '✗ Salah';
+        document.getElementById('feedbackText').className = 'text-3xl font-bold text-red-400 drop-shadow';
+        document.getElementById('pointsText').textContent = '';
+      }
+    });
+
+    socket.on('questionEnded', () => {
+      document.getElementById('status').textContent = 'Soal berikutnya segera...';
+      document.getElementById('timerDisplay').textContent = '--';
+    });
+
+    socket.on('gameReset', (data) => {
+      alert(data.message);
+    });
+
+    socket.on('error', (msg) => alert(msg));
+  </script>
+</body>
+</html>

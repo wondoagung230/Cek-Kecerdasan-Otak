@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Host - Kuis Pendidikan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+    body {
+      background: #0f172a url('https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif') center center / cover no-repeat fixed;
+      min-height: 100vh;
+    }
+    .bg-overlay {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(88, 28, 135, 0.75) 50%, rgba(157, 23, 77, 0.8) 100%);
+      min-height: 100vh;
+    }
+    .timer-circle {
+      background: conic-gradient(#22c55e calc(var(--progress) * 1%), #334155 0);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+  </style>
+</head>
+<body class="text-white">
+  <div class="bg-overlay">
+    <div class="container mx-auto px-4 py-6 max-w-5xl">
+
+      <div class="text-center mb-5">
+        <h1 class="text-3xl md:text-5xl font-bold mb-1 drop-shadow-lg">Kuis Pendidikan</h1>
+        <p class="text-indigo-200 text-sm md:text-base drop-shadow">SD · SMP · SMA · Bahasa Inggris · 353 Soal</p>
+      </div>
+
+      <!-- Musik Relax -->
+      <div class="flex justify-center mb-4 gap-3 items-center">
+        <button id="musicBtn" onclick="toggleMusic()" class="glass hover:bg-white/25 px-4 py-2 rounded-full text-sm flex items-center gap-2 transition">
+          <span id="musicIcon">🎵</span> <span id="musicText">Putar Musik Relax</span>
+        </button>
+        <audio id="bgMusic" loop preload="auto">
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <!-- Setup -->
+      <div id="setup" class="glass rounded-2xl p-6 md:p-8 text-center shadow-2xl">
+        <button onclick="createRoom()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-10 rounded-full text-lg transition transform hover:scale-105 shadow-lg">
+          Buat Room Baru
+        </button>
+        <div id="roomInfo" class="mt-5 hidden">
+          <p class="text-indigo-200">Kode Room:</p>
+          <p id="roomCode" class="text-5xl md:text-6xl font-mono font-bold tracking-widest my-3 text-yellow-300 drop-shadow-lg"></p>
+          <p class="text-sm text-indigo-300">Pemain buka player.html dan masukkan kode ini</p>
+        </div>
+      </div>
+
+      <!-- Game Area -->
+      <div id="gameArea" class="hidden mt-5">
+        <div class="flex flex-wrap gap-3 justify-center mb-4 items-center">
+          <select id="category" class="glass border border-white/30 rounded-xl px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 bg-black/30">
+            <option value="Semua">Semua Kategori</option>
+            <option value="Matematika">Matematika (SD)</option>
+            <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+            <option value="IPA">IPA (SD)</option>
+            <option value="IPS">IPS (SD)</option>
+            <option value="PKN">PKN</option>
+            <option value="Pengetahuan Umum">Pengetahuan Umum</option>
+            <option value="Bahasa Inggris">Bahasa Inggris</option>
+            <option value="SMP Matematika">SMP Matematika</option>
+            <option value="SMP IPA">SMP IPA</option>
+            <option value="SMP IPS">SMP IPS</option>
+            <option value="SMP Bahasa Inggris">SMP Bahasa Inggris</option>
+            <option value="SMA Matematika">SMA Matematika</option>
+            <option value="SMA IPA">SMA IPA</option>
+            <option value="SMA IPS">SMA IPS</option>
+            <option value="SMA Bahasa Inggris">SMA Bahasa Inggris</option>
+            <option value="SMP Pengetahuan Umum">SMP Pengetahuan Umum</option>
+            <option value="SMA Pengetahuan Umum">SMA Pengetahuan Umum</option>
+          </select>
+          <button onclick="nextQuestion()" id="nextBtn" class="bg-blue-500 hover:bg-blue-600 font-bold py-2 px-5 rounded-xl transition text-sm shadow">
+            Mulai / Soal Berikutnya
+          </button>
+          <button onclick="showLeaderboard()" class="bg-purple-500 hover:bg-purple-600 font-bold py-2 px-5 rounded-xl transition text-sm shadow">
+            Leaderboard
+          </button>
+          <span id="qCounter" class="text-yellow-300 font-bold text-sm ml-2 drop-shadow">Soal: 0/15</span>
+        </div>
+
+        <div id="questionBox" class="glass rounded-3xl p-6 md:p-8 text-center shadow-2xl min-h-[360px] flex flex-col justify-center">
+          <div id="waiting" class="text-xl text-indigo-200">
+            Pilih kategori lalu klik "Mulai / Soal Berikutnya"
+          </div>
+
+          <div id="questionContent" class="hidden">
+            <div class="flex justify-center mb-4">
+              <div class="relative w-24 h-24">
+                <div class="timer-circle absolute inset-0 rounded-full" style="--progress: 100"></div>
+                <div class="absolute inset-2 bg-indigo-950/90 rounded-full flex items-center justify-center">
+                  <span id="timerText" class="text-2xl font-bold">20</span>
+                </div>
+              </div>
+            </div>
+            <p id="categoryBadge" class="inline-block bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full mb-2"></p>
+            <h2 id="questionText" class="text-2xl md:text-3xl font-bold mb-5 leading-snug px-2 drop-shadow"></h2>
+            <div id="optionsDisplay" class="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-3xl mx-auto"></div>
+            <p id="answeredInfo" class="mt-4 text-sm text-indigo-200"></p>
+          </div>
+
+          <div id="resultBox" class="hidden">
+            <p class="text-indigo-200 mb-1">Jawaban Benar:</p>
+            <p id="correctAnswer" class="text-3xl font-bold text-green-400 mb-2 drop-shadow"></p>
+            <p id="explanation" class="text-indigo-200 mb-4 text-sm"></p>
+            <p class="text-yellow-300 text-sm mb-2">Skor saat ini:</p>
+            <div id="tempLeaderboard" class="text-left max-w-md mx-auto space-y-2"></div>
+            <p class="text-indigo-300 text-xs mt-4">Soal berikutnya otomatis dalam 3 detik...</p>
+          </div>
+        </div>
+
+        <div class="mt-5 glass rounded-2xl p-4">
+          <h3 class="text-base font-bold mb-2 text-center">Pemain & Skor</h3>
+          <div id="playerList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const socket = io();
+    let currentRoom = null;
+    let isPlaying = false;
+    let musicPlaying = false;
+
+    const bgMusic = document.getElementById('bgMusic');
+    bgMusic.volume = 0.35;
+
+    function toggleMusic() {
+      if (musicPlaying) {
+        bgMusic.pause();
+        document.getElementById('musicIcon').textContent = '🎵';
+        document.getElementById('musicText').textContent = 'Putar Musik Relax';
+      } else {
+        bgMusic.play().catch(() => alert('Klik lagi atau izinkan autoplay di browser'));
+        document.getElementById('musicIcon').textContent = '⏸';
+        document.getElementById('musicText').textContent = 'Pause Musik';
+      }
+      musicPlaying = !musicPlaying;
+    }
+
+    function createRoom() {
+      socket.emit('createRoom');
+    }
+
+    socket.on('roomCreated', (code) => {
+      currentRoom = code;
+      document.getElementById('roomCode').textContent = code;
+      document.getElementById('roomInfo').classList.remove('hidden');
+      document.getElementById('gameArea').classList.remove('hidden');
+      document.querySelector('#setup button').classList.add('hidden');
+    });
+
+    function nextQuestion() {
+      if (isPlaying) return;
+      const category = document.getElementById('category').value;
+      socket.emit('nextQuestion', { roomCode: currentRoom, category });
+    }
+
+    function showLeaderboard() {
+      socket.emit('getLeaderboard', currentRoom);
+    }
+
+    socket.on('newQuestion', (q) => {
+      isPlaying = true;
+      document.getElementById('waiting').classList.add('hidden');
+      document.getElementById('resultBox').classList.add('hidden');
+      document.getElementById('questionContent').classList.remove('hidden');
+      document.getElementById('nextBtn').disabled = true;
+      document.getElementById('nextBtn').classList.add('opacity-50');
+
+      document.getElementById('categoryBadge').textContent = q.category;
+      document.getElementById('questionText').textContent = q.text;
+      document.getElementById('timerText').textContent = q.timeLeft || 20;
+      document.querySelector('.timer-circle').style.setProperty('--progress', 100);
+      document.getElementById('qCounter').textContent = `Soal: ${q.questionNumber}/${q.maxQuestions}`;
+      document.getElementById('answeredInfo').textContent = '';
+
+      const opts = document.getElementById('optionsDisplay');
+      opts.innerHTML = '';
+      const colors = ['bg-red-500/90', 'bg-blue-500/90', 'bg-yellow-500/90 text-black', 'bg-green-500/90'];
+      q.options.forEach((opt, i) => {
+        const div = document.createElement('div');
+        div.className = `${colors[i]} text-white font-bold py-3 px-4 rounded-xl text-base shadow-lg`;
+        div.textContent = opt;
+        opts.appendChild(div);
+      });
+    });
+
+    socket.on('timerUpdate', (time) => {
+      document.getElementById('timerText').textContent = time;
+      document.querySelector('.timer-circle').style.setProperty('--progress', (time / 20) * 100);
+      if (time <= 5) document.getElementById('timerText').classList.add('text-red-400');
+      else document.getElementById('timerText').classList.remove('text-red-400');
+    });
+
+    socket.on('playerAnswered', (data) => {
+      document.getElementById('answeredInfo').textContent = 
+        `Sudah menjawab: ${data.answeredCount}/${data.totalPlayers} pemain`;
+    });
+
+    socket.on('questionEnded', (data) => {
+      isPlaying = false;
+      document.getElementById('questionContent').classList.add('hidden');
+      document.getElementById('resultBox').classList.remove('hidden');
+      document.getElementById('nextBtn').disabled = false;
+      document.getElementById('nextBtn').classList.remove('opacity-50');
+
+      document.getElementById('correctAnswer').textContent = data.correct;
+      document.getElementById('explanation').textContent = data.explanation || '';
+      document.getElementById('qCounter').textContent = `Soal: ${data.questionNumber}/${data.maxQuestions}`;
+
+      const lb = document.getElementById('tempLeaderboard');
+      lb.innerHTML = data.scores.map((s, i) => `
+        <div class="flex justify-between items-center bg-black/30 rounded-lg px-4 py-2">
+          <span>${i + 1}. ${s.nickname}</span>
+          <span class="font-bold text-yellow-300">${s.score} poin</span>
+        </div>
+      `).join('');
+
+      updatePlayerList(data.scores);
+    });
+
+    socket.on('gameReset', (data) => {
+      alert(data.message);
+      document.getElementById('qCounter').textContent = 'Soal: 0/15';
+    });
+
+    socket.on('playerList', (players) => {
+      updatePlayerList(players);
+    });
+
+    function updatePlayerList(players) {
+      const list = document.getElementById('playerList');
+      if (!players || players.length === 0) {
+        list.innerHTML = '<p class="text-indigo-300 col-span-full text-center text-sm">Belum ada pemain</p>';
+        return;
+      }
+      players.sort((a, b) => b.score - a.score);
+      list.innerHTML = players.map(p => `
+        <div class="bg-black/30 rounded-xl p-2 text-center">
+          <div class="font-bold truncate text-sm">${p.nickname}</div>
+          <div class="text-yellow-300 text-lg font-bold">${p.score}</div>
+        </div>
+      `).join('');
+    }
+
+    socket.on('leaderboard', (board) => {
+      alert('🏆 Leaderboard\n\n' + board.map((b, i) => `${i+1}. ${b.nickname}: ${b.score}`).join('\n'));
+    });
+
+    socket.on('error', (msg) => alert(msg));
+  </script>
+</body>
+</html>
