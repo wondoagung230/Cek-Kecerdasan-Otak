@@ -218,6 +218,7 @@ io.on('connection', (socket) => {
     }, 7000);
   }
 
+  // PLAYER: Jawab soal
   socket.on('submitAnswer', ({ roomCode, answer }) => {
     const room = rooms.get(roomCode);
     if (!room || !room.isPlaying || room.answered.has(socket.id)) return;
@@ -226,9 +227,10 @@ io.on('connection', (socket) => {
     if (!player) return;
 
     room.answered.add(socket.id);
-    const isCorrect = answer === room.currentQuestion.correct;
 
+    const isCorrect = answer === room.currentQuestion.correct;
     let points = 0;
+
     if (isCorrect) {
       points = Math.max(5, Math.floor(room.timeLeft * 0.8) + 5);
       room.scores[socket.id] = (room.scores[socket.id] || 0) + points;
@@ -239,12 +241,11 @@ io.on('connection', (socket) => {
     io.to(room.host).emit('playerAnswered', {
       nickname: player.nickname,
       isCorrect,
-      answeredCount: room.answered.size,
-      totalPlayers: room.players.size
+      score: room.scores[socket.id]
     });
 
-    // Semua pemain sudah jawab → stop timer & end
-    if (room.answered.size >= room.players.size && room.players.size > 0) {
+    // Jika semua sudah jawab
+    if (room.answered.size === room.players.size) {
       endQuestion(roomCode);
     }
   });

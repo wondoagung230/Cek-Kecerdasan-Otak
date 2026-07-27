@@ -20,6 +20,28 @@
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
       border: 1px solid rgba(255, 255, 255, 0.15);
+	@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeOutDown {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(30px); }
+  }
+  @keyframes scaleUp {
+    from { transform: scale(0.95); }
+    to { transform: scale(1); }
+  }
+  @keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 15px rgba(134, 239, 172, 0.6); }
+    50% { box-shadow: 0 0 30px rgba(134, 239, 172, 1); }
+  }
+
+  .fade-in { animation: fadeInUp 0.6s ease forwards; }
+  .fade-out { animation: fadeOutDown 0.5s ease forwards; }
+  .btn-scale { transition: all 0.3s ease; }
+  .btn-scale:active { transform: scale(0.95); }
+  .correct-answer { animation: glowPulse 1.5s infinite; }
     }
   </style>
 </head>
@@ -89,56 +111,37 @@
     socket.on('newQuestion', (q) => {
       answered = false;
       document.getElementById('status').textContent = q.category + ' • Jawab sekarang!';
-      document.getElementById('qNum').textContent = `Soal ${q.questionNumber} dari ${q.maxQuestions}`;
       document.getElementById('feedback').classList.add('hidden');
       document.getElementById('options').classList.remove('hidden');
-      document.getElementById('timerDisplay').textContent = q.timeLeft || 20;
-      document.getElementById('timerDisplay').classList.remove('text-red-400', 'animate-pulse');
 
-      const colors = [
-        'bg-red-500/90 active:bg-red-600',
-        'bg-blue-500/90 active:bg-blue-600',
-        'bg-yellow-500/90 active:bg-yellow-600 text-black',
-        'bg-green-500/90 active:bg-green-600'
-      ];
+      const colors = ['bg-red-500', 'bg-blue-500', 'bg-yellow-500 text-black', 'bg-green-500'];
       const opts = document.getElementById('options');
       opts.innerHTML = '';
       q.options.forEach((opt, i) => {
         const btn = document.createElement('button');
-        btn.className = `${colors[i]} w-full py-4 rounded-2xl text-lg font-bold shadow-lg transition active:scale-95`;
+        btn.className = `${colors[i]} w-full py-5 rounded-2xl text-xl font-bold shadow-lg transition active:scale-95`;
         btn.textContent = opt;
         btn.onclick = () => {
           if (answered) return;
           answered = true;
           socket.emit('submitAnswer', { roomCode: currentRoom, answer: opt });
-          document.querySelectorAll('#options button').forEach(b => {
-            b.disabled = true;
-            b.classList.add('opacity-40');
-          });
-          btn.classList.remove('opacity-40');
-          btn.classList.add('ring-4', 'ring-white', 'opacity-100');
+          document.querySelectorAll('#options button').forEach(b => b.disabled = true);
+          btn.classList.add('ring-4', 'ring-white');
         };
         opts.appendChild(btn);
       });
-    });
-
-    socket.on('timerUpdate', (time) => {
-      document.getElementById('timerDisplay').textContent = time;
-      if (time <= 5) {
-        document.getElementById('timerDisplay').classList.add('text-red-400', 'animate-pulse');
-      }
     });
 
     socket.on('answerFeedback', (data) => {
       document.getElementById('options').classList.add('hidden');
       document.getElementById('feedback').classList.remove('hidden');
       if (data.isCorrect) {
-        document.getElementById('feedbackText').textContent = '✓ Benar!';
-        document.getElementById('feedbackText').className = 'text-3xl font-bold text-green-400 drop-shadow';
+        document.getElementById('feedbackText').textContent = 'BENAR!';
+        document.getElementById('feedbackText').className = 'text-2xl font-bold text-green-400';
         document.getElementById('pointsText').textContent = `+${data.points} poin`;
       } else {
-        document.getElementById('feedbackText').textContent = '✗ Salah';
-        document.getElementById('feedbackText').className = 'text-3xl font-bold text-red-400 drop-shadow';
+        document.getElementById('feedbackText').textContent = 'SALAH';
+        document.getElementById('feedbackText').className = 'text-2xl font-bold text-red-400';
         document.getElementById('pointsText').textContent = '';
       }
     });

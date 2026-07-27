@@ -23,6 +23,28 @@
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.18);
+	  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeOutDown {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(30px); }
+  }
+  @keyframes scaleUp {
+    from { transform: scale(0.95); }
+    to { transform: scale(1); }
+  }
+  @keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 15px rgba(134, 239, 172, 0.6); }
+    50% { box-shadow: 0 0 30px rgba(134, 239, 172, 1); }
+  }
+
+  .fade-in { animation: fadeInUp 0.6s ease forwards; }
+  .fade-out { animation: fadeOutDown 0.5s ease forwards; }
+  .btn-scale { transition: all 0.3s ease; }
+  .btn-scale:active { transform: scale(0.95); }
+  .correct-answer { animation: glowPulse 1.5s infinite; }
     }
   </style>
 </head>
@@ -41,7 +63,7 @@
           <span id="musicIcon">🎵</span> <span id="musicText">Putar Musik Relax</span>
         </button>
         <audio id="bgMusic" loop preload="auto">
-          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
         </audio>
       </div>
 
@@ -205,8 +227,15 @@
     });
 
     socket.on('playerAnswered', (data) => {
-      document.getElementById('answeredInfo').textContent = 
-        `Sudah menjawab: ${data.answeredCount}/${data.totalPlayers} pemain`;
+      const div = document.createElement('div');
+      div.className = `flex items-center gap-4 p-4 rounded-2xl shadow-md transition-all ${data.isCorrect ? 'bg-green-900/60 border border-green-500/30' : 'bg-red-900/60 border border-red-500/30'}`;
+      div.innerHTML = `
+        <span class="font-semibold text-lg w-40 truncate">${data.nickname}</span>
+        <span class="ml-auto text-2xl font-bold ${data.isCorrect ? 'text-green-400' : 'text-red-400'}">
+          ${data.isCorrect ? 'BENAR' : 'SALAH'}
+        </span>
+      `;
+      document.getElementById('playerList').prepend(div);
     });
 
     socket.on('questionEnded', (data) => {
@@ -217,18 +246,34 @@
       document.getElementById('nextBtn').classList.remove('opacity-50');
 
       document.getElementById('correctAnswer').textContent = data.correct;
-      document.getElementById('explanation').textContent = data.explanation || '';
-      document.getElementById('qCounter').textContent = `Soal: ${data.questionNumber}/${data.maxQuestions}`;
+      document.getElementById('explanation').textContent = data.explanation;
 
       const lb = document.getElementById('tempLeaderboard');
       lb.innerHTML = data.scores.map((s, i) => `
-        <div class="flex justify-between items-center bg-black/30 rounded-lg px-4 py-2">
-          <span>${i + 1}. ${s.nickname}</span>
-          <span class="font-bold text-yellow-300">${s.score} poin</span>
+        <div class="flex justify-between items-center bg-white/10 rounded-xl px-5 py-3">
+          <span class="font-medium">${i+1}. ${s.nickname}</span>
+          <span class="font-bold text-xl">${s.score}</span>
         </div>
       `).join('');
 
-      updatePlayerList(data.scores);
+      // Tampilkan jumlah benar & salah
+      const correctCount = data.scores.filter(s => s.score > 0).length;
+      const wrongCount = room.players.size - correctCount;
+      document.getElementById('resultBox').innerHTML += `
+        <div class="mt-8 text-center">
+          <div class="inline-flex items-center gap-6 bg-white/10 px-8 py-4 rounded-2xl">
+            <div>
+              <p class="text-green-400 text-3xl font-bold">${correctCount}</p>
+              <p class="text-green-300 text-sm">BENAR</p>
+            </div>
+            <div class="w-px h-10 bg-white/30"></div>
+            <div>
+              <p class="text-red-400 text-3xl font-bold">${wrongCount}</p>
+              <p class="text-red-300 text-sm">SALAH</p>
+            </div>
+          </div>
+        </div>
+      `;
     });
 
       socket.on('gameFinished', (data) => {
