@@ -165,7 +165,7 @@ io.on('connection', (socket) => {
     }, 1000);
   }
 
-    function endQuestion(roomCode) {
+  function endQuestion(roomCode) {
     const room = rooms.get(roomCode);
     if (!room || !room.isPlaying) return;
 
@@ -177,6 +177,7 @@ io.on('connection', (socket) => {
 
     const scores = getPlayerList(room).sort((a, b) => b.score - a.score);
 
+    // Tetap kirim hasil jawaban (termasuk soal ke-15)
     io.to(roomCode).emit('questionEnded', {
       correct: room.currentQuestion.correct,
       explanation: room.currentQuestion.explanation || '',
@@ -185,23 +186,27 @@ io.on('connection', (socket) => {
       maxQuestions: MAX_QUESTIONS
     });
 
-    // Jika sudah mencapai batas 15 soal → berhenti total (tidak auto lanjut)
+    // Jika sudah 15 soal
     if (room.questionCount >= MAX_QUESTIONS) {
-      // Reset skor & counter agar siap untuk game baru
-      for (const id of room.players.keys()) {
-        room.scores[id] = 0;
-      }
-      room.questionCount = 0;
-      room.usedQuestionIds.clear();
+      // Beri waktu 5 detik agar pemain bisa melihat jawaban benar
+      setTimeout(() => {
+        // Reset skor
+        for (const id of room.players.keys()) {
+          room.scores[id] = 0;
+        }
+        room.questionCount = 0;
+        room.usedQuestionIds.clear();
 
-      io.to(roomCode).emit('gameFinished', {
-        message: '15 soal telah selesai! Permainan berhenti. Tekan tombol "Mulai" untuk memulai game baru.'
-      });
-      io.to(roomCode).emit('playerList', getPlayerList(room));
-      return; // berhenti di sini, tidak auto-lanjut
+        io.to(roomCode).emit('gameFinished', {
+          message: '15 soal telah selesai! Permainan berhenti. Tekan tombol "Mulai" untuk memulai game baru.'
+        });
+        io.to(roomCode).emit('playerList', getPlayerList(room));
+      }, 5000); // 5 detik delay
+
+      return;
     }
 
-    // Belum 15 soal → otomatis lanjut setelah 7 detik
+    // Belum 15 soal → lanjut otomatis setelah 7 detik
     setTimeout(() => {
       if (rooms.has(roomCode)) {
         const r = rooms.get(roomCode);
