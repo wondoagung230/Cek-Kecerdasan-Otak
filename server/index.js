@@ -10,19 +10,11 @@ const io = new Server(server, {
   cors: { origin: "*" }
 });
 
-// Tentukan lokasi statis folder public
-app.use(express.static(path.join(__dirname, 'public')));
+// Arahkan folder statis public dengan benar dari dalam folder server/
 app.use(express.static(path.join(__dirname, '../public')));
 
-// Pencarian file questions.json secara otomatis di berbagai lokasi
-let questionsPath = path.join(__dirname, 'public', 'questions.json');
-
-if (!fs.existsSync(questionsPath)) {
-  questionsPath = path.join(__dirname, '../public/questions.json');
-}
-if (!fs.existsSync(questionsPath)) {
-  questionsPath = path.join(__dirname, 'questions.json');
-}
+// Path ke questions.json (keluar dari folder 'server' lalu masuk ke 'public')
+const questionsPath = path.join(__dirname, '../public/questions.json');
 
 let questions = [];
 try {
@@ -30,10 +22,10 @@ try {
     questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
     console.log(`✅ Berhasil memuat ${questions.length} soal dari: ${questionsPath}`);
   } else {
-    console.error('❌ File questions.json tidak ditemukan di semua lokasi pencarian!');
+    console.error(`❌ File TIDAK ditemukan di: ${questionsPath}`);
   }
 } catch (err) {
-  console.error('❌ Gagal membaca atau memformat questions.json:', err.message);
+  console.error('❌ Gagal membaca questions.json:', err.message);
 }
 
 const rooms = new Map();
@@ -138,12 +130,18 @@ io.on('connection', (socket) => {
       io.to(roomCode).emit('playerList', getPlayerList(room));
     }
 
-    room.category = category || room.category || 'Semua';
+// Biar fleksibel, abaikan spasi & perbedaan huruf besar/kecil
+    const selectedCategory = (category || room.category || 'Semua').trim().toUpperCase();
 
     let available = questions;
-    if (room.category && room.category !== 'Semua') {
-      available = questions.filter(q => q.category === room.category);
+    if (selectedCategory !== 'SEMUA') {
+      available = questions.filter(q => 
+        q.category && q.category.trim().toUpperCase() === selectedCategory
+      );
     }
+
+    console.log(`[DEBUG] Total Soal di Server: ${questions.length}`);
+    console.log(`[DEBUG] Kategori Dipilih: "${selectedCategory}" | Soal Ditemukan: ${available.length}`);
 
     let unused = available.filter(q => !room.usedQuestionIds.has(q.id));
     if (unused.length === 0) {
@@ -152,7 +150,8 @@ io.on('connection', (socket) => {
     }
 
     if (unused.length === 0) {
-      socket.emit('error', 'Tidak ada soal di kategori ini');
+      console.log(`[ERROR] Tidak ada soal untuk kategori: ${selectedCategory}`);
+      socket.emit('error', `Tidak ada soal di kategori ${selectedCategory} (Total soal di database: ${questions.length})`);
       return;
     }
 
