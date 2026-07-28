@@ -20,66 +20,41 @@
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
       border: 1px solid rgba(255, 255, 255, 0.15);
-	@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes fadeOutDown {
-    from { opacity: 1; transform: translateY(0); }
-    to { opacity: 0; transform: translateY(30px); }
-  }
-  @keyframes scaleUp {
-    from { transform: scale(0.95); }
-    to { transform: scale(1); }
-  }
-  @keyframes glowPulse {
-    0%, 100% { box-shadow: 0 0 15px rgba(134, 239, 172, 0.6); }
-    50% { box-shadow: 0 0 30px rgba(134, 239, 172, 1); }
-  }
-
-  .fade-in { animation: fadeInUp 0.6s ease forwards; }
-  .fade-out { animation: fadeOutDown 0.5s ease forwards; }
-  .btn-scale { transition: all 0.3s ease; }
-  .btn-scale:active { transform: scale(0.95); }
-  .correct-answer { animation: glowPulse 1.5s infinite; }
     }
   </style>
 </head>
-<body class="text-white">
+<body class="text-white select-none">
   <div class="bg-overlay flex flex-col min-h-screen">
     <div class="flex-1 flex flex-col p-4 max-w-md mx-auto w-full">
 
+      <!-- Login Section -->
       <div id="login" class="flex-1 flex flex-col justify-center space-y-5">
         <div class="text-center">
-          <h1 class="text-3xl font-bold mb-1 drop-shadow-lg">Kuis Pendidikan</h1>
-          <p class="text-indigo-200 text-sm">SD · SMP · SMA · English · 353 Soal</p>
+          <h1 class="text-3xl font-extrabold mb-1 drop-shadow-lg text-yellow-300">Kuis Pendidikan</h1>
+          <p class="text-indigo-200 text-sm">SD • SMP • SMA</p>
         </div>
         <input id="nickname" type="text" placeholder="Nama kamu" maxlength="16"
                class="w-full glass rounded-xl px-5 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 placeholder-indigo-300">
         <input id="roomCode" type="text" placeholder="Kode Room (6 digit)" maxlength="6" inputmode="numeric"
-               class="w-full glass rounded-xl px-5 py-4 text-lg text-center tracking-widest focus:outline-none focus:ring-2 focus:ring-yellow-400 placeholder-indigo-300">
+               class="w-full glass rounded-xl px-5 py-4 text-lg text-center font-mono font-bold tracking-widest focus:outline-none focus:ring-2 focus:ring-yellow-400 placeholder-indigo-300">
         <button onclick="joinRoom()" class="w-full bg-green-500 hover:bg-green-600 active:bg-green-700 font-bold py-4 rounded-xl text-xl transition active:scale-95 shadow-lg">
           Gabung Sekarang
         </button>
       </div>
 
+      <!-- Game Section -->
       <div id="game" class="hidden flex-1 flex flex-col">
         <div class="text-center py-3">
           <p class="text-indigo-200 text-sm">Room: <span id="displayCode" class="font-mono font-bold text-yellow-300"></span></p>
-          <p id="status" class="text-base mt-1 font-medium drop-shadow">Menunggu soal...</p>
-          <p id="qNum" class="text-xs text-indigo-300 mt-1"></p>
-        </div>
-
-        <div class="text-center mb-3">
-          <div id="timerDisplay" class="inline-block glass rounded-full px-5 py-1.5 text-xl font-bold tabular-nums">--</div>
+          <p id="status" class="text-base mt-1 font-medium drop-shadow text-yellow-200">Menunggu soal...</p>
         </div>
 
         <div id="options" class="flex-1 flex flex-col justify-center gap-3"></div>
 
-        <div id="feedback" class="hidden text-center py-8">
-          <p id="feedbackText" class="text-3xl font-bold drop-shadow"></p>
-          <p id="pointsText" class="text-yellow-300 text-xl mt-2 font-semibold"></p>
-          <p class="text-indigo-200 text-sm mt-4">Menunggu semua pemain / soal berikutnya...</p>
+        <div id="feedback" class="hidden text-center py-8 my-auto glass rounded-3xl p-6 shadow-2xl">
+          <p id="feedbackText" class="text-4xl font-extrabold drop-shadow"></p>
+          <p id="pointsText" class="text-yellow-300 text-2xl mt-3 font-extrabold"></p>
+          <p class="text-indigo-200 text-xs mt-6">Menunggu semua pemain / soal berikutnya...</p>
         </div>
       </div>
     </div>
@@ -89,6 +64,12 @@
     const socket = io();
     let currentRoom = null;
     let answered = false;
+
+    function triggerVibration(pattern) {
+      if ("vibrate" in navigator) {
+        navigator.vibrate(pattern);
+      }
+    }
 
     function joinRoom() {
       const nickname = document.getElementById('nickname').value.trim();
@@ -119,14 +100,19 @@
       opts.innerHTML = '';
       q.options.forEach((opt, i) => {
         const btn = document.createElement('button');
-        btn.className = `${colors[i]} w-full py-5 rounded-2xl text-xl font-bold shadow-lg transition active:scale-95`;
+        btn.className = `${colors[i]} w-full py-5 rounded-2xl text-xl font-extrabold shadow-lg transition active:scale-95 border-2 border-white/20`;
         btn.textContent = opt;
         btn.onclick = () => {
           if (answered) return;
           answered = true;
+          triggerVibration(50); // Getaran halus tombol saat ditekan
           socket.emit('submitAnswer', { roomCode: currentRoom, answer: opt });
-          document.querySelectorAll('#options button').forEach(b => b.disabled = true);
-          btn.classList.add('ring-4', 'ring-white');
+          document.querySelectorAll('#options button').forEach(b => {
+            b.disabled = true;
+            b.classList.add('opacity-40');
+          });
+          btn.classList.remove('opacity-40');
+          btn.classList.add('ring-4', 'ring-white', 'scale-105');
         };
         opts.appendChild(btn);
       });
@@ -136,25 +122,25 @@
       document.getElementById('options').classList.add('hidden');
       document.getElementById('feedback').classList.remove('hidden');
       if (data.isCorrect) {
-        document.getElementById('feedbackText').textContent = 'BENAR!';
-        document.getElementById('feedbackText').className = 'text-2xl font-bold text-green-400';
+        triggerVibration([100, 50, 100]); // Pola getar menang
+        document.getElementById('feedbackText').textContent = 'BENAR! 🎉';
+        document.getElementById('feedbackText').className = 'text-4xl font-black text-green-400';
         document.getElementById('pointsText').textContent = `+${data.points} poin`;
       } else {
-        document.getElementById('feedbackText').textContent = 'SALAH';
-        document.getElementById('feedbackText').className = 'text-2xl font-bold text-red-400';
+        triggerVibration(250); // Getaran panjang salah
+        document.getElementById('feedbackText').textContent = 'SALAH ❌';
+        document.getElementById('feedbackText').className = 'text-4xl font-black text-red-400';
         document.getElementById('pointsText').textContent = '';
       }
     });
 
     socket.on('questionEnded', () => {
       document.getElementById('status').textContent = 'Soal berikutnya segera...';
-      document.getElementById('timerDisplay').textContent = '--';
     });
 
     socket.on('gameFinished', (data) => {
       alert(data.message);
       document.getElementById('status').textContent = 'Permainan selesai. Menunggu Host memulai lagi...';
-      document.getElementById('timerDisplay').textContent = '--';
       document.getElementById('options').classList.add('hidden');
       document.getElementById('feedback').classList.add('hidden');
     });

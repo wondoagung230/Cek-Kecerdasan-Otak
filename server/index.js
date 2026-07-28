@@ -57,6 +57,7 @@ io.on('connection', (socket) => {
       currentQuestion: null,
       isPlaying: false,
       timer: null,
+      nextTimeout: null, // Menyimpan timeout jeda otomatis
       timeLeft: 0,
       answered: new Set(),
       usedQuestionIds: new Set(),
@@ -104,6 +105,11 @@ io.on('connection', (socket) => {
     if (!room || room.host !== socket.id) return;
     if (room.isPlaying) return;
 
+    if (room.nextTimeout) {
+      clearTimeout(room.nextTimeout);
+      room.nextTimeout = null;
+    }
+
     // Batas 15 soal → reset poin
     if (room.questionCount >= MAX_QUESTIONS) {
       for (const id of room.players.keys()) {
@@ -143,7 +149,6 @@ io.on('connection', (socket) => {
     room.timeLeft = 20;
     room.questionCount += 1;
 
-    // Acak pilihan jawaban setiap kali
     const shuffledOptions = shuffleArray(question.options);
 
     io.to(roomCode).emit('newQuestion', {
@@ -177,7 +182,6 @@ io.on('connection', (socket) => {
 
     const scores = getPlayerList(room).sort((a, b) => b.score - a.score);
 
-    // Tetap kirim hasil jawaban (termasuk soal ke-15)
     io.to(roomCode).emit('questionEnded', {
       correct: room.currentQuestion.correct,
       explanation: room.currentQuestion.explanation || '',
@@ -186,11 +190,8 @@ io.on('connection', (socket) => {
       maxQuestions: MAX_QUESTIONS
     });
 
-    // Jika sudah 15 soal
     if (room.questionCount >= MAX_QUESTIONS) {
-      // Beri waktu 5 detik agar pemain bisa melihat jawaban benar
-      setTimeout(() => {
-        // Reset skor
+      room.nextTimeout = setTimeout(() => {
         for (const id of room.players.keys()) {
           room.scores[id] = 0;
         }
@@ -198,16 +199,16 @@ io.on('connection', (socket) => {
         room.usedQuestionIds.clear();
 
         io.to(roomCode).emit('gameFinished', {
-          message: '15 soal telah selesai! Permainan berhenti. Tekan tombol "Mulai" untuk memulai game baru.'
+          message: '15 soal telah selesai! Permainan berhenti.',
+          scores
         });
         io.to(roomCode).emit('playerList', getPlayerList(room));
-      }, 5000); // 5 detik delay
+      }, 5000);
 
       return;
     }
 
-    // Belum 15 soal → lanjut otomatis setelah 7 detik
-    setTimeout(() => {
+    room.nextTimeout = setTimeout(() => {
       if (rooms.has(roomCode)) {
         const r = rooms.get(roomCode);
         const hostSocket = [...io.sockets.sockets.values()].find(s => s.id === r.host);
@@ -218,7 +219,6 @@ io.on('connection', (socket) => {
     }, 7000);
   }
 
-  // PLAYER: Jawab soal
   socket.on('submitAnswer', ({ roomCode, answer }) => {
     const room = rooms.get(roomCode);
     if (!room || !room.isPlaying || room.answered.has(socket.id)) return;
@@ -238,13 +238,14 @@ io.on('connection', (socket) => {
 
     socket.emit('answerFeedback', { isCorrect, points });
 
+    // Kirim statistik real-time ke Host
     io.to(room.host).emit('playerAnswered', {
       nickname: player.nickname,
       isCorrect,
-      score: room.scores[socket.id]
+      score: room.scores[socket.id],
+      answeredCount: room.answered.size
     });
 
-    // Jika semua sudah jawab
     if (room.answered.size === room.players.size) {
       endQuestion(roomCode);
     }
@@ -266,6 +267,7 @@ io.on('connection', (socket) => {
       }
       if (room.host === socket.id) {
         if (room.timer) clearInterval(room.timer);
+        if (room.nextTimeout) clearTimeout(room.nextTimeout);
         rooms.delete(code);
         io.to(code).emit('error', 'Host telah keluar, room ditutup');
       }
@@ -275,9 +277,8 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`\n=== Kuis Pendidikan (SD + SMP + SMA + English) ===`);
+  console.log(`\n=== Kuis Pendidikan (SD + SMP + SMA) ===`);
   console.log(`Server: http://localhost:${PORT}`);
   console.log(`Host  → http://localhost:${PORT}/host.html`);
-  console.log(`Player→ http://localhost:${PORT}/player.html`);
-  console.log(`Total soal: ${questions.length} | Batas per game: ${MAX_QUESTIONS} soal\n`);
+  console.log(`Player→ http://localhost:${PORT}/player.html\n`);
 });

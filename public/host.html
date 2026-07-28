@@ -6,6 +6,8 @@
   <title>Host - Kuis Pendidikan</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="/socket.io/socket.io.js"></script>
+  <!-- Canvas Confetti untuk efek menang -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <style>
     body {
       background: #0f172a url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW9yODNpMzB3aW53cG9nZmJuOGtpZHF2bDVuNWppd3A1aWxoOXNuZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xd7QqFPv4IVAz8dnog/giphy.gif') center center / cover no-repeat fixed;
@@ -23,29 +25,12 @@
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.18);
-	  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes fadeOutDown {
-    from { opacity: 1; transform: translateY(0); }
-    to { opacity: 0; transform: translateY(30px); }
-  }
-  @keyframes scaleUp {
-    from { transform: scale(0.95); }
-    to { transform: scale(1); }
-  }
-  @keyframes glowPulse {
-    0%, 100% { box-shadow: 0 0 15px rgba(134, 239, 172, 0.6); }
-    50% { box-shadow: 0 0 30px rgba(134, 239, 172, 1); }
-  }
-
-  .fade-in { animation: fadeInUp 0.6s ease forwards; }
-  .fade-out { animation: fadeOutDown 0.5s ease forwards; }
-  .btn-scale { transition: all 0.3s ease; }
-  .btn-scale:active { transform: scale(0.95); }
-  .correct-answer { animation: glowPulse 1.5s infinite; }
     }
+    @keyframes glowPulse {
+      0%, 100% { box-shadow: 0 0 15px rgba(134, 239, 172, 0.6); }
+      50% { box-shadow: 0 0 30px rgba(134, 239, 172, 1); }
+    }
+    .correct-answer { animation: glowPulse 1.5s infinite; }
   </style>
 </head>
 <body class="text-white">
@@ -54,7 +39,7 @@
 
       <div class="text-center mb-5">
         <h1 class="text-3xl md:text-5xl font-bold mb-1 drop-shadow-lg">Kuis Pendidikan</h1>
-        <p class="text-indigo-200 text-sm md:text-base drop-shadow">SD · SMP · SMA · Bahasa Inggris · 353 Soal</p>
+        <p class="text-indigo-200 text-sm md:text-base drop-shadow">SD • SMP • SMA</p>
       </div>
 
       <!-- Musik Relax -->
@@ -63,8 +48,8 @@
           <span id="musicIcon">🎵</span> <span id="musicText">Putar Musik Relax</span>
         </button>
         <audio id="bgMusic" loop preload="auto">
-          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
-        </audio>
+		<source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
+		</audio>
       </div>
 
       <!-- Setup -->
@@ -82,26 +67,13 @@
       <!-- Game Area -->
       <div id="gameArea" class="hidden mt-5">
         <div class="flex flex-wrap gap-3 justify-center mb-4 items-center">
-          <select id="category" class="glass border border-white/30 rounded-xl px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 bg-black/30">
-            <option value="Semua">Semua Kategori</option>
-            <option value="Matematika">Matematika (SD)</option>
-            <option value="Bahasa Indonesia">Bahasa Indonesia</option>
-            <option value="IPA">IPA (SD)</option>
-            <option value="IPS">IPS (SD)</option>
-            <option value="PKN">PKN</option>
-            <option value="Pengetahuan Umum">Pengetahuan Umum</option>
-            <option value="Bahasa Inggris">Bahasa Inggris</option>
-            <option value="SMP Matematika">SMP Matematika</option>
-            <option value="SMP IPA">SMP IPA</option>
-            <option value="SMP IPS">SMP IPS</option>
-            <option value="SMP Bahasa Inggris">SMP Bahasa Inggris</option>
-            <option value="SMA Matematika">SMA Matematika</option>
-            <option value="SMA IPA">SMA IPA</option>
-            <option value="SMA IPS">SMA IPS</option>
-            <option value="SMA Bahasa Inggris">SMA Bahasa Inggris</option>
-            <option value="SMP Pengetahuan Umum">SMP Pengetahuan Umum</option>
-            <option value="SMA Pengetahuan Umum">SMA Pengetahuan Umum</option>
+          <select id="category" class="glass border border-white/30 rounded-xl px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 bg-black/50">
+            <option value="Semua" class="bg-slate-800 text-white">Semua Kategori</option>
+            <option value="SD" class="bg-slate-800 text-white">SD (Sekolah Dasar)</option>
+            <option value="SMP" class="bg-slate-800 text-white">SMP (Sekolah Menengah Pertama)</option>
+            <option value="SMA" class="bg-slate-800 text-white">SMA (Sekolah Menengah Atas)</option>
           </select>
+
           <button onclick="nextQuestion()" id="nextBtn" class="bg-blue-500 hover:bg-blue-600 font-bold py-2 px-5 rounded-xl transition text-sm shadow">
             Mulai / Soal Berikutnya
           </button>
@@ -117,7 +89,7 @@
           </div>
 
           <div id="questionContent" class="hidden">
-            <div class="flex justify-center mb-4">
+            <div class="flex justify-center mb-2">
               <div class="relative w-24 h-24">
                 <div class="timer-circle absolute inset-0 rounded-full" style="--progress: 100"></div>
                 <div class="absolute inset-2 bg-indigo-950/90 rounded-full flex items-center justify-center">
@@ -125,10 +97,17 @@
                 </div>
               </div>
             </div>
+
+            <!-- Indikator Progres Pemain Menjawab -->
+            <div class="mb-3">
+              <span id="answeredCounter" class="bg-indigo-900/80 border border-indigo-400/30 text-indigo-200 text-xs px-4 py-1.5 rounded-full font-semibold shadow">
+                Pemain Menjawab: 0 / 0
+              </span>
+            </div>
+
             <p id="categoryBadge" class="inline-block bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full mb-2"></p>
             <h2 id="questionText" class="text-2xl md:text-3xl font-bold mb-5 leading-snug px-2 drop-shadow"></h2>
             <div id="optionsDisplay" class="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-3xl mx-auto"></div>
-            <p id="answeredInfo" class="mt-4 text-sm text-indigo-200"></p>
           </div>
 
           <div id="resultBox" class="hidden">
@@ -142,10 +121,26 @@
         </div>
 
         <div class="mt-5 glass rounded-2xl p-4">
-          <h3 class="text-base font-bold mb-2 text-center">Pemain & Skor</h3>
+          <h3 class="text-base font-bold mb-2 text-center">Pemain & Status Jawaban</h3>
           <div id="playerList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2"></div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Modal Podium Pemenang (Akhir Permainan) -->
+  <div id="podiumModal" class="fixed inset-0 bg-black/80 backdrop-blur-md hidden flex items-center justify-center z-50 p-4">
+    <div class="glass rounded-3xl p-8 max-w-lg w-full text-center border-2 border-yellow-400/50 shadow-2xl">
+      <h2 class="text-3xl font-black text-yellow-300 mb-2">🏆 PERMAINAN SELESAI 🏆</h2>
+      <p class="text-indigo-200 text-sm mb-6">Selamat kepada para pemenang!</p>
+      
+      <div id="podiumList" class="flex justify-center items-end gap-3 mb-8 h-48">
+        <!-- Podium diisi via JavaScript -->
+      </div>
+
+      <button onclick="closePodium()" class="bg-yellow-400 hover:bg-yellow-500 text-black font-extrabold py-3 px-8 rounded-full text-lg shadow-lg transition transform hover:scale-105">
+        Main Lagi
+      </button>
     </div>
   </div>
 
@@ -154,6 +149,8 @@
     let currentRoom = null;
     let isPlaying = false;
     let musicPlaying = false;
+    let playerAnswers = {}; 
+    let totalPlayersCount = 0;
 
     const bgMusic = document.getElementById('bgMusic');
     bgMusic.volume = 0.35;
@@ -165,7 +162,7 @@
         document.getElementById('musicText').textContent = 'Putar Musik Relax';
       } else {
         bgMusic.play().catch(() => alert('Klik lagi atau izinkan autoplay di browser'));
-        document.getElementById('musicIcon').textContent = '⏸';
+        document.getElementById('musicIcon').textContent = '🔊';
         document.getElementById('musicText').textContent = 'Pause Musik';
       }
       musicPlaying = !musicPlaying;
@@ -195,6 +192,8 @@
 
     socket.on('newQuestion', (q) => {
       isPlaying = true;
+      playerAnswers = {}; // Reset data jawaban per soal baru
+
       document.getElementById('waiting').classList.add('hidden');
       document.getElementById('resultBox').classList.add('hidden');
       document.getElementById('questionContent').classList.remove('hidden');
@@ -206,7 +205,8 @@
       document.getElementById('timerText').textContent = q.timeLeft || 20;
       document.querySelector('.timer-circle').style.setProperty('--progress', 100);
       document.getElementById('qCounter').textContent = `Soal: ${q.questionNumber}/${q.maxQuestions}`;
-      document.getElementById('answeredInfo').textContent = '';
+      
+      updateAnsweredCounter(0);
 
       const opts = document.getElementById('optionsDisplay');
       opts.innerHTML = '';
@@ -217,6 +217,8 @@
         div.textContent = opt;
         opts.appendChild(div);
       });
+
+      socket.emit('getLeaderboard', currentRoom);
     });
 
     socket.on('timerUpdate', (time) => {
@@ -227,16 +229,16 @@
     });
 
     socket.on('playerAnswered', (data) => {
-      const div = document.createElement('div');
-      div.className = `flex items-center gap-4 p-4 rounded-2xl shadow-md transition-all ${data.isCorrect ? 'bg-green-900/60 border border-green-500/30' : 'bg-red-900/60 border border-red-500/30'}`;
-      div.innerHTML = `
-        <span class="font-semibold text-lg w-40 truncate">${data.nickname}</span>
-        <span class="ml-auto text-2xl font-bold ${data.isCorrect ? 'text-green-400' : 'text-red-400'}">
-          ${data.isCorrect ? 'BENAR' : 'SALAH'}
-        </span>
-      `;
-      document.getElementById('playerList').prepend(div);
+      playerAnswers[data.nickname] = data.isCorrect;
+      updateAnsweredCounter(data.answeredCount);
+      
+      // Update tampilan badge pemain secara langsung
+      socket.emit('getLeaderboard', currentRoom);
     });
+
+    function updateAnsweredCounter(count) {
+      document.getElementById('answeredCounter').textContent = `Pemain Menjawab: ${count} / ${totalPlayersCount}`;
+    }
 
     socket.on('questionEnded', (data) => {
       isPlaying = false;
@@ -256,29 +258,10 @@
         </div>
       `).join('');
 
-      // Tampilkan jumlah benar & salah
-      const correctCount = data.scores.filter(s => s.score > 0).length;
-      const wrongCount = room.players.size - correctCount;
-      document.getElementById('resultBox').innerHTML += `
-        <div class="mt-8 text-center">
-          <div class="inline-flex items-center gap-6 bg-white/10 px-8 py-4 rounded-2xl">
-            <div>
-              <p class="text-green-400 text-3xl font-bold">${correctCount}</p>
-              <p class="text-green-300 text-sm">BENAR</p>
-            </div>
-            <div class="w-px h-10 bg-white/30"></div>
-            <div>
-              <p class="text-red-400 text-3xl font-bold">${wrongCount}</p>
-              <p class="text-red-300 text-sm">SALAH</p>
-            </div>
-          </div>
-        </div>
-      `;
+      updatePlayerList(data.scores);
     });
 
-      socket.on('gameFinished', (data) => {
-      alert(data.message);
-
+    socket.on('gameFinished', (data) => {
       document.getElementById('qCounter').textContent = 'Soal: 0/15';
       document.getElementById('waiting').classList.remove('hidden');
       document.getElementById('questionContent').classList.add('hidden');
@@ -286,9 +269,50 @@
       document.getElementById('nextBtn').disabled = false;
       document.getElementById('nextBtn').classList.remove('opacity-50');
       isPlaying = false;
+      playerAnswers = {};
+
+      // Tampilkan Podium
+      showPodium(data.scores);
     });
 
+    function showPodium(scores) {
+      if (!scores || scores.length === 0) return;
+      const sorted = [...scores].sort((a, b) => b.score - a.score);
+      const podium = document.getElementById('podiumList');
+      podium.innerHTML = '';
+
+      // Tiga teratas
+      const top3 = [sorted[1], sorted[0], sorted[2]]; // Urutan podium: [Juara 2, Juara 1, Juara 3]
+      const heights = ['h-32', 'h-40', 'h-24'];
+      const bgColors = ['bg-slate-400', 'bg-yellow-500', 'bg-amber-700'];
+      const labels = ['🥈 2nd', '👑 1st', '🥉 3rd'];
+
+      top3.forEach((player, idx) => {
+        if (!player) return;
+        const div = document.createElement('div');
+        div.className = `flex flex-col items-center justify-end flex-1 max-w-[100px]`;
+        div.innerHTML = `
+          <span class="text-xs font-bold truncate max-w-full mb-1 text-white">${player.nickname}</span>
+          <span class="text-xs text-yellow-300 font-extrabold mb-1">${player.score} pt</span>
+          <div class="${bgColors[idx]} ${heights[idx]} w-full rounded-t-xl flex items-start justify-center pt-2 font-black text-black shadow-lg">
+            ${labels[idx]}
+          </div>
+        `;
+        podium.appendChild(div);
+      });
+
+      document.getElementById('podiumModal').classList.remove('hidden');
+
+      // Pesta Confetti
+      confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
+    }
+
+    function closePodium() {
+      document.getElementById('podiumModal').classList.add('hidden');
+    }
+
     socket.on('playerList', (players) => {
+      totalPlayersCount = players ? players.length : 0;
       updatePlayerList(players);
     });
 
@@ -299,16 +323,32 @@
         return;
       }
       players.sort((a, b) => b.score - a.score);
-      list.innerHTML = players.map(p => `
-        <div class="bg-black/30 rounded-xl p-2 text-center">
-          <div class="font-bold truncate text-sm">${p.nickname}</div>
-          <div class="text-yellow-300 text-lg font-bold">${p.score}</div>
-        </div>
-      `).join('');
+      list.innerHTML = players.map(p => {
+        let statusBg = "bg-black/30 border border-white/10"; // Default (Belum Jawab)
+        
+        if (playerAnswers.hasOwnProperty(p.nickname)) {
+          if (!isPlaying) {
+            // Jika soal sudah selesai, berikan warna Merah atau Hijau
+            statusBg = playerAnswers[p.nickname] 
+              ? "bg-green-600/90 border-2 border-green-400 shadow-lg scale-105" 
+              : "bg-red-600/90 border-2 border-red-400 shadow-lg";
+          } else {
+            // Saat masih berlangsung, tunjukkan pemain sudah submit (biru)
+            statusBg = "bg-blue-600/80 border-2 border-blue-400 animate-pulse";
+          }
+        }
+
+        return `
+          <div class="${statusBg} rounded-xl p-2.5 text-center transition-all duration-300">
+            <div class="font-bold truncate text-sm text-white">${p.nickname}</div>
+            <div class="text-yellow-300 text-base font-bold">${p.score}</div>
+          </div>
+        `;
+      }).join('');
     }
 
     socket.on('leaderboard', (board) => {
-      alert('🏆 Leaderboard\n\n' + board.map((b, i) => `${i+1}. ${b.nickname}: ${b.score}`).join('\n'));
+      updatePlayerList(board);
     });
 
     socket.on('error', (msg) => alert(msg));

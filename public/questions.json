@@ -1,4911 +1,3781 @@
 [
   {
     "id": 1,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Hasil dari 15 + 27 adalah …",
-    "options": [
-      "32",
-      "42",
-      "41",
-      "52"
-    ],
+    "options": ["32", "42", "41", "52"],
     "correct": "42",
     "explanation": "15 + 27 = 42"
   },
   {
     "id": 2,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Hasil dari 9 × 7 adalah …",
-    "options": [
-      "56",
-      "63",
-      "72",
-      "54"
-    ],
+    "options": ["56", "63", "72", "54"],
     "correct": "63",
     "explanation": "9 × 7 = 63"
   },
   {
     "id": 3,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Hasil dari 48 ÷ 6 adalah …",
-    "options": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
+    "options": ["6", "7", "8", "9"],
     "correct": "8",
     "explanation": "48 ÷ 6 = 8"
   },
   {
     "id": 4,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Bentuk pecahan dari 0,5 adalah …",
-    "options": [
-      "1/5",
-      "1/2",
-      "1/4",
-      "2/5"
-    ],
+    "options": ["1/5", "1/2", "1/4", "2/5"],
     "correct": "1/2",
     "explanation": "0,5 = 1/2"
   },
   {
     "id": 5,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Keliling persegi sisi 8 cm adalah …",
-    "options": [
-      "16 cm",
-      "24 cm",
-      "32 cm",
-      "64 cm"
-    ],
+    "options": ["16 cm", "24 cm", "32 cm", "64 cm"],
     "correct": "32 cm",
     "explanation": "Keliling = 4 × sisi = 4 × 8 = 32 cm"
   },
   {
     "id": 6,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Luas persegi panjang 12 cm × 5 cm adalah …",
-    "options": [
-      "17 cm²",
-      "34 cm²",
-      "60 cm²",
-      "70 cm²"
-    ],
+    "options": ["17 cm²", "34 cm²", "60 cm²", "70 cm²"],
     "correct": "60 cm²",
     "explanation": "Luas = panjang × lebar = 12 × 5 = 60 cm²"
   },
   {
     "id": 7,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Bilangan genap antara 10 dan 20 adalah …",
-    "options": [
-      "11, 13, 15",
-      "12, 14, 16",
-      "13, 15, 17",
-      "11, 14, 19"
-    ],
+    "options": ["11, 13, 15", "12, 14, 16", "13, 15, 17", "11, 14, 19"],
     "correct": "12, 14, 16",
     "explanation": "Bilangan genap: 12, 14, 16, 18"
   },
   {
     "id": 8,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Hasil dari 100 – 37 adalah …",
-    "options": [
-      "63",
-      "73",
-      "67",
-      "53"
-    ],
+    "options": ["63", "73", "67", "53"],
     "correct": "63",
     "explanation": "100 – 37 = 63"
   },
   {
     "id": 9,
-    "category": "Matematika",
+    "category": "SD",
     "text": "1 jam = … menit",
-    "options": [
-      "30",
-      "60",
-      "90",
-      "100"
-    ],
+    "options": ["30", "60", "90", "100"],
     "correct": "60",
     "explanation": "1 jam = 60 menit"
   },
   {
     "id": 10,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Bentuk desimal dari 3/4 adalah …",
-    "options": [
-      "0,25",
-      "0,5",
-      "0,75",
-      "0,8"
-    ],
+    "options": ["0,25", "0,5", "0,75", "0,8"],
     "correct": "0,75",
     "explanation": "3 dibagi 4 = 0,75"
   },
   {
     "id": 11,
-    "category": "Matematika",
+    "category": "SD",
     "text": "Hasil dari 5² (lima kuadrat) adalah …",
-    "options": [
-      "10",
-      "20",
-      "25",
-      "15"
-    ],
+    "options": ["10", "20", "25", "15"],
     "correct": "25",
     "explanation": "5 × 5 = 25"
   },
   {
     "id": 12,
-    "category": "Matematika",
+    "category": "SD",
     "text": "3 lusin = … (1 lusin = 12)",
-    "options": [
-      "24",
-      "30",
-      "36",
-      "48"
-    ],
+    "options": ["24", "30", "36", "48"],
     "correct": "36",
     "explanation": "3 × 12 = 36"
   },
   {
     "id": 13,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Sinonim dari kata 'bahagia' adalah …",
-    "options": [
-      "sedih",
-      "senang",
-      "marah",
-      "takut"
-    ],
+    "options": ["sedih", "senang", "marah", "takut"],
     "correct": "senang",
     "explanation": "Bahagia berarti senang / gembira"
   },
   {
     "id": 14,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Antonim dari kata 'tinggi' adalah …",
-    "options": [
-      "panjang",
-      "besar",
-      "rendah",
-      "jauh"
-    ],
+    "options": ["panjang", "besar", "rendah", "jauh"],
     "correct": "rendah",
     "explanation": "Lawan kata tinggi adalah rendah"
   },
   {
     "id": 15,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Kalimat yang menggunakan tanda tanya adalah …",
-    "options": [
-      "Ayah pergi ke pasar.",
-      "Di mana buku saya?",
-      "Wah, indah sekali!",
-      "Tolong ambilkan air."
-    ],
+    "options": ["Ayah pergi ke pasar.", "Di mana buku saya?", "Wah, indah sekali!", "Tolong ambilkan air."],
     "correct": "Di mana buku saya?",
     "explanation": "Kalimat tanya diakhiri dengan tanda tanya (?)"
   },
   {
     "id": 16,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Huruf kapital digunakan di awal …",
-    "options": [
-      "setiap kata",
-      "nama orang dan awal kalimat",
-      "kata kerja saja",
-      "kata benda saja"
-    ],
+    "options": ["setiap kata", "nama orang dan awal kalimat", "kata kerja saja", "kata benda saja"],
     "correct": "nama orang dan awal kalimat",
     "explanation": "Huruf kapital untuk nama diri dan awal kalimat"
   },
   {
     "id": 17,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Kata 'berlari' termasuk jenis kata …",
-    "options": [
-      "benda",
-      "kerja",
-      "sifat",
-      "keterangan"
-    ],
+    "options": ["benda", "kerja", "sifat", "keterangan"],
     "correct": "kerja",
     "explanation": "Berlari menunjukkan aktivitas = kata kerja"
   },
   {
     "id": 18,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Lawan kata dari 'panas' adalah …",
-    "options": [
-      "hangat",
-      "dingin",
-      "terik",
-      "lembab"
-    ],
+    "options": ["hangat", "dingin", "terik", "lembab"],
     "correct": "dingin",
     "explanation": "Antonim panas adalah dingin"
   },
   {
     "id": 19,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Kalimat yang benar ejaannya adalah …",
-    "options": [
-      "Saya makan nasi.",
-      "saya Makan Nasi.",
-      "Saya makan Nasi.",
-      "saya makan nasi."
-    ],
+    "options": ["Saya makan nasi.", "saya Makan Nasi.", "Saya makan Nasi.", "saya makan nasi."],
     "correct": "Saya makan nasi.",
     "explanation": "Awal kalimat huruf kapital, kata umum tidak"
   },
   {
     "id": 20,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Paragraf biasanya terdiri dari beberapa …",
-    "options": [
-      "huruf",
-      "kata",
-      "kalimat",
-      "buku"
-    ],
+    "options": ["huruf", "kata", "kalimat", "buku"],
     "correct": "kalimat",
     "explanation": "Paragraf = kumpulan kalimat yang saling berhubungan"
   },
   {
     "id": 21,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Kata 'meja' termasuk kata …",
-    "options": [
-      "kerja",
-      "sifat",
-      "benda",
-      "bilangan"
-    ],
+    "options": ["kerja", "sifat", "benda", "bilangan"],
     "correct": "benda",
     "explanation": "Meja adalah nama benda"
   },
   {
     "id": 22,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Ungkapan 'ringan tangan' berarti …",
-    "options": [
-      "suka memukul",
-      "suka menolong",
-      "suka mencuri",
-      "suka tidur"
-    ],
+    "options": ["suka memukul", "suka menolong", "suka mencuri", "suka tidur"],
     "correct": "suka menolong",
     "explanation": "Ringan tangan = suka membantu orang lain"
   },
   {
     "id": 23,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Sinonim 'cantik' adalah …",
-    "options": [
-      "jelek",
-      "indah",
-      "buruk",
-      "kotor"
-    ],
+    "options": ["jelek", "indah", "buruk", "kotor"],
     "correct": "indah",
     "explanation": "Cantik ≈ indah / elok"
   },
   {
     "id": 24,
-    "category": "Bahasa Indonesia",
+    "category": "SD",
     "text": "Kata depan yang tepat: 'Buku itu ada … meja.'",
-    "options": [
-      "di",
-      "ke",
-      "dari",
-      "pada"
-    ],
+    "options": ["di", "ke", "dari", "pada"],
     "correct": "di",
     "explanation": "Menunjukkan tempat: di meja"
   },
   {
     "id": 25,
-    "category": "IPA",
+    "category": "SD",
     "text": "Bagian tubuh tumbuhan yang berfungsi menyerap air dan mineral adalah …",
-    "options": [
-      "daun",
-      "batang",
-      "akar",
-      "bunga"
-    ],
+    "options": ["daun", "batang", "akar", "bunga"],
     "correct": "akar",
     "explanation": "Akar menyerap air dan zat hara dari tanah"
   },
   {
     "id": 26,
-    "category": "IPA",
+    "category": "SD",
     "text": "Hewan yang termasuk mamalia adalah …",
-    "options": [
-      "ikan",
-      "burung",
-      "kucing",
-      "ular"
-    ],
+    "options": ["ikan", "burung", "kucing", "ular"],
     "correct": "kucing",
     "explanation": "Kucing menyusui anaknya = mamalia"
   },
   {
     "id": 27,
-    "category": "IPA",
+    "category": "SD",
     "text": "Alat pernapasan manusia adalah …",
-    "options": [
-      "jantung",
-      "paru-paru",
-      "ginjal",
-      "lambung"
-    ],
+    "options": ["jantung", "paru-paru", "ginjal", "lambung"],
     "correct": "paru-paru",
     "explanation": "Paru-paru tempat pertukaran oksigen dan karbon dioksida"
   },
   {
     "id": 28,
-    "category": "IPA",
+    "category": "SD",
     "text": "Air berubah menjadi uap disebut proses …",
-    "options": [
-      "membeku",
-      "mengembun",
-      "menguap",
-      "mencair"
-    ],
+    "options": ["membeku", "mengembun", "menguap", "mencair"],
     "correct": "menguap",
     "explanation": "Menguap = air → uap air karena panas"
   },
   {
     "id": 29,
-    "category": "IPA",
+    "category": "SD",
     "text": "Sumber energi utama di bumi adalah …",
-    "options": [
-      "angin",
-      "matahari",
-      "air",
-      "batu bara"
-    ],
+    "options": ["angin", "matahari", "air", "batu bara"],
     "correct": "matahari",
     "explanation": "Matahari adalah sumber energi utama"
   },
   {
     "id": 30,
-    "category": "IPA",
+    "category": "SD",
     "text": "Hewan yang berkembang biak dengan bertelur disebut …",
-    "options": [
-      "vivipar",
-      "ovipar",
-      "ovovivipar",
-      "metamorfosis"
-    ],
+    "options": ["vivipar", "ovipar", "ovovivipar", "metamorfosis"],
     "correct": "ovipar",
     "explanation": "Ovipar = bertelur (contoh: ayam, ikan)"
   },
   {
     "id": 31,
-    "category": "IPA",
+    "category": "SD",
     "text": "Bagian bunga yang berwarna-warni dan menarik serangga adalah …",
-    "options": [
-      "putik",
-      "benang sari",
-      "mahkota bunga",
-      "tangkai"
-    ],
+    "options": ["putik", "benang sari", "mahkota bunga", "tangkai"],
     "correct": "mahkota bunga",
     "explanation": "Mahkota bunga (petal) biasanya berwarna cerah"
   },
   {
     "id": 32,
-    "category": "IPA",
+    "category": "SD",
     "text": "Organ tubuh yang memompa darah adalah …",
-    "options": [
-      "paru-paru",
-      "jantung",
-      "hati",
-      "ginjal"
-    ],
+    "options": ["paru-paru", "jantung", "hati", "ginjal"],
     "correct": "jantung",
     "explanation": "Jantung memompa darah ke seluruh tubuh"
   },
   {
     "id": 33,
-    "category": "IPA",
+    "category": "SD",
     "text": "Contoh benda yang dapat ditarik magnet adalah …",
-    "options": [
-      "kayu",
-      "plastik",
-      "besi",
-      "kaca"
-    ],
+    "options": ["kayu", "plastik", "besi", "kaca"],
     "correct": "besi",
     "explanation": "Besi, baja, nikel dapat ditarik magnet"
   },
   {
     "id": 34,
-    "category": "IPA",
+    "category": "SD",
     "text": "Tumbuhan hijau membuat makanan melalui proses …",
-    "options": [
-      "respirasi",
-      "fotosintesis",
-      "transpirasi",
-      "fermentasi"
-    ],
+    "options": ["respirasi", "fotosintesis", "transpirasi", "fermentasi"],
     "correct": "fotosintesis",
     "explanation": "Fotosintesis membutuhkan cahaya matahari, air, dan CO₂"
   },
   {
     "id": 35,
-    "category": "IPA",
+    "category": "SD",
     "text": "Indera yang digunakan untuk mencium bau adalah …",
-    "options": [
-      "mata",
-      "telinga",
-      "hidung",
-      "lidah"
-    ],
+    "options": ["mata", "telinga", "hidung", "lidah"],
     "correct": "hidung",
     "explanation": "Hidung adalah indera penciuman"
   },
   {
     "id": 36,
-    "category": "IPA",
+    "category": "SD",
     "text": "Contoh energi panas adalah …",
-    "options": [
-      "kipas angin",
-      "api unggun",
-      "radio",
-      "lampu LED"
-    ],
+    "options": ["kipas angin", "api unggun", "radio", "lampu LED"],
     "correct": "api unggun",
     "explanation": "Api menghasilkan energi panas"
   },
   {
     "id": 37,
-    "category": "IPS",
+    "category": "SD",
     "text": "Ibukota Provinsi Jawa Barat adalah …",
-    "options": [
-      "Semarang",
-      "Bandung",
-      "Surabaya",
-      "Yogyakarta"
-    ],
+    "options": ["Semarang", "Bandung", "Surabaya", "Yogyakarta"],
     "correct": "Bandung",
     "explanation": "Ibukota Jawa Barat adalah Bandung"
   },
   {
     "id": 38,
-    "category": "IPS",
+    "category": "SD",
     "text": "Pulau terbesar di Indonesia adalah …",
-    "options": [
-      "Jawa",
-      "Sumatera",
-      "Kalimantan",
-      "Sulawesi"
-    ],
+    "options": ["Jawa", "Sumatera", "Kalimantan", "Sulawesi"],
     "correct": "Kalimantan",
     "explanation": "Kalimantan adalah pulau terbesar di Indonesia"
   },
   {
     "id": 39,
-    "category": "IPS",
+    "category": "SD",
     "text": "Mata uang resmi negara Indonesia adalah …",
-    "options": [
-      "Ringgit",
-      "Dolar",
-      "Rupiah",
-      "Yen"
-    ],
+    "options": ["Ringgit", "Dolar", "Rupiah", "Yen"],
     "correct": "Rupiah",
     "explanation": "Mata uang Indonesia adalah Rupiah (IDR)"
   },
   {
     "id": 40,
-    "category": "IPS",
+    "category": "SD",
     "text": "Proklamasi Kemerdekaan Indonesia dibacakan pada tanggal …",
-    "options": [
-      "17 Agustus 1945",
-      "1 Juni 1945",
-      "10 November 1945",
-      "20 Mei 1908"
-    ],
+    "options": ["17 Agustus 1945", "1 Juni 1945", "10 November 1945", "20 Mei 1908"],
     "correct": "17 Agustus 1945",
     "explanation": "17 Agustus 1945 di Jakarta"
   },
   {
     "id": 41,
-    "category": "IPS",
+    "category": "SD",
     "text": "Lambang negara Indonesia adalah …",
-    "options": [
-      "Garuda Pancasila",
-      "Merpati Putih",
-      "Harimau Sumatera",
-      "Komodo"
-    ],
+    "options": ["Garuda Pancasila", "Merpati Putih", "Harimau Sumatera", "Komodo"],
     "correct": "Garuda Pancasila",
     "explanation": "Garuda Pancasila adalah lambang negara"
   },
   {
     "id": 42,
-    "category": "IPS",
+    "category": "SD",
     "text": "Kegiatan jual-beli di pasar termasuk kegiatan …",
-    "options": [
-      "produksi",
-      "distribusi",
-      "konsumsi",
-      "investasi"
-    ],
+    "options": ["produksi", "distribusi", "konsumsi", "investasi"],
     "correct": "konsumsi",
     "explanation": "Membeli barang untuk dipakai = konsumsi"
   },
   {
     "id": 43,
-    "category": "IPS",
+    "category": "SD",
     "text": "Sungai terpanjang di Pulau Jawa adalah …",
-    "options": [
-      "Sungai Musi",
-      "Sungai Bengawan Solo",
-      "Sungai Kapuas",
-      "Sungai Mahakam"
-    ],
+    "options": ["Sungai Musi", "Sungai Bengawan Solo", "Sungai Kapuas", "Sungai Mahakam"],
     "correct": "Sungai Bengawan Solo",
     "explanation": "Bengawan Solo adalah sungai terpanjang di Jawa"
   },
   {
     "id": 44,
-    "category": "IPS",
+    "category": "SD",
     "text": "Tokoh yang dikenal sebagai Bapak Pendidikan Nasional adalah …",
-    "options": [
-      "Soekarno",
-      "Hatta",
-      "Ki Hajar Dewantara",
-      "Cut Nyak Dien"
-    ],
+    "options": ["Soekarno", "Hatta", "Ki Hajar Dewantara", "Cut Nyak Dien"],
     "correct": "Ki Hajar Dewantara",
     "explanation": "Ki Hajar Dewantara = Bapak Pendidikan Nasional"
   },
   {
     "id": 45,
-    "category": "IPS",
+    "category": "SD",
     "text": "Arah mata angin yang berlawanan dengan Utara adalah …",
-    "options": [
-      "Timur",
-      "Barat",
-      "Selatan",
-      "Tenggara"
-    ],
+    "options": ["Timur", "Barat", "Selatan", "Tenggara"],
     "correct": "Selatan",
     "explanation": "Utara lawannya Selatan"
   },
   {
     "id": 46,
-    "category": "IPS",
+    "category": "SD",
     "text": "Contoh kebutuhan primer manusia adalah …",
-    "options": [
-      "liburan",
-      "perhiasan",
-      "makanan",
-      "handphone"
-    ],
+    "options": ["liburan", "perhiasan", "makanan", "handphone"],
     "correct": "makanan",
     "explanation": "Kebutuhan primer: sandang, pangan, papan"
   },
   {
     "id": 47,
-    "category": "IPS",
+    "category": "SD",
     "text": "Negara yang berbatasan darat dengan Indonesia di Pulau Kalimantan adalah …",
-    "options": [
-      "Thailand",
-      "Malaysia",
-      "Filipina",
-      "Australia"
-    ],
+    "options": ["Thailand", "Malaysia", "Filipina", "Australia"],
     "correct": "Malaysia",
     "explanation": "Malaysia (Sarawak & Sabah) berbatasan di Kalimantan"
   },
   {
     "id": 48,
-    "category": "IPS",
+    "category": "SD",
     "text": "Peninggalan sejarah berupa candi Buddha terbesar di Indonesia adalah …",
-    "options": [
-      "Prambanan",
-      "Borobudur",
-      "Mendut",
-      "Sewu"
-    ],
+    "options": ["Prambanan", "Borobudur", "Mendut", "Sewu"],
     "correct": "Borobudur",
     "explanation": "Candi Borobudur adalah candi Buddha terbesar"
   },
   {
     "id": 49,
-    "category": "PKN",
+    "category": "SD",
     "text": "Sila pertama Pancasila adalah …",
-    "options": [
-      "Kemanusiaan yang adil dan beradab",
-      "Ketuhanan Yang Maha Esa",
-      "Persatuan Indonesia",
-      "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan"
-    ],
+    "options": ["Kemanusiaan yang adil dan beradab", "Ketuhanan Yang Maha Esa", "Persatuan Indonesia", "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan"],
     "correct": "Ketuhanan Yang Maha Esa",
     "explanation": "Sila 1: Ketuhanan Yang Maha Esa"
   },
   {
     "id": 50,
-    "category": "PKN",
+    "category": "SD",
     "text": "Bunyi sila ke-3 Pancasila adalah …",
-    "options": [
-      "Keadilan sosial bagi seluruh rakyat Indonesia",
-      "Persatuan Indonesia",
-      "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan",
-      "Kemanusiaan yang adil dan beradab"
-    ],
+    "options": ["Keadilan sosial bagi seluruh rakyat Indonesia", "Persatuan Indonesia", "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan", "Kemanusiaan yang adil dan beradab"],
     "correct": "Persatuan Indonesia",
     "explanation": "Sila 3: Persatuan Indonesia"
   },
   {
     "id": 51,
-    "category": "PKN",
+    "category": "SD",
     "text": "Contoh sikap gotong royong di sekolah adalah …",
-    "options": [
-      "menyontek saat ujian",
-      "membersihkan kelas bersama",
-      "berlomba menjadi juara",
-      "diam saja saat teman kesulitan"
-    ],
+    "options": ["menyontek saat ujian", "membersihkan kelas bersama", "berlomba menjadi juara", "diam saja saat teman kesulitan"],
     "correct": "membersihkan kelas bersama",
     "explanation": "Gotong royong = bekerja bersama untuk kepentingan bersama"
   },
   {
     "id": 52,
-    "category": "PKN",
+    "category": "SD",
     "text": "Lambang sila kedua Pancasila adalah …",
-    "options": [
-      "Bintang",
-      "Rantai",
-      "Pohon Beringin",
-      "Kepala Banteng"
-    ],
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"],
     "correct": "Rantai",
     "explanation": "Sila 2 dilambangkan rantai"
   },
   {
     "id": 53,
-    "category": "PKN",
+    "category": "SD",
     "text": "Hak warga negara yang dilindungi undang-undang salah satunya adalah …",
-    "options": [
-      "hak untuk melanggar aturan",
-      "hak untuk mendapatkan pendidikan",
-      "hak untuk mencuri",
-      "hak untuk merusak fasilitas"
-    ],
+    "options": ["hak untuk melanggar aturan", "hak untuk mendapatkan pendidikan", "hak untuk mencuri", "hak untuk merusak fasilitas"],
     "correct": "hak untuk mendapatkan pendidikan",
     "explanation": "Setiap warga negara berhak mendapat pendidikan"
   },
   {
     "id": 54,
-    "category": "PKN",
+    "category": "SD",
     "text": "Kewajiban siswa di sekolah adalah …",
-    "options": [
-      "datang terlambat",
-      "mematuhi tata tertib",
-      "merusak fasilitas",
-      "tidak mengerjakan tugas"
-    ],
+    "options": ["datang terlambat", "mematuhi tata tertib", "merusak fasilitas", "tidak mengerjakan tugas"],
     "correct": "mematuhi tata tertib",
     "explanation": "Mematuhi tata tertib adalah kewajiban"
   },
   {
     "id": 55,
-    "category": "PKN",
+    "category": "SD",
     "text": "Bendera negara Indonesia berwarna …",
-    "options": [
-      "merah-putih",
-      "merah-biru",
-      "putih-hijau",
-      "kuning-merah"
-    ],
+    "options": ["merah-putih", "merah-biru", "putih-hijau", "kuning-merah"],
     "correct": "merah-putih",
     "explanation": "Sang Saka Merah Putih"
   },
   {
     "id": 56,
-    "category": "PKN",
+    "category": "SD",
     "text": "Lagu kebangsaan Indonesia adalah …",
-    "options": [
-      "Indonesia Pusaka",
-      "Indonesia Raya",
-      "Garuda Pancasila",
-      "Hari Merdeka"
-    ],
+    "options": ["Indonesia Pusaka", "Indonesia Raya", "Garuda Pancasila", "Hari Merdeka"],
     "correct": "Indonesia Raya",
     "explanation": "Indonesia Raya karya W.R. Supratman"
   },
   {
     "id": 57,
-    "category": "PKN",
+    "category": "SD",
     "text": "Sikap yang sesuai dengan nilai Pancasila adalah …",
-    "options": [
-      "membedakan teman berdasarkan agama",
-      "saling menghormati antarumat beragama",
-      "memaksakan kehendak",
-      "mengejek perbedaan"
-    ],
+    "options": ["membedakan teman berdasarkan agama", "saling menghormati antarumat beragama", "memaksakan kehendak", "mengejek perbedaan"],
     "correct": "saling menghormati antarumat beragama",
     "explanation": "Menghormati perbedaan sesuai sila 1 & 2"
   },
   {
     "id": 58,
-    "category": "PKN",
+    "category": "SD",
     "text": "Pemimpin yang dipilih melalui pemilihan umum mencerminkan sila …",
-    "options": [
-      "kesatu",
-      "kedua",
-      "keempat",
-      "kelima"
-    ],
+    "options": ["kesatu", "kedua", "keempat", "kelima"],
     "correct": "keempat",
     "explanation": "Sila 4: Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan"
   },
   {
     "id": 59,
-    "category": "PKN",
+    "category": "SD",
     "text": "Contoh menjaga persatuan di kelas adalah …",
-    "options": [
-      "membuat kelompok berdasarkan suku saja",
-      "berteman dengan semua teman tanpa membeda-bedakan",
-      "hanya bermain dengan teman sebangku",
-      "tidak mau kerja kelompok"
-    ],
+    "options": ["membuat kelompok berdasarkan suku saja", "berteman dengan semua teman tanpa membeda-bedakan", "hanya bermain dengan teman sebangku", "tidak mau kerja kelompok"],
     "correct": "berteman dengan semua teman tanpa membeda-bedakan",
     "explanation": "Persatuan = tidak membeda-bedakan"
   },
   {
     "id": 60,
-    "category": "PKN",
+    "category": "SD",
     "text": "Bunyi sila kelima Pancasila adalah …",
-    "options": [
-      "Ketuhanan Yang Maha Esa",
-      "Kemanusiaan yang adil dan beradab",
-      "Persatuan Indonesia",
-      "Keadilan sosial bagi seluruh rakyat Indonesia"
-    ],
+    "options": ["Ketuhanan Yang Maha Esa", "Kemanusiaan yang adil dan beradab", "Persatuan Indonesia", "Keadilan sosial bagi seluruh rakyat Indonesia"],
     "correct": "Keadilan sosial bagi seluruh rakyat Indonesia",
     "explanation": "Sila 5: Keadilan sosial bagi seluruh rakyat Indonesia"
   },
   {
     "id": 61,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Hari Kemerdekaan Republik Indonesia diperingati setiap tanggal …",
-    "options": [
-      "1 Juni",
-      "17 Agustus",
-      "10 November",
-      "28 Oktober"
-    ],
+    "options": ["1 Juni", "17 Agustus", "10 November", "28 Oktober"],
     "correct": "17 Agustus",
     "explanation": "17 Agustus"
   },
   {
     "id": 62,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Alat yang digunakan untuk menunjuk arah mata angin adalah …",
-    "options": [
-      "termometer",
-      "kompas",
-      "timbangan",
-      "penggaris"
-    ],
+    "options": ["termometer", "kompas", "timbangan", "penggaris"],
     "correct": "kompas",
     "explanation": "Kompas menunjukkan arah utara-selatan"
   },
   {
     "id": 63,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Buah yang kaya vitamin C adalah …",
-    "options": [
-      "pisang",
-      "jeruk",
-      "apel",
-      "semangka"
-    ],
+    "options": ["pisang", "jeruk", "apel", "semangka"],
     "correct": "jeruk",
     "explanation": "Jeruk tinggi vitamin C"
   },
   {
     "id": 64,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Hewan yang menjadi simbol negara Australia adalah …",
-    "options": [
-      "koala",
-      "kanguru",
-      "platipus",
-      "emu"
-    ],
+    "options": ["koala", "kanguru", "platipus", "emu"],
     "correct": "kanguru",
     "explanation": "Kanguru adalah salah satu ikon Australia"
   },
   {
     "id": 65,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Warna primer dalam seni rupa adalah …",
-    "options": [
-      "merah, biru, kuning",
-      "hijau, oranye, ungu",
-      "hitam, putih, abu-abu",
-      "merah, hijau, biru"
-    ],
+    "options": ["merah, biru, kuning", "hijau, oranye, ungu", "hitam, putih, abu-abu", "merah, hijau, biru"],
     "correct": "merah, biru, kuning",
     "explanation": "Warna primer: merah, biru, kuning"
   },
   {
     "id": 66,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Alat musik tradisional dari Jawa Barat yang terbuat dari bambu adalah …",
-    "options": [
-      "gamelan",
-      "angklung",
-      "sasando",
-      "kolintang"
-    ],
+    "options": ["gamelan", "angklung", "sasando", "kolintang"],
     "correct": "angklung",
     "explanation": "Angklung berasal dari Jawa Barat"
   },
   {
     "id": 67,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Manusia membutuhkan oksigen untuk …",
-    "options": [
-      "berjalan",
-      "bernapas / respirasi",
-      "tidur saja",
-      "makan"
-    ],
+    "options": ["berjalan", "bernapas / respirasi", "tidur saja", "makan"],
     "correct": "bernapas / respirasi",
     "explanation": "Oksigen diperlukan untuk pernapasan sel"
   },
   {
     "id": 68,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Benda langit yang menjadi satelit alami bumi adalah …",
-    "options": [
-      "matahari",
-      "bulan",
-      "mars",
-      "bintang"
-    ],
+    "options": ["matahari", "bulan", "mars", "bintang"],
     "correct": "bulan",
     "explanation": "Bulan adalah satelit alami bumi"
   },
   {
     "id": 69,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Kegiatan menanam pohon bermanfaat untuk …",
-    "options": [
-      "mengurangi oksigen",
-      "menjaga kelestarian lingkungan",
-      "menambah polusi",
-      "merusak tanah"
-    ],
+    "options": ["mengurangi oksigen", "menjaga kelestarian lingkungan", "menambah polusi", "merusak tanah"],
     "correct": "menjaga kelestarian lingkungan",
     "explanation": "Pohon menghasilkan oksigen dan menjaga ekosistem"
   },
   {
     "id": 70,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Nama lain dari Negara Kesatuan Republik Indonesia adalah …",
-    "options": [
-      "NKRI",
-      "ASEAN",
-      "PBB",
-      "NATO"
-    ],
+    "options": ["NKRI", "ASEAN", "PBB", "NATO"],
     "correct": "NKRI",
     "explanation": "NKRI = Negara Kesatuan Republik Indonesia"
   },
   {
     "id": 71,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Planet terdekat dengan matahari adalah …",
-    "options": [
-      "Venus",
-      "Mars",
-      "Merkurius",
-      "Bumi"
-    ],
+    "options": ["Venus", "Mars", "Merkurius", "Bumi"],
     "correct": "Merkurius",
     "explanation": "Merkurius adalah planet terdekat dengan Matahari"
   },
   {
     "id": 72,
-    "category": "Pengetahuan Umum",
+    "category": "SD",
     "text": "Hewan malam yang menggunakan sonar untuk navigasi adalah …",
-    "options": [
-      "burung hantu",
-      "kelelawar",
-      "kucing",
-      "tikus"
-    ],
+    "options": ["burung hantu", "kelelawar", "kucing", "tikus"],
     "correct": "kelelawar",
     "explanation": "Kelelawar menggunakan ekolokasi (sonar)"
   },
   {
     "id": 73,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "What is the English word for 'buku'?",
-    "options": [
-      "Book",
-      "Pen",
-      "Table",
-      "Chair"
-    ],
+    "options": ["Book", "Pen", "Table", "Chair"],
     "correct": "Book",
     "explanation": "Buku = Book"
   },
   {
     "id": 74,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "Choose the correct sentence:",
-    "options": [
-      "She go to school",
-      "She goes to school",
-      "She going to school",
-      "She gone to school"
-    ],
+    "options": ["She go to school", "She goes to school", "She going to school", "She gone to school"],
     "correct": "She goes to school",
     "explanation": "Subject 'She' needs verb + s/es in present simple"
   },
   {
     "id": 75,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "What is the plural of 'child'?",
-    "options": [
-      "Childs",
-      "Children",
-      "Childes",
-      "Childrens"
-    ],
+    "options": ["Childs", "Children", "Childes", "Childrens"],
     "correct": "Children",
     "explanation": "Irregular plural: child → children"
   },
   {
     "id": 76,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "I _____ a student.",
-    "options": [
-      "is",
-      "am",
-      "are",
-      "be"
-    ],
+    "options": ["is", "am", "are", "be"],
     "correct": "am",
     "explanation": "I + am"
   },
   {
     "id": 77,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "What is the opposite of 'happy'?",
-    "options": [
-      "Glad",
-      "Sad",
-      "Excited",
-      "Joyful"
-    ],
+    "options": ["Glad", "Sad", "Excited", "Joyful"],
     "correct": "Sad",
     "explanation": "Happy × Sad"
   },
   {
     "id": 78,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "How do you say 'selamat pagi' in English?",
-    "options": [
-      "Good night",
-      "Good afternoon",
-      "Good morning",
-      "Good evening"
-    ],
+    "options": ["Good night", "Good afternoon", "Good morning", "Good evening"],
     "correct": "Good morning",
     "explanation": "Selamat pagi = Good morning"
   },
   {
     "id": 79,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "Which one is a fruit?",
-    "options": [
-      "Carrot",
-      "Apple",
-      "Potato",
-      "Onion"
-    ],
+    "options": ["Carrot", "Apple", "Potato", "Onion"],
     "correct": "Apple",
     "explanation": "Apple is a fruit"
   },
   {
     "id": 80,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "She _____ reading a book now.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "be"
-    ],
+    "options": ["is", "are", "am", "be"],
     "correct": "is",
     "explanation": "Present continuous: She is + V-ing"
   },
   {
     "id": 81,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "What is the past form of 'go'?",
-    "options": [
-      "Goed",
-      "Gone",
-      "Went",
-      "Going"
-    ],
+    "options": ["Goed", "Gone", "Went", "Going"],
     "correct": "Went",
     "explanation": "Go → Went (irregular verb)"
   },
   {
     "id": 82,
-    "category": "Bahasa Inggris",
+    "category": "SD",
     "text": "There _____ many books on the table.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "be"
-    ],
+    "options": ["is", "are", "am", "be"],
     "correct": "are",
     "explanation": "Many books = plural → are"
   },
   {
     "id": 83,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Hasil dari 3² + 4² adalah …",
-    "options": [
-      "7",
-      "12",
-      "25",
-      "49"
-    ],
+    "options": ["7", "12", "25", "49"],
     "correct": "25",
     "explanation": "9 + 16 = 25"
   },
   {
     "id": 84,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Akar kuadrat dari 81 adalah …",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "10"
-    ],
+    "options": ["7", "8", "9", "10"],
     "correct": "9",
     "explanation": "9 × 9 = 81"
   },
   {
     "id": 85,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Nilai dari 2x + 5 = 15, maka x = …",
-    "options": [
-      "3",
-      "5",
-      "7",
-      "10"
-    ],
+    "options": ["3", "5", "7", "10"],
     "correct": "5",
     "explanation": "2x = 10 → x = 5"
   },
   {
     "id": 86,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Luas lingkaran dengan jari-jari 7 cm (π = 22/7) adalah …",
-    "options": [
-      "44 cm²",
-      "154 cm²",
-      "308 cm²",
-      "22 cm²"
-    ],
+    "options": ["44 cm²", "154 cm²", "308 cm²", "22 cm²"],
     "correct": "154 cm²",
     "explanation": "πr² = 22/7 × 49 = 154"
   },
   {
     "id": 87,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Bentuk pecahan senilai 2/3 adalah …",
-    "options": [
-      "4/9",
-      "6/9",
-      "4/6",
-      "3/6"
-    ],
+    "options": ["4/9", "6/9", "4/6", "3/6"],
     "correct": "4/6",
     "explanation": "2/3 = 4/6"
   },
   {
     "id": 88,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Sudut yang besarnya 90° disebut sudut …",
-    "options": [
-      "lancip",
-      "tumpul",
-      "siku-siku",
-      "lurus"
-    ],
+    "options": ["lancip", "tumpul", "siku-siku", "lurus"],
     "correct": "siku-siku",
     "explanation": "Sudut 90° = siku-siku"
   },
   {
     "id": 89,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Satuan SI untuk gaya adalah …",
-    "options": [
-      "Joule",
-      "Newton",
-      "Watt",
-      "Pascal"
-    ],
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
     "correct": "Newton",
     "explanation": "Gaya diukur dalam Newton (N)"
   },
   {
     "id": 90,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Proses tumbuhan membuat makanan dengan bantuan cahaya disebut …",
-    "options": [
-      "respirasi",
-      "fotosintesis",
-      "transpirasi",
-      "fermentasi"
-    ],
+    "options": ["respirasi", "fotosintesis", "transpirasi", "fermentasi"],
     "correct": "fotosintesis",
     "explanation": "Fotosintesis"
   },
   {
     "id": 91,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Bagian sel yang mengatur kegiatan sel adalah …",
-    "options": [
-      "sitoplasma",
-      "nukleus",
-      "membran",
-      "vakuola"
-    ],
+    "options": ["sitoplasma", "nukleus", "membran", "vakuola"],
     "correct": "nukleus",
     "explanation": "Nukleus (inti sel) mengatur aktivitas sel"
   },
   {
     "id": 92,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Hukum Newton I disebut juga hukum …",
-    "options": [
-      "aksi-reaksi",
-      "gravitasi",
-      "kelembaman",
-      "percepatan"
-    ],
+    "options": ["aksi-reaksi", "gravitasi", "kelembaman", "percepatan"],
     "correct": "kelembaman",
     "explanation": "Hukum I Newton = hukum kelembaman"
   },
   {
     "id": 93,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Organ yang menghasilkan enzim pencernaan dan insulin adalah …",
-    "options": [
-      "hati",
-      "pankreas",
-      "lambung",
-      "usus"
-    ],
+    "options": ["hati", "pankreas", "lambung", "usus"],
     "correct": "pankreas",
     "explanation": "Pankreas menghasilkan enzim dan insulin"
   },
   {
     "id": 94,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Benua terluas di dunia adalah …",
-    "options": [
-      "Afrika",
-      "Amerika",
-      "Asia",
-      "Eropa"
-    ],
+    "options": ["Afrika", "Amerika", "Asia", "Eropa"],
     "correct": "Asia",
     "explanation": "Asia adalah benua terbesar"
   },
   {
     "id": 95,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Organisasi ASEAN didirikan pada tahun …",
-    "options": [
-      "1945",
-      "1967",
-      "1999",
-      "2000"
-    ],
+    "options": ["1945", "1967", "1999", "2000"],
     "correct": "1967",
     "explanation": "ASEAN didirikan 8 Agustus 1967"
   },
   {
     "id": 96,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Ibukota negara Jepang adalah …",
-    "options": [
-      "Osaka",
-      "Kyoto",
-      "Tokyo",
-      "Hiroshima"
-    ],
+    "options": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
     "correct": "Tokyo",
     "explanation": "Ibukota Jepang = Tokyo"
   },
   {
     "id": 97,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Turunan dari f(x) = 3x² + 2x adalah …",
-    "options": [
-      "6x + 2",
-      "3x + 2",
-      "6x² + 2",
-      "3x²"
-    ],
+    "options": ["6x + 2", "3x + 2", "6x² + 2", "3x²"],
     "correct": "6x + 2",
     "explanation": "f'(x) = 6x + 2"
   },
   {
     "id": 98,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Nilai dari log₁₀ 1000 adalah …",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "100"
-    ],
+    "options": ["2", "3", "4", "100"],
     "correct": "3",
     "explanation": "10³ = 1000 → log = 3"
   },
   {
     "id": 99,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Integral dari 2x dx adalah …",
-    "options": [
-      "x² + C",
-      "2x² + C",
-      "x + C",
-      "2x + C"
-    ],
+    "options": ["x² + C", "2x² + C", "x + C", "2x + C"],
     "correct": "x² + C",
     "explanation": "∫2x dx = x² + C"
   },
   {
     "id": 100,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Jika sin θ = 1/2 dan θ di kuadran I, maka θ = …",
-    "options": [
-      "30°",
-      "45°",
-      "60°",
-      "90°"
-    ],
+    "options": ["30°", "45°", "60°", "90°"],
     "correct": "30°",
     "explanation": "sin 30° = 1/2"
   },
   {
     "id": 101,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Jumlah sudut dalam segitiga adalah …",
-    "options": [
-      "90°",
-      "180°",
-      "270°",
-      "360°"
-    ],
+    "options": ["90°", "180°", "270°", "360°"],
     "correct": "180°",
     "explanation": "Jumlah sudut segitiga = 180°"
   },
   {
     "id": 102,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Rumus kimia air adalah …",
-    "options": [
-      "H₂O",
-      "CO₂",
-      "O₂",
-      "H₂O₂"
-    ],
+    "options": ["H₂O", "CO₂", "O₂", "H₂O₂"],
     "correct": "H₂O",
     "explanation": "Air = H₂O"
   },
   {
     "id": 103,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Partikel subatom yang bermuatan negatif adalah …",
-    "options": [
-      "proton",
-      "neutron",
-      "elektron",
-      "nukleus"
-    ],
+    "options": ["proton", "neutron", "elektron", "nukleus"],
     "correct": "elektron",
     "explanation": "Elektron bermuatan negatif"
   },
   {
     "id": 104,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Hukum Ohm menyatakan bahwa V = …",
-    "options": [
-      "I × R",
-      "I / R",
-      "R / I",
-      "I + R"
-    ],
+    "options": ["I × R", "I / R", "R / I", "I + R"],
     "correct": "I × R",
     "explanation": "V = I × R"
   },
   {
     "id": 105,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Organel sel yang menghasilkan energi (ATP) adalah …",
-    "options": [
-      "ribosom",
-      "mitokondria",
-      "lisosom",
-      "golgi"
-    ],
+    "options": ["ribosom", "mitokondria", "lisosom", "golgi"],
     "correct": "mitokondria",
     "explanation": "Mitokondria = powerhouse of the cell"
   },
   {
     "id": 106,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Unsur dengan nomor atom 6 adalah …",
-    "options": [
-      "Oksigen",
-      "Karbon",
-      "Nitrogen",
-      "Hidrogen"
-    ],
+    "options": ["Oksigen", "Karbon", "Nitrogen", "Hidrogen"],
     "correct": "Karbon",
     "explanation": "Karbon (C) nomor atom 6"
   },
   {
     "id": 107,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Perjanjian yang mengakhiri Perang Dunia I adalah …",
-    "options": [
-      "Perjanjian Versailles",
-      "Perjanjian Paris",
-      "Perjanjian Renville",
-      "Perjanjian Linggarjati"
-    ],
+    "options": ["Perjanjian Versailles", "Perjanjian Paris", "Perjanjian Renville", "Perjanjian Linggarjati"],
     "correct": "Perjanjian Versailles",
     "explanation": "Treaty of Versailles 1919"
   },
   {
     "id": 108,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Sistem ekonomi yang diatur sepenuhnya oleh pemerintah disebut …",
-    "options": [
-      "ekonomi pasar",
-      "ekonomi campuran",
-      "ekonomi terpusat / komando",
-      "ekonomi tradisional"
-    ],
+    "options": ["ekonomi pasar", "ekonomi campuran", "ekonomi terpusat / komando", "ekonomi tradisional"],
     "correct": "ekonomi terpusat / komando",
     "explanation": "Ekonomi komando/terpusat"
   },
   {
     "id": 109,
-    "category": "Bahasa Inggris",
+    "category": "SMA",
     "text": "If I _____ rich, I would buy a big house.",
-    "options": [
-      "am",
-      "was",
-      "were",
-      "is"
-    ],
+    "options": ["am", "was", "were", "is"],
     "correct": "were",
     "explanation": "Second conditional: If + were"
   },
   {
     "id": 110,
-    "category": "Bahasa Inggris",
+    "category": "SMA",
     "text": "The book _____ on the table is mine.",
-    "options": [
-      "who",
-      "which",
-      "where",
-      "whose"
-    ],
+    "options": ["who", "which", "where", "whose"],
     "correct": "which",
     "explanation": "Which for things"
   },
   {
     "id": 111,
-    "category": "Bahasa Inggris",
+    "category": "SMA",
     "text": "She has _____ finished her homework.",
-    "options": [
-      "yet",
-      "already",
-      "never",
-      "ever"
-    ],
+    "options": ["yet", "already", "never", "ever"],
     "correct": "already",
     "explanation": "Already = sudah"
   },
   {
     "id": 112,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "FPB dari 12 dan 18 adalah …",
-    "options": [
-      "2",
-      "3",
-      "6",
-      "9"
-    ],
+    "options": ["2", "3", "6", "9"],
     "correct": "6",
     "explanation": "FPB 12 & 18 = 6"
   },
   {
     "id": 113,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Zat yang memiliki massa tetapi tidak memiliki bentuk tetap adalah …",
-    "options": [
-      "padat",
-      "cair",
-      "gas",
-      "plasma"
-    ],
+    "options": ["padat", "cair", "gas", "plasma"],
     "correct": "cair",
     "explanation": "Cair memiliki volume tetap, bentuk mengikuti wadah"
   },
   {
     "id": 114,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "What is the past tense of 'eat'?",
-    "options": [
-      "eated",
-      "ate",
-      "eaten",
-      "eating"
-    ],
+    "options": ["eated", "ate", "eaten", "eating"],
     "correct": "ate",
     "explanation": "eat → ate (irregular)"
   },
   {
     "id": 115,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "She _____ to school every day.",
-    "options": [
-      "go",
-      "goes",
-      "going",
-      "gone"
-    ],
+    "options": ["go", "goes", "going", "gone"],
     "correct": "goes",
     "explanation": "Present simple: she/he/it + verb-s"
   },
   {
     "id": 116,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "I have _____ my homework.",
-    "options": [
-      "do",
-      "did",
-      "done",
-      "doing"
-    ],
+    "options": ["do", "did", "done", "doing"],
     "correct": "done",
     "explanation": "Present perfect: have + past participle"
   },
   {
     "id": 117,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "Which word is a noun?",
-    "options": [
-      "run",
-      "happy",
-      "book",
-      "quickly"
-    ],
+    "options": ["run", "happy", "book", "quickly"],
     "correct": "book",
     "explanation": "Book is a thing = noun"
   },
   {
     "id": 118,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "The opposite of 'big' is …",
-    "options": [
-      "large",
-      "small",
-      "tall",
-      "huge"
-    ],
+    "options": ["large", "small", "tall", "huge"],
     "correct": "small",
     "explanation": "Big × small"
   },
   {
     "id": 119,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "How many days are there in a week?",
-    "options": [
-      "five",
-      "six",
-      "seven",
-      "eight"
-    ],
+    "options": ["five", "six", "seven", "eight"],
     "correct": "seven",
     "explanation": "A week has 7 days"
   },
   {
     "id": 120,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "What time is it? It's half past three. It means …",
-    "options": [
-      "3:00",
-      "3:15",
-      "3:30",
-      "3:45"
-    ],
+    "options": ["3:00", "3:15", "3:30", "3:45"],
     "correct": "3:30",
     "explanation": "Half past = 30 minutes"
   },
   {
     "id": 121,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "My father _____ a doctor.",
-    "options": [
-      "am",
-      "is",
-      "are",
-      "be"
-    ],
+    "options": ["am", "is", "are", "be"],
     "correct": "is",
     "explanation": "He/She/It + is"
   },
   {
     "id": 122,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "Can you _____ English?",
-    "options": [
-      "speak",
-      "speaks",
-      "speaking",
-      "spoke"
-    ],
+    "options": ["speak", "speaks", "speaking", "spoke"],
     "correct": "speak",
     "explanation": "Modal can + base verb"
   },
   {
     "id": 123,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "This is _____ apple.",
-    "options": [
-      "a",
-      "an",
-      "the",
-      "some"
-    ],
+    "options": ["a", "an", "the", "some"],
     "correct": "an",
     "explanation": "An before vowel sound"
   },
   {
     "id": 124,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "They _____ playing football now.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "be"
-    ],
+    "options": ["is", "are", "am", "be"],
     "correct": "are",
     "explanation": "Present continuous: they are + V-ing"
   },
   {
     "id": 125,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "Where _____ you live?",
-    "options": [
-      "do",
-      "does",
-      "is",
-      "are"
-    ],
+    "options": ["do", "does", "is", "are"],
     "correct": "do",
     "explanation": "Question: Do + subject + verb"
   },
   {
     "id": 126,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "The book is _____ the table.",
-    "options": [
-      "in",
-      "on",
-      "at",
-      "under"
-    ],
+    "options": ["in", "on", "at", "under"],
     "correct": "on",
     "explanation": "On the surface"
   },
   {
     "id": 127,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "I _____ to the cinema yesterday.",
-    "options": [
-      "go",
-      "goes",
-      "went",
-      "gone"
-    ],
+    "options": ["go", "goes", "went", "gone"],
     "correct": "went",
     "explanation": "Past simple of go"
   },
   {
     "id": 128,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "She is taller _____ her brother.",
-    "options": [
-      "from",
-      "than",
-      "as",
-      "to"
-    ],
+    "options": ["from", "than", "as", "to"],
     "correct": "than",
     "explanation": "Comparative: taller than"
   },
   {
     "id": 129,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "What is the plural of 'mouse'?",
-    "options": [
-      "mouses",
-      "mice",
-      "mouse",
-      "mices"
-    ],
+    "options": ["mouses", "mice", "mouse", "mices"],
     "correct": "mice",
     "explanation": "Irregular plural"
   },
   {
     "id": 130,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "We _____ TV every evening.",
-    "options": [
-      "watch",
-      "watches",
-      "watching",
-      "watched"
-    ],
+    "options": ["watch", "watches", "watching", "watched"],
     "correct": "watch",
     "explanation": "We + base verb"
   },
   {
     "id": 131,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "There _____ a cat under the chair.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "be"
-    ],
+    "options": ["is", "are", "am", "be"],
     "correct": "is",
     "explanation": "Singular: there is"
   },
   {
     "id": 132,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "Please _____ the door.",
-    "options": [
-      "close",
-      "closes",
-      "closing",
-      "closed"
-    ],
+    "options": ["close", "closes", "closing", "closed"],
     "correct": "close",
     "explanation": "Imperative = base verb"
   },
   {
     "id": 133,
-    "category": "SMP Bahasa Inggris",
+    "category": "SMP",
     "text": "He has lived here _____ 2018.",
-    "options": [
-      "for",
-      "since",
-      "from",
-      "during"
-    ],
+    "options": ["for", "since", "from", "during"],
     "correct": "since",
     "explanation": "Since + point in time"
   },
   {
     "id": 134,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "If I _____ you, I would study harder.",
-    "options": [
-      "am",
-      "was",
-      "were",
-      "be"
-    ],
+    "options": ["am", "was", "were", "be"],
     "correct": "were",
     "explanation": "Second conditional: If + were"
   },
   {
     "id": 135,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "The letter _____ by John yesterday.",
-    "options": [
-      "writes",
-      "wrote",
-      "was written",
-      "is written"
-    ],
+    "options": ["writes", "wrote", "was written", "is written"],
     "correct": "was written",
     "explanation": "Passive voice past simple"
   },
   {
     "id": 136,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "She asked me where I _____.",
-    "options": [
-      "live",
-      "lived",
-      "living",
-      "lives"
-    ],
+    "options": ["live", "lived", "living", "lives"],
     "correct": "lived",
     "explanation": "Reported speech: backshift"
   },
   {
     "id": 137,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "This is the book _____ I bought last week.",
-    "options": [
-      "who",
-      "which",
-      "where",
-      "whose"
-    ],
+    "options": ["who", "which", "where", "whose"],
     "correct": "which",
     "explanation": "Relative clause for things"
   },
   {
     "id": 138,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "He is interested _____ learning English.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "for"
-    ],
+    "options": ["on", "in", "at", "for"],
     "correct": "in",
     "explanation": "Interested in + V-ing"
   },
   {
     "id": 139,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "Despite _____ tired, she continued working.",
-    "options": [
-      "be",
-      "being",
-      "to be",
-      "been"
-    ],
+    "options": ["be", "being", "to be", "been"],
     "correct": "being",
     "explanation": "Despite + gerund"
   },
   {
     "id": 140,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "By next year, I _____ graduated.",
-    "options": [
-      "will",
-      "will have",
-      "have",
-      "had"
-    ],
+    "options": ["will", "will have", "have", "had"],
     "correct": "will have",
     "explanation": "Future perfect"
   },
   {
     "id": 141,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "The more you practice, _____ you become.",
-    "options": [
-      "the better",
-      "better",
-      "the best",
-      "good"
-    ],
+    "options": ["the better", "better", "the best", "good"],
     "correct": "the better",
     "explanation": "The more … the better"
   },
   {
     "id": 142,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "It is important that he _____ on time.",
-    "options": [
-      "arrive",
-      "arrives",
-      "arrived",
-      "arriving"
-    ],
+    "options": ["arrive", "arrives", "arrived", "arriving"],
     "correct": "arrive",
     "explanation": "Subjunctive after important that"
   },
   {
     "id": 143,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "She has been studying English _____ five years.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "during"
-    ],
+    "options": ["since", "for", "from", "during"],
     "correct": "for",
     "explanation": "For + duration"
   },
   {
     "id": 144,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "Neither John nor his friends _____ coming.",
-    "options": [
-      "is",
-      "are",
-      "was",
-      "be"
-    ],
+    "options": ["is", "are", "was", "be"],
     "correct": "are",
     "explanation": "Neither … nor → verb agrees with nearer subject"
   },
   {
     "id": 145,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "I wish I _____ taller.",
-    "options": [
-      "am",
-      "was",
-      "were",
-      "be"
-    ],
+    "options": ["am", "was", "were", "be"],
     "correct": "were",
     "explanation": "Wish + were (unreal)"
   },
   {
     "id": 146,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "The man _____ car was stolen called the police.",
-    "options": [
-      "who",
-      "which",
-      "whose",
-      "whom"
-    ],
+    "options": ["who", "which", "whose", "whom"],
     "correct": "whose",
     "explanation": "Whose = possession"
   },
   {
     "id": 147,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "He speaks English as if he _____ a native speaker.",
-    "options": [
-      "is",
-      "was",
-      "were",
-      "be"
-    ],
+    "options": ["is", "was", "were", "be"],
     "correct": "were",
     "explanation": "As if + were"
   },
   {
     "id": 148,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "Not only did she pass the exam, _____ she got the highest score.",
-    "options": [
-      "but also",
-      "and",
-      "or",
-      "so"
-    ],
+    "options": ["but also", "and", "or", "so"],
     "correct": "but also",
     "explanation": "Not only … but also"
   },
   {
     "id": 149,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "The project will be finished _____ the end of this month.",
-    "options": [
-      "in",
-      "on",
-      "at",
-      "by"
-    ],
+    "options": ["in", "on", "at", "by"],
     "correct": "by",
     "explanation": "By = not later than"
   },
   {
     "id": 150,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "Having finished his homework, he _____ out to play.",
-    "options": [
-      "go",
-      "goes",
-      "went",
-      "gone"
-    ],
+    "options": ["go", "goes", "went", "gone"],
     "correct": "went",
     "explanation": "Perfect participle"
   },
   {
     "id": 151,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "She is used to _____ up early.",
-    "options": [
-      "get",
-      "gets",
-      "getting",
-      "got"
-    ],
+    "options": ["get", "gets", "getting", "got"],
     "correct": "getting",
     "explanation": "Be used to + V-ing"
   },
   {
     "id": 152,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "I'd rather you _____ smoking.",
-    "options": [
-      "stop",
-      "stopped",
-      "stopping",
-      "to stop"
-    ],
+    "options": ["stop", "stopped", "stopping", "to stop"],
     "correct": "stopped",
     "explanation": "Would rather + past"
   },
   {
     "id": 153,
-    "category": "SMA Bahasa Inggris",
+    "category": "SMA",
     "text": "The news _____ very surprising.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "be"
-    ],
+    "options": ["is", "are", "were", "be"],
     "correct": "is",
     "explanation": "News is singular"
   },
   {
     "id": 154,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Hasil dari (-5) + 12 adalah …",
-    "options": [
-      "-17",
-      "7",
-      "-7",
-      "17"
-    ],
+    "options": ["-17", "7", "-7", "17"],
     "correct": "7",
     "explanation": "-5 + 12 = 7"
   },
   {
     "id": 155,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Nilai dari √64 adalah …",
-    "options": [
-      "6",
-      "7",
-      "8",
-      "9"
-    ],
+    "options": ["6", "7", "8", "9"],
     "correct": "8",
     "explanation": "8 × 8 = 64"
   },
   {
     "id": 156,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Persamaan 3x – 7 = 8, maka x = …",
-    "options": [
-      "3",
-      "5",
-      "7",
-      "15"
-    ],
+    "options": ["3", "5", "7", "15"],
     "correct": "5",
     "explanation": "3x = 15 → x = 5"
   },
   {
     "id": 157,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Keliling lingkaran dengan diameter 14 cm (π=22/7) adalah …",
-    "options": [
-      "22 cm",
-      "44 cm",
-      "88 cm",
-      "154 cm"
-    ],
+    "options": ["22 cm", "44 cm", "88 cm", "154 cm"],
     "correct": "44 cm",
     "explanation": "Keliling = πd = 22/7 × 14 = 44"
   },
   {
     "id": 158,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "FPB dari 24 dan 36 adalah …",
-    "options": [
-      "6",
-      "8",
-      "12",
-      "18"
-    ],
+    "options": ["6", "8", "12", "18"],
     "correct": "12",
     "explanation": "FPB 24 & 36 = 12"
   },
   {
     "id": 159,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "KPK dari 4 dan 6 adalah …",
-    "options": [
-      "12",
-      "18",
-      "24",
-      "10"
-    ],
+    "options": ["12", "18", "24", "10"],
     "correct": "12",
     "explanation": "KPK 4 & 6 = 12"
   },
   {
     "id": 160,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Luas segitiga dengan alas 10 cm dan tinggi 6 cm adalah …",
-    "options": [
-      "30 cm²",
-      "60 cm²",
-      "16 cm²",
-      "20 cm²"
-    ],
+    "options": ["30 cm²", "60 cm²", "16 cm²", "20 cm²"],
     "correct": "30 cm²",
     "explanation": "½ × 10 × 6 = 30"
   },
   {
     "id": 161,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Satuan SI untuk tekanan adalah …",
-    "options": [
-      "Newton",
-      "Joule",
-      "Pascal",
-      "Watt"
-    ],
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
     "correct": "Pascal",
     "explanation": "Tekanan = Pascal (Pa)"
   },
   {
     "id": 162,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Hewan yang mengalami metamorfosis sempurna adalah …",
-    "options": [
-      "belalang",
-      "kecoa",
-      "kupu-kupu",
-      "capung"
-    ],
+    "options": ["belalang", "kecoa", "kupu-kupu", "capung"],
     "correct": "kupu-kupu",
     "explanation": "Telur-larva-pupa-dewasa"
   },
   {
     "id": 163,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Bagian tumbuhan yang berfungsi sebagai alat perkembangbiakan generatif adalah …",
-    "options": [
-      "akar",
-      "batang",
-      "daun",
-      "bunga"
-    ],
+    "options": ["akar", "batang", "daun", "bunga"],
     "correct": "bunga",
     "explanation": "Bunga menghasilkan biji"
   },
   {
     "id": 164,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Energi yang dihasilkan dari gerak disebut energi …",
-    "options": [
-      "potensial",
-      "kinetik",
-      "kimia",
-      "listrik"
-    ],
+    "options": ["potensial", "kinetik", "kimia", "listrik"],
     "correct": "kinetik",
     "explanation": "Energi kinetik = energi gerak"
   },
   {
     "id": 165,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Organ pernapasan pada ikan adalah …",
-    "options": [
-      "paru-paru",
-      "insang",
-      "trakea",
-      "kulit"
-    ],
+    "options": ["paru-paru", "insang", "trakea", "kulit"],
     "correct": "insang",
     "explanation": "Ikan bernapas dengan insang"
   },
   {
     "id": 166,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Cahaya merambat dalam garis …",
-    "options": [
-      "lengkung",
-      "lurus",
-      "berliku",
-      "melingkar"
-    ],
+    "options": ["lengkung", "lurus", "berliku", "melingkar"],
     "correct": "lurus",
     "explanation": "Cahaya merambat lurus"
   },
   {
     "id": 167,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Ibukota negara Thailand adalah …",
-    "options": [
-      "Hanoi",
-      "Bangkok",
-      "Manila",
-      "Yangon"
-    ],
+    "options": ["Hanoi", "Bangkok", "Manila", "Yangon"],
     "correct": "Bangkok",
     "explanation": "Ibukota Thailand = Bangkok"
   },
   {
     "id": 168,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Peristiwa Rengasdengklok terjadi pada tanggal …",
-    "options": [
-      "14 Agustus 1945",
-      "16 Agustus 1945",
-      "17 Agustus 1945",
-      "18 Agustus 1945"
-    ],
+    "options": ["14 Agustus 1945", "16 Agustus 1945", "17 Agustus 1945", "18 Agustus 1945"],
     "correct": "16 Agustus 1945",
     "explanation": "Rengasdengklok 16 Agustus 1945"
   },
   {
     "id": 169,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Organisasi yang bertujuan menjaga perdamaian dunia adalah …",
-    "options": [
-      "ASEAN",
-      "PBB",
-      "NATO",
-      "WTO"
-    ],
+    "options": ["ASEAN", "PBB", "NATO", "WTO"],
     "correct": "PBB",
     "explanation": "PBB = Perserikatan Bangsa-Bangsa"
   },
   {
     "id": 170,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Benua terkecil di dunia adalah …",
-    "options": [
-      "Australia",
-      "Eropa",
-      "Antartika",
-      "Afrika"
-    ],
+    "options": ["Australia", "Eropa", "Antartika", "Afrika"],
     "correct": "Australia",
     "explanation": "Australia adalah benua terkecil"
   },
   {
     "id": 171,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Mata uang negara Malaysia adalah …",
-    "options": [
-      "Baht",
-      "Ringgit",
-      "Dong",
-      "Peso"
-    ],
+    "options": ["Baht", "Ringgit", "Dong", "Peso"],
     "correct": "Ringgit",
     "explanation": "Mata uang Malaysia = Ringgit"
   },
   {
     "id": 172,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Candi Prambanan merupakan peninggalan agama …",
-    "options": [
-      "Buddha",
-      "Hindu",
-      "Islam",
-      "Kristen"
-    ],
+    "options": ["Buddha", "Hindu", "Islam", "Kristen"],
     "correct": "Hindu",
     "explanation": "Prambanan = candi Hindu"
   },
   {
     "id": 173,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Sistem pemerintahan Indonesia adalah …",
-    "options": [
-      "Kerajaan",
-      "Republik",
-      "Kekaisaran",
-      "Kesultanan"
-    ],
+    "options": ["Kerajaan", "Republik", "Kekaisaran", "Kesultanan"],
     "correct": "Republik",
     "explanation": "NKRI = Republik"
   },
   {
     "id": 174,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Turunan dari f(x) = x³ adalah …",
-    "options": [
-      "3x²",
-      "x²",
-      "3x",
-      "x³/3"
-    ],
+    "options": ["3x²", "x²", "3x", "x³/3"],
     "correct": "3x²",
     "explanation": "d/dx (x³) = 3x²"
   },
   {
     "id": 175,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Nilai dari sin 90° adalah …",
-    "options": [
-      "0",
-      "1",
-      "0,5",
-      "√2/2"
-    ],
+    "options": ["0", "1", "0,5", "√2/2"],
     "correct": "1",
     "explanation": "sin 90° = 1"
   },
   {
     "id": 176,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Jika log 2 = 0,3010, maka log 8 = …",
-    "options": [
-      "0,6020",
-      "0,9030",
-      "1,2040",
-      "0,3010"
-    ],
+    "options": ["0,6020", "0,9030", "1,2040", "0,3010"],
     "correct": "0,9030",
     "explanation": "log 8 = log 2³ = 3 × 0,3010"
   },
   {
     "id": 177,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Integral dari cos x dx adalah …",
-    "options": [
-      "sin x + C",
-      "-sin x + C",
-      "cos x + C",
-      "-cos x + C"
-    ],
+    "options": ["sin x + C", "-sin x + C", "cos x + C", "-cos x + C"],
     "correct": "sin x + C",
     "explanation": "∫ cos x = sin x + C"
   },
   {
     "id": 178,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Jumlah suku pertama deret aritmetika 3+7+11+… sebanyak 10 suku adalah …",
-    "options": [
-      "210",
-      "220",
-      "230",
-      "240"
-    ],
+    "options": ["210", "220", "230", "240"],
     "correct": "220",
     "explanation": "Sn = n/2 (2a+(n-1)b) = 5×(6+36)=220"
   },
   {
     "id": 179,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Persamaan garis yang melalui (0,0) dan (2,4) adalah …",
-    "options": [
-      "y = 2x",
-      "y = x/2",
-      "y = x + 2",
-      "y = 4x"
-    ],
+    "options": ["y = 2x", "y = x/2", "y = x + 2", "y = 4x"],
     "correct": "y = 2x",
     "explanation": "Gradien = 4/2 = 2"
   },
   {
     "id": 180,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Rumus kimia asam sulfat adalah …",
-    "options": [
-      "HCl",
-      "H₂SO₄",
-      "HNO₃",
-      "H₂CO₃"
-    ],
+    "options": ["HCl", "H₂SO₄", "HNO₃", "H₂CO₃"],
     "correct": "H₂SO₄",
     "explanation": "Asam sulfat = H₂SO₄"
   },
   {
     "id": 181,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Jumlah proton dalam atom karbon (nomor atom 6) adalah …",
-    "options": [
-      "4",
-      "6",
-      "8",
-      "12"
-    ],
+    "options": ["4", "6", "8", "12"],
     "correct": "6",
     "explanation": "Nomor atom = jumlah proton"
   },
   {
     "id": 182,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Hukum Kekekalan Energi dinyatakan oleh …",
-    "options": [
-      "Newton",
-      "Einstein",
-      "Joule",
-      "Faraday"
-    ],
+    "options": ["Newton", "Einstein", "Joule", "Faraday"],
     "correct": "Joule / prinsip umum",
     "explanation": "Energi tidak dapat diciptakan/dimusnahkan"
   },
   {
     "id": 183,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Proses pembelahan sel untuk menghasilkan sel kelamin disebut …",
-    "options": [
-      "mitosis",
-      "meiosis",
-      "amitosis",
-      "fragmentasi"
-    ],
+    "options": ["mitosis", "meiosis", "amitosis", "fragmentasi"],
     "correct": "meiosis",
     "explanation": "Meiosis menghasilkan gamet"
   },
   {
     "id": 184,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Satuan frekuensi adalah …",
-    "options": [
-      "Watt",
-      "Hertz",
-      "Ohm",
-      "Volt"
-    ],
+    "options": ["Watt", "Hertz", "Ohm", "Volt"],
     "correct": "Hertz",
     "explanation": "Frekuensi = Hertz (Hz)"
   },
   {
     "id": 185,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Gas yang paling banyak di atmosfer bumi adalah …",
-    "options": [
-      "Oksigen",
-      "Nitrogen",
-      "Karbon dioksida",
-      "Argon"
-    ],
+    "options": ["Oksigen", "Nitrogen", "Karbon dioksida", "Argon"],
     "correct": "Nitrogen",
     "explanation": "Nitrogen ≈ 78%"
   },
   {
     "id": 186,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Alat yang digunakan untuk mengukur arus listrik adalah …",
-    "options": [
-      "voltmeter",
-      "ammeter",
-      "ohmmeter",
-      "wattmeter"
-    ],
+    "options": ["voltmeter", "ammeter", "ohmmeter", "wattmeter"],
     "correct": "ammeter",
     "explanation": "Ammeter mengukur arus"
   },
   {
     "id": 187,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Perjanjian yang mengakhiri Perang Dunia II di Asia adalah …",
-    "options": [
-      "Versailles",
-      "Potsdam",
-      "San Francisco",
-      "Yalta"
-    ],
+    "options": ["Versailles", "Potsdam", "San Francisco", "Yalta"],
     "correct": "San Francisco / Tokyo Bay",
     "explanation": "Kapitulasi Jepang 1945"
   },
   {
     "id": 188,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Inflasi yang disebabkan oleh kenaikan biaya produksi disebut …",
-    "options": [
-      "demand pull",
-      "cost push",
-      "imported",
-      "hyperinflation"
-    ],
+    "options": ["demand pull", "cost push", "imported", "hyperinflation"],
     "correct": "cost push",
     "explanation": "Cost-push inflation"
   },
   {
     "id": 189,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Tokoh yang mencetuskan teori evolusi adalah …",
-    "options": [
-      "Mendel",
-      "Darwin",
-      "Pasteur",
-      "Newton"
-    ],
+    "options": ["Mendel", "Darwin", "Pasteur", "Newton"],
     "correct": "Darwin",
     "explanation": "Charles Darwin"
   },
   {
     "id": 190,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Sistem pemerintahan di mana raja berkuasa mutlak disebut …",
-    "options": [
-      "demokrasi",
-      "monarki absolut",
-      "republik",
-      "oligarki"
-    ],
+    "options": ["demokrasi", "monarki absolut", "republik", "oligarki"],
     "correct": "monarki absolut",
     "explanation": "Raja berkuasa penuh"
   },
   {
     "id": 191,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Organisasi ekonomi dunia yang mengatur perdagangan internasional adalah …",
-    "options": [
-      "IMF",
-      "World Bank",
-      "WTO",
-      "ADB"
-    ],
+    "options": ["IMF", "World Bank", "WTO", "ADB"],
     "correct": "WTO",
     "explanation": "World Trade Organization"
   },
   {
     "id": 192,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Proklamator kemerdekaan Indonesia adalah …",
-    "options": [
-      "Soekarno-Hatta",
-      "Sjahrir-Hatta",
-      "Soekarno-Sjahrir",
-      "Hatta-Syahrir"
-    ],
+    "options": ["Soekarno-Hatta", "Sjahrir-Hatta", "Soekarno-Sjahrir", "Hatta-Syahrir"],
     "correct": "Soekarno-Hatta",
     "explanation": "Soekarno dan Mohammad Hatta"
   },
   {
     "id": 193,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "PDB adalah singkatan dari …",
-    "options": [
-      "Produk Domestik Bruto",
-      "Pendapatan Daerah Bersih",
-      "Produksi Dalam Negeri",
-      "Pendapatan Domestik Bersih"
-    ],
+    "options": ["Produk Domestik Bruto", "Pendapatan Daerah Bersih", "Produksi Dalam Negeri", "Pendapatan Domestik Bersih"],
     "correct": "Produk Domestik Bruto",
     "explanation": "PDB = Gross Domestic Product"
   },
   {
     "id": 194,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Hari Pendidikan Nasional diperingati setiap tanggal …",
-    "options": [
-      "2 Mei",
-      "17 Agustus",
-      "10 November",
-      "21 April"
-    ],
+    "options": ["2 Mei", "17 Agustus", "10 November", "21 April"],
     "correct": "2 Mei",
     "explanation": "2 Mei hari lahir Ki Hajar Dewantara"
   },
   {
     "id": 195,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Lambang sila pertama Pancasila adalah …",
-    "options": [
-      "Bintang",
-      "Rantai",
-      "Pohon Beringin",
-      "Kepala Banteng"
-    ],
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"],
     "correct": "Bintang",
     "explanation": "Sila 1 = bintang"
   },
   {
     "id": 196,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Ibukota Australia adalah …",
-    "options": [
-      "Sydney",
-      "Melbourne",
-      "Canberra",
-      "Brisbane"
-    ],
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
     "correct": "Canberra",
     "explanation": "Canberra"
   },
   {
     "id": 197,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Gunung tertinggi di Indonesia adalah …",
-    "options": [
-      "Semeru",
-      "Kerinci",
-      "Puncak Jaya",
-      "Rinjani"
-    ],
+    "options": ["Semeru", "Kerinci", "Puncak Jaya", "Rinjani"],
     "correct": "Puncak Jaya",
     "explanation": "Puncak Jaya di Papua"
   },
   {
     "id": 198,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Mata uang negara Singapura adalah …",
-    "options": [
-      "Ringgit",
-      "Dollar Singapura",
-      "Baht",
-      "Yuan"
-    ],
+    "options": ["Ringgit", "Dollar Singapura", "Baht", "Yuan"],
     "correct": "Dollar Singapura",
     "explanation": "SGD"
   },
   {
     "id": 199,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Hewan endemik Indonesia yang hampir punah adalah …",
-    "options": [
-      "Harimau Sumatera",
-      "Kangaroo",
-      "Panda",
-      "Koala"
-    ],
+    "options": ["Harimau Sumatera", "Kangaroo", "Panda", "Koala"],
     "correct": "Harimau Sumatera",
     "explanation": "Harimau Sumatera"
   },
   {
     "id": 200,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Jumlah sila dalam Pancasila adalah …",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
+    "options": ["3", "4", "5", "6"],
     "correct": "5",
     "explanation": "5 sila"
   },
   {
     "id": 201,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Lagu kebangsaan Indonesia karya …",
-    "options": [
-      "Ismail Marzuki",
-      "W.R. Supratman",
-      "C. Simanjuntak",
-      "Kusbini"
-    ],
+    "options": ["Ismail Marzuki", "W.R. Supratman", "C. Simanjuntak", "Kusbini"],
     "correct": "W.R. Supratman",
     "explanation": "Indonesia Raya"
   },
   {
     "id": 202,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Samudra terbesar di dunia adalah …",
-    "options": [
-      "Atlantik",
-      "Hindia",
-      "Pasifik",
-      "Arktik"
-    ],
+    "options": ["Atlantik", "Hindia", "Pasifik", "Arktik"],
     "correct": "Pasifik",
     "explanation": "Pasifik"
   },
   {
     "id": 203,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Planet yang dikenal sebagai planet merah adalah …",
-    "options": [
-      "Venus",
-      "Mars",
-      "Jupiter",
-      "Saturnus"
-    ],
+    "options": ["Venus", "Mars", "Jupiter", "Saturnus"],
     "correct": "Mars",
     "explanation": "Mars"
   },
   {
     "id": 204,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Alat musik tradisional dari Sumatera Barat adalah …",
-    "options": [
-      "Angklung",
-      "Talempong",
-      "Sasando",
-      "Kolintang"
-    ],
+    "options": ["Angklung", "Talempong", "Sasando", "Kolintang"],
     "correct": "Talempong",
     "explanation": "Talempong"
   },
   {
     "id": 205,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Hari Pahlawan diperingati setiap tanggal …",
-    "options": [
-      "10 November",
-      "17 Agustus",
-      "21 April",
-      "2 Mei"
-    ],
+    "options": ["10 November", "17 Agustus", "21 April", "2 Mei"],
     "correct": "10 November",
     "explanation": "10 November"
   },
   {
     "id": 206,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Bunga nasional Indonesia adalah …",
-    "options": [
-      "Mawar",
-      "Melati",
-      "Anggrek",
-      "Teratai"
-    ],
+    "options": ["Mawar", "Melati", "Anggrek", "Teratai"],
     "correct": "Melati",
     "explanation": "Melati putih"
   },
   {
     "id": 207,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Kerajaan Hindu tertua di Indonesia adalah …",
-    "options": [
-      "Majapahit",
-      "Sriwijaya",
-      "Kutai",
-      "Mataram"
-    ],
+    "options": ["Majapahit", "Sriwijaya", "Kutai", "Mataram"],
     "correct": "Kutai",
     "explanation": "Kutai"
   },
   {
     "id": 208,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Alat untuk mengukur suhu adalah …",
-    "options": [
-      "Barometer",
-      "Termometer",
-      "Higrometer",
-      "Anemometer"
-    ],
+    "options": ["Barometer", "Termometer", "Higrometer", "Anemometer"],
     "correct": "Termometer",
     "explanation": "Termometer"
   },
   {
     "id": 209,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Warna bendera Indonesia dari atas ke bawah adalah …",
-    "options": [
-      "Putih-Merah",
-      "Merah-Putih",
-      "Merah-Biru",
-      "Kuning-Merah"
-    ],
+    "options": ["Putih-Merah", "Merah-Putih", "Merah-Biru", "Kuning-Merah"],
     "correct": "Merah-Putih",
     "explanation": "Merah-Putih"
   },
   {
     "id": 210,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Ibukota negara Mesir adalah …",
-    "options": [
-      "Alexandria",
-      "Kairo",
-      "Giza",
-      "Luxor"
-    ],
+    "options": ["Alexandria", "Kairo", "Giza", "Luxor"],
     "correct": "Kairo",
     "explanation": "Kairo"
   },
   {
     "id": 211,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Olahraga tradisional Indonesia yang diakui dunia adalah …",
-    "options": [
-      "Pencak Silat",
-      "Karate",
-      "Taekwondo",
-      "Judo"
-    ],
+    "options": ["Pencak Silat", "Karate", "Taekwondo", "Judo"],
     "correct": "Pencak Silat",
     "explanation": "Pencak Silat"
   },
   {
     "id": 212,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Tahun Indonesia merdeka adalah …",
-    "options": [
-      "1944",
-      "1945",
-      "1946",
-      "1950"
-    ],
+    "options": ["1944", "1945", "1946", "1950"],
     "correct": "1945",
     "explanation": "1945"
   },
   {
     "id": 213,
-    "category": "SMP Pengetahuan Umum",
+    "category": "SMP",
     "text": "Ibukota negara Thailand adalah …",
-    "options": [
-      "Hanoi",
-      "Bangkok",
-      "Manila",
-      "Yangon"
-    ],
+    "options": ["Hanoi", "Bangkok", "Manila", "Yangon"],
     "correct": "Bangkok",
     "explanation": "Bangkok"
   },
   {
     "id": 214,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Organisasi ASEAN didirikan pada tahun …",
-    "options": [
-      "1965",
-      "1967",
-      "1970",
-      "1976"
-    ],
+    "options": ["1965", "1967", "1970", "1976"],
     "correct": "1967",
     "explanation": "1967 di Bangkok"
   },
   {
     "id": 215,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Teori Big Bang menjelaskan tentang …",
-    "options": [
-      "evolusi manusia",
-      "asal-usul alam semesta",
-      "pergerakan lempeng",
-      "siklus air"
-    ],
+    "options": ["evolusi manusia", "asal-usul alam semesta", "pergerakan lempeng", "siklus air"],
     "correct": "asal-usul alam semesta",
     "explanation": "Big Bang"
   },
   {
     "id": 216,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Siapa penemu teori relativitas?",
-    "options": [
-      "Newton",
-      "Einstein",
-      "Galileo",
-      "Hawking"
-    ],
+    "options": ["Newton", "Einstein", "Galileo", "Hawking"],
     "correct": "Einstein",
     "explanation": "Albert Einstein"
   },
   {
     "id": 217,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Perjanjian Versailles menandai berakhirnya …",
-    "options": [
-      "Perang Dunia I",
-      "Perang Dunia II",
-      "Perang Dingin",
-      "Perang Korea"
-    ],
+    "options": ["Perang Dunia I", "Perang Dunia II", "Perang Dingin", "Perang Korea"],
     "correct": "Perang Dunia I",
     "explanation": "1919"
   },
   {
     "id": 218,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Unsur paling melimpah di alam semesta adalah …",
-    "options": [
-      "Oksigen",
-      "Hidrogen",
-      "Karbon",
-      "Helium"
-    ],
+    "options": ["Oksigen", "Hidrogen", "Karbon", "Helium"],
     "correct": "Hidrogen",
     "explanation": "Hidrogen"
   },
   {
     "id": 219,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Siapa penulis novel Laskar Pelangi?",
-    "options": [
-      "Andrea Hirata",
-      "Pramoedya",
-      "Tere Liye",
-      "Dee Lestari"
-    ],
+    "options": ["Andrea Hirata", "Pramoedya", "Tere Liye", "Dee Lestari"],
     "correct": "Andrea Hirata",
     "explanation": "Andrea Hirata"
   },
   {
     "id": 220,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Mata uang digital paling terkenal adalah …",
-    "options": [
-      "Ethereum",
-      "Bitcoin",
-      "Ripple",
-      "Dogecoin"
-    ],
+    "options": ["Ethereum", "Bitcoin", "Ripple", "Dogecoin"],
     "correct": "Bitcoin",
     "explanation": "Bitcoin"
   },
   {
     "id": 221,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Hari Bumi diperingati setiap tanggal …",
-    "options": [
-      "22 April",
-      "5 Juni",
-      "21 Maret",
-      "1 Desember"
-    ],
+    "options": ["22 April", "5 Juni", "21 Maret", "1 Desember"],
     "correct": "22 April",
     "explanation": "Earth Day"
   },
   {
     "id": 222,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Siapa presiden pertama Amerika Serikat?",
-    "options": [
-      "Abraham Lincoln",
-      "George Washington",
-      "Thomas Jefferson",
-      "John Adams"
-    ],
+    "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
     "correct": "George Washington",
     "explanation": "George Washington"
   },
   {
     "id": 223,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Candi Borobudur dibangun pada masa …",
-    "options": [
-      "Majapahit",
-      "Sriwijaya",
-      "Sailendra",
-      "Singasari"
-    ],
+    "options": ["Majapahit", "Sriwijaya", "Sailendra", "Singasari"],
     "correct": "Sailendra",
     "explanation": "Dinasti Sailendra"
   },
   {
     "id": 224,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "GDP adalah singkatan dari …",
-    "options": [
-      "Gross Domestic Product",
-      "General Development Plan",
-      "Global Debt Percentage",
-      "Government Program"
-    ],
+    "options": ["Gross Domestic Product", "General Development Plan", "Global Debt Percentage", "Government Program"],
     "correct": "Gross Domestic Product",
     "explanation": "PDB"
   },
   {
     "id": 225,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Planet terbesar di tata surya adalah …",
-    "options": [
-      "Saturnus",
-      "Jupiter",
-      "Uranus",
-      "Neptunus"
-    ],
+    "options": ["Saturnus", "Jupiter", "Uranus", "Neptunus"],
     "correct": "Jupiter",
     "explanation": "Jupiter"
   },
   {
     "id": 226,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Siapa yang menemukan penisilin?",
-    "options": [
-      "Louis Pasteur",
-      "Alexander Fleming",
-      "Robert Koch",
-      "Edward Jenner"
-    ],
+    "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Edward Jenner"],
     "correct": "Alexander Fleming",
     "explanation": "Fleming"
   },
   {
     "id": 227,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Gerakan Non-Blok didirikan pada tahun …",
-    "options": [
-      "1955",
-      "1961",
-      "1970",
-      "1945"
-    ],
+    "options": ["1955", "1961", "1970", "1945"],
     "correct": "1961",
     "explanation": "Belgrade 1961"
   },
   {
     "id": 228,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "UNESCO adalah organisasi di bawah …",
-    "options": [
-      "ASEAN",
-      "PBB",
-      "NATO",
-      "WTO"
-    ],
+    "options": ["ASEAN", "PBB", "NATO", "WTO"],
     "correct": "PBB",
     "explanation": "United Nations"
   },
   {
     "id": 229,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Sungai terpanjang di dunia umumnya adalah …",
-    "options": [
-      "Amazon",
-      "Nil",
-      "Yangtze",
-      "Mississippi"
-    ],
+    "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
     "correct": "Nil",
     "explanation": "Sungai Nil"
   },
   {
     "id": 230,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Bapak Koperasi Indonesia adalah …",
-    "options": [
-      "Mohammad Hatta",
-      "Soekarno",
-      "Sjahrir",
-      "Tan Malaka"
-    ],
+    "options": ["Mohammad Hatta", "Soekarno", "Sjahrir", "Tan Malaka"],
     "correct": "Mohammad Hatta",
     "explanation": "Bung Hatta"
   },
   {
     "id": 231,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Konferensi Asia-Afrika di Bandung tahun …",
-    "options": [
-      "1954",
-      "1955",
-      "1961",
-      "1945"
-    ],
+    "options": ["1954", "1955", "1961", "1945"],
     "correct": "1955",
     "explanation": "1955"
   },
   {
     "id": 232,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Siapa tokoh teori evolusi?",
-    "options": [
-      "Mendel",
-      "Darwin",
-      "Pasteur",
-      "Newton"
-    ],
+    "options": ["Mendel", "Darwin", "Pasteur", "Newton"],
     "correct": "Darwin",
     "explanation": "Charles Darwin"
   },
   {
     "id": 233,
-    "category": "SMA Pengetahuan Umum",
+    "category": "SMA",
     "text": "Ibukota Kazakhstan adalah …",
-    "options": [
-      "Almaty",
-      "Astana",
-      "Tashkent",
-      "Bishkek"
-    ],
+    "options": ["Almaty", "Astana", "Tashkent", "Bishkek"],
     "correct": "Astana",
     "explanation": "Astana/Nur-Sultan"
   },
   {
     "id": 234,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Hasil dari 15% dari 200 adalah …",
-    "options": [
-      "20",
-      "30",
-      "40",
-      "50"
-    ],
+    "options": ["20", "30", "40", "50"],
     "correct": "30",
     "explanation": "0.15×200=30"
   },
   {
     "id": 235,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Nilai dari 2³ × 3² adalah …",
-    "options": [
-      "36",
-      "72",
-      "18",
-      "54"
-    ],
+    "options": ["36", "72", "18", "54"],
     "correct": "72",
     "explanation": "8×9=72"
   },
   {
     "id": 236,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Akar dari 144 adalah …",
-    "options": [
-      "10",
-      "11",
-      "12",
-      "14"
-    ],
+    "options": ["10", "11", "12", "14"],
     "correct": "12",
     "explanation": "12×12=144"
   },
   {
     "id": 237,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Jika 5x = 45, maka x = …",
-    "options": [
-      "5",
-      "7",
-      "9",
-      "11"
-    ],
+    "options": ["5", "7", "9", "11"],
     "correct": "9",
     "explanation": "45/5=9"
   },
   {
     "id": 238,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Luas persegi sisi 9 cm adalah …",
-    "options": [
-      "18 cm²",
-      "36 cm²",
-      "81 cm²",
-      "72 cm²"
-    ],
+    "options": ["18 cm²", "36 cm²", "81 cm²", "72 cm²"],
     "correct": "81 cm²",
     "explanation": "9²=81"
   },
   {
     "id": 239,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Volume kubus rusuk 4 cm adalah …",
-    "options": [
-      "16 cm³",
-      "48 cm³",
-      "64 cm³",
-      "32 cm³"
-    ],
+    "options": ["16 cm³", "48 cm³", "64 cm³", "32 cm³"],
     "correct": "64 cm³",
     "explanation": "4³=64"
   },
   {
     "id": 240,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Hasil dari 3/4 + 1/2 adalah …",
-    "options": [
-      "5/4",
-      "1",
-      "5/6",
-      "7/4"
-    ],
+    "options": ["5/4", "1", "5/6", "7/4"],
     "correct": "5/4",
     "explanation": "3/4+2/4=5/4"
   },
   {
     "id": 241,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Sudut kurang dari 90° disebut …",
-    "options": [
-      "tumpul",
-      "lancip",
-      "siku-siku",
-      "lurus"
-    ],
+    "options": ["tumpul", "lancip", "siku-siku", "lurus"],
     "correct": "lancip",
     "explanation": "Lancip <90°"
   },
   {
     "id": 242,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Suku ke-10 deret 2,5,8,11,… adalah …",
-    "options": [
-      "29",
-      "32",
-      "26",
-      "35"
-    ],
+    "options": ["29", "32", "26", "35"],
     "correct": "29",
     "explanation": "2+9×3=29"
   },
   {
     "id": 243,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Hasil (-3)×(-4) adalah …",
-    "options": [
-      "-12",
-      "12",
-      "-7",
-      "7"
-    ],
+    "options": ["-12", "12", "-7", "7"],
     "correct": "12",
     "explanation": "Negatif×negatif=positif"
   },
   {
     "id": 244,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Keliling segitiga sama sisi sisi 8 cm adalah …",
-    "options": [
-      "16 cm",
-      "24 cm",
-      "32 cm",
-      "64 cm"
-    ],
+    "options": ["16 cm", "24 cm", "32 cm", "64 cm"],
     "correct": "24 cm",
     "explanation": "3×8=24"
   },
   {
     "id": 245,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "0,25 dalam pecahan adalah …",
-    "options": [
-      "1/2",
-      "1/4",
-      "1/5",
-      "2/5"
-    ],
+    "options": ["1/2", "1/4", "1/5", "2/5"],
     "correct": "1/4",
     "explanation": "0.25=1/4"
   },
   {
     "id": 246,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Harga Rp50.000 diskon 10% menjadi …",
-    "options": [
-      "Rp5.000",
-      "Rp45.000",
-      "Rp40.000",
-      "Rp55.000"
-    ],
+    "options": ["Rp5.000", "Rp45.000", "Rp40.000", "Rp55.000"],
     "correct": "Rp45.000",
     "explanation": "Diskon 5rb"
   },
   {
     "id": 247,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "2:3 = 8:x, maka x = …",
-    "options": [
-      "10",
-      "12",
-      "14",
-      "16"
-    ],
+    "options": ["10", "12", "14", "16"],
     "correct": "12",
     "explanation": "2/3=8/x → x=12"
   },
   {
     "id": 248,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Luas permukaan kubus rusuk 5 cm adalah …",
-    "options": [
-      "25 cm²",
-      "100 cm²",
-      "150 cm²",
-      "125 cm²"
-    ],
+    "options": ["25 cm²", "100 cm²", "150 cm²", "125 cm²"],
     "correct": "150 cm²",
     "explanation": "6×25=150"
   },
   {
     "id": 249,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "7² – 5² adalah …",
-    "options": [
-      "24",
-      "12",
-      "36",
-      "20"
-    ],
+    "options": ["24", "12", "36", "20"],
     "correct": "24",
     "explanation": "49-25=24"
   },
   {
     "id": 250,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Median data 3,5,7,9,11 adalah …",
-    "options": [
-      "5",
-      "7",
-      "9",
-      "8"
-    ],
+    "options": ["5", "7", "9", "8"],
     "correct": "7",
     "explanation": "Nilai tengah"
   },
   {
     "id": 251,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Luas lingkaran r=10 cm (π=3,14) ≈ …",
-    "options": [
-      "31,4 cm²",
-      "314 cm²",
-      "62,8 cm²",
-      "157 cm²"
-    ],
+    "options": ["31,4 cm²", "314 cm²", "62,8 cm²", "157 cm²"],
     "correct": "314 cm²",
     "explanation": "3.14×100"
   },
   {
     "id": 252,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "Suku pertama deret 3,6,12,24,… adalah …",
-    "options": [
-      "3",
-      "6",
-      "2",
-      "1"
-    ],
+    "options": ["3", "6", "2", "1"],
     "correct": "3",
     "explanation": "a=3"
   },
   {
     "id": 253,
-    "category": "SMP Matematika",
+    "category": "SMP",
     "text": "2/5 × 15/4 = …",
-    "options": [
-      "3/2",
-      "6/4",
-      "30/20",
-      "1,5"
-    ],
+    "options": ["3/2", "6/4", "30/20", "1,5"],
     "correct": "3/2",
     "explanation": "30/20=1.5"
   },
   {
     "id": 254,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Turunan f(x)=5x⁴ adalah …",
-    "options": [
-      "20x³",
-      "5x³",
-      "20x⁴",
-      "4x³"
-    ],
+    "options": ["20x³", "5x³", "20x⁴", "4x³"],
     "correct": "20x³",
     "explanation": "20x³"
   },
   {
     "id": 255,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "cos 0° = …",
-    "options": [
-      "0",
-      "1",
-      "-1",
-      "0,5"
-    ],
+    "options": ["0", "1", "-1", "0,5"],
     "correct": "1",
     "explanation": "cos0=1"
   },
   {
     "id": 256,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "f(x)=2x+3, f(5)= …",
-    "options": [
-      "10",
-      "13",
-      "8",
-      "15"
-    ],
+    "options": ["10", "13", "8", "15"],
     "correct": "13",
     "explanation": "13"
   },
   {
     "id": 257,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "∫3x² dx = …",
-    "options": [
-      "x³+C",
-      "3x³+C",
-      "x²+C",
-      "6x+C"
-    ],
+    "options": ["x³+C", "3x³+C", "x²+C", "6x+C"],
     "correct": "x³+C",
     "explanation": "x³+C"
   },
   {
     "id": 258,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "log₁₀ 100 = …",
-    "options": [
-      "1",
-      "2",
-      "10",
-      "100"
-    ],
+    "options": ["1", "2", "10", "100"],
     "correct": "2",
     "explanation": "10²=100"
   },
   {
     "id": 259,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Limit (sin x)/x saat x→0 = …",
-    "options": [
-      "0",
-      "1",
-      "∞",
-      "tidak ada"
-    ],
+    "options": ["0", "1", "∞", "tidak ada"],
     "correct": "1",
     "explanation": "Limit fundamental"
   },
   {
     "id": 260,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Akar x²-5x+6=0 adalah …",
-    "options": [
-      "2 dan 3",
-      "1 dan 6",
-      "-2 dan -3",
-      "2 dan -3"
-    ],
+    "options": ["2 dan 3", "1 dan 6", "-2 dan -3", "2 dan -3"],
     "correct": "2 dan 3",
     "explanation": "(x-2)(x-3)"
   },
   {
     "id": 261,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Jumlah sudut segiempat = …",
-    "options": [
-      "180°",
-      "270°",
-      "360°",
-      "90°"
-    ],
+    "options": ["180°", "270°", "360°", "90°"],
     "correct": "360°",
     "explanation": "360°"
   },
   {
     "id": 262,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "sin θ=3/5, cos θ (kuadran I) = …",
-    "options": [
-      "4/5",
-      "3/4",
-      "5/3",
-      "5/4"
-    ],
+    "options": ["4/5", "3/4", "5/3", "5/4"],
     "correct": "4/5",
     "explanation": "3-4-5"
   },
   {
     "id": 263,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Det [2 3;1 4] = …",
-    "options": [
-      "5",
-      "8",
-      "11",
-      "-5"
-    ],
+    "options": ["5", "8", "11", "-5"],
     "correct": "5",
     "explanation": "8-3=5"
   },
   {
     "id": 264,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "a=5 b=3, U₁₀ aritmetika = …",
-    "options": [
-      "32",
-      "35",
-      "29",
-      "38"
-    ],
+    "options": ["32", "35", "29", "38"],
     "correct": "32",
     "explanation": "5+9×3=32"
   },
   {
     "id": 265,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "e⁰ = …",
-    "options": [
-      "0",
-      "1",
-      "e",
-      "tidak terdefinisi"
-    ],
+    "options": ["0", "1", "e", "tidak terdefinisi"],
     "correct": "1",
     "explanation": "a⁰=1"
   },
   {
     "id": 266,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Persamaan lingkaran pusat (0,0) r=5 adalah …",
-    "options": [
-      "x²+y²=5",
-      "x²+y²=25",
-      "x+y=5",
-      "x²+y²=10"
-    ],
+    "options": ["x²+y²=5", "x²+y²=25", "x+y=5", "x²+y²=10"],
     "correct": "x²+y²=25",
     "explanation": "r²=25"
   },
   {
     "id": 267,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Turunan kedua x³ adalah …",
-    "options": [
-      "3x²",
-      "6x",
-      "3x",
-      "x"
-    ],
+    "options": ["3x²", "6x", "3x", "x"],
     "correct": "6x",
     "explanation": "6x"
   },
   {
     "id": 268,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "tan 45° = …",
-    "options": [
-      "0",
-      "1",
-      "√3",
-      "tidak terdefinisi"
-    ],
+    "options": ["0", "1", "√3", "tidak terdefinisi"],
     "correct": "1",
     "explanation": "tan45=1"
   },
   {
     "id": 269,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "2ˣ=32, x= …",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "3"
-    ],
+    "options": ["4", "5", "6", "3"],
     "correct": "5",
     "explanation": "2⁵=32"
   },
   {
     "id": 270,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Rata-rata 4,6,8,10,12 = …",
-    "options": [
-      "8",
-      "10",
-      "7",
-      "9"
-    ],
+    "options": ["8", "10", "7", "9"],
     "correct": "8",
     "explanation": "40/5=8"
   },
   {
     "id": 271,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Volume bola r=3 (π=3,14) ≈ …",
-    "options": [
-      "113 cm³",
-      "36 cm³",
-      "28 cm³",
-      "9 cm³"
-    ],
+    "options": ["113 cm³", "36 cm³", "28 cm³", "9 cm³"],
     "correct": "113 cm³",
     "explanation": "4/3πr³"
   },
   {
     "id": 272,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "Gradien 2x+4y-8=0 adalah …",
-    "options": [
-      "-1/2",
-      "1/2",
-      "2",
-      "-2"
-    ],
+    "options": ["-1/2", "1/2", "2", "-2"],
     "correct": "-1/2",
     "explanation": "y=-0.5x+2"
   },
   {
     "id": 273,
-    "category": "SMA Matematika",
+    "category": "SMA",
     "text": "C(5,2) = …",
-    "options": [
-      "10",
-      "20",
-      "5",
-      "15"
-    ],
+    "options": ["10", "20", "5", "15"],
     "correct": "10",
     "explanation": "10"
   },
   {
     "id": 274,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Ibukota negara Vietnam adalah …",
-    "options": [
-      "Ho Chi Minh",
-      "Hanoi",
-      "Da Nang",
-      "Hue"
-    ],
+    "options": ["Ho Chi Minh", "Hanoi", "Da Nang", "Hue"],
     "correct": "Hanoi",
     "explanation": "Hanoi"
   },
   {
     "id": 275,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Sumpah Pemuda terjadi pada …",
-    "options": [
-      "28 Oktober 1928",
-      "17 Agustus 1945",
-      "20 Mei 1908",
-      "10 November 1945"
-    ],
+    "options": ["28 Oktober 1928", "17 Agustus 1945", "20 Mei 1908", "10 November 1945"],
     "correct": "28 Oktober 1928",
     "explanation": "1928"
   },
   {
     "id": 276,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Benua yang tidak dilalui khatulistiwa adalah …",
-    "options": [
-      "Afrika",
-      "Asia",
-      "Amerika Selatan",
-      "Eropa"
-    ],
+    "options": ["Afrika", "Asia", "Amerika Selatan", "Eropa"],
     "correct": "Eropa",
     "explanation": "Eropa"
   },
   {
     "id": 277,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Mata uang Jepang adalah …",
-    "options": [
-      "Yuan",
-      "Won",
-      "Yen",
-      "Ringgit"
-    ],
+    "options": ["Yuan", "Won", "Yen", "Ringgit"],
     "correct": "Yen",
     "explanation": "Yen"
   },
   {
     "id": 278,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Kerajaan Sriwijaya berpusat di …",
-    "options": [
-      "Jawa",
-      "Sumatera",
-      "Kalimantan",
-      "Sulawesi"
-    ],
+    "options": ["Jawa", "Sumatera", "Kalimantan", "Sulawesi"],
     "correct": "Sumatera",
     "explanation": "Sumatera"
   },
   {
     "id": 279,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Organisasi yang didirikan Soetomo adalah …",
-    "options": [
-      "Budi Utomo",
-      "Sarekat Islam",
-      "Indische Partij",
-      "PNI"
-    ],
+    "options": ["Budi Utomo", "Sarekat Islam", "Indische Partij", "PNI"],
     "correct": "Budi Utomo",
     "explanation": "1908"
   },
   {
     "id": 280,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Ibukota Korea Selatan adalah …",
-    "options": [
-      "Pyongyang",
-      "Seoul",
-      "Busan",
-      "Incheon"
-    ],
+    "options": ["Pyongyang", "Seoul", "Busan", "Incheon"],
     "correct": "Seoul",
     "explanation": "Seoul"
   },
   {
     "id": 281,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Proklamasi dibacakan di …",
-    "options": [
-      "Yogyakarta",
-      "Jakarta",
-      "Bandung",
-      "Surabaya"
-    ],
+    "options": ["Yogyakarta", "Jakarta", "Bandung", "Surabaya"],
     "correct": "Jakarta",
     "explanation": "Jakarta"
   },
   {
     "id": 282,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Samudra di selatan Indonesia adalah …",
-    "options": [
-      "Pasifik",
-      "Hindia",
-      "Atlantik",
-      "Arktik"
-    ],
+    "options": ["Pasifik", "Hindia", "Atlantik", "Arktik"],
     "correct": "Hindia",
     "explanation": "Hindia"
   },
   {
     "id": 283,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Bapak Koperasi adalah …",
-    "options": [
-      "Soekarno",
-      "Hatta",
-      "Sjahrir",
-      "Sudirman"
-    ],
+    "options": ["Soekarno", "Hatta", "Sjahrir", "Sudirman"],
     "correct": "Hatta",
     "explanation": "Hatta"
   },
   {
     "id": 284,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Negara ASEAN berbentuk kerajaan adalah …",
-    "options": [
-      "Indonesia",
-      "Vietnam",
-      "Thailand",
-      "Filipina"
-    ],
+    "options": ["Indonesia", "Vietnam", "Thailand", "Filipina"],
     "correct": "Thailand",
     "explanation": "Thailand"
   },
   {
     "id": 285,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Hari Kebangkitan Nasional adalah …",
-    "options": [
-      "20 Mei",
-      "2 Mei",
-      "28 Oktober",
-      "10 November"
-    ],
+    "options": ["20 Mei", "2 Mei", "28 Oktober", "10 November"],
     "correct": "20 Mei",
     "explanation": "20 Mei"
   },
   {
     "id": 286,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Candi di Magelang adalah …",
-    "options": [
-      "Prambanan",
-      "Borobudur",
-      "Mendut",
-      "Sewu"
-    ],
+    "options": ["Prambanan", "Borobudur", "Mendut", "Sewu"],
     "correct": "Borobudur",
     "explanation": "Borobudur"
   },
   {
     "id": 287,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Mata pencaharian utama pesisir adalah …",
-    "options": [
-      "bertani",
-      "nelayan",
-      "berkebun",
-      "bertambang"
-    ],
+    "options": ["bertani", "nelayan", "berkebun", "bertambang"],
     "correct": "nelayan",
     "explanation": "Nelayan"
   },
   {
     "id": 288,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Ibukota Filipina adalah …",
-    "options": [
-      "Manila",
-      "Cebu",
-      "Davao",
-      "Quezon"
-    ],
+    "options": ["Manila", "Cebu", "Davao", "Quezon"],
     "correct": "Manila",
     "explanation": "Manila"
   },
   {
     "id": 289,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Perjanjian Renville tahun …",
-    "options": [
-      "1946",
-      "1947",
-      "1948",
-      "1949"
-    ],
+    "options": ["1946", "1947", "1948", "1949"],
     "correct": "1948",
     "explanation": "1948"
   },
   {
     "id": 290,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Gunung berapi aktif di Jawa Tengah adalah …",
-    "options": [
-      "Merapi",
-      "Krakatau",
-      "Semeru",
-      "Rinjani"
-    ],
+    "options": ["Merapi", "Krakatau", "Semeru", "Rinjani"],
     "correct": "Merapi",
     "explanation": "Merapi"
   },
   {
     "id": 291,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Sistem ekonomi Indonesia berdasarkan …",
-    "options": [
-      "Kapitalisme",
-      "Sosialisme",
-      "Pancasila",
-      "Komunisme"
-    ],
+    "options": ["Kapitalisme", "Sosialisme", "Pancasila", "Komunisme"],
     "correct": "Pancasila",
     "explanation": "Ekonomi Pancasila"
   },
   {
     "id": 292,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Penjajah Indonesia selain Belanda adalah …",
-    "options": [
-      "Inggris Jepang Portugis",
-      "Hanya Jepang",
-      "Hanya Inggris",
-      "Amerika"
-    ],
+    "options": ["Inggris Jepang Portugis", "Hanya Jepang", "Hanya Inggris", "Amerika"],
     "correct": "Inggris Jepang Portugis",
     "explanation": "Beberapa negara"
   },
   {
     "id": 293,
-    "category": "SMP IPS",
+    "category": "SMP",
     "text": "Lambang negara Indonesia adalah …",
-    "options": [
-      "Garuda Pancasila",
-      "Merpati",
-      "Harimau",
-      "Komodo"
-    ],
+    "options": ["Garuda Pancasila", "Merpati", "Harimau", "Komodo"],
     "correct": "Garuda Pancasila",
     "explanation": "Garuda"
   },
   {
     "id": 294,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Konferensi Asia-Afrika di Bandung tahun …",
-    "options": [
-      "1954",
-      "1955",
-      "1961",
-      "1945"
-    ],
+    "options": ["1954", "1955", "1961", "1945"],
     "correct": "1955",
     "explanation": "1955"
   },
   {
     "id": 295,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Teori Out of Africa tentang …",
-    "options": [
-      "asal usul manusia modern",
-      "pergerakan lempeng",
-      "evolusi bintang",
-      "siklus karbon"
-    ],
+    "options": ["asal usul manusia modern", "pergerakan lempeng", "evolusi bintang", "siklus karbon"],
     "correct": "asal usul manusia modern",
     "explanation": "Out of Africa"
   },
   {
     "id": 296,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Bretton Woods mengatur …",
-    "options": [
-      "perdagangan bebas",
-      "sistem moneter internasional",
-      "organisasi militer",
-      "lingkungan"
-    ],
+    "options": ["perdagangan bebas", "sistem moneter internasional", "organisasi militer", "lingkungan"],
     "correct": "sistem moneter internasional",
     "explanation": "IMF & World Bank"
   },
   {
     "id": 297,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Revolusi Industri pertama di …",
-    "options": [
-      "Amerika",
-      "Prancis",
-      "Inggris",
-      "Jerman"
-    ],
+    "options": ["Amerika", "Prancis", "Inggris", "Jerman"],
     "correct": "Inggris",
     "explanation": "Inggris"
   },
   {
     "id": 298,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Check and balance berarti …",
-    "options": [
-      "keseimbangan kekuasaan lembaga negara",
-      "pemeriksaan keuangan",
-      "pemilihan umum",
-      "perpajakan"
-    ],
+    "options": ["keseimbangan kekuasaan lembaga negara", "pemeriksaan keuangan", "pemilihan umum", "perpajakan"],
     "correct": "keseimbangan kekuasaan lembaga negara",
     "explanation": "Trias Politica"
   },
   {
     "id": 299,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Perjanjian Linggarjati tahun …",
-    "options": [
-      "1946",
-      "1947",
-      "1948",
-      "1949"
-    ],
+    "options": ["1946", "1947", "1948", "1949"],
     "correct": "1946",
     "explanation": "1946/1947"
   },
   {
     "id": 300,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Penulis The Wealth of Nations adalah …",
-    "options": [
-      "Karl Marx",
-      "Adam Smith",
-      "John Keynes",
-      "David Ricardo"
-    ],
+    "options": ["Karl Marx", "Adam Smith", "John Keynes", "David Ricardo"],
     "correct": "Adam Smith",
     "explanation": "Adam Smith"
   },
   {
     "id": 301,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Sistem parlementer berarti …",
-    "options": [
-      "presiden dipilih rakyat",
-      "PM bertanggung jawab ke parlemen",
-      "raja mutlak",
-      "militer berkuasa"
-    ],
+    "options": ["presiden dipilih rakyat", "PM bertanggung jawab ke parlemen", "raja mutlak", "militer berkuasa"],
     "correct": "PM bertanggung jawab ke parlemen",
     "explanation": "Parlementer"
   },
   {
     "id": 302,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "ASEAN kepanjangan dari …",
-    "options": [
-      "Association of Southeast Asian Nations",
-      "Asian Economic Association",
-      "Association of South Asian Nations",
-      "Asian Summit"
-    ],
+    "options": ["Association of Southeast Asian Nations", "Asian Economic Association", "Association of South Asian Nations", "Asian Summit"],
     "correct": "Association of Southeast Asian Nations",
     "explanation": "ASEAN"
   },
   {
     "id": 303,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Perang Dingin melibatkan …",
-    "options": [
-      "AS vs Uni Soviet",
-      "AS vs China",
-      "Inggris vs Jerman",
-      "Prancis vs Rusia"
-    ],
+    "options": ["AS vs Uni Soviet", "AS vs China", "Inggris vs Jerman", "Prancis vs Rusia"],
     "correct": "AS vs Uni Soviet",
     "explanation": "Cold War"
   },
   {
     "id": 304,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Inflasi sangat tinggi disebut …",
-    "options": [
-      "deflasi",
-      "stagflasi",
-      "hiperinflasi",
-      "disinflasi"
-    ],
+    "options": ["deflasi", "stagflasi", "hiperinflasi", "disinflasi"],
     "correct": "hiperinflasi",
     "explanation": "Hyperinflation"
   },
   {
     "id": 305,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Agresi militer Belanda I dipimpin …",
-    "options": [
-      "Jenderal Spoor",
-      "Van Mook",
-      "Jenderal Sudirman",
-      "Soekarno"
-    ],
+    "options": ["Jenderal Spoor", "Van Mook", "Jenderal Sudirman", "Soekarno"],
     "correct": "Van Mook",
     "explanation": "1947"
   },
   {
     "id": 306,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Teori permintaan-penawaran oleh …",
-    "options": [
-      "Adam Smith",
-      "Alfred Marshall",
-      "Keynes",
-      "Marx"
-    ],
+    "options": ["Adam Smith", "Alfred Marshall", "Keynes", "Marx"],
     "correct": "Alfred Marshall",
     "explanation": "Marshall"
   },
   {
     "id": 307,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Demokrasi Terpimpin adalah era …",
-    "options": [
-      "Soekarno setelah 1959",
-      "demokrasi liberal",
-      "Orde Baru",
-      "Reformasi"
-    ],
+    "options": ["Soekarno setelah 1959", "demokrasi liberal", "Orde Baru", "Reformasi"],
     "correct": "Soekarno setelah 1959",
     "explanation": "Dekrit 1959"
   },
   {
     "id": 308,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Organisasi perdagangan dunia adalah …",
-    "options": [
-      "IMF",
-      "WTO",
-      "World Bank",
-      "ADB"
-    ],
+    "options": ["IMF", "WTO", "World Bank", "ADB"],
     "correct": "WTO",
     "explanation": "WTO"
   },
   {
     "id": 309,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "G30S/PKI terjadi tahun …",
-    "options": [
-      "1965",
-      "1966",
-      "1967",
-      "1968"
-    ],
+    "options": ["1965", "1966", "1967", "1968"],
     "correct": "1965",
     "explanation": "1965"
   },
   {
     "id": 310,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Ekonomi campuran menggabungkan …",
-    "options": [
-      "kapitalis dan sosialis",
-      "tradisional dan modern",
-      "agraris dan industri",
-      "lokal dan global"
-    ],
+    "options": ["kapitalis dan sosialis", "tradisional dan modern", "agraris dan industri", "lokal dan global"],
     "correct": "kapitalis dan sosialis",
     "explanation": "Mixed"
   },
   {
     "id": 311,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Tokoh Machiavelli terkenal dengan …",
-    "options": [
-      "The Prince",
-      "Republic",
-      "Leviathan",
-      "Social Contract"
-    ],
+    "options": ["The Prince", "Republic", "Leviathan", "Social Contract"],
     "correct": "The Prince",
     "explanation": "Machiavelli"
   },
   {
     "id": 312,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "Supremasi hukum berarti …",
-    "options": [
-      "hukum di atas segala-galanya",
-      "kekuasaan militer",
-      "keputusan raja",
-      "kehendak rakyat"
-    ],
+    "options": ["hukum di atas segala-galanya", "kekuasaan militer", "keputusan raja", "kehendak rakyat"],
     "correct": "hukum di atas segala-galanya",
     "explanation": "Rule of law"
   },
   {
     "id": 313,
-    "category": "SMA IPS",
+    "category": "SMA",
     "text": "KMB menghasilkan pengakuan kedaulatan tahun …",
-    "options": [
-      "1948",
-      "1949",
-      "1950",
-      "1945"
-    ],
+    "options": ["1948", "1949", "1950", "1945"],
     "correct": "1949",
     "explanation": "1949"
   },
   {
     "id": 314,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Satuan SI massa adalah …",
-    "options": [
-      "gram",
-      "kilogram",
-      "ton",
-      "pon"
-    ],
+    "options": ["gram", "kilogram", "ton", "pon"],
     "correct": "kilogram",
     "explanation": "kg"
   },
   {
     "id": 315,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Padat ke gas disebut …",
-    "options": [
-      "menguap",
-      "menyublim",
-      "mencair",
-      "mengembun"
-    ],
+    "options": ["menguap", "menyublim", "mencair", "mengembun"],
     "correct": "menyublim",
     "explanation": "Sublimasi"
   },
   {
     "id": 316,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Organel penghasil energi adalah …",
-    "options": [
-      "nukleus",
-      "mitokondria",
-      "ribosom",
-      "vakuola"
-    ],
+    "options": ["nukleus", "mitokondria", "ribosom", "vakuola"],
     "correct": "mitokondria",
     "explanation": "Mitokondria"
   },
   {
     "id": 317,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Hukum Archimedes tentang …",
-    "options": [
-      "tekanan",
-      "gaya apung",
-      "gravitasi",
-      "listrik"
-    ],
+    "options": ["tekanan", "gaya apung", "gravitasi", "listrik"],
     "correct": "gaya apung",
     "explanation": "Gaya apung"
   },
   {
     "id": 318,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Bagian bunga penghasil serbuk sari adalah …",
-    "options": [
-      "putik",
-      "benang sari",
-      "mahkota",
-      "kelopak"
-    ],
+    "options": ["putik", "benang sari", "mahkota", "kelopak"],
     "correct": "benang sari",
     "explanation": "Stamen"
   },
   {
     "id": 319,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Cahaya putih diuraikan oleh …",
-    "options": [
-      "cermin",
-      "lensa",
-      "prisma",
-      "kaca"
-    ],
+    "options": ["cermin", "lensa", "prisma", "kaca"],
     "correct": "prisma",
     "explanation": "Dispersi"
   },
   {
     "id": 320,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Hewan bernapas paru-paru dan kulit adalah …",
-    "options": [
-      "ikan",
-      "katak",
-      "burung",
-      "serangga"
-    ],
+    "options": ["ikan", "katak", "burung", "serangga"],
     "correct": "katak",
     "explanation": "Amfibi"
   },
   {
     "id": 321,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Energi dalam makanan disebut …",
-    "options": [
-      "kinetik",
-      "potensial",
-      "kimia",
-      "panas"
-    ],
+    "options": ["kinetik", "potensial", "kimia", "panas"],
     "correct": "kimia",
     "explanation": "Energi kimia"
   },
   {
     "id": 322,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Alat melihat benda kecil adalah …",
-    "options": [
-      "teleskop",
-      "mikroskop",
-      "kamera",
-      "periskop"
-    ],
+    "options": ["teleskop", "mikroskop", "kamera", "periskop"],
     "correct": "mikroskop",
     "explanation": "Mikroskop"
   },
   {
     "id": 323,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Pensil patah di air karena …",
-    "options": [
-      "refleksi",
-      "refraksi",
-      "difraksi",
-      "interferensi"
-    ],
+    "options": ["refleksi", "refraksi", "difraksi", "interferensi"],
     "correct": "refraksi",
     "explanation": "Pembiasan"
   },
   {
     "id": 324,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Tumbuhan berumbi contohnya …",
-    "options": [
-      "padi",
-      "kentang",
-      "mangga",
-      "paku"
-    ],
+    "options": ["padi", "kentang", "mangga", "paku"],
     "correct": "kentang",
     "explanation": "Kentang"
   },
   {
     "id": 325,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Benda diam di meja gaya yang bekerja …",
-    "options": [
-      "hanya gravitasi",
-      "gravitasi dan normal",
-      "hanya gesekan",
-      "tidak ada"
-    ],
+    "options": ["hanya gravitasi", "gravitasi dan normal", "hanya gesekan", "tidak ada"],
     "correct": "gravitasi dan normal",
     "explanation": "Seimbang"
   },
   {
     "id": 326,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Zat penghantar listrik disebut …",
-    "options": [
-      "isolator",
-      "konduktor",
-      "semikonduktor",
-      "dielektrik"
-    ],
+    "options": ["isolator", "konduktor", "semikonduktor", "dielektrik"],
     "correct": "konduktor",
     "explanation": "Konduktor"
   },
   {
     "id": 327,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Fotosintesis menghasilkan …",
-    "options": [
-      "CO₂ dan H₂O",
-      "O₂ dan glukosa",
-      "N₂ dan O₂",
-      "hanya O₂"
-    ],
+    "options": ["CO₂ dan H₂O", "O₂ dan glukosa", "N₂ dan O₂", "hanya O₂"],
     "correct": "O₂ dan glukosa",
     "explanation": "Fotosintesis"
   },
   {
     "id": 328,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Pernapasan serangga menggunakan …",
-    "options": [
-      "paru-paru",
-      "insang",
-      "trakea",
-      "kulit"
-    ],
+    "options": ["paru-paru", "insang", "trakea", "kulit"],
     "correct": "trakea",
     "explanation": "Trakea"
   },
   {
     "id": 329,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Bunyi paling cepat merambat di …",
-    "options": [
-      "udara",
-      "air",
-      "zat padat",
-      "ruang hampa"
-    ],
+    "options": ["udara", "air", "zat padat", "ruang hampa"],
     "correct": "zat padat",
     "explanation": "Padat"
   },
   {
     "id": 330,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Gas ke cair disebut …",
-    "options": [
-      "menguap",
-      "mengembun",
-      "membeku",
-      "menyublim"
-    ],
+    "options": ["menguap", "mengembun", "membeku", "menyublim"],
     "correct": "mengembun",
     "explanation": "Kondensasi"
   },
   {
     "id": 331,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Bagian mata peka cahaya adalah …",
-    "options": [
-      "kornea",
-      "lensa",
-      "retina",
-      "pupil"
-    ],
+    "options": ["kornea", "lensa", "retina", "pupil"],
     "correct": "retina",
     "explanation": "Retina"
   },
   {
     "id": 332,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Sumber energi terbarukan adalah …",
-    "options": [
-      "batu bara",
-      "minyak bumi",
-      "angin",
-      "gas alam"
-    ],
+    "options": ["batu bara", "minyak bumi", "angin", "gas alam"],
     "correct": "angin",
     "explanation": "Terbarukan"
   },
   {
     "id": 333,
-    "category": "SMP IPA",
+    "category": "SMP",
     "text": "Jumlah kaki serangga adalah …",
-    "options": [
-      "4",
-      "6",
-      "8",
-      "10"
-    ],
+    "options": ["4", "6", "8", "10"],
     "correct": "6",
     "explanation": "6 kaki"
   },
   {
     "id": 334,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Rumus kimia asam klorida adalah …",
-    "options": [
-      "H₂SO₄",
-      "HCl",
-      "HNO₃",
-      "CH₃COOH"
-    ],
+    "options": ["H₂SO₄", "HCl", "HNO₃", "CH₃COOH"],
     "correct": "HCl",
     "explanation": "HCl"
   },
   {
     "id": 335,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Jumlah neutron ¹²C adalah …",
-    "options": [
-      "6",
-      "12",
-      "8",
-      "4"
-    ],
+    "options": ["6", "12", "8", "4"],
     "correct": "6",
     "explanation": "12-6=6"
   },
   {
     "id": 336,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Hukum Ohm V = …",
-    "options": [
-      "I/R",
-      "I×R",
-      "R/I",
-      "I+R"
-    ],
+    "options": ["I/R", "I×R", "R/I", "I+R"],
     "correct": "I×R",
     "explanation": "V=IR"
   },
   {
     "id": 337,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Pembelahan sel tubuh adalah …",
-    "options": [
-      "meiosis",
-      "mitosis",
-      "fragmentasi",
-      "budding"
-    ],
+    "options": ["meiosis", "mitosis", "fragmentasi", "budding"],
     "correct": "mitosis",
     "explanation": "Mitosis"
   },
   {
     "id": 338,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Gas rumah kaca utama adalah …",
-    "options": [
-      "O₂",
-      "N₂",
-      "CO₂",
-      "H₂"
-    ],
+    "options": ["O₂", "N₂", "CO₂", "H₂"],
     "correct": "CO₂",
     "explanation": "CO₂"
   },
   {
     "id": 339,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Satuan hambatan listrik adalah …",
-    "options": [
-      "Volt",
-      "Ampere",
-      "Ohm",
-      "Watt"
-    ],
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
     "correct": "Ohm",
     "explanation": "Ohm"
   },
   {
     "id": 340,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Enzim pemecah protein adalah …",
-    "options": [
-      "amilase",
-      "lipase",
-      "protease",
-      "sukrase"
-    ],
+    "options": ["amilase", "lipase", "protease", "sukrase"],
     "correct": "protease",
     "explanation": "Protease"
   },
   {
     "id": 341,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Gelombang untuk radar adalah …",
-    "options": [
-      "infra merah",
-      "mikro gelombang",
-      "sinar X",
-      "sinar gamma"
-    ],
+    "options": ["infra merah", "mikro gelombang", "sinar X", "sinar gamma"],
     "correct": "mikro gelombang",
     "explanation": "Microwave"
   },
   {
     "id": 342,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "pH asam adalah …",
-    "options": [
-      ">7",
-      "=7",
-      "<7",
-      "0"
-    ],
+    "options": [">7", "=7", "<7", "0"],
     "correct": "<7",
     "explanation": "pH<7"
   },
   {
     "id": 343,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Tempat fotosintesis adalah …",
-    "options": [
-      "mitokondria",
-      "kloroplas",
-      "ribosom",
-      "nukleus"
-    ],
+    "options": ["mitokondria", "kloroplas", "ribosom", "nukleus"],
     "correct": "kloroplas",
     "explanation": "Kloroplas"
   },
   {
     "id": 344,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Hukum kekekalan massa oleh …",
-    "options": [
-      "Newton",
-      "Lavoisier",
-      "Dalton",
-      "Bohr"
-    ],
+    "options": ["Newton", "Lavoisier", "Dalton", "Bohr"],
     "correct": "Lavoisier",
     "explanation": "Lavoisier"
   },
   {
     "id": 345,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Arus searah disingkat …",
-    "options": [
-      "AC",
-      "DC",
-      "AV",
-      "DV"
-    ],
+    "options": ["AC", "DC", "AV", "DV"],
     "correct": "DC",
     "explanation": "Direct Current"
   },
   {
     "id": 346,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Jumlah kromosom manusia adalah …",
-    "options": [
-      "23",
-      "46",
-      "22",
-      "44"
-    ],
+    "options": ["23", "46", "22", "44"],
     "correct": "46",
     "explanation": "46"
   },
   {
     "id": 347,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Efek rumah kaca karena …",
-    "options": [
-      "O₂",
-      "gas rumah kaca",
-      "N₂",
-      "ozon saja"
-    ],
+    "options": ["O₂", "gas rumah kaca", "N₂", "ozon saja"],
     "correct": "gas rumah kaca",
     "explanation": "Greenhouse"
   },
   {
     "id": 348,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Alat ukur tegangan adalah …",
-    "options": [
-      "ammeter",
-      "voltmeter",
-      "ohmmeter",
-      "galvanometer"
-    ],
+    "options": ["ammeter", "voltmeter", "ohmmeter", "galvanometer"],
     "correct": "voltmeter",
     "explanation": "Voltmeter"
   },
   {
     "id": 349,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Ikatan transfer elektron adalah …",
-    "options": [
-      "kovalen",
-      "ionik",
-      "logam",
-      "hidrogen"
-    ],
+    "options": ["kovalen", "ionik", "logam", "hidrogen"],
     "correct": "ionik",
     "explanation": "Ikatan ion"
   },
   {
     "id": 350,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Bagian otak keseimbangan adalah …",
-    "options": [
-      "cerebrum",
-      "cerebellum",
-      "medulla",
-      "hipotalamus"
-    ],
+    "options": ["cerebrum", "cerebellum", "medulla", "hipotalamus"],
     "correct": "cerebellum",
     "explanation": "Otak kecil"
   },
   {
     "id": 351,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Frekuensi terdengar manusia …",
-    "options": [
-      "0–20 Hz",
-      "20–20.000 Hz",
-      ">20 kHz",
-      "<20 Hz"
-    ],
+    "options": ["0–20 Hz", "20–20.000 Hz", ">20 kHz", "<20 Hz"],
     "correct": "20–20.000 Hz",
     "explanation": "Audible"
   },
   {
     "id": 352,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Konfigurasi 2,8,1 adalah unsur …",
-    "options": [
-      "Natrium",
-      "Magnesium",
-      "Kalium",
-      "Kalsium"
-    ],
+    "options": ["Natrium", "Magnesium", "Kalium", "Kalsium"],
     "correct": "Natrium",
     "explanation": "Na"
   },
   {
     "id": 353,
-    "category": "SMA IPA",
+    "category": "SMA",
     "text": "Reaksi lepaskan panas disebut …",
-    "options": [
-      "endoterm",
-      "eksoterm",
-      "netral",
-      "redoks"
-    ],
+    "options": ["endoterm", "eksoterm", "netral", "redoks"],
     "correct": "eksoterm",
     "explanation": "Eksoterm"
   },
   {
-  "id": 354,
-  "category": "Pengetahuan Umum",
-  "text": "Warna bendera Indonesia dari atas ke bawah adalah …",
-  "options": ["Putih - Merah", "Merah - Putih", "Merah - Biru", "Kuning - Merah"],
-  "correct": "Merah - Putih",
-  "explanation": "Bendera Indonesia adalah Merah Putih"
-},
-{
-  "id": 355,
-  "category": "Pengetahuan Umum",
-  "text": "Ibukota negara Indonesia adalah …",
-  "options": ["Surabaya", "Bandung", "Jakarta", "Medan"],
-  "correct": "Jakarta",
-  "explanation": "Ibukota Indonesia adalah Jakarta"
-},
-{
-  "id": 356,
-  "category": "Pengetahuan Umum",
-  "text": "Hewan yang punya belalai panjang adalah …",
-  "options": ["Harimau", "Gajah", "Kuda", "Sapi"],
-  "correct": "Gajah",
-  "explanation": "Gajah memiliki belalai"
-},
-{
-  "id": 357,
-  "category": "Pengetahuan Umum",
-  "text": "Hari kemerdekaan Indonesia diperingati setiap tanggal …",
-  "options": ["1 Juni", "17 Agustus", "10 November", "21 April"],
-  "correct": "17 Agustus",
-  "explanation": "17 Agustus 1945"
-},
-{
-  "id": 358,
-  "category": "Pengetahuan Umum",
-  "text": "Jumlah hari dalam satu minggu adalah …",
-  "options": ["5", "6", "7", "8"],
-  "correct": "7",
-  "explanation": "Satu minggu terdiri dari 7 hari"
-},
-{
-  "id": 359,
-  "category": "Pengetahuan Umum",
-  "text": "Alat untuk menulis di papan tulis biasanya adalah …",
-  "options": ["Pensil", "Spidol", "Pulpen", "Krayon"],
-  "correct": "Spidol",
-  "explanation": "Spidol whiteboard atau kapur"
-},
-{
-  "id": 360,
-  "category": "Pengetahuan Umum",
-  "text": "Buah yang kulitnya berwarna kuning dan isinya manis adalah …",
-  "options": ["Apel", "Pisang", "Anggur", "Stroberi"],
-  "correct": "Pisang",
-  "explanation": "Pisang kulitnya kuning"
-},
-{
-  "id": 361,
-  "category": "Pengetahuan Umum",
-  "text": "Lambang negara Indonesia adalah …",
-  "options": ["Garuda Pancasila", "Harimau", "Komodo", "Merpati"],
-  "correct": "Garuda Pancasila",
-  "explanation": "Garuda Pancasila"
-},
-{
-  "id": 362,
-  "category": "Pengetahuan Umum",
-  "text": "Matahari terbit dari arah …",
-  "options": ["Barat", "Timur", "Utara", "Selatan"],
-  "correct": "Timur",
-  "explanation": "Matahari terbit di Timur"
-},
-{
-  "id": 363,
-  "category": "Pengetahuan Umum",
-  "text": "Hewan yang bisa terbang adalah …",
-  "options": ["Ikan", "Burung", "Ular", "Kucing"],
-  "correct": "Burung",
-  "explanation": "Burung memiliki sayap"
-},
-{
-  "id": 364,
-  "category": "Pengetahuan Umum",
-  "text": "Air yang membeku menjadi …",
-  "options": ["Uap", "Es", "Awan", "Hujan"],
-  "correct": "Es",
-  "explanation": "Air membeku menjadi es"
-},
-{
-  "id": 365,
-  "category": "Pengetahuan Umum",
-  "text": "Jumlah jari tangan manusia biasanya adalah …",
-  "options": ["8", "10", "12", "5"],
-  "correct": "10",
-  "explanation": "5 jari di setiap tangan"
-},
-{
-  "id": 366,
-  "category": "Pengetahuan Umum",
-  "text": "Lagu kebangsaan Indonesia adalah …",
-  "options": ["Indonesia Pusaka", "Indonesia Raya", "Garuda Pancasila", "Hari Merdeka"],
-  "correct": "Indonesia Raya",
-  "explanation": "Indonesia Raya"
-},
-{
-  "id": 367,
-  "category": "Pengetahuan Umum",
-  "text": "Binatang yang menghasilkan susu adalah …",
-  "options": ["Ayam", "Sapi", "Ikan", "Burung"],
-  "correct": "Sapi",
-  "explanation": "Sapi menghasilkan susu"
-},
-{
-  "id": 368,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Benua terbesar di dunia adalah …",
-  "options": ["Afrika", "Amerika", "Asia", "Eropa"],
-  "correct": "Asia",
-  "explanation": "Asia adalah benua terluas"
-},
-{
-  "id": 369,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Planet yang paling dekat dengan Matahari adalah …",
-  "options": ["Venus", "Mars", "Merkurius", "Bumi"],
-  "correct": "Merkurius",
-  "explanation": "Merkurius adalah yang terdekat"
-},
-{
-  "id": 370,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Ibukota negara Jepang adalah …",
-  "options": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
-  "correct": "Tokyo",
-  "explanation": "Ibukota Jepang adalah Tokyo"
-},
-{
-  "id": 371,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Sungai terpanjang di dunia adalah …",
-  "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
-  "correct": "Nil",
-  "explanation": "Sungai Nil umumnya dianggap terpanjang"
-},
-{
-  "id": 372,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Organisasi ASEAN didirikan pada tahun …",
-  "options": ["1945", "1967", "1999", "2000"],
-  "correct": "1967",
-  "explanation": "ASEAN didirikan 8 Agustus 1967"
-},
-{
-  "id": 373,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Gunung tertinggi di dunia adalah …",
-  "options": ["Kilimanjaro", "Everest", "Fuji", "Elbrus"],
-  "correct": "Everest",
-  "explanation": "Gunung Everest"
-},
-{
-  "id": 374,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Mata uang negara Amerika Serikat adalah …",
-  "options": ["Euro", "Yen", "Dollar", "Pound"],
-  "correct": "Dollar",
-  "explanation": "US Dollar"
-},
-{
-  "id": 375,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Samudra terbesar di dunia adalah …",
-  "options": ["Atlantik", "Hindia", "Pasifik", "Arktik"],
-  "correct": "Pasifik",
-  "explanation": "Samudra Pasifik"
-},
-{
-  "id": 376,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Penemu lampu pijar adalah …",
-  "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Albert Einstein"],
-  "correct": "Thomas Edison",
-  "explanation": "Thomas Alva Edison"
-},
-{
-  "id": 377,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Hari Pahlawan diperingati setiap tanggal …",
-  "options": ["10 November", "17 Agustus", "21 April", "2 Mei"],
-  "correct": "10 November",
-  "explanation": "10 November 1945"
-},
-{
-  "id": 378,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Ibukota negara Australia adalah …",
-  "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-  "correct": "Canberra",
-  "explanation": "Canberra, bukan Sydney"
-},
-{
-  "id": 379,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Hewan marsupial khas Australia adalah …",
-  "options": ["Panda", "Kanguru", "Koala", "Kanguru dan Koala"],
-  "correct": "Kanguru dan Koala",
-  "explanation": "Kanguru dan koala adalah marsupial"
-},
-{
-  "id": 380,
-  "category": "SMP Pengetahuan Umum",
-  "text": "Gas yang paling banyak di atmosfer bumi adalah …",
-  "options": ["Oksigen", "Nitrogen", "Karbon dioksida", "Hidrogen"],
-  "correct": "Nitrogen",
-  "explanation": "Nitrogen sekitar 78%"
-},
-{
-  "id": 381,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Siapa penemu teori relativitas?",
-  "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
-  "correct": "Albert Einstein",
-  "explanation": "Albert Einstein"
-},
-{
-  "id": 382,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Perjanjian yang mengakhiri Perang Dunia I adalah …",
-  "options": ["Perjanjian Versailles", "Perjanjian Paris", "Perjanjian Yalta", "Perjanjian Potsdam"],
-  "correct": "Perjanjian Versailles",
-  "explanation": "Treaty of Versailles 1919"
-},
-{
-  "id": 383,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Organisasi dunia yang bertujuan menjaga perdamaian adalah …",
-  "options": ["ASEAN", "NATO", "PBB", "WTO"],
-  "correct": "PBB",
-  "explanation": "Perserikatan Bangsa-Bangsa"
-},
-{
-  "id": 384,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Unsur kimia dengan simbol Fe adalah …",
-  "options": ["Fluor", "Besi", "Fosfor", "Fermium"],
-  "correct": "Besi",
-  "explanation": "Fe = Ferrum (besi)"
-},
-{
-  "id": 385,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Siapa yang menemukan penisilin?",
-  "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Edward Jenner"],
-  "correct": "Alexander Fleming",
-  "explanation": "Alexander Fleming tahun 1928"
-},
-{
-  "id": 386,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Teori Big Bang menjelaskan tentang …",
-  "options": ["Evolusi manusia", "Asal-usul alam semesta", "Pergerakan lempeng bumi", "Siklus air"],
-  "correct": "Asal-usul alam semesta",
-  "explanation": "Big Bang Theory"
-},
-{
-  "id": 387,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Ibukota Kazakhstan saat ini adalah …",
-  "options": ["Almaty", "Astana", "Tashkent", "Bishkek"],
-  "correct": "Astana",
-  "explanation": "Astana (sebelumnya Nur-Sultan)"
-},
-{
-  "id": 388,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Siapa penulis novel 'Laskar Pelangi'?",
-  "options": ["Pramoedya Ananta Toer", "Andrea Hirata", "Tere Liye", "Dee Lestari"],
-  "correct": "Andrea Hirata",
-  "explanation": "Andrea Hirata"
-},
-{
-  "id": 389,
-  "category": "SMA Pengetahuan Umum",
-  "text": "GDP adalah singkatan dari …",
-  "options": ["Gross Domestic Product", "General Development Plan", "Global Debt Percentage", "Government Development Program"],
-  "correct": "Gross Domestic Product",
-  "explanation": "Produk Domestik Bruto"
-},
-{
-  "id": 390,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Planet terbesar di tata surya adalah …",
-  "options": ["Saturnus", "Jupiter", "Uranus", "Neptunus"],
-  "correct": "Jupiter",
-  "explanation": "Jupiter"
-},
-{
-  "id": 391,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Hari Bumi diperingati setiap tanggal …",
-  "options": ["22 April", "5 Juni", "21 Maret", "1 Desember"],
-  "correct": "22 April",
-  "explanation": "Earth Day 22 April"
-},
-{
-  "id": 392,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Siapa presiden pertama Amerika Serikat?",
-  "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
-  "correct": "George Washington",
-  "explanation": "George Washington"
-},
-{
-  "id": 393,
-  "category": "SMA Pengetahuan Umum",
-  "text": "Candi Borobudur dibangun pada masa dinasti …",
-  "options": ["Majapahit", "Sriwijaya", "Sailendra", "Singasari"],
-  "correct": "Sailendra",
-  "explanation": "Dinasti Sailendra"
-}
+    "id": 354,
+    "category": "SD",
+    "text": "Warna bendera Indonesia dari atas ke bawah adalah …",
+    "options": ["Putih - Merah", "Merah - Putih", "Merah - Biru", "Kuning - Merah"],
+    "correct": "Merah - Putih",
+    "explanation": "Bendera Indonesia adalah Merah Putih"
+  },
+  {
+    "id": 355,
+    "category": "SD",
+    "text": "Ibukota negara Indonesia adalah …",
+    "options": ["Surabaya", "Bandung", "Jakarta", "Medan"],
+    "correct": "Jakarta",
+    "explanation": "Ibukota Indonesia adalah Jakarta"
+  },
+  {
+    "id": 356,
+    "category": "SD",
+    "text": "Hewan yang punya belalai panjang adalah …",
+    "options": ["Harimau", "Gajah", "Kuda", "Sapi"],
+    "correct": "Gajah",
+    "explanation": "Gajah memiliki belalai"
+  },
+  {
+    "id": 357,
+    "category": "SD",
+    "text": "Hari kemerdekaan Indonesia diperingati setiap tanggal …",
+    "options": ["1 Juni", "17 Agustus", "10 November", "21 April"],
+    "correct": "17 Agustus",
+    "explanation": "17 Agustus 1945"
+  },
+  {
+    "id": 358,
+    "category": "SD",
+    "text": "Jumlah hari dalam satu minggu adalah …",
+    "options": ["5", "6", "7", "8"],
+    "correct": "7",
+    "explanation": "Satu minggu terdiri dari 7 hari"
+  },
+  {
+    "id": 359,
+    "category": "SD",
+    "text": "Alat untuk menulis di papan tulis biasanya adalah …",
+    "options": ["Pensil", "Spidol", "Pulpen", "Krayon"],
+    "correct": "Spidol",
+    "explanation": "Spidol whiteboard atau kapur"
+  },
+  {
+    "id": 360,
+    "category": "SD",
+    "text": "Buah yang kulitnya berwarna kuning dan isinya manis adalah …",
+    "options": ["Apel", "Pisang", "Anggur", "Stroberi"],
+    "correct": "Pisang",
+    "explanation": "Pisang kulitnya kuning"
+  },
+  {
+    "id": 361,
+    "category": "SD",
+    "text": "Lambang negara Indonesia adalah …",
+    "options": ["Garuda Pancasila", "Harimau", "Komodo", "Merpati"],
+    "correct": "Garuda Pancasila",
+    "explanation": "Garuda Pancasila"
+  },
+  {
+    "id": 362,
+    "category": "SD",
+    "text": "Matahari terbit dari arah …",
+    "options": ["Barat", "Timur", "Utara", "Selatan"],
+    "correct": "Timur",
+    "explanation": "Matahari terbit di Timur"
+  },
+  {
+    "id": 363,
+    "category": "SD",
+    "text": "Hewan yang bisa terbang adalah …",
+    "options": ["Ikan", "Burung", "Ular", "Kucing"],
+    "correct": "Burung",
+    "explanation": "Burung memiliki sayap"
+  },
+  {
+    "id": 364,
+    "category": "SD",
+    "text": "Air yang membeku menjadi …",
+    "options": ["Uap", "Es", "Awan", "Hujan"],
+    "correct": "Es",
+    "explanation": "Air membeku menjadi es"
+  },
+  {
+    "id": 365,
+    "category": "SD",
+    "text": "Jumlah jari tangan manusia biasanya adalah …",
+    "options": ["8", "10", "12", "5"],
+    "correct": "10",
+    "explanation": "5 jari di setiap tangan"
+  },
+  {
+    "id": 366,
+    "category": "SD",
+    "text": "Lagu kebangsaan Indonesia adalah …",
+    "options": ["Indonesia Pusaka", "Indonesia Raya", "Garuda Pancasila", "Hari Merdeka"],
+    "correct": "Indonesia Raya",
+    "explanation": "Indonesia Raya"
+  },
+  {
+    "id": 367,
+    "category": "SD",
+    "text": "Binatang yang menghasilkan susu adalah …",
+    "options": ["Ayam", "Sapi", "Ikan", "Burung"],
+    "correct": "Sapi",
+    "explanation": "Sapi menghasilkan susu"
+  },
+  {
+    "id": 368,
+    "category": "SMP",
+    "text": "Benua terbesar di dunia adalah …",
+    "options": ["Afrika", "Amerika", "Asia", "Eropa"],
+    "correct": "Asia",
+    "explanation": "Asia adalah benua terluas"
+  },
+  {
+    "id": 369,
+    "category": "SMP",
+    "text": "Planet yang paling dekat dengan Matahari adalah …",
+    "options": ["Venus", "Mars", "Merkurius", "Bumi"],
+    "correct": "Merkurius",
+    "explanation": "Merkurius adalah yang terdekat"
+  },
+  {
+    "id": 370,
+    "category": "SMP",
+    "text": "Ibukota negara Jepang adalah …",
+    "options": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
+    "correct": "Tokyo",
+    "explanation": "Ibukota Jepang adalah Tokyo"
+  },
+  {
+    "id": 371,
+    "category": "SMP",
+    "text": "Sungai terpanjang di dunia adalah …",
+    "options": ["Amazon", "Nil", "Yangtze", "Mississippi"],
+    "correct": "Nil",
+    "explanation": "Sungai Nil umumnya dianggap terpanjang"
+  },
+  {
+    "id": 372,
+    "category": "SMP",
+    "text": "Organisasi ASEAN didirikan pada tahun …",
+    "options": ["1945", "1967", "1999", "2000"],
+    "correct": "1967",
+    "explanation": "ASEAN didirikan 8 Agustus 1967"
+  },
+  {
+    "id": 373,
+    "category": "SMP",
+    "text": "Gunung tertinggi di dunia adalah …",
+    "options": ["Kilimanjaro", "Everest", "Fuji", "Elbrus"],
+    "correct": "Everest",
+    "explanation": "Gunung Everest"
+  },
+  {
+    "id": 374,
+    "category": "SMP",
+    "text": "Mata uang negara Amerika Serikat adalah …",
+    "options": ["Euro", "Yen", "Dollar", "Pound"],
+    "correct": "Dollar",
+    "explanation": "US Dollar"
+  },
+  {
+    "id": 375,
+    "category": "SMP",
+    "text": "Samudra terbesar di dunia adalah …",
+    "options": ["Atlantik", "Hindia", "Pasifik", "Arktik"],
+    "correct": "Pasifik",
+    "explanation": "Samudra Pasifik"
+  },
+  {
+    "id": 376,
+    "category": "SMP",
+    "text": "Penemu lampu pijar adalah …",
+    "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Albert Einstein"],
+    "correct": "Thomas Edison",
+    "explanation": "Thomas Alva Edison"
+  },
+  {
+    "id": 377,
+    "category": "SMP",
+    "text": "Hari Pahlawan diperingati setiap tanggal …",
+    "options": ["10 November", "17 Agustus", "21 April", "2 Mei"],
+    "correct": "10 November",
+    "explanation": "10 November 1945"
+  },
+  {
+    "id": 378,
+    "category": "SMP",
+    "text": "Ibukota negara Australia adalah …",
+    "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correct": "Canberra",
+    "explanation": "Canberra, bukan Sydney"
+  },
+  {
+    "id": 379,
+    "category": "SMP",
+    "text": "Hewan marsupial khas Australia adalah …",
+    "options": ["Panda", "Kanguru", "Koala", "Kanguru dan Koala"],
+    "correct": "Kanguru dan Koala",
+    "explanation": "Kanguru dan koala adalah marsupial"
+  },
+  {
+    "id": 380,
+    "category": "SMP",
+    "text": "Gas yang paling banyak di atmosfer bumi adalah …",
+    "options": ["Oksigen", "Nitrogen", "Karbon dioksida", "Hidrogen"],
+    "correct": "Nitrogen",
+    "explanation": "Nitrogen sekitar 78%"
+  },
+  {
+    "id": 381,
+    "category": "SMA",
+    "text": "Siapa penemu teori relativitas?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+    "correct": "Albert Einstein",
+    "explanation": "Albert Einstein"
+  },
+  {
+    "id": 382,
+    "category": "SMA",
+    "text": "Perjanjian yang mengakhiri Perang Dunia I adalah …",
+    "options": ["Perjanjian Versailles", "Perjanjian Paris", "Perjanjian Yalta", "Perjanjian Potsdam"],
+    "correct": "Perjanjian Versailles",
+    "explanation": "Treaty of Versailles 1919"
+  },
+  {
+    "id": 383,
+    "category": "SMA",
+    "text": "Organisasi dunia yang bertujuan menjaga perdamaian adalah …",
+    "options": ["ASEAN", "NATO", "PBB", "WTO"],
+    "correct": "PBB",
+    "explanation": "Perserikatan Bangsa-Bangsa"
+  },
+  {
+    "id": 384,
+    "category": "SMA",
+    "text": "Unsur kimia dengan simbol Fe adalah …",
+    "options": ["Fluor", "Besi", "Fosfor", "Fermium"],
+    "correct": "Besi",
+    "explanation": "Fe = Ferrum (besi)"
+  },
+  {
+    "id": 385,
+    "category": "SMA",
+    "text": "Siapa yang menemukan penisilin?",
+    "options": ["Louis Pasteur", "Alexander Fleming", "Robert Koch", "Edward Jenner"],
+    "correct": "Alexander Fleming",
+    "explanation": "Alexander Fleming tahun 1928"
+  },
+  {
+    "id": 386,
+    "category": "SMA",
+    "text": "Teori Big Bang menjelaskan tentang …",
+    "options": ["Evolusi manusia", "Asal-usul alam semesta", "Pergerakan lempeng bumi", "Siklus air"],
+    "correct": "Asal-usul alam semesta",
+    "explanation": "Big Bang Theory"
+  },
+  {
+    "id": 387,
+    "category": "SMA",
+    "text": "Ibukota Kazakhstan saat ini adalah …",
+    "options": ["Almaty", "Astana", "Tashkent", "Bishkek"],
+    "correct": "Astana",
+    "explanation": "Astana (sebelumnya Nur-Sultan)"
+  },
+  {
+    "id": 388,
+    "category": "SMA",
+    "text": "Siapa penulis novel 'Laskar Pelangi'?",
+    "options": ["Pramoedya Ananta Toer", "Andrea Hirata", "Tere Liye", "Dee Lestari"],
+    "correct": "Andrea Hirata",
+    "explanation": "Andrea Hirata"
+  },
+  {
+    "id": 389,
+    "category": "SMA",
+    "text": "GDP adalah singkatan dari …",
+    "options": ["Gross Domestic Product", "General Development Plan", "Global Debt Percentage", "Government Development Program"],
+    "correct": "Gross Domestic Product",
+    "explanation": "Produk Domestik Bruto"
+  },
+  {
+    "id": 390,
+    "category": "SMA",
+    "text": "Planet terbesar di tata surya adalah …",
+    "options": ["Saturnus", "Jupiter", "Uranus", "Neptunus"],
+    "correct": "Jupiter",
+    "explanation": "Jupiter"
+  },
+  {
+    "id": 391,
+    "category": "SMA",
+    "text": "Hari Bumi diperingati setiap tanggal …",
+    "options": ["22 April", "5 Juni", "21 Maret", "1 Desember"],
+    "correct": "22 April",
+    "explanation": "Earth Day 22 April"
+  },
+  {
+    "id": 392,
+    "category": "SMA",
+    "text": "Siapa presiden pertama Amerika Serikat?",
+    "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+    "correct": "George Washington",
+    "explanation": "George Washington"
+  },
+  {
+    "id": 393,
+    "category": "SMA",
+    "text": "Candi Borobudur dibangun pada masa dinasti …",
+    "options": ["Majapahit", "Sriwijaya", "Sailendra", "Singasari"],
+    "correct": "Sailendra",
+    "explanation": "Dinasti Sailendra"
+  },
+  {
+    "category": "SD",
+    "text": "Sinonim dari kata 'gembira' adalah …",
+    "options": ["sedih", "senang", "marah", "takut"],
+    "correct": "senang",
+    "explanation": "Gembira memiliki arti yang sama dengan senang."
+  },
+  {
+    "category": "SD",
+    "text": "Antonim dari kata 'gelap' adalah …",
+    "options": ["malam", "terang", "suram", "hitam"],
+    "correct": "terang",
+    "explanation": "Lawan kata (antonim) dari gelap adalah terang."
+  },
+  {
+    "category": "SD",
+    "text": "Kalimat berikut yang menggunakan tanda titik (.) dengan tepat adalah …",
+    "options": ["Ibu membeli sayur.", "Ibu membeli sayur?", "Ibu membeli sayur!", "Ibu membeli sayur,"],
+    "correct": "Ibu membeli sayur.",
+    "explanation": "Kalimat berita/deklaratif diakhiri dengan tanda titik."
+  },
+  {
+    "category": "SD",
+    "text": "Kata dasar dari 'menulis' adalah …",
+    "options": ["nulis", "tulis", "tuliskan", "penulis"],
+    "correct": "tulis",
+    "explanation": "Imbuhan me- + tulis menjadi menulis."
+  },
+  {
+    "category": "SD",
+    "text": "Siswa belajar di ruang …",
+    "options": ["dapur", "kelas", "garasi", "kamar mandi"],
+    "correct": "kelas",
+    "explanation": "Tempat siswa belajar di sekolah adalah ruang kelas."
+  },
+  {
+    "category": "SD",
+    "text": "Ibu memotong sayuran menggunakan …",
+    "options": ["sendok", "garpu", "pisau", "piring"],
+    "correct": "pisau",
+    "explanation": "Pisau adalah alat untuk memotong."
+  },
+  {
+    "category": "SD",
+    "text": "Kalimat yang berisi perintah diakhiri dengan tanda …",
+    "options": ["tanya (?)", "titik (.)", "seru (!)", "Koma (,)"],
+    "correct": "seru (!)",
+    "explanation": "Kalimat perintah diakhiri dengan tanda seru."
+  },
+  {
+    "category": "SD",
+    "text": "Ungkapan 'besar kepala' memiliki arti …",
+    "options": ["kepalanya besar", "pandai", "sombong", "dermawan"],
+    "correct": "sombong",
+    "explanation": "Besar kepala adalah ungkapan untuk orang yang sombong."
+  },
+  {
+    "category": "SD",
+    "text": "Penulisan tempat dan tanggal lahir yang benar adalah …",
+    "options": ["Jakarta 17 Agustus 2015", "Jakarta, 17 Agustus 2015", "Jakarta. 17 Agustus 2015", "Jakarta; 17 Agustus 2015"],
+    "correct": "Jakarta, 17 Agustus 2015",
+    "explanation": "Penulisan tempat dan tanggal dipisahkan dengan tanda koma."
+  },
+  {
+    "category": "SD",
+    "text": "Ungkapan 'buah tangan' berarti …",
+    "options": ["buah-buahan", "oleh-oleh", "hasil karya", "anak"],
+    "correct": "oleh-oleh",
+    "explanation": "Buah tangan artinya oleh-oleh."
+  },
+  {
+    "category": "SD",
+    "text": "Ayah membaca ... di ruang tamu setiap pagi.",
+    "options": ["baju", "koran", "sepatu", "piring"],
+    "correct": "koran",
+    "explanation": "Benda yang dibaca untuk mendapatkan berita adalah koran."
+  },
+  {
+    "category": "SD",
+    "text": "Singkatan dari 'Sekolah Dasar' adalah …",
+    "options": ["S.D", "SD", "s.d.", "S/D"],
+    "correct": "SD",
+    "explanation": "Singkatan nama lembaga/pendidikan memakai huruf kapital tanpa titik."
+  },
+  {
+    "category": "SD",
+    "text": "Pohon pisang berkembang biak dengan tunas. Kata 'berkembang biak' artinya …",
+    "options": ["bertambah banyak", "bertambah tinggi", "menjadi layu", "gugur"],
+    "correct": "bertambah banyak",
+    "explanation": "Berkembang biak berarti menghasilkan keturunan/bertambah banyak."
+  },
+  {
+    "category": "SD",
+    "text": "Lawan kata dari 'rajin' adalah …",
+    "options": ["pandai", "malas", "cerdas", "tekun"],
+    "correct": "malas",
+    "explanation": "Antonim dari rajin adalah malas."
+  },
+  {
+    "category": "SD",
+    "text": "Dongeng yang menceritakan tentang kehidupan hewan dinamakan …",
+    "options": ["fabel", "mite", "legenda", "sage"],
+    "correct": "fabel",
+    "explanation": "Fabel adalah cerita rekaan yang tokohnya binatang."
+  },
+  {
+    "category": "SD",
+    "text": "Huruf kapital digunakan pada awal penulisan nama …",
+    "options": ["benda", "orang", "makanan", "hewan"],
+    "correct": "orang",
+    "explanation": "Nama diri/orang harus diawali huruf kapital."
+  },
+  {
+    "category": "SD",
+    "text": "Budi sedang ... sepeda di lapangan.",
+    "options": ["mendorong", "mengendarai", "mengayuh", "menarik"],
+    "correct": "mengayuh",
+    "explanation": "Kata kerja yang tepat untuk menggerakkan sepeda adalah mengayuh."
+  },
+  {
+    "category": "SD",
+    "text": "Kalimat yang menanyakan tempat adalah …",
+    "options": ["Siapa namamu?", "Di mana rumahmu?", "Kapan kamu berangkat?", "Mengapa kamu menangis?"],
+    "correct": "Di mana rumahmu?",
+    "explanation": "Kata tanya 'di mana' digunakan untuk menanyakan tempat."
+  },
+  {
+    "category": "SD",
+    "text": "Suara kucing berbunyi …",
+    "options": ["guk guk", "kukuruyuk", "meong", "mbee"],
+    "correct": "meong",
+    "explanation": "Tiruan bunyi suara kucing adalah meong."
+  },
+  {
+    "category": "SD",
+    "text": "Rani anak yang pintar. Sinonim kata 'pintar' adalah …",
+    "options": ["pandai", "bodoh", "rajin", "ramah"],
+    "correct": "pandai",
+    "explanation": "Pintar dan pandai memiliki arti yang sama."
+  },
+  {
+    "category": "SD",
+    "text": "Adik menangis ... balonnya pecah.",
+    "options": ["tetapi", "sebab", "dan", "atau"],
+    "correct": "sebab",
+    "explanation": "Kata hubung 'sebab' menjelaskan alasan adik menangis."
+  },
+  {
+    "category": "SD",
+    "text": "Tempat bertemunya penjual dan pembeli dinamakan …",
+    "options": ["stasiun", "pasar", "terminal", "bandara"],
+    "correct": "pasar",
+    "explanation": "Pasar adalah tempat kegiatan jual beli."
+  },
+  {
+    "category": "SD",
+    "text": "Puisi anak biasanya terdiri dari beberapa …",
+    "options": ["paragraf", "bait", "bab", "halaman"],
+    "correct": "bait",
+    "explanation": "Puisi tersusun atas baris-baris yang membentuk bait."
+  },
+  {
+    "category": "SD",
+    "text": "Anak yang suka mencuri dinamakan …",
+    "options": ["panjang tangan", "ringan tangan", "berat tangan", "lepas tangan"],
+    "correct": "panjang tangan",
+    "explanation": "Panjang tangan adalah ungkapan untuk orang yang suka mencuri."
+  },
+  {
+    "category": "SD",
+    "text": "Pesan kebaikan yang terdapat dalam sebuah cerita disebut …",
+    "options": ["tema", "amanat", "tokoh", "alur"],
+    "correct": "amanat",
+    "explanation": "Amanat adalah pesan moral dari pengarang kepada pembaca."
+  },
+  {
+    "category": "SD",
+    "text": "Bagus sekali tulisanmu! Kalimat tersebut merupakan kalimat …",
+    "options": ["pujian", "kritikan", "perintah", "tanya"],
+    "correct": "pujian",
+    "explanation": "Kalimat tersebut mengungkapkan kekaguman/pujian terhadap tulisan."
+  },
+  {
+    "category": "SD",
+    "text": "Kata tanya untuk menanyakan jumlah adalah …",
+    "options": ["berapa", "bagaimana", "siapa", "mengapa"],
+    "correct": "berapa",
+    "explanation": "Kata tanya 'berapa' digunakan untuk menanyakan kuantitas/jumlah."
+  },
+  {
+    "category": "SD",
+    "text": "Anak yang rajin belajar akan menjadi …",
+    "options": ["pandai", "malas", "sombong", "nakal"],
+    "correct": "pandai",
+    "explanation": "Akibat dari rajin belajar adalah menjadi pandai/pintar."
+  },
+  {
+    "category": "SD",
+    "text": "Matahari terbit pada ... hari.",
+    "options": ["pagi", "siang", "sore", "malam"],
+    "correct": "pagi",
+    "explanation": "Matahari terbit menandakan dimulainya waktu pagi hari."
+  },
+  {
+    "category": "SD",
+    "text": "Kata yang berlawanan arti disebut …",
+    "options": ["sinonim", "antonim", "homonim", "akronim"],
+    "correct": "antonim",
+    "explanation": "Antonim adalah istilah untuk lawan kata."
+  },
+
+  /* ================= SMP (30 SOAL) ================= */
+  {
+    "category": "SMP",
+    "text": "Teks yang berisi laporan hasil pengamatan terhadap suatu objek disebut teks …",
+    "options": ["deskripsi", "LHO (Laporan Hasil Observasi)", "eksposisi", "eksplanasi"],
+    "correct": "LHO (Laporan Hasil Observasi)",
+    "explanation": "Teks LHO berisi fakta hasil pengamatan objek secara sistematis."
+  },
+  {
+    "category": "SMP",
+    "text": "Gaya bahasa yang membandingkan benda mati seolah-olah memiliki sifat manusia disebut majas …",
+    "options": ["metafora", "personifikasi", "hiperbola", "simile"],
+    "correct": "personifikasi",
+    "explanation": "Personifikasi menginsankan benda mati (contoh: angin berbisik)."
+  },
+  {
+    "category": "SMP",
+    "text": "Gagasan utama yang menjadi inti pembahasan dalam suatu paragraf disebut …",
+    "options": ["ide pokok", "kalimat penjelas", "simpulan", "tema"],
+    "correct": "ide pokok",
+    "explanation": "Ide pokok / gagasan utama adalah inti dari sebuah paragraf."
+  },
+  {
+    "category": "SMP",
+    "text": "Paragraf yang kalimat utamanya terletak di akhir paragraf dinamakan paragraf …",
+    "options": ["deduktif", "induktif", "campuran", "inhabitatif"],
+    "correct": "induktif",
+    "explanation": "Induktif = kalimat utama di akhir; Deduktif = di awal."
+  },
+  {
+    "category": "SMP",
+    "text": "Ciri khas utama dari teks fabel adalah …",
+    "options": ["tokohnya berupa hewan bertingkah laku manusia", "menceritakan asal-usul tempat", "menggunakan data ilmiah", "pembahasannya mengenai sejarah"],
+    "correct": "tokohnya berupa hewan bertingkah laku manusia",
+    "explanation": "Fabel berfokus pada cerita hewan yang berkarakter seperti manusia."
+  },
+  {
+    "category": "SMP",
+    "text": "Kalimat yang memuat pendapat atau gagasan subjektif penulis disebut kalimat …",
+    "options": ["fakta", "opini", "langsung", "efektif"],
+    "correct": "opini",
+    "explanation": "Opini berisi pendapat subjektif dan belum teruji kebenarannya secara pasti."
+  },
+  {
+    "category": "SMP",
+    "text": "Kalimat berikut yang merupakan fakta adalah …",
+    "options": ["Bumi mengelilingi matahari.", "Indonesia adalah negara paling indah.", "Makanan itu terasa sangat lezat.", "Hari ini udaranya sangat dingin."],
+    "correct": "Bumi mengelilingi matahari.",
+    "explanation": "Peristiwa bumi mengelilingi matahari adalah kenyataan ilmiah (fakta)."
+  },
+  {
+    "category": "SMP",
+    "text": "Struktur teks prosedur yang tepat secara berurutan adalah …",
+    "options": ["Tujuan - Langkah-langkah - Alat/Bahan", "Tujuan - Alat/Bahan - Langkah-langkah", "Langkah-langkah - Tujuan - Simpulan", "Alat/Bahan - Langkah-langkah - Tujuan"],
+    "correct": "Tujuan - Alat/Bahan - Langkah-langkah",
+    "explanation": "Teks prosedur dimulai dari tujuan, kebutuhan alat/bahan, lalu langkah-langkah."
+  },
+  {
+    "category": "SMP",
+    "text": "Puisi lama yang terdiri dari 4 baris dengan rima a-b-a-b disebut …",
+    "options": ["gurindam", "pantun", "syair", "seloka"],
+    "correct": "pantun",
+    "explanation": "Pantun bersajak a-b-a-b, baris 1-2 sampiran, baris 3-4 isi."
+  },
+  {
+    "category": "SMP",
+    "text": "Syarat utama dari kalimat efektif adalah …",
+    "options": ["menggunakan kata-kata puitis", "jelas, hemat kata, dan sesuai PUEBI/EYD", "kalimatnya sangat panjang", "menggunakan banyak kata ulang"],
+    "correct": "jelas, hemat kata, dan sesuai PUEBI/EYD",
+    "explanation": "Kalimat efektif harus hemat kata, logis, dan sesuai kaidah tata bahasa."
+  },
+  {
+    "category": "SMP",
+    "text": "Kata-kata yang memuat urutan waktu seperti 'kemudian', 'setelah itu', dan 'lalu' disebut konjungsi …",
+    "options": ["kausalitas", "kronologis/temporal", "syarat", "pertentangan"],
+    "correct": "kronologis/temporal",
+    "explanation": "Konjungsi temporal menyatakan urutan waktu kejadian."
+  },
+  {
+    "category": "SMP",
+    "text": "Bagan/skema yang menunjukkan tahapan kejadian dalam cerita dinamakan …",
+    "options": ["alur/plot", "setting", "penokohan", "amanat"],
+    "correct": "alur/plot",
+    "explanation": "Alur adalah jalinan atau urutan peristiwa dalam cerita."
+  },
+  {
+    "category": "SMP",
+    "text": "Struktur cerpen yang berisi pengenalan tokoh dan latar cerita disebut …",
+    "options": ["komplikasi", "orientasi", "resolusi", "koda"],
+    "correct": "orientasi",
+    "explanation": "Orientasi adalah bagian awal penentu latar dan pengenalan tokoh."
+  },
+  {
+    "category": "SMP",
+    "text": "Unsur intrik/masalah puncak dalam cerita rekaan disebut …",
+    "options": ["orientasi", "klimaks", "resolusi", "koda"],
+    "correct": "klimaks",
+    "explanation": "Klimaks adalah puncak konflik dalam alur cerita."
+  },
+  {
+    "category": "SMP",
+    "text": "Teks yang menggambarkan suatu objek secara jelas sehingga pembaca seolah melihat sendiri disebut teks …",
+    "options": ["deskripsi", "narasi", "persuasi", "argumentasi"],
+    "correct": "deskripsi",
+    "explanation": "Teks deskripsi menggambarkan objek dengan merangsang pancaindra."
+  },
+  {
+    "category": "SMP",
+    "text": "Kata yang mengalami perluasan makna (generalisasi) contohnya pada kata …",
+    "options": ["saudara", "sarjana", "pendeta", "madrasah"],
+    "correct": "saudara",
+    "explanation": "Dahulu 'saudara' berarti adik/kakak kandung, kini meluas untuk menyapa siapa saja."
+  },
+  {
+    "category": "SMP",
+    "text": "Imbuhan ber- pada kata 'bersepeda' memiliki arti …",
+    "options": ["memakai", "mengendarai/menggunakan", "membuat", "mempunyai"],
+    "correct": "mengendarai/menggunakan",
+    "explanation": "Bersepeda artinya mengendarai sepeda."
+  },
+  {
+    "category": "SMP",
+    "text": "Berikut yang merupakan contoh kata baku adalah …",
+    "options": ["apotik", "apotek", "apoteq", "apotick"],
+    "correct": "apotek",
+    "explanation": "Bentuk baku dalam KBBI adalah apotek (dengan e)."
+  },
+  {
+    "category": "SMP",
+    "text": "Kata 'kreativitas' adalah kata baku. Bentuk tidak bakunya yang sering salah ditulis adalah …",
+    "options": ["kreatifitas", "kreatipitas", "kreative", "kreatip"],
+    "correct": "kreatifitas",
+    "explanation": "Penggunaan huruf 'f' pada kata reapan imbuhan -itas salah; yang benar 'v' (kreativitas)."
+  },
+  {
+    "category": "SMP",
+    "text": "Iklan yang bertujuan mengajak masyarakat melakukan hal positif tanpa mencari keuntungan dinamakan iklan …",
+    "options": ["komersial", "layanan masyarakat", "penawaran", "pemberitahuan"],
+    "correct": "layanan masyarakat",
+    "explanation": "Iklan layanan masyarakat berfokus pada kepentingan sosial non-profit."
+  },
+  {
+    "category": "SMP",
+    "text": "Unsur berita 5W+1H dalam bahasa Indonesia sering disingkat menjadi …",
+    "options": ["ADIKSIMBA", "PANCASILA", "SPOK", "MEGABIT"],
+    "correct": "ADIKSIMBA",
+    "explanation": "Apa, Di mana, Kapan, Siapa, Mengapa, Bagaimana (ADIKSIMBA)."
+  },
+  {
+    "category": "SMP",
+    "text": "Latar tempat, waktu, dan suasana dalam cerita dinamakan …",
+    "options": ["alur", "setting/latar", "tema", "amanat"],
+    "correct": "setting/latar",
+    "explanation": "Latar (setting) melingkupi tempat, waktu, dan suasana peristiwa."
+  },
+  {
+    "category": "SMP",
+    "text": "Puisi lama berupa 'Gurindam' memiliki aturan utama yaitu …",
+    "options": ["terdiri dari 2 baris tiap bait dan berima a-a", "terdiri dari 4 baris berima a-b-a-b", "terdiri dari 8 baris", "tidak terikat rima"],
+    "correct": "terdiri dari 2 baris tiap bait dan berima a-a",
+    "explanation": "Gurindam terdiri atas 2 baris sebait dengan rima sama (a-a)."
+  },
+  {
+    "category": "SMP",
+    "text": "Sudut pandang tokoh 'Aku' dalam sebuah cerita rekaan dinamakan sudut pandang …",
+    "options": ["orang pertama", "orang kedua", "orang ketiga", "campuran"],
+    "correct": "orang pertama",
+    "explanation": "Kata ganti 'Aku/Saya' menandakan sudut pandang orang pertama."
+  },
+  {
+    "category": "SMP",
+    "text": "Rangkuman singkat yang memuat gagasan umum sebuah buku/karangan disebut …",
+    "options": ["sinopsis", "biografi", "indeks", "glosarium"],
+    "correct": "sinopsis",
+    "explanation": "Sinopsis adalah ikhtisar atau ringkasan karangan/cerita."
+  },
+  {
+    "category": "SMP",
+    "text": "Sebab-akibat fenomena alam dibahas secara ilmiah dalam teks …",
+    "options": ["eksplanasi", "eksposisi", "narasi", "persuasi"],
+    "correct": "eksplanasi",
+    "explanation": "Teks eksplanasi menceritakan proses terjadinya fenomena alam/sosial."
+  },
+  {
+    "category": "SMP",
+    "text": "Majas yang menyatukan kata-kata berlebihan untuk melebih-lebihkan kenyataan disebut …",
+    "options": ["litotes", "hiperbola", "ironi", "metonymia"],
+    "correct": "hiperbola",
+    "explanation": "Hiperbola membesar-besarkan sesuatu secara berlebihan (contoh: memeras keringat)."
+  },
+  {
+    "category": "SMP",
+    "text": "Kumpulan kalimat yang membicarakan satu gagasan utama disebut …",
+    "options": ["wacana", "paragraf", "klausul", "frasa"],
+    "correct": "paragraf",
+    "explanation": "Paragraf adalah paduan kalimat yang mengusung satu ide pokok."
+  },
+  {
+    "category": "SMP",
+    "text": "Penulisan daftar pustaka yang benar berdasarkan urutannya adalah …",
+    "options": ["Nama Penulis. Tahun. Judul Buku. Kota: Penerbit.", "Judul Buku. Nama Penulis. Tahun. Kota.", "Kota. Penerbit. Nama Penulis. Tahun.", "Tahun. Nama Penulis. Judul Buku. Kota."],
+    "correct": "Nama Penulis. Tahun. Judul Buku. Kota: Penerbit.",
+    "explanation": "Urutan umum standar daftar pustaka: Nama (dibalik). Tahun. Judul. Kota: Penerbit."
+  },
+  {
+    "category": "SMP",
+    "text": "Istilah 'Diksi' dalam pengubahan dan penulisan karya sastra berarti …",
+    "options": ["pilihan kata", "gaya penulisan", "panjang kalimat", "keindahan sajak"],
+    "correct": "pilihan kata",
+    "explanation": "Diksi adalah pemilihan kata yang tepat dan selaras dalam menyampaikan gagasan."
+  },
+
+  /* ================= SMA (30 SOAL) ================= */
+  {
+    "category": "SMA",
+    "text": "Teks yang bertujuan meyakinkan pembaca melalui argumen dan data logis disebut teks …",
+    "options": ["argumentasi", "narasi", "deskripsi", "eksplanasi"],
+    "correct": "argumentasi",
+    "explanation": "Argumentasi menyajikan alasan, bukti, dan data untuk meyakinkan pembaca."
+  },
+  {
+    "category": "SMA",
+    "text": "Struktur teks editorial terdiri dari tiga bagian utama, yaitu …",
+    "options": ["Pengenalan isu (Tesis) - Penyampaian argumen - Penegasan ulang", "Orientasi - Komplikasi - Resolusi", "Pernyataan umum - Deretan penjelas - Interpretasi", "Tujuan - Bahan - Langkah-langkah"],
+    "correct": "Pengenalan isu (Tesis) - Penyampaian argumen - Penegasan ulang",
+    "explanation": "Teks editorial memuat tesis/isu, argumen redaksi, dan penegasan kembali."
+  },
+  {
+    "category": "SMA",
+    "text": "Kritik atau sindiran halus yang menggunakan kata-kata bertolak belakang dengan kenyataan disebut majas …",
+    "options": ["ironi", "sinisme", "sarkasme", "alegori"],
+    "correct": "ironi",
+    "explanation": "Ironi adalah sindiran halus (contoh: Bersih sekali kamarmu sampai sampah berserakan)."
+  },
+  {
+    "category": "SMA",
+    "text": "Bagian novel yang memuat penyelesaian dari konflik utama dinamakan …",
+    "options": ["evaluasi", "resolusi", "orientasi", "koda"],
+    "correct": "resolusi",
+    "explanation": "Resolusi memberikan solusi atas konflik yang dialami para tokoh."
+  },
+  {
+    "category": "SMA",
+    "text": "Perubahan makna kata yang menyebabkan makna baru menjadi lebih terhormat/halus disebut …",
+    "options": ["ameliorasi", "peyorasi", "spesialisasi", "sinestesia"],
+    "correct": "ameliorasi",
+    "explanation": "Ameliorasi adalah penghalusan makna (contoh: 'tuna netra' untuk 'buta')."
+  },
+  {
+    "category": "SMA",
+    "text": "Ciri utama dari kalimat imperatif dalam teks prosedur atau protokol adalah memuat …",
+    "options": ["kata kerja perintah atau ajakan", "pendapat pribadi", "pertanyaan terbuka", "data angka statistik"],
+    "correct": "kata kerja perintah atau ajakan",
+    "explanation": "Kalimat imperatif berfungsi memberi perintah, larangan, atau ajakan."
+  },
+  {
+    "category": "SMA",
+    "text": "Makna lugas atau makna sebenarnya sesuai kamus dinamakan makna …",
+    "options": ["konotatif", "denotatif", "asosiatif", "figuratif"],
+    "correct": "denotatif",
+    "explanation": "Denotatif adalah makna eksplisit/sebenarnya tanpa kiasan."
+  },
+  {
+    "category": "SMA",
+    "text": "Majas sindiran yang sangat kasar dan terang-terangan dinamakan majas …",
+    "options": ["ironi", "sinisme", "sarkasme", "paradoks"],
+    "correct": "sarkasme",
+    "explanation": "Sarkasme menggunakan kata-kata kasar untuk menyinggung langsung."
+  },
+  {
+    "category": "SMA",
+    "text": "Penulisan ejaan judul makalah berikut yang paling sesuai EYD/PUEBI adalah …",
+    "options": ["Peran Pemuda Dalam Pembangunan Bangsa", "Peran Pemuda dalam Pembangunan Bangsa", "PERAN PEMUDA DALAM PEMBANGUNAN BANGSA", "Peran pemuda Dalam pembangunan bangsa"],
+    "correct": "Peran Pemuda dalam Pembangunan Bangsa",
+    "explanation": "Kata hubung/depan seperti 'dalam' ditulis dengan huruf kecil pada judul."
+  },
+  {
+    "category": "SMA",
+    "text": "Teks ulasan buku atau karya seni dinamakan …",
+    "options": ["resensi", "proposal", "makalah", "artikel ilmiah"],
+    "correct": "resensi",
+    "explanation": "Resensi berisi penilaian, kelebihan, dan kekurangan suatu karya."
+  },
+  {
+    "category": "SMA",
+    "text": "Penggunaan bahasa baku sangat diwajibkan dalam penulisan …",
+    "options": ["surat pribadi", "surat resmi/dinas", "novel karangan", "puisi kontemporer"],
+    "correct": "surat resmi/dinas",
+    "explanation": "Surat resmi/dinas harus tunduk pada kaidah bahasa ragam baku."
+  },
+  {
+    "category": "SMA",
+    "text": "Isi dari bagian latar belakang dalam sebuah proposal penelitian adalah …",
+    "options": ["alasan atau pemikiran mendasari pentingnya penelitian", "rincian anggaran biaya", "jadwal kegiatan harian", "biodata lengkap peneliti"],
+    "correct": "alasan atau pemikiran mendasari pentingnya penelitian",
+    "explanation": "Latar belakang menjelaskan urgensi dan alasan dilakukannya penelitian."
+  },
+  {
+    "category": "SMA",
+    "text": "Kalimat negosiasi yang berisikan proses tawar-menawar dinamakan tahap …",
+    "options": ["orientasi", "pengajuan dan penawaran", "persetujuan", "penutup"],
+    "correct": "pengajuan dan penawaran",
+    "explanation": "Inti negosiasi terjadi pada tahap pengajuan usulan dan penawaran balik."
+  },
+  {
+    "category": "SMA",
+    "text": "Kalimat 'Pengembangan teknologi AI sangat pesat, tetapi dampaknya harus diantisipasi.' Kata 'tetapi' berfungsi sebagai konjungsi …",
+    "options": ["intrakalimat pertentangan", "antarkalimat", "kausalitas", "korelatif"],
+    "correct": "intrakalimat pertentangan",
+    "explanation": "Kata 'tetapi' adalah konjungsi koordinatif intrakalimat yang menyatakan pertentangan."
+  },
+  {
+    "category": "SMA",
+    "text": "Inti dari struktur debat yang baik terdiri dari tim …",
+    "options": ["Afirmatif, Oposisi, dan Netral", "Protagonis, Antagonis, dan Tritagonis", "Moderator, Notulis, dan Penonton", "Penulis, Editor, dan Pembaca"],
+    "correct": "Afirmatif, Oposisi, dan Netral",
+    "explanation": "Debat formal melibatkan tim Afirmatif (pro), Oposisi (kontra), dan Netral."
+  },
+  {
+    "category": "SMA",
+    "text": "Proses menarik simpulan umum berdasarkan kasus-kasus khusus dinamakan penalaran …",
+    "options": ["deduktif", "induktif", "analogi", "silogisme"],
+    "correct": "induktif",
+    "explanation": "Penalaran induktif bertolak dari hal-hal khusus menuju simpulan umum."
+  },
+  {
+    "category": "SMA",
+    "text": "Makna imbuhan ter- pada kata 'terbawa' yang bermakna tidak sengaja adalah …",
+    "options": ["paling", "dapat di-", "tidak sengaja", "dalam keadaan"],
+    "correct": "tidak sengaja",
+    "explanation": "Terbawa berarti tidak sengaja dibawa."
+  },
+  {
+    "category": "SMA",
+    "text": "Struktur teks anekdot secara berurutan meliputi …",
+    "options": ["Abstraksi - Orientasi - Krisis - Reaksi - Koda", "Orientasi - Komplikasi - Resolusi", "Tesis - Argumen - Penegasan", "Pernyataan - Pembuktian - Simpulan"],
+    "correct": "Abstraksi - Orientasi - Krisis - Reaksi - Koda",
+    "explanation": "Anekdot dibangun oleh abstrak, orientasi, krisis (puncak sindiran), reaksi, dan koda."
+  },
+  {
+    "category": "SMA",
+    "text": "Penggunaan frasa 'sangat luas sekali' dianggap tidak efektif karena mengalami …",
+    "options": ["pleonasme (pemborosan kata)", "hiperbola", "kontradiksi", "ambigu"],
+    "correct": "pleonasme (pemborosan kata)",
+    "explanation": "Kata 'sangat' dan 'sekali' memiliki fungsi sama, memakainya bersamaan adalah pleonasme."
+  },
+  {
+    "category": "SMA",
+    "text": "Sebuah paragraf yang berisi perincian fakta tanpa ada unsur opini disebut paragraf …",
+    "options": ["eksposisi/ekplanasi murni", "persuasi", "argumentasi", "narasi sugestif"],
+    "correct": "eksposisi/ekplanasi murni",
+    "explanation": "Eksposisi bertujuan memberikan informasi ilmiah secara objektif."
+  },
+  {
+    "category": "SMA",
+    "text": "Unsur ekstrinsik karya sastra mencakup hal-hal berikut, KECUALI …",
+    "options": ["latar belakang sosial pengarang", "kondisi zaman saat karya ditulis", "nilai moral & budaya masyarakat", "tema dan perwatakan tokoh"],
+    "correct": "tema dan perwatakan tokoh",
+    "explanation": "Tema dan perwatakan adalah bagian dari unsur intrinsik (dalam karya)."
+  },
+  {
+    "category": "SMA",
+    "text": "Sudut pandang di mana pengarang berada di luar cerita dan mengetahui seluruh pikiran tokoh disebut sudut pandang …",
+    "options": ["orang ketiga serbatahu", "orang pertama pelaku utama", "orang pertama pelaku sampingan", "orang kedua"],
+    "correct": "orang ketiga serbatahu",
+    "explanation": "Orang ketiga serbatahu mengarahkan tokoh dengan 'dia/mereka' dan tahu segala isi pikiran tokoh."
+  },
+  {
+    "category": "SMA",
+    "text": "Kata bentukan berimbuhan me-kan yang tepat pada kata 'cuci' adalah …",
+    "options": ["mencucikan", "menyucikan", "mencuci", "penyucian"],
+    "correct": "mencucikan",
+    "explanation": "Huruf 'c' tidak luluh saat diberi prefiks me-, sehingga menjadi mencucikan."
+  },
+  {
+    "category": "SMA",
+    "text": "Pergeseran makna kata dari yang khusus menjadi lebih umum disebut …",
+    "options": ["sinestesia", "generalisasi", "spesialisasi", "peyorasi"],
+    "correct": "generalisasi",
+    "explanation": "Generalisasi adalah perluasan cakupan makna suatu kata."
+  },
+  {
+    "category": "SMA",
+    "text": "Contoh kalimat bermajas 'paradoks' adalah …",
+    "options": ["Ia merasa kesepian di tengah keramaian kota.", "Suaranya menggelegar membelah angkasa.", "Pena itu menari-nari di atas kertas.", "Hatinya sekeras batu."],
+    "correct": "Ia merasa kesepian di tengah keramaian kota.",
+    "explanation": "Paradoks mengemukakan hal yang seolah bertentangan tetapi nyata (kesepian vs keramaian)."
+  },
+  {
+    "category": "SMA",
+    "text": "Ringkasan tulisan ilmiah yang biasanya diletakkan di halaman depan dinamakan …",
+    "options": ["abstrak", "kesimpulan", "pendahuluan", "lampiran"],
+    "correct": "abstrak",
+    "explanation": "Abstrak berisi ringkasan singkat dari seluruh isi penelitian ilmiah."
+  },
+  {
+    "category": "SMA",
+    "text": "Ciri khas dari teks hikayat (sastra Melayu Klasik) adalah …",
+    "options": ["kemustahilan dan kesaktian tokoh", "menggunakan bahasa gaul modern", "ditulis berdasarkan data statistik", "berfokus pada kehidupan perkotaan"],
+    "correct": "kemustahilan dan kesaktian tokoh",
+    "explanation": "Hikayat kental dengan cerita istanasentris, kesaktian, dan peristiwa tidak logis."
+  },
+  {
+    "category": "SMA",
+    "text": "Penulisan gabungan kata yang benar di bawah ini adalah …",
+    "options": ["tanggungjawab", "tanggung jawab", "tanggung-jawab", "tanggungjawabnya"],
+    "correct": "tanggung jawab",
+    "explanation": "Kata majemuk tanpa imbuhan apitan ditulis terpisah (tanggung jawab)."
+  },
+  {
+    "category": "SMA",
+    "text": "Kalimat 'Ia tetap berangkat kerja meskipun hujan turun dengan lebat.' menggunakan frasa subordinatif hubungan …",
+    "options": ["konsesif (pengakuan/pertentangan halus)", "syarat", "tujuan", "sebab"],
+    "correct": "konsesif (pengakuan/pertentangan halus)",
+    "explanation": "Kata 'meskipun/walaupun' menandakan hubungan konsesif."
+  },
+  {
+    "category": "SMA",
+    "text": "Kritik sastra yang berfokus pada keaslian nilai estetika teks itu sendiri tanpa memedulikan biografi pengarang dinamakan pendekatan …",
+    "options": ["mimetik", "pragmatik", "formalistik/objektif", "ekspresif"],
+    "correct": "formalistik/objektif",
+    "explanation": "Pendekatan formalistik meneliti karya sastra dari struktur internal/otonomnya saja."
+  }
+]
 ]
