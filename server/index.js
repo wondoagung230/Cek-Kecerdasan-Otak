@@ -10,15 +10,30 @@ const io = new Server(server, {
   cors: { origin: "*" }
 });
 
+// Tentukan lokasi statis folder public
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, '../public')));
 
-const questionsPath = path.join(__dirname, '../public/questions.json');
+// Pencarian file questions.json secara otomatis di berbagai lokasi
+let questionsPath = path.join(__dirname, 'public', 'questions.json');
+
+if (!fs.existsSync(questionsPath)) {
+  questionsPath = path.join(__dirname, '../public/questions.json');
+}
+if (!fs.existsSync(questionsPath)) {
+  questionsPath = path.join(__dirname, 'questions.json');
+}
+
 let questions = [];
 try {
-  questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
-  console.log(`Loaded ${questions.length} questions`);
+  if (fs.existsSync(questionsPath)) {
+    questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
+    console.log(`✅ Berhasil memuat ${questions.length} soal dari: ${questionsPath}`);
+  } else {
+    console.error('❌ File questions.json tidak ditemukan di semua lokasi pencarian!');
+  }
 } catch (err) {
-  console.error('Gagal load questions.json:', err.message);
+  console.error('❌ Gagal membaca atau memformat questions.json:', err.message);
 }
 
 const rooms = new Map();
@@ -57,7 +72,7 @@ io.on('connection', (socket) => {
       currentQuestion: null,
       isPlaying: false,
       timer: null,
-      nextTimeout: null, // Menyimpan timeout jeda otomatis
+      nextTimeout: null,
       timeLeft: 0,
       answered: new Set(),
       usedQuestionIds: new Set(),
@@ -110,7 +125,7 @@ io.on('connection', (socket) => {
       room.nextTimeout = null;
     }
 
-    // Batas 15 soal → reset poin
+    // Reset poin jika sudah mencapai 15 soal
     if (room.questionCount >= MAX_QUESTIONS) {
       for (const id of room.players.keys()) {
         room.scores[id] = 0;
@@ -143,7 +158,7 @@ io.on('connection', (socket) => {
 
     const question = unused[Math.floor(Math.random() * unused.length)];
     room.currentQuestion = question;
-    room.usedQuestionIds.add(question.id);
+    if (question.id) room.usedQuestionIds.add(question.id);
     room.isPlaying = true;
     room.answered.clear();
     room.timeLeft = 20;
@@ -238,7 +253,6 @@ io.on('connection', (socket) => {
 
     socket.emit('answerFeedback', { isCorrect, points });
 
-    // Kirim statistik real-time ke Host
     io.to(room.host).emit('playerAnswered', {
       nickname: player.nickname,
       isCorrect,
