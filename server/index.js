@@ -21,11 +21,11 @@ if (!fs.existsSync(questionsPath)) {
   questionsPath = path.join(process.cwd(), 'public/questions.json');
 }
 if (!fs.existsSync(questionsPath)) {
-  // Coba jikaquestions.json ada langsung di folder public tanpa ../
+  // Coba jika questions.json ada langsung di folder public tanpa ../
   questionsPath = path.join(__dirname, 'public/questions.json');
 }
 if (!fs.existsSync(questionsPath)) {
-  // Coba jikaquestions.json ada di root folder
+  // Coba jika questions.json ada di root folder
   questionsPath = path.join(process.cwd(), 'questions.json');
 }
 
@@ -143,8 +143,14 @@ io.on('connection', (socket) => {
       io.to(roomCode).emit('playerList', getPlayerList(room));
     }
 
-// Biar fleksibel, abaikan spasi & perbedaan huruf besar/kecil
-    const selectedCategory = (category || room.category || 'Semua').trim().toUpperCase();
+    // --- BAGIAN YANG DIPERBAIKI ---
+    // Update kategori di objek room jika ada param category yang baru dikirim
+    if (category) {
+      room.category = category;
+    }
+
+    // Biar fleksibel, abaikan spasi & perbedaan huruf besar/kecil
+    const selectedCategory = (room.category || 'Semua').trim().toUpperCase();
 
     let available = questions;
     if (selectedCategory !== 'SEMUA') {
