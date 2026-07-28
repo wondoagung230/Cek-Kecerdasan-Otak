@@ -13,19 +13,32 @@ const io = new Server(server, {
 // Arahkan folder statis public dengan benar dari dalam folder server/
 app.use(express.static(path.join(__dirname, '../public')));
 
-// Path ke questions.json (keluar dari folder 'server' lalu masuk ke 'public')
-const questionsPath = path.join(__dirname, '../public/questions.json');
+// --- CARI FILE QUESTIONS.JSON DI SEMUA KEMUNGKINAN LOKASI ---
+let questionsPath = path.join(__dirname, '../public/questions.json');
+
+if (!fs.existsSync(questionsPath)) {
+  // Coba jika folder public sejajar dengan folder tempat server berjalan
+  questionsPath = path.join(process.cwd(), 'public/questions.json');
+}
+if (!fs.existsSync(questionsPath)) {
+  // Coba jikaquestions.json ada langsung di folder public tanpa ../
+  questionsPath = path.join(__dirname, 'public/questions.json');
+}
+if (!fs.existsSync(questionsPath)) {
+  // Coba jikaquestions.json ada di root folder
+  questionsPath = path.join(process.cwd(), 'questions.json');
+}
 
 let questions = [];
 try {
   if (fs.existsSync(questionsPath)) {
     questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
-    console.log(`✅ Berhasil memuat ${questions.length} soal dari: ${questionsPath}`);
+    console.log(`✅ BERHASIL! Memuat ${questions.length} soal dari path: ${questionsPath}`);
   } else {
-    console.error(`❌ File TIDAK ditemukan di: ${questionsPath}`);
+    console.error(`❌ GAGAL! File questions.json TIDAK DITEMUKAN di path manapun!`);
   }
 } catch (err) {
-  console.error('❌ Gagal membaca questions.json:', err.message);
+  console.error(`❌ ERROR SINTAKS JSON! Gagal membaca questions.json:`, err.message);
 }
 
 const rooms = new Map();
