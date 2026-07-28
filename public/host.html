@@ -240,40 +240,36 @@
       document.getElementById('answeredCounter').textContent = `Pemain Menjawab: ${count} / ${totalPlayersCount}`;
     }
 
-    socket.on('questionEnded', (data) => {
-      isPlaying = false;
-      document.getElementById('questionContent').classList.add('hidden');
-      document.getElementById('resultBox').classList.remove('hidden');
-      document.getElementById('nextBtn').disabled = false;
-      document.getElementById('nextBtn').classList.remove('opacity-50');
+socket.on('questionEnded', (data) => {
+  // Sembunyikan container soal
+  document.getElementById('question-box').style.display = 'none';
+  
+  // Tampilkan pembahasan kunci jawaban
+  document.getElementById('explanation-box').style.display = 'block';
+  document.getElementById('correct-answer-text').innerText = data.correct;
+  document.getElementById('explanation-text').innerText = data.explanation;
 
-      document.getElementById('correctAnswer').textContent = data.correct;
-      document.getElementById('explanation').textContent = data.explanation;
+  // JANGAN tampilkan papan skor keseluruhan dulu di sini
+  document.getElementById('leaderboard-box').style.display = 'none';
+});
 
-      const lb = document.getElementById('tempLeaderboard');
-      lb.innerHTML = data.scores.map((s, i) => `
-        <div class="flex justify-between items-center bg-white/10 rounded-xl px-5 py-3">
-          <span class="font-medium">${i+1}. ${s.nickname}</span>
-          <span class="font-bold text-xl">${s.score}</span>
-        </div>
-      `).join('');
-
-      updatePlayerList(data.scores);
-    });
-
-    socket.on('gameFinished', (data) => {
-      document.getElementById('qCounter').textContent = 'Soal: 0/15';
-      document.getElementById('waiting').classList.remove('hidden');
-      document.getElementById('questionContent').classList.add('hidden');
-      document.getElementById('resultBox').classList.add('hidden');
-      document.getElementById('nextBtn').disabled = false;
-      document.getElementById('nextBtn').classList.remove('opacity-50');
-      isPlaying = false;
-      playerAnswers = {};
-
-      // Tampilkan Podium
-      showPodium(data.scores);
-    });
+socket.on('gameFinished', (data) => {
+  // Sembunyikan box pembahasan
+  document.getElementById('explanation-box').style.display = 'none';
+  
+  // Tampilkan Papan Skor / Klasemen Akhir
+  const leaderboardBox = document.getElementById('leaderboard-box');
+  leaderboardBox.style.display = 'block';
+  
+  // Render daftar juara (Juara 1, 2, 3, dst)
+  let html = `<h2>🏆 HASIL AKHIR PERMAINAN 🏆</h2><ol>`;
+  data.scores.forEach(player => {
+    html += `<li><strong>${player.nickname}</strong>: ${player.score} Poin</li>`;
+  });
+  html += `</ol>`;
+  
+  leaderboardBox.innerHTML = html;
+});
 
     function showPodium(scores) {
       if (!scores || scores.length === 0) return;

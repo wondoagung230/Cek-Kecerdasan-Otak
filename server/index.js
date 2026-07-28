@@ -203,7 +203,7 @@ io.on('connection', (socket) => {
     }, 1000);
   }
 
-  function endQuestion(roomCode) {
+function endQuestion(roomCode) {
     const room = rooms.get(roomCode);
     if (!room || !room.isPlaying) return;
 
@@ -213,30 +213,52 @@ io.on('connection', (socket) => {
     }
     room.isPlaying = false;
 
+    // Hitung total skor seluruh pemain saat ini
     const scores = getPlayerList(room).sort((a, b) => b.score - a.score);
 
+    // Cek apakah ini sudah soal terakhir (15)
+    const isFinalQuestion = room.questionCount >= MAX_QUESTIONS;
+
+    // Kirim event soal berakhir ke semua orang
     io.to(roomCode).emit('questionEnded', {
       correct: room.currentQuestion.correct,
       explanation: room.currentQuestion.explanation || '',
-      scores,
       questionNumber: room.questionCount,
-      maxQuestions: MAX_QUESTIONS
+      maxQuestions: MAX_QUESTIONS,
+      isFinalQuestion: isFinalQuestion // Penanda apakah game sudah tamat
     });
 
-    if (room.questionCount >= MAX_QUESTIONS) {
+    if (isFinalQuestion) {
+      // Tunggu jeda singkat (misal 3 detik) agar pemain sempat melihat jawaban benar soal ke-15
       room.nextTimeout = setTimeout(() => {
+        // Tampilkan papan skor akhir keseluruhan
+        io.to(roomCode).emit('gameFinished', {
+          message: '15 Soal telah selesai! Berikut adalah hasil akhir permainan:',
+          scores: scores // Kirim data skor akhir di sini
+        });
+
+        // Reset poin & counter untuk game selanjutnya
         for (const id of room.players.keys()) {
           room.scores[id] = 0;
         }
         room.questionCount = 0;
         room.usedQuestionIds.clear();
-
-        io.to(roomCode).emit('gameFinished', {
-          message: '15 soal telah selesai! Permainan berhenti.',
-          scores
-        });
         io.to(roomCode).emit('playerList', getPlayerList(room));
-      }, 5000);
+      }, 3000);
+
+      return;
+    }
+
+    // Jika belum soal ke-15, lanjut ke soal berikutnya secara otomatis setelah 5 detik
+    room.nextTimeout = setTimeout(() => {
+      if (rooms.has(roomCode)) {
+        const r = rooms.get(roomCode);
+        const hostSocket = [...io.sockets.sockets.values()].find(s => s.id === r.host);
+        if (hostSocket) {
+          startNextQuestion(roomCode, r.category, hostSocket);
+        }
+      }
+    }, 5000);
 
       return;
     }
