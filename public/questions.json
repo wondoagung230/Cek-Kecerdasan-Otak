@@ -3144,7 +3144,7 @@
     "explanation": "Dinasti Sailendra"
   },
   {
-	"id": 394,
+    "id": 394,
     "category": "SD",
     "text": "Sinonim dari kata 'gembira' adalah …",
     "options": ["sedih", "senang", "marah", "takut"],
@@ -3152,7 +3152,7 @@
     "explanation": "Gembira memiliki arti yang sama dengan senang."
   },
   {
-	"id": 395,
+    "id": 395,
     "category": "SD",
     "text": "Antonim dari kata 'gelap' adalah …",
     "options": ["malam", "terang", "suram", "hitam"],
@@ -3160,7 +3160,7 @@
     "explanation": "Lawan kata (antonim) dari gelap adalah terang."
   },
   {
-	"id": 396,
+    "id": 396,
     "category": "SD",
     "text": "Kalimat berikut yang menggunakan tanda titik (.) dengan tepat adalah …",
     "options": ["Ibu membeli sayur.", "Ibu membeli sayur?", "Ibu membeli sayur!", "Ibu membeli sayur,"],
@@ -3168,7 +3168,7 @@
     "explanation": "Kalimat berita/deklaratif diakhiri dengan tanda titik."
   },
   {
-	"id": 397,
+    "id": 397,
     "category": "SD",
     "text": "Kata dasar dari 'menulis' adalah …",
     "options": ["nulis", "tulis", "tuliskan", "penulis"],
@@ -3176,7 +3176,7 @@
     "explanation": "Imbuhan me- + tulis menjadi menulis."
   },
   {
-	"id": 398,
+    "id": 398,
     "category": "SD",
     "text": "Siswa belajar di ruang …",
     "options": ["dapur", "kelas", "garasi", "kamar mandi"],
@@ -3184,7 +3184,7 @@
     "explanation": "Tempat siswa belajar di sekolah adalah ruang kelas."
   },
   {
-	"id": 399,
+    "id": 399,
     "category": "SD",
     "text": "Ibu memotong sayuran menggunakan …",
     "options": ["sendok", "garpu", "pisau", "piring"],
@@ -3192,7 +3192,7 @@
     "explanation": "Pisau adalah alat untuk memotong."
   },
   {
-	"id": 400,
+    "id": 400,
     "category": "SD",
     "text": "Kalimat yang berisi perintah diakhiri dengan tanda …",
     "options": ["tanya (?)", "titik (.)", "seru (!)", "Koma (,)"],
@@ -3200,7 +3200,7 @@
     "explanation": "Kalimat perintah diakhiri dengan tanda seru."
   },
   {
-	"id": 401,
+    "id": 401,
     "category": "SD",
     "text": "Ungkapan 'besar kepala' memiliki arti …",
     "options": ["kepalanya besar", "pandai", "sombong", "dermawan"],
@@ -3208,7 +3208,7 @@
     "explanation": "Besar kepala adalah ungkapan untuk orang yang sombong."
   },
   {
- 	"id": 402,
+    "id": 402,
     "category": "SD",
     "text": "Penulisan tempat dan tanggal lahir yang benar adalah …",
     "options": ["Jakarta 17 Agustus 2015", "Jakarta, 17 Agustus 2015", "Jakarta. 17 Agustus 2015", "Jakarta; 17 Agustus 2015"],
@@ -3216,7 +3216,7 @@
     "explanation": "Penulisan tempat dan tanggal dipisahkan dengan tanda koma."
   },
   {
-	"id": 403,
+    "id": 403,
     "category": "SD",
     "text": "Ungkapan 'buah tangan' berarti …",
     "options": ["buah-buahan", "oleh-oleh", "hasil karya", "anak"],
@@ -3224,7 +3224,7 @@
     "explanation": "Buah tangan artinya oleh-oleh."
   },
   {
-	"id": 404,
+    "id": 404,
     "category": "SD",
     "text": "Ayah membaca ... di ruang tamu setiap pagi.",
     "options": ["baju", "koran", "sepatu", "piring"],
@@ -3232,7 +3232,7 @@
     "explanation": "Benda yang dibaca untuk mendapatkan berita adalah koran."
   },
   {
-	  	"id": 405,
+    "id": 405,
     "category": "SD",
     "text": "Singkatan dari 'Sekolah Dasar' adalah …",
     "options": ["S.D", "SD", "s.d.", "S/D"],
@@ -3240,7 +3240,7 @@
     "explanation": "Singkatan nama lembaga/pendidikan memakai huruf kapital tanpa titik."
   },
   {
-	  	"id": 406,
+    "id": 406,
     "category": "SD",
     "text": "Pohon pisang berkembang biak dengan tunas. Kata 'berkembang biak' artinya …",
     "options": ["bertambah banyak", "bertambah tinggi", "menjadi layu", "gugur"],
@@ -3248,7 +3248,7 @@
     "explanation": "Berkembang biak berarti menghasilkan keturunan/bertambah banyak."
   },
   {
-	  	"id": 407,
+    "id": 407,
     "category": "SD",
     "text": "Lawan kata dari 'rajin' adalah …",
     "options": ["pandai", "malas", "cerdas", "tekun"],
@@ -3256,7 +3256,7 @@
     "explanation": "Antonim dari rajin adalah malas."
   },
   {
-	  	"id": 408,
+    "id": 408,
     "category": "SD",
     "text": "Dongeng yang menceritakan tentang kehidupan hewan dinamakan …",
     "options": ["fabel", "mite", "legenda", "sage"],
@@ -3264,7 +3264,7 @@
     "explanation": "Fabel adalah cerita rekaan yang tokohnya binatang."
   },
   {
-	  	"id": 409,
+    "id": 409,
     "category": "SD",
     "text": "Huruf kapital digunakan pada awal penulisan nama …",
     "options": ["benda", "orang", "makanan", "hewan"],
@@ -3272,7 +3272,7 @@
     "explanation": "Nama diri/orang harus diawali huruf kapital."
   },
   {
-	  	"id": 410,
+    "id": 410,
     "category": "SD",
     "text": "Budi sedang ... sepeda di lapangan.",
     "options": ["mendorong", "mengendarai", "mengayuh", "menarik"],
@@ -3280,7 +3280,7 @@
     "explanation": "Kata kerja yang tepat untuk menggerakkan sepeda adalah mengayuh."
   },
   {
-	  "id": 411,
+    "id": 411,
     "category": "SD",
     "text": "Kalimat yang menanyakan tempat adalah …",
     "options": ["Siapa namamu?", "Di mana rumahmu?", "Kapan kamu berangkat?", "Mengapa kamu menangis?"],
@@ -3288,7 +3288,7 @@
     "explanation": "Kata tanya 'di mana' digunakan untuk menanyakan tempat."
   },
   {
-	  "id": 412,
+    "id": 412,
     "category": "SD",
     "text": "Suara kucing berbunyi …",
     "options": ["guk guk", "kukuruyuk", "meong", "mbee"],
@@ -3296,7 +3296,7 @@
     "explanation": "Tiruan bunyi suara kucing adalah meong."
   },
   {
-	  "id": 413,
+    "id": 413,
     "category": "SD",
     "text": "Rani anak yang pintar. Sinonim kata 'pintar' adalah …",
     "options": ["pandai", "bodoh", "rajin", "ramah"],
@@ -3304,7 +3304,7 @@
     "explanation": "Pintar dan pandai memiliki arti yang sama."
   },
   {
-	  "id": 414,
+    "id": 414,
     "category": "SD",
     "text": "Adik menangis ... balonnya pecah.",
     "options": ["tetapi", "sebab", "dan", "atau"],
@@ -3312,7 +3312,7 @@
     "explanation": "Kata hubung 'sebab' menjelaskan alasan adik menangis."
   },
   {
-	  "id": 415,
+    "id": 415,
     "category": "SD",
     "text": "Tempat bertemunya penjual dan pembeli dinamakan …",
     "options": ["stasiun", "pasar", "terminal", "bandara"],
@@ -3320,7 +3320,7 @@
     "explanation": "Pasar adalah tempat kegiatan jual beli."
   },
   {
-	  "id": 416,
+    "id": 416,
     "category": "SD",
     "text": "Puisi anak biasanya terdiri dari beberapa …",
     "options": ["paragraf", "bait", "bab", "halaman"],
@@ -3328,7 +3328,7 @@
     "explanation": "Puisi tersusun atas baris-baris yang membentuk bait."
   },
   {
-	  "id": 417,
+    "id": 417,
     "category": "SD",
     "text": "Anak yang suka mencuri dinamakan …",
     "options": ["panjang tangan", "ringan tangan", "berat tangan", "lepas tangan"],
@@ -3336,7 +3336,7 @@
     "explanation": "Panjang tangan adalah ungkapan untuk orang yang suka mencuri."
   },
   {
-	  "id": 418,
+    "id": 418,
     "category": "SD",
     "text": "Pesan kebaikan yang terdapat dalam sebuah cerita disebut …",
     "options": ["tema", "amanat", "tokoh", "alur"],
@@ -3344,7 +3344,7 @@
     "explanation": "Amanat adalah pesan moral dari pengarang kepada pembaca."
   },
   {
-	  "id": 419,
+    "id": 419,
     "category": "SD",
     "text": "Bagus sekali tulisanmu! Kalimat tersebut merupakan kalimat …",
     "options": ["pujian", "kritikan", "perintah", "tanya"],
@@ -3352,7 +3352,7 @@
     "explanation": "Kalimat tersebut mengungkapkan kekaguman/pujian terhadap tulisan."
   },
   {
-	  "id": 420,
+    "id": 420,
     "category": "SD",
     "text": "Kata tanya untuk menanyakan jumlah adalah …",
     "options": ["berapa", "bagaimana", "siapa", "mengapa"],
@@ -3360,7 +3360,7 @@
     "explanation": "Kata tanya 'berapa' digunakan untuk menanyakan kuantitas/jumlah."
   },
   {
-	  "id": 421,
+    "id": 421,
     "category": "SD",
     "text": "Anak yang rajin belajar akan menjadi …",
     "options": ["pandai", "malas", "sombong", "nakal"],
@@ -3368,7 +3368,7 @@
     "explanation": "Akibat dari rajin belajar adalah menjadi pandai/pintar."
   },
   {
-	  "id": 422,
+    "id": 422,
     "category": "SD",
     "text": "Matahari terbit pada ... hari.",
     "options": ["pagi", "siang", "sore", "malam"],
@@ -3376,7 +3376,7 @@
     "explanation": "Matahari terbit menandakan dimulainya waktu pagi hari."
   },
   {
-	  "id": 423,
+    "id": 423,
     "category": "SD",
     "text": "Kata yang berlawanan arti disebut …",
     "options": ["sinonim", "antonim", "homonim", "akronim"],
@@ -3384,7 +3384,7 @@
     "explanation": "Antonim adalah istilah untuk lawan kata."
   },
   {
-	  "id": 424,
+    "id": 424,
     "category": "SMP",
     "text": "Teks yang berisi laporan hasil pengamatan terhadap suatu objek disebut teks …",
     "options": ["deskripsi", "LHO (Laporan Hasil Observasi)", "eksposisi", "eksplanasi"],
@@ -3392,7 +3392,7 @@
     "explanation": "Teks LHO berisi fakta hasil pengamatan objek secara sistematis."
   },
   {
-	  "id": 425,
+    "id": 425,
     "category": "SMP",
     "text": "Gaya bahasa yang membandingkan benda mati seolah-olah memiliki sifat manusia disebut majas …",
     "options": ["metafora", "personifikasi", "hiperbola", "simile"],
@@ -3400,7 +3400,7 @@
     "explanation": "Personifikasi menginsankan benda mati (contoh: angin berbisik)."
   },
   {
-	  "id": 426,
+    "id": 426,
     "category": "SMP",
     "text": "Gagasan utama yang menjadi inti pembahasan dalam suatu paragraf disebut …",
     "options": ["ide pokok", "kalimat penjelas", "simpulan", "tema"],
@@ -3408,7 +3408,7 @@
     "explanation": "Ide pokok / gagasan utama adalah inti dari sebuah paragraf."
   },
   {
-	  "id": 427,
+    "id": 427,
     "category": "SMP",
     "text": "Paragraf yang kalimat utamanya terletak di akhir paragraf dinamakan paragraf …",
     "options": ["deduktif", "induktif", "campuran", "inhabitatif"],
@@ -3416,7 +3416,7 @@
     "explanation": "Induktif = kalimat utama di akhir; Deduktif = di awal."
   },
   {
-	  "id": 428,
+    "id": 428,
     "category": "SMP",
     "text": "Ciri khas utama dari teks fabel adalah …",
     "options": ["tokohnya berupa hewan bertingkah laku manusia", "menceritakan asal-usul tempat", "menggunakan data ilmiah", "pembahasannya mengenai sejarah"],
@@ -3424,7 +3424,7 @@
     "explanation": "Fabel berfokus pada cerita hewan yang berkarakter seperti manusia."
   },
   {
-	  "id": 429,
+    "id": 429,
     "category": "SMP",
     "text": "Kalimat yang memuat pendapat atau gagasan subjektif penulis disebut kalimat …",
     "options": ["fakta", "opini", "langsung", "efektif"],
@@ -3432,7 +3432,7 @@
     "explanation": "Opini berisi pendapat subjektif dan belum teruji kebenarannya secara pasti."
   },
   {
-	  "id": 430,
+    "id": 430,
     "category": "SMP",
     "text": "Kalimat berikut yang merupakan fakta adalah …",
     "options": ["Bumi mengelilingi matahari.", "Indonesia adalah negara paling indah.", "Makanan itu terasa sangat lezat.", "Hari ini udaranya sangat dingin."],
@@ -3440,7 +3440,7 @@
     "explanation": "Peristiwa bumi mengelilingi matahari adalah kenyataan ilmiah (fakta)."
   },
   {
-	  "id": 431,
+    "id": 431,
     "category": "SMP",
     "text": "Struktur teks prosedur yang tepat secara berurutan adalah …",
     "options": ["Tujuan - Langkah-langkah - Alat/Bahan", "Tujuan - Alat/Bahan - Langkah-langkah", "Langkah-langkah - Tujuan - Simpulan", "Alat/Bahan - Langkah-langkah - Tujuan"],
@@ -3448,7 +3448,7 @@
     "explanation": "Teks prosedur dimulai dari tujuan, kebutuhan alat/bahan, lalu langkah-langkah."
   },
   {
-	  "id": 432,
+    "id": 432,
     "category": "SMP",
     "text": "Puisi lama yang terdiri dari 4 baris dengan rima a-b-a-b disebut …",
     "options": ["gurindam", "pantun", "syair", "seloka"],
@@ -3456,7 +3456,7 @@
     "explanation": "Pantun bersajak a-b-a-b, baris 1-2 sampiran, baris 3-4 isi."
   },
   {
-	  "id": 433,
+    "id": 433,
     "category": "SMP",
     "text": "Syarat utama dari kalimat efektif adalah …",
     "options": ["menggunakan kata-kata puitis", "jelas, hemat kata, dan sesuai PUEBI/EYD", "kalimatnya sangat panjang", "menggunakan banyak kata ulang"],
@@ -3464,7 +3464,7 @@
     "explanation": "Kalimat efektif harus hemat kata, logis, dan sesuai kaidah tata bahasa."
   },
   {
-	  "id": 434,
+    "id": 434,
     "category": "SMP",
     "text": "Kata-kata yang memuat urutan waktu seperti 'kemudian', 'setelah itu', dan 'lalu' disebut konjungsi …",
     "options": ["kausalitas", "kronologis/temporal", "syarat", "pertentangan"],
@@ -3472,7 +3472,7 @@
     "explanation": "Konjungsi temporal menyatakan urutan waktu kejadian."
   },
   {
-	  "id": 435,
+    "id": 435,
     "category": "SMP",
     "text": "Bagan/skema yang menunjukkan tahapan kejadian dalam cerita dinamakan …",
     "options": ["alur/plot", "setting", "penokohan", "amanat"],
@@ -3480,7 +3480,7 @@
     "explanation": "Alur adalah jalinan atau urutan peristiwa dalam cerita."
   },
   {
-	  "id": 436,
+    "id": 436,
     "category": "SMP",
     "text": "Struktur cerpen yang berisi pengenalan tokoh dan latar cerita disebut …",
     "options": ["komplikasi", "orientasi", "resolusi", "koda"],
@@ -3488,7 +3488,7 @@
     "explanation": "Orientasi adalah bagian awal penentu latar dan pengenalan tokoh."
   },
   {
-	  "id": 437,
+    "id": 437,
     "category": "SMP",
     "text": "Unsur intrik/masalah puncak dalam cerita rekaan disebut …",
     "options": ["orientasi", "klimaks", "resolusi", "koda"],
@@ -3496,7 +3496,7 @@
     "explanation": "Klimaks adalah puncak konflik dalam alur cerita."
   },
   {
-	  "id": 438,
+    "id": 438,
     "category": "SMP",
     "text": "Teks yang menggambarkan suatu objek secara jelas sehingga pembaca seolah melihat sendiri disebut teks …",
     "options": ["deskripsi", "narasi", "persuasi", "argumentasi"],
@@ -3504,7 +3504,7 @@
     "explanation": "Teks deskripsi menggambarkan objek dengan merangsang pancaindra."
   },
   {
-	  "id": 439,
+    "id": 439,
     "category": "SMP",
     "text": "Kata yang mengalami perluasan makna (generalisasi) contohnya pada kata …",
     "options": ["saudara", "sarjana", "pendeta", "madrasah"],
@@ -3512,7 +3512,7 @@
     "explanation": "Dahulu 'saudara' berarti adik/kakak kandung, kini meluas untuk menyapa siapa saja."
   },
   {
-	  "id": 440,
+    "id": 440,
     "category": "SMP",
     "text": "Imbuhan ber- pada kata 'bersepeda' memiliki arti …",
     "options": ["memakai", "mengendarai/menggunakan", "membuat", "mempunyai"],
@@ -3520,7 +3520,7 @@
     "explanation": "Bersepeda artinya mengendarai sepeda."
   },
   {
-	  "id": 441,
+    "id": 441,
     "category": "SMP",
     "text": "Berikut yang merupakan contoh kata baku adalah …",
     "options": ["apotik", "apotek", "apoteq", "apotick"],
@@ -3528,7 +3528,7 @@
     "explanation": "Bentuk baku dalam KBBI adalah apotek (dengan e)."
   },
   {
-	  "id": 442,
+    "id": 442,
     "category": "SMP",
     "text": "Kata 'kreativitas' adalah kata baku. Bentuk tidak bakunya yang sering salah ditulis adalah …",
     "options": ["kreatifitas", "kreatipitas", "kreative", "kreatip"],
@@ -3536,7 +3536,7 @@
     "explanation": "Penggunaan huruf 'f' pada kata reapan imbuhan -itas salah; yang benar 'v' (kreativitas)."
   },
   {
-	  "id": 443,
+    "id": 443,
     "category": "SMP",
     "text": "Iklan yang bertujuan mengajak masyarakat melakukan hal positif tanpa mencari keuntungan dinamakan iklan …",
     "options": ["komersial", "layanan masyarakat", "penawaran", "pemberitahuan"],
@@ -3544,7 +3544,7 @@
     "explanation": "Iklan layanan masyarakat berfokus pada kepentingan sosial non-profit."
   },
   {
-	  "id": 444,
+    "id": 444,
     "category": "SMP",
     "text": "Unsur berita 5W+1H dalam bahasa Indonesia sering disingkat menjadi …",
     "options": ["ADIKSIMBA", "PANCASILA", "SPOK", "MEGABIT"],
@@ -3552,7 +3552,7 @@
     "explanation": "Apa, Di mana, Kapan, Siapa, Mengapa, Bagaimana (ADIKSIMBA)."
   },
   {
-	  "id": 445,
+    "id": 445,
     "category": "SMP",
     "text": "Latar tempat, waktu, dan suasana dalam cerita dinamakan …",
     "options": ["alur", "setting/latar", "tema", "amanat"],
@@ -3560,7 +3560,7 @@
     "explanation": "Latar (setting) melingkupi tempat, waktu, dan suasana peristiwa."
   },
   {
-	  "id": 446,
+    "id": 446,
     "category": "SMP",
     "text": "Puisi lama berupa 'Gurindam' memiliki aturan utama yaitu …",
     "options": ["terdiri dari 2 baris tiap bait dan berima a-a", "terdiri dari 4 baris berima a-b-a-b", "terdiri dari 8 baris", "tidak terikat rima"],
@@ -3568,7 +3568,7 @@
     "explanation": "Gurindam terdiri atas 2 baris sebait dengan rima sama (a-a)."
   },
   {
-	  "id": 447,
+    "id": 447,
     "category": "SMP",
     "text": "Sudut pandang tokoh 'Aku' dalam sebuah cerita rekaan dinamakan sudut pandang …",
     "options": ["orang pertama", "orang kedua", "orang ketiga", "campuran"],
@@ -3576,7 +3576,7 @@
     "explanation": "Kata ganti 'Aku/Saya' menandakan sudut pandang orang pertama."
   },
   {
-	  "id": 448,
+    "id": 448,
     "category": "SMP",
     "text": "Rangkuman singkat yang memuat gagasan umum sebuah buku/karangan disebut …",
     "options": ["sinopsis", "biografi", "indeks", "glosarium"],
@@ -3584,7 +3584,7 @@
     "explanation": "Sinopsis adalah ikhtisar atau ringkasan karangan/cerita."
   },
   {
-	  "id": 449,
+    "id": 449,
     "category": "SMP",
     "text": "Sebab-akibat fenomena alam dibahas secara ilmiah dalam teks …",
     "options": ["eksplanasi", "eksposisi", "narasi", "persuasi"],
@@ -3592,7 +3592,7 @@
     "explanation": "Teks eksplanasi menceritakan proses terjadinya fenomena alam/sosial."
   },
   {
-	  "id": 450,
+    "id": 450,
     "category": "SMP",
     "text": "Majas yang menyatukan kata-kata berlebihan untuk melebih-lebihkan kenyataan disebut …",
     "options": ["litotes", "hiperbola", "ironi", "metonymia"],
@@ -3600,7 +3600,7 @@
     "explanation": "Hiperbola membesar-besarkan sesuatu secara berlebihan (contoh: memeras keringat)."
   },
   {
-	  "id": 451,
+    "id": 451,
     "category": "SMP",
     "text": "Kumpulan kalimat yang membicarakan satu gagasan utama disebut …",
     "options": ["wacana", "paragraf", "klausul", "frasa"],
@@ -3608,7 +3608,7 @@
     "explanation": "Paragraf adalah paduan kalimat yang mengusung satu ide pokok."
   },
   {
-	  "id": 452,
+    "id": 452,
     "category": "SMP",
     "text": "Penulisan daftar pustaka yang benar berdasarkan urutannya adalah …",
     "options": ["Nama Penulis. Tahun. Judul Buku. Kota: Penerbit.", "Judul Buku. Nama Penulis. Tahun. Kota.", "Kota. Penerbit. Nama Penulis. Tahun.", "Tahun. Nama Penulis. Judul Buku. Kota."],
@@ -3616,7 +3616,7 @@
     "explanation": "Urutan umum standar daftar pustaka: Nama (dibalik). Tahun. Judul. Kota: Penerbit."
   },
   {
-	  "id": 453,
+    "id": 453,
     "category": "SMP",
     "text": "Istilah 'Diksi' dalam pengubahan dan penulisan karya sastra berarti …",
     "options": ["pilihan kata", "gaya penulisan", "panjang kalimat", "keindahan sajak"],
@@ -3624,7 +3624,7 @@
     "explanation": "Diksi adalah pemilihan kata yang tepat dan selaras dalam menyampaikan gagasan."
   },
   {
-	  "id": 454,
+    "id": 454,
     "category": "SMA",
     "text": "Teks yang bertujuan meyakinkan pembaca melalui argumen dan data logis disebut teks …",
     "options": ["argumentasi", "narasi", "deskripsi", "eksplanasi"],
@@ -3632,7 +3632,7 @@
     "explanation": "Argumentasi menyajikan alasan, bukti, dan data untuk meyakinkan pembaca."
   },
   {
-	  "id": 455,
+    "id": 455,
     "category": "SMA",
     "text": "Struktur teks editorial terdiri dari tiga bagian utama, yaitu …",
     "options": ["Pengenalan isu (Tesis) - Penyampaian argumen - Penegasan ulang", "Orientasi - Komplikasi - Resolusi", "Pernyataan umum - Deretan penjelas - Interpretasi", "Tujuan - Bahan - Langkah-langkah"],
@@ -3640,7 +3640,7 @@
     "explanation": "Teks editorial memuat tesis/isu, argumen redaksi, dan penegasan kembali."
   },
   {
-	  "id": 456,
+    "id": 456,
     "category": "SMA",
     "text": "Kritik atau sindiran halus yang menggunakan kata-kata bertolak belakang dengan kenyataan disebut majas …",
     "options": ["ironi", "sinisme", "sarkasme", "alegori"],
@@ -3648,7 +3648,7 @@
     "explanation": "Ironi adalah sindiran halus (contoh: Bersih sekali kamarmu sampai sampah berserakan)."
   },
   {
-	  "id": 457,
+    "id": 457,
     "category": "SMA",
     "text": "Bagian novel yang memuat penyelesaian dari konflik utama dinamakan …",
     "options": ["evaluasi", "resolusi", "orientasi", "koda"],
@@ -3656,7 +3656,7 @@
     "explanation": "Resolusi memberikan solusi atas konflik yang dialami para tokoh."
   },
   {
-	  "id": 458,
+    "id": 458,
     "category": "SMA",
     "text": "Perubahan makna kata yang menyebabkan makna baru menjadi lebih terhormat/halus disebut …",
     "options": ["ameliorasi", "peyorasi", "spesialisasi", "sinestesia"],
@@ -3664,7 +3664,7 @@
     "explanation": "Ameliorasi adalah penghalusan makna (contoh: 'tuna netra' untuk 'buta')."
   },
   {
-	  "id": 459,
+    "id": 459,
     "category": "SMA",
     "text": "Ciri utama dari kalimat imperatif dalam teks prosedur atau protokol adalah memuat …",
     "options": ["kata kerja perintah atau ajakan", "pendapat pribadi", "pertanyaan terbuka", "data angka statistik"],
@@ -3672,7 +3672,7 @@
     "explanation": "Kalimat imperatif berfungsi memberi perintah, larangan, atau ajakan."
   },
   {
-	  "id": 460,
+    "id": 460,
     "category": "SMA",
     "text": "Makna lugas atau makna sebenarnya sesuai kamus dinamakan makna …",
     "options": ["konotatif", "denotatif", "asosiatif", "figuratif"],
@@ -3680,7 +3680,7 @@
     "explanation": "Denotatif adalah makna eksplisit/sebenarnya tanpa kiasan."
   },
   {
-	  "id": 461,
+    "id": 461,
     "category": "SMA",
     "text": "Majas sindiran yang sangat kasar dan terang-terangan dinamakan majas …",
     "options": ["ironi", "sinisme", "sarkasme", "paradoks"],
@@ -3688,7 +3688,7 @@
     "explanation": "Sarkasme menggunakan kata-kata kasar untuk menyinggung langsung."
   },
   {
-	  "id": 462,
+    "id": 462,
     "category": "SMA",
     "text": "Penulisan ejaan judul makalah berikut yang paling sesuai EYD/PUEBI adalah …",
     "options": ["Peran Pemuda Dalam Pembangunan Bangsa", "Peran Pemuda dalam Pembangunan Bangsa", "PERAN PEMUDA DALAM PEMBANGUNAN BANGSA", "Peran pemuda Dalam pembangunan bangsa"],
@@ -3696,7 +3696,7 @@
     "explanation": "Kata hubung/depan seperti 'dalam' ditulis dengan huruf kecil pada judul."
   },
   {
-	  "id": 463,
+    "id": 463,
     "category": "SMA",
     "text": "Teks ulasan buku atau karya seni dinamakan …",
     "options": ["resensi", "proposal", "makalah", "artikel ilmiah"],
@@ -3704,7 +3704,7 @@
     "explanation": "Resensi berisi penilaian, kelebihan, dan kekurangan suatu karya."
   },
   {
-	  "id": 464,
+    "id": 464,
     "category": "SMA",
     "text": "Penggunaan bahasa baku sangat diwajibkan dalam penulisan …",
     "options": ["surat pribadi", "surat resmi/dinas", "novel karangan", "puisi kontemporer"],
@@ -3712,7 +3712,7 @@
     "explanation": "Surat resmi/dinas harus tunduk pada kaidah bahasa ragam baku."
   },
   {
-	  "id": 465,
+    "id": 465,
     "category": "SMA",
     "text": "Isi dari bagian latar belakang dalam sebuah proposal penelitian adalah …",
     "options": ["alasan atau pemikiran mendasari pentingnya penelitian", "rincian anggaran biaya", "jadwal kegiatan harian", "biodata lengkap peneliti"],
@@ -3720,7 +3720,7 @@
     "explanation": "Latar belakang menjelaskan urgensi dan alasan dilakukannya penelitian."
   },
   {
-	  "id": 466,
+    "id": 466,
     "category": "SMA",
     "text": "Kalimat negosiasi yang berisikan proses tawar-menawar dinamakan tahap …",
     "options": ["orientasi", "pengajuan dan penawaran", "persetujuan", "penutup"],
@@ -3728,7 +3728,7 @@
     "explanation": "Inti negosiasi terjadi pada tahap pengajuan usulan dan penawaran balik."
   },
   {
-	  "id": 467,
+    "id": 467,
     "category": "SMA",
     "text": "Kalimat 'Pengembangan teknologi AI sangat pesat, tetapi dampaknya harus diantisipasi.' Kata 'tetapi' berfungsi sebagai konjungsi …",
     "options": ["intrakalimat pertentangan", "antarkalimat", "kausalitas", "korelatif"],
@@ -3736,7 +3736,7 @@
     "explanation": "Kata 'tetapi' adalah konjungsi koordinatif intrakalimat yang menyatakan pertentangan."
   },
   {
-	  "id": 468,
+    "id": 468,
     "category": "SMA",
     "text": "Inti dari struktur debat yang baik terdiri dari tim …",
     "options": ["Afirmatif, Oposisi, dan Netral", "Protagonis, Antagonis, dan Tritagonis", "Moderator, Notulis, dan Penonton", "Penulis, Editor, dan Pembaca"],
@@ -3744,7 +3744,7 @@
     "explanation": "Debat formal melibatkan tim Afirmatif (pro), Oposisi (kontra), dan Netral."
   },
   {
-	  "id": 469,
+    "id": 469,
     "category": "SMA",
     "text": "Proses menarik simpulan umum berdasarkan kasus-kasus khusus dinamakan penalaran …",
     "options": ["deduktif", "induktif", "analogi", "silogisme"],
@@ -3752,7 +3752,7 @@
     "explanation": "Penalaran induktif bertolak dari hal-hal khusus menuju simpulan umum."
   },
   {
-	  "id": 470,
+    "id": 470,
     "category": "SMA",
     "text": "Makna imbuhan ter- pada kata 'terbawa' yang bermakna tidak sengaja adalah …",
     "options": ["paling", "dapat di-", "tidak sengaja", "dalam keadaan"],
@@ -3760,7 +3760,7 @@
     "explanation": "Terbawa berarti tidak sengaja dibawa."
   },
   {
-	  "id": 471,
+    "id": 471,
     "category": "SMA",
     "text": "Struktur teks anekdot secara berurutan meliputi …",
     "options": ["Abstraksi - Orientasi - Krisis - Reaksi - Koda", "Orientasi - Komplikasi - Resolusi", "Tesis - Argumen - Penegasan", "Pernyataan - Pembuktian - Simpulan"],
@@ -3768,7 +3768,7 @@
     "explanation": "Anekdot dibangun oleh abstrak, orientasi, krisis (puncak sindiran), reaksi, dan koda."
   },
   {
-	  "id": 472,
+    "id": 472,
     "category": "SMA",
     "text": "Penggunaan frasa 'sangat luas sekali' dianggap tidak efektif karena mengalami …",
     "options": ["pleonasme (pemborosan kata)", "hiperbola", "kontradiksi", "ambigu"],
@@ -3776,7 +3776,7 @@
     "explanation": "Kata 'sangat' dan 'sekali' memiliki fungsi sama, memakainya bersamaan adalah pleonasme."
   },
   {
-	  "id": 473,
+    "id": 473,
     "category": "SMA",
     "text": "Sebuah paragraf yang berisi perincian fakta tanpa ada unsur opini disebut paragraf …",
     "options": ["eksposisi/ekplanasi murni", "persuasi", "argumentasi", "narasi sugestif"],
@@ -3784,7 +3784,7 @@
     "explanation": "Eksposisi bertujuan memberikan informasi ilmiah secara objektif."
   },
   {
-	  "id": 474,
+    "id": 474,
     "category": "SMA",
     "text": "Unsur ekstrinsik karya sastra mencakup hal-hal berikut, KECUALI …",
     "options": ["latar belakang sosial pengarang", "kondisi zaman saat karya ditulis", "nilai moral & budaya masyarakat", "tema dan perwatakan tokoh"],
@@ -3792,7 +3792,7 @@
     "explanation": "Tema dan perwatakan adalah bagian dari unsur intrinsik (dalam karya)."
   },
   {
-	  "id": 475,
+    "id": 475,
     "category": "SMA",
     "text": "Sudut pandang di mana pengarang berada di luar cerita dan mengetahui seluruh pikiran tokoh disebut sudut pandang …",
     "options": ["orang ketiga serbatahu", "orang pertama pelaku utama", "orang pertama pelaku sampingan", "orang kedua"],
@@ -3800,7 +3800,7 @@
     "explanation": "Orang ketiga serbatahu mengarahkan tokoh dengan 'dia/mereka' dan tahu segala isi pikiran tokoh."
   },
   {
-	  "id": 476,
+    "id": 476,
     "category": "SMA",
     "text": "Kata bentukan berimbuhan me-kan yang tepat pada kata 'cuci' adalah …",
     "options": ["mencucikan", "menyucikan", "mencuci", "penyucian"],
@@ -3808,7 +3808,7 @@
     "explanation": "Huruf 'c' tidak luluh saat diberi prefiks me-, sehingga menjadi mencucikan."
   },
   {
-	  "id": 477,
+    "id": 477,
     "category": "SMA",
     "text": "Pergeseran makna kata dari yang khusus menjadi lebih umum disebut …",
     "options": ["sinestesia", "generalisasi", "spesialisasi", "peyorasi"],
@@ -3816,7 +3816,7 @@
     "explanation": "Generalisasi adalah perluasan cakupan makna suatu kata."
   },
   {
-	  "id": 478,
+    "id": 478,
     "category": "SMA",
     "text": "Contoh kalimat bermajas 'paradoks' adalah …",
     "options": ["Ia merasa kesepian di tengah keramaian kota.", "Suaranya menggelegar membelah angkasa.", "Pena itu menari-nari di atas kertas.", "Hatinya sekeras batu."],
@@ -3824,7 +3824,7 @@
     "explanation": "Paradoks mengemukakan hal yang seolah bertentangan tetapi nyata (kesepian vs keramaian)."
   },
   {
-	  "id": 479,
+    "id": 479,
     "category": "SMA",
     "text": "Ringkasan tulisan ilmiah yang biasanya diletakkan di halaman depan dinamakan …",
     "options": ["abstrak", "kesimpulan", "pendahuluan", "lampiran"],
@@ -3832,7 +3832,7 @@
     "explanation": "Abstrak berisi ringkasan singkat dari seluruh isi penelitian ilmiah."
   },
   {
-	  "id": 480,
+    "id": 480,
     "category": "SMA",
     "text": "Ciri khas dari teks hikayat (sastra Melayu Klasik) adalah …",
     "options": ["kemustahilan dan kesaktian tokoh", "menggunakan bahasa gaul modern", "ditulis berdasarkan data statistik", "berfokus pada kehidupan perkotaan"],
@@ -3840,7 +3840,7 @@
     "explanation": "Hikayat kental dengan cerita istanasentris, kesaktian, dan peristiwa tidak logis."
   },
   {
-	  "id": 481,
+    "id": 481,
     "category": "SMA",
     "text": "Penulisan gabungan kata yang benar di bawah ini adalah …",
     "options": ["tanggungjawab", "tanggung jawab", "tanggung-jawab", "tanggungjawabnya"],
@@ -3848,7 +3848,7 @@
     "explanation": "Kata majemuk tanpa imbuhan apitan ditulis terpisah (tanggung jawab)."
   },
   {
-	  "id": 482,
+    "id": 482,
     "category": "SMA",
     "text": "Kalimat 'Ia tetap berangkat kerja meskipun hujan turun dengan lebat.' menggunakan frasa subordinatif hubungan …",
     "options": ["konsesif (pengakuan/pertentangan halus)", "syarat", "tujuan", "sebab"],
@@ -3856,7 +3856,7 @@
     "explanation": "Kata 'meskipun/walaupun' menandakan hubungan konsesif."
   },
   {
-	  "id": 483,
+    "id": 483,
     "category": "SMA",
     "text": "Kritik sastra yang berfokus pada keaslian nilai estetika teks itu sendiri tanpa memedulikan biografi pengarang dinamakan pendekatan …",
     "options": ["mimetik", "pragmatik", "formalistik/objektif", "ekspresif"],
