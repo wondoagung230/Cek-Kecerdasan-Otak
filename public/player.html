@@ -61,7 +61,28 @@
   </div>
 
   <script>
-    const socket = io();
+    // --- TAMBAHAN UNTUK SCAN QR CODE ---
+window.addEventListener('DOMContentLoaded', () => {
+  // 1. Ambil URL parameter '?code=XXXXXX' dari hasil scan QR Code
+  const urlParams = new URLSearchParams(window.location.search);
+  const codeFromUrl = urlParams.get('code');
+
+  // 2. Jika ada kode dari URL, otomatis isikan ke kolom input Kode Room
+  if (codeFromUrl) {
+    const roomInput = document.getElementById('roomCode'); // Sesuaikan dengan ID input kode room kamu
+    if (roomInput) {
+      roomInput.value = codeFromUrl;
+    }
+
+    // 3. Langsung arahkan kursor pemain ke input nama/nickname
+    const nicknameInput = document.getElementById('nickname'); // Sesuaikan dengan ID input nama kamu
+    if (nicknameInput) {
+      nicknameInput.focus();
+    }
+  }
+});
+	
+	const socket = io();
     let currentRoom = null;
     let answered = false;
 

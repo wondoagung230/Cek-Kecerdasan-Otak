@@ -8,7 +8,11 @@
   <script src="/socket.io/socket.io.js"></script>
   <!-- Canvas Confetti untuk efek menang -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-  <style>
+<!-- Library QR Code JS -->
+<script src="https://cdnjs.cloudflare.com/javascript-qrcode/1.0.0/javascript-qrcode.min.js"></script>
+<!-- ATAU bisa gunakan library QRCode.js standar ini: -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> 
+ <style>
     body {
       background: #0f172a url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW9yODNpMzB3aW53cG9nZmJuOGtpZHF2bDVuNWppd3A1aWxoOXNuZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xd7QqFPv4IVAz8dnog/giphy.gif') center center / cover no-repeat fixed;
       min-height: 100vh;
@@ -41,6 +45,12 @@
         <h1 class="text-3xl md:text-5xl font-bold mb-1 drop-shadow-lg">Kuis Pendidikan</h1>
         <p class="text-indigo-200 text-sm md:text-base drop-shadow">SD • SMP • SMA</p>
       </div>
+
+<!-- Kontainer Tempat QR Code Muncul -->
+<div id="qrcode-container" style="margin: 20px auto; text-align: center;">
+  <p>Scan untuk Join Permainan:</p>
+  <div id="qrcode" style="display: inline-block;"></div>
+</div>
 
       <!-- Musik Relax -->
       <div class="flex justify-center mb-4 gap-3 items-center">
@@ -172,13 +182,26 @@
       socket.emit('createRoom');
     }
 
-    socket.on('roomCreated', (code) => {
-      currentRoom = code;
-      document.getElementById('roomCode').textContent = code;
-      document.getElementById('roomInfo').classList.remove('hidden');
-      document.getElementById('gameArea').classList.remove('hidden');
-      document.querySelector('#setup button').classList.add('hidden');
-    });
+    socket.on('roomCreated', (roomCode) => {
+  // Tampilkan Kode Room Teks
+  document.getElementById('room-code-display').innerText = roomCode;
+
+  // Buat URL lengkap yang akan dibuka pemain saat scan
+  const joinUrl = `${window.location.origin}/player.html?code=${roomCode}`;
+
+  // Bersihkan QR Code lama jika ada
+  document.getElementById('qrcode').innerHTML = '';
+
+  // Generasi QR Code Baru
+  new QRCode(document.getElementById('qrcode'), {
+    text: joinUrl,
+    width: 180,
+    height: 180,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+  });
+});
 
     function nextQuestion() {
       if (isPlaying) return;
