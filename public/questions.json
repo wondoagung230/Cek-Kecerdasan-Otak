@@ -3862,5 +3862,4006 @@
     "options": ["mimetik", "pragmatik", "formalistik/objektif", "ekspresif"],
     "correct": "formalistik/objektif",
     "explanation": "Pendekatan formalistik meneliti karya sastra dari struktur internal/otonomnya saja."
+  },
+  {
+    "id": 484,
+    "category": "SD",
+    "text": "Hasil dari 25 + 38 adalah …",
+    "options": ["53", "63", "62", "73"],
+    "correct": "63",
+    "explanation": "25 + 38 = 63"
+  },
+  {
+    "id": 485,
+    "category": "SD",
+    "text": "Hasil dari 12 × 6 adalah …",
+    "options": ["62", "72", "82", "76"],
+    "correct": "72",
+    "explanation": "12 × 6 = 72"
+  },
+  {
+    "id": 486,
+    "category": "SD",
+    "text": "Hasil dari 81 ÷ 9 adalah …",
+    "options": ["7", "8", "9", "10"],
+    "correct": "9",
+    "explanation": "81 ÷ 9 = 9"
+  },
+  {
+    "id": 487,
+    "category": "SD",
+    "text": "Nilai dari 1/2 + 1/4 adalah …",
+    "options": ["2/4", "3/4", "1/6", "2/6"],
+    "correct": "3/4",
+    "explanation": "2/4 + 1/4 = 3/4"
+  },
+  {
+    "id": 488,
+    "category": "SD",
+    "text": "Keliling persegi yang bersisi 10 cm adalah …",
+    "options": ["20 cm", "30 cm", "40 cm", "100 cm"],
+    "correct": "40 cm",
+    "explanation": "4 × 10 = 40 cm"
+  },
+  {
+    "id": 489,
+    "category": "SD",
+    "text": "Luas segitiga dengan alas 8 cm dan tinggi 5 cm adalah …",
+    "options": ["13 cm²", "20 cm²", "40 cm²", "30 cm²"],
+    "correct": "20 cm²",
+    "explanation": "(8 × 5) / 2 = 20 cm²"
+  },
+  {
+    "id": 490,
+    "category": "SD",
+    "text": "Angka 7 pada bilangan 5.724 bernilai tempat …",
+    "options": ["satuan", "puluhan", "ratusan", "ribuan"],
+    "correct": "ratusan",
+    "explanation": "7 menempati posisi ratusan (700)"
+  },
+  {
+    "id": 491,
+    "category": "SD",
+    "text": "Hasil dari 250 - 125 adalah …",
+    "options": ["115", "125", "135", "145"],
+    "correct": "125",
+    "explanation": "250 - 125 = 125"
+  },
+  {
+    "id": 492,
+    "category": "SD",
+    "text": "3 jam = … menit",
+    "options": ["120", "150", "180", "200"],
+    "correct": "180",
+    "explanation": "3 × 60 = 180 menit"
+  },
+  {
+    "id": 493,
+    "category": "SD",
+    "text": "Bentuk pecahan biasa dari 0,2 adalah …",
+    "options": ["1/2", "1/5", "2/5", "1/4"],
+    "correct": "1/5",
+    "explanation": "2/10 disederhanakan menjadi 1/5"
+  },
+  {
+    "id": 494,
+    "category": "SD",
+    "text": "Hasil dari 8² adalah …",
+    "options": ["16", "32", "64", "72"],
+    "correct": "64",
+    "explanation": "8 × 8 = 64"
+  },
+  {
+    "id": 495,
+    "category": "SD",
+    "text": "2 kodi = … buah (1 kodi = 20)",
+    "options": ["30", "40", "50", "60"],
+    "correct": "40",
+    "explanation": "2 × 20 = 40"
+  },
+  {
+    "id": 496,
+    "category": "SD",
+    "text": "Sinonim kata 'pintu' masuk pada kalimat 'ia adalah siswa yang cerdas' adalah …",
+    "options": ["pintar", "rajin", "malas", "ramah"],
+    "correct": "pintar",
+    "explanation": "Cerdas sama artinya dengan pintar."
+  },
+  {
+    "id": 497,
+    "category": "SD",
+    "text": "Antonim dari kata 'luas' adalah …",
+    "options": ["besar", "sempit", "panjang", "lebar"],
+    "correct": "sempit",
+    "explanation": "Lawan kata luas adalah sempit."
+  },
+  {
+    "id": 498,
+    "category": "SD",
+    "text": "Kalimat yang menyatakan perintah diakhiri dengan tanda …",
+    "options": ["tanya (?)", "titik (.)", "seru (!)", "koma (,)"],
+    "correct": "seru (!)",
+    "explanation": "Kalimat perintah diakhiri tanda seru (!)."
+  },
+  {
+    "id": 499,
+    "category": "SD",
+    "text": "Huruf kapital digunakan pada awal penulisan nama …",
+    "options": ["kota dan hari", "makanan", "benda mati", "hewan peliharaan"],
+    "correct": "kota dan hari",
+    "explanation": "Nama geografi (kota) dan nama hari diawali huruf kapital."
+  },
+  {
+    "id": 500,
+    "category": "SD",
+    "text": "Kata 'menulis' berdasar dari kata dasar …",
+    "options": ["nulis", "tulis", "tulisan", "penulis"],
+    "correct": "tulis",
+    "explanation": "Kata dasar dari menulis adalah tulis."
+  },
+  {
+    "id": 501,
+    "category": "SD",
+    "text": "Lawan kata dari 'bersih' adalah …",
+    "options": ["wangi", "kotor", "rapi", "sehat"],
+    "correct": "kotor",
+    "explanation": "Lawan kata bersih adalah kotor."
+  },
+  {
+    "id": 502,
+    "category": "SD",
+    "text": "Tanda baca untuk memisahkan item dalam daftar adalah …",
+    "options": ["titik", "koma", "tanya", "seru"],
+    "correct": "koma",
+    "explanation": "Tanda koma digunakan di antara unsur rincian."
+  },
+  {
+    "id": 503,
+    "category": "SD",
+    "text": "Cerita rekaan tokoh binatang bertingkah manusia disebut …",
+    "options": ["mite", "fabel", "legenda", "sage"],
+    "correct": "fabel",
+    "explanation": "Fabel adalah cerita rekaan tokoh hewan."
+  },
+  {
+    "id": 504,
+    "category": "SD",
+    "text": "Kata 'sepatu' termasuk jenis kata …",
+    "options": ["kerja", "benda", "sifat", "keterangan"],
+    "correct": "benda",
+    "explanation": "Sepatu adalah nama benda."
+  },
+  {
+    "id": 505,
+    "category": "SD",
+    "text": "Ungkapan 'kertas putih' sering diartikan sebagai lambang …",
+    "options": ["kesucian / kejujuran", "kejahatan", "kemandirian", "keberanian"],
+    "correct": "kesucian / kejujuran",
+    "explanation": "Putih melambangkan kesucian."
+  },
+  {
+    "id": 506,
+    "category": "SD",
+    "text": "Sinonim 'lebat' pada kalimat 'hujan lebat' adalah …",
+    "options": ["deras", "gerimis", "sedikit", "kecil"],
+    "correct": "deras",
+    "explanation": "Hujan lebat = hujan deras."
+  },
+  {
+    "id": 507,
+    "category": "SD",
+    "text": "Proses tumbuhan hijau mengolah makanan sendiri disebut …",
+    "options": ["respirasi", "fotosintesis", "evaporasi", "adaptasi"],
+    "correct": "fotosintesis",
+    "explanation": "Fotosintesis adalah pembuat makanan tumbuhan."
+  },
+  {
+    "id": 508,
+    "category": "SD",
+    "text": "Hewan yang pemakan daging saja disebut …",
+    "options": ["herbivora", "karnivora", "omnivora", "injektivora"],
+    "correct": "karnivora",
+    "explanation": "Karnivora = pemakan daging."
+  },
+  {
+    "id": 509,
+    "category": "SD",
+    "text": "Organ tubuh tempat mencerna makanan secara kimiawi & mekanik adalah …",
+    "options": ["paru-paru", "lambung", "ginjal", "jantung"],
+    "correct": "lambung",
+    "explanation": "Makanan dicerna di dalam lambung."
+  },
+  {
+    "id": 510,
+    "category": "SD",
+    "text": "Perubahan benda padat menjadi cair disebut …",
+    "options": ["membeku", "mencair", "menguap", "menyublim"],
+    "correct": "mencair",
+    "explanation": "Padat → cair = mencair."
+  },
+  {
+    "id": 511,
+    "category": "SD",
+    "text": "Planet tempat tinggal manusia adalah …",
+    "options": ["Mars", "Bumi", "Venus", "Jupiter"],
+    "correct": "Bumi",
+    "explanation": "Manusia hidup di Bumi."
+  },
+  {
+    "id": 512,
+    "category": "SD",
+    "text": "Hewan yang memiliki kantong di perutnya adalah …",
+    "options": ["kucing", "kanguru", "kuda", "harimau"],
+    "correct": "kanguru",
+    "explanation": "Kanguru adalah hewan mamalia berkantong."
+  },
+  {
+    "id": 513,
+    "category": "SD",
+    "text": "Zat hijau pada daun dinamakan …",
+    "options": ["klorofil", "stomata", "akar", "batang"],
+    "correct": "klorofil",
+    "explanation": "Zat hijau daun = klorofil."
+  },
+  {
+    "id": 514,
+    "category": "SD",
+    "text": "Organ manusia yang berfungsi menyaring darah adalah …",
+    "options": ["hati", "ginjal", "paru-paru", "jantung"],
+    "correct": "ginjal",
+    "explanation": "Ginjal berfungsi menyaring limbah dari darah."
+  },
+  {
+    "id": 515,
+    "category": "SD",
+    "text": "Benda dapat ditarik magnet jika terbuat dari …",
+    "options": ["plastik", "kayu", "besi", "kain"],
+    "correct": "besi",
+    "explanation": "Besi adalah bahan magnetik."
+  },
+  {
+    "id": 516,
+    "category": "SD",
+    "text": "Gaya yang menyebabkan buah jatuh ke bawah adalah gaya …",
+    "options": ["gesek", "gravitasi", "pegas", "magnet"],
+    "correct": "gravitasi",
+    "explanation": "Gaya gravitasi menarik benda ke pusat bumi."
+  },
+  {
+    "id": 517,
+    "category": "SD",
+    "text": "Alat pernapasan pada cacing tanah adalah …",
+    "options": ["paru-paru", "insang", "kulit basah", "trakea"],
+    "correct": "kulit basah",
+    "explanation": "Cacing bernapas menggunakan permukaan kulit yang lembab."
+  },
+  {
+    "id": 518,
+    "category": "SD",
+    "text": "Energi yang dihasilkan dari arus listrik dinamakan energi …",
+    "options": ["panas", "listrik", "bunyi", "kimia"],
+    "correct": "listrik",
+    "explanation": "Energi listrik berasal dari arus listrik."
+  },
+  {
+    "id": 519,
+    "category": "SD",
+    "text": "Ibukota Provinsi Jawa Tengah adalah …",
+    "options": ["Surakarta", "Semarang", "Yogyakarta", "Magelang"],
+    "correct": "Semarang",
+    "explanation": "Ibukota Jateng = Semarang."
+  },
+  {
+    "id": 520,
+    "category": "SD",
+    "text": "Laut yang sangat luas dinamakan …",
+    "options": ["danau", "sungai", "samudra", "selat"],
+    "correct": "samudra",
+    "explanation": "Samudra adalah laut yang amat luas."
+  },
+  {
+    "id": 521,
+    "category": "SD",
+    "text": "Mata uang negara Thailand adalah …",
+    "options": ["Rupiah", "Ringgit", "Baht", "Peso"],
+    "correct": "Baht",
+    "explanation": "Mata uang Thailand = Baht."
+  },
+  {
+    "id": 522,
+    "category": "SD",
+    "text": "Hari Sumpah Pemuda diperingati tiap tanggal …",
+    "options": ["17 Agustus", "28 Oktober", "10 November", "2 Mei"],
+    "correct": "28 Oktober",
+    "explanation": "Sumpah Pemuda = 28 Oktober 1928."
+  },
+  {
+    "id": 523,
+    "category": "SD",
+    "text": "Burung yang menjadi simbol negara Indonesia adalah burung …",
+    "options": ["Cenderawasih", "Garuda", "Elang", "Merpati"],
+    "correct": "Garuda",
+    "explanation": "Garuda Pancasila."
+  },
+  {
+    "id": 524,
+    "category": "SD",
+    "text": "Proses pembuatan barang dinamakan kegiatan …",
+    "options": ["konsumsi", "distribusi", "produksi", "investasi"],
+    "correct": "produksi",
+    "explanation": "Membuat barang = produksi."
+  },
+  {
+    "id": 525,
+    "category": "SD",
+    "text": "Danau terbesar di Indonesia adalah Danau …",
+    "options": ["Singkarak", "Toba", "Maninjau", "Poso"],
+    "correct": "Toba",
+    "explanation": "Danau Toba di Sumatera Utara."
+  },
+  {
+    "id": 526,
+    "category": "SD",
+    "text": "Pahlawan wanita dari Aceh yang gigih melawan Belanda adalah …",
+    "options": ["R.A. Kartini", "Cut Nyak Dien", "Dewi Sartika", "Fatmawati"],
+    "correct": "Cut Nyak Dien",
+    "explanation": "Cut Nyak Dien pahlawan Aceh."
+  },
+  {
+    "id": 527,
+    "category": "SD",
+    "text": "Arah mata angin di antara Utara dan Timur adalah …",
+    "options": ["Barat Daya", "Timur Laut", "Tenggara", "Barat Laut"],
+    "correct": "Timur Laut",
+    "explanation": "Antara Utara dan Timur = Timur Laut."
+  },
+  {
+    "id": 528,
+    "category": "SD",
+    "text": "Pakaian, makanan, dan rumah termasuk kebutuhan …",
+    "options": ["sekunder", "tertier", "primer", "tambahan"],
+    "correct": "primer",
+    "explanation": "Kebutuhan pokok = primer."
+  },
+  {
+    "id": 529,
+    "category": "SD",
+    "text": "Candi Prambanan merupakan peninggalan agama …",
+    "options": ["Buddha", "Hindu", "Islam", "Konghucu"],
+    "correct": "Hindu",
+    "explanation": "Prambanan adalah candi Hindu."
+  },
+  {
+    "id": 530,
+    "category": "SD",
+    "text": "Sila keempat Pancasila dilambangkan dengan gambar …",
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"],
+    "correct": "Kepala Banteng",
+    "explanation": "Kepala banteng = Sila 4."
+  },
+  {
+    "id": 531,
+    "category": "SD",
+    "text": "Sila kelima Pancasila dilambangkan dengan …",
+    "options": ["Rantai", "Kepala Banteng", "Padi dan Kapas", "Bintang"],
+    "correct": "Padi dan Kapas",
+    "explanation": "Padi dan kapas = Sila 5."
+  },
+  {
+    "id": 532,
+    "category": "SD",
+    "text": "Musyawarah dilakukan untuk mencapai …",
+    "options": ["mufakat / kesepakatan", "kemenangan", "perselisihan", "keuntungan pribadi"],
+    "correct": "mufakat / kesepakatan",
+    "explanation": "Musyawarah bertujuan mufakat."
+  },
+  {
+    "id": 533,
+    "category": "SD",
+    "text": "Menjaga kebersihan lingkungan rumah adalah kewajiban …",
+    "options": ["ayah saja", "ibu saja", "seluruh anggota keluarga", "tetangga"],
+    "correct": "seluruh anggota keluarga",
+    "explanation": "Kewajiban bersama anggota keluarga."
+  },
+  {
+    "id": 534,
+    "category": "SD",
+    "text": "Sikap saling menghargai pendapat orang lain dinamakan …",
+    "options": ["toleransi", "sombong", "egois", "acuh"],
+    "correct": "toleransi",
+    "explanation": "Toleransi = menghargai perbedaan."
+  },
+  {
+    "id": 535,
+    "category": "SD",
+    "text": "Aturan yang dibuat untuk mengatur kehidupan masyarakat disebut …",
+    "options": ["norma / norma hukum", "hobi", "saran", "pendapat"],
+    "correct": "norma / norma hukum",
+    "explanation": "Norma memuat aturan."
+  },
+  {
+    "id": 536,
+    "category": "SD",
+    "text": "Warna dasar merah dan kuning jika dicampur menghasilkan warna …",
+    "options": ["hijau", "oranye / jingga", "ungu", "cokelat"],
+    "correct": "oranye / jingga",
+    "explanation": "Merah + Kuning = Oranye."
+  },
+  {
+    "id": 537,
+    "category": "SD",
+    "text": "Lagu 'Garuda Pancasila' diciptakan oleh …",
+    "options": ["Sudharnoto", "W.R. Supratman", "Ibu Sud", "L. Manik"],
+    "correct": "Sudharnoto",
+    "explanation": "Pencipta Garuda Pancasila = Sudharnoto."
+  },
+  {
+    "id": 538,
+    "category": "SD",
+    "text": "Menolong teman yang terjatuh sesuai dengan pengalaman nilai Pancasila sila ke- …",
+    "options": ["1", "2", "3", "4"],
+    "correct": "2",
+    "explanation": "Kemanusiaan yang adil dan beradab = Sila 2."
+  },
+  {
+    "id": 539,
+    "category": "SD",
+    "text": "Organisasi kesehatan dunia di bawah PBB adalah …",
+    "options": ["UNICEF", "WHO", "UNESCO", "ILO"],
+    "correct": "WHO",
+    "explanation": "WHO (World Health Organization)."
+  },
+  {
+    "id": 540,
+    "category": "SD",
+    "text": "Alat pemutus dan penyambung arus listrik dinamakan …",
+    "options": ["sakelar", "steker", "sekering", "kabel"],
+    "correct": "sakelar",
+    "explanation": "Sakelar menyambung/memutus listrik."
+  },
+  {
+    "id": 541,
+    "category": "SD",
+    "text": "What is the English word for 'kucing'?",
+    "options": ["Dog", "Cat", "Bird", "Fish"],
+    "correct": "Cat",
+    "explanation": "Kucing = Cat"
+  },
+  {
+    "id": 542,
+    "category": "SD",
+    "text": "What color is the sky on a clear day?",
+    "options": ["Red", "Blue", "Green", "Yellow"],
+    "correct": "Blue",
+    "explanation": "Sky is blue"
+  },
+  {
+    "id": 543,
+    "category": "SD",
+    "text": "How many legs does a cow have?",
+    "options": ["Two", "Four", "Six", "Eight"],
+    "correct": "Four",
+    "explanation": "Cow has 4 legs"
+  },
+  {
+    "id": 544,
+    "category": "SD",
+    "text": "We see with our …",
+    "options": ["ears", "eyes", "nose", "mouth"],
+    "correct": "eyes",
+    "explanation": "We see with eyes"
+  },
+  {
+    "id": 545,
+    "category": "SD",
+    "text": "The day after Monday is …",
+    "options": ["Sunday", "Tuesday", "Wednesday", "Friday"],
+    "correct": "Tuesday",
+    "explanation": "Monday -> Tuesday"
+  },
+  {
+    "id": 546,
+    "category": "SD",
+    "text": "What is the capital of Indonesia?",
+    "options": ["Bandung", "Jakarta", "Surabaya", "Medan"],
+    "correct": "Jakarta",
+    "explanation": "Capital = Jakarta"
+  },
+  {
+    "id": 547,
+    "category": "SD",
+    "text": "An elephant is a _____ animal.",
+    "options": ["small", "big", "tiny", "short"],
+    "correct": "big",
+    "explanation": "Elephant is big"
+  },
+  {
+    "id": 548,
+    "category": "SD",
+    "text": "I drink a glass of _____ when I am thirsty.",
+    "options": ["rice", "water", "bread", "apple"],
+    "correct": "water",
+    "explanation": "Drink water"
+  },
+  {
+    "id": 549,
+    "category": "SD",
+    "text": "My father's brother is my …",
+    "options": ["uncle", "aunt", "cousin", "grandfather"],
+    "correct": "uncle",
+    "explanation": "Father's brother = uncle"
+  },
+  {
+    "id": 550,
+    "category": "SD",
+    "text": "The sun rises in the …",
+    "options": ["west", "east", "north", "south"],
+    "correct": "east",
+    "explanation": "Rises in the east"
+  },
+  {
+    "id": 551,
+    "category": "SD",
+    "text": "Hasil dari 14 + 16 ÷ 2 adalah …",
+    "options": ["15", "22", "20", "24"],
+    "correct": "22",
+    "explanation": "16 ÷ 2 = 8; 14 + 8 = 22"
+  },
+  {
+    "id": 552,
+    "category": "SD",
+    "text": "Sudut yang besarnya lebih dari 90° dinamakan sudut …",
+    "options": ["lancip", "tumpul", "siku-siku", "lurus"],
+    "correct": "tumpul",
+    "explanation": "> 90° = sudut tumpul"
+  },
+  {
+    "id": 553,
+    "category": "SD",
+    "text": "Bangun datar yang mempunyai 3 sisi adalah …",
+    "options": ["persegi", "segitiga", "lingkaran", "trapesium"],
+    "correct": "segitiga",
+    "explanation": "Segitiga ber-sisi 3."
+  },
+  {
+    "id": 554,
+    "category": "SD",
+    "text": "Alat musik petik tradisional dari NTT adalah …",
+    "options": ["Angklung", "Sasando", "Kolintang", "Gamelan"],
+    "correct": "Sasando",
+    "explanation": "Sasando berasal dari NTT."
+  },
+  {
+    "id": 555,
+    "category": "SD",
+    "text": "Penemu benua Amerika yang terkenal adalah …",
+    "options": ["Christopher Columbus", "Vasco da Gama", "Magelhaens", "Marco Polo"],
+    "correct": "Christopher Columbus",
+    "explanation": "Columbus menemukan benua Amerika."
+  },
+  {
+    "id": 556,
+    "category": "SD",
+    "text": "Mata uang negara Inggris adalah …",
+    "options": ["Dollar", "Euro", "Poundsterling", "Yen"],
+    "correct": "Poundsterling",
+    "explanation": "Mata uang Inggris = Poundsterling."
+  },
+  {
+    "id": 557,
+    "category": "SD",
+    "text": "Organisasi pramuka tingkat SD dinamakan Pramuka …",
+    "options": ["Penggalang", "Siaga", "Penegak", "Pandega"],
+    "correct": "Siaga",
+    "explanation": "Tingkat SD = Siaga (7-10 thn)."
+  },
+  {
+    "id": 558,
+    "category": "SD",
+    "text": "Rumah adat khas dari Papua dinamakan …",
+    "options": ["Gadang", "Honai", "Joglo", "Tongkonan"],
+    "correct": "Honai",
+    "explanation": "Honai adalah rumah adat Papua."
+  },
+  {
+    "id": 559,
+    "category": "SD",
+    "text": "Tanaman padi diolah menjadi beras lalu dimasak menjadi …",
+    "options": ["roti", "nasi", "sagu", "terigu"],
+    "correct": "nasi",
+    "explanation": "Beras dimasak jadi nasi."
+  },
+  {
+    "id": 560,
+    "category": "SD",
+    "text": "Hewan penghasil madu adalah …",
+    "options": ["semut", "lebah", "lalat", "nyamuk"],
+    "correct": "lebah",
+    "explanation": "Lebah menghasilkan madu."
+  },
+  {
+    "id": 561,
+    "category": "SD",
+    "text": "Ibukota Provinsi Jawa Timur adalah …",
+    "options": ["Malang", "Surabaya", "Kediri", "Madiun"],
+    "correct": "Surabaya",
+    "explanation": "Ibukota Jatim = Surabaya."
+  },
+  {
+    "id": 562,
+    "category": "SD",
+    "text": "Alat untuk mengukur panjang benda adalah …",
+    "options": ["timbangan", "penggaris", "termometer", "jam"],
+    "correct": "penggaris",
+    "explanation": "Penggaris mengukur panjang."
+  },
+  {
+    "id": 563,
+    "category": "SD",
+    "text": "Simbol Pancasila sila ke-3 adalah …",
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"],
+    "correct": "Pohon Beringin",
+    "explanation": "Pohon beringin = Sila 3."
+  },
+  {
+    "id": 564,
+    "category": "SD",
+    "text": "Benda cair yang tenang memiliki permukaan yang selalu …",
+    "options": ["miring", "datar", "bergelombang", "tegak"],
+    "correct": "datar",
+    "explanation": "Air tenang permukaannya datar."
+  },
+  {
+    "id": 565,
+    "category": "SD",
+    "text": "Lawan kata dari 'mahal' adalah …",
+    "options": ["bagus", "murah", "indah", "mewah"],
+    "correct": "murah",
+    "explanation": "Lawan kata mahal adalah murah."
+  },
+  {
+    "id": 566,
+    "category": "SD",
+    "text": "Bapak Proklamator Indonesia selain Soekarno adalah …",
+    "options": ["Mohammad Hatta", "Ki Hajar Dewantara", "Sutan Sjahrir", "Ahmad Soebardjo"],
+    "correct": "Mohammad Hatta",
+    "explanation": "Dwi-Tunggal: Soekarno - Hatta."
+  },
+  {
+    "id": 567,
+    "category": "SD",
+    "text": "Jumlah provinsi di Indonesia saat ini lebih dari …",
+    "options": ["20", "30", "35", "50"],
+    "correct": "35",
+    "explanation": "Indonesia saat ini memiliki 38 provinsi."
+  },
+  {
+    "id": 568,
+    "category": "SD",
+    "text": "Ikan bernapas menggunakan …",
+    "options": ["paru-paru", "insang", "kulit", "trakea"],
+    "correct": "insang",
+    "explanation": "Insang adalah organ napas ikan."
+  },
+  {
+    "id": 569,
+    "category": "SD",
+    "text": "Ibu kota negara Malaysia adalah …",
+    "options": ["Penang", "Kuala Lumpur", "Johor Bahru", "Putrajaya"],
+    "correct": "Kuala Lumpur",
+    "explanation": "Ibukota Malaysia = Kuala Lumpur."
+  },
+  {
+    "id": 570,
+    "category": "SD",
+    "text": "Gigi yang berfungsi memotong makanan dinamakan gigi …",
+    "options": ["geraham", "seri", "taring", "susu"],
+    "correct": "seri",
+    "explanation": "Gigi seri memotong makanan."
+  },
+  {
+    "id": 571,
+    "category": "SD",
+    "text": "Hari Lahir Pancasila diperingati setiap tanggal …",
+    "options": ["1 Juni", "17 Agustus", "1 Oktober", "28 Oktober"],
+    "correct": "1 Juni",
+    "explanation": "1 Juni 1945 Hari Lahir Pancasila."
+  },
+  {
+    "id": 572,
+    "category": "SD",
+    "text": "Ungkapan 'rendah hati' bermakna …",
+    "options": ["sombong", "penakut", "tidak sombong / ramah", "pemalu"],
+    "correct": "tidak sombong / ramah",
+    "explanation": "Rendah hati = tidak sombong."
+  },
+  {
+    "id": 573,
+    "category": "SD",
+    "text": "Hasil dari 50 ÷ 5 + 10 adalah …",
+    "options": ["15", "20", "25", "30"],
+    "correct": "20",
+    "explanation": "50 ÷ 5 = 10; 10 + 10 = 20."
+  },
+  {
+    "id": 574,
+    "category": "SMP",
+    "text": "Hasil perkalian (x + 2)(x + 3) adalah …",
+    "options": ["x² + 5x + 6", "x² + 6x + 5", "x² + 5x + 5", "x² + 6x + 6"],
+    "correct": "x² + 5x + 6",
+    "explanation": "x² + 3x + 2x + 6 = x² + 5x + 6"
+  },
+  {
+    "id": 575,
+    "category": "SMP",
+    "text": "Bentuk sederhana dari 3(2x - 4) + 5 adalah …",
+    "options": ["6x - 7", "6x - 12", "6x + 7", "6x - 17"],
+    "correct": "6x - 7",
+    "explanation": "6x - 12 + 5 = 6x - 7"
+  },
+  {
+    "id": 576,
+    "category": "SMP",
+    "text": "Nilai dari 2⁴ × 2³ adalah …",
+    "options": ["2⁷ (128)", "2¹²", "64", "256"],
+    "correct": "2⁷ (128)",
+    "explanation": "2^(4+3) = 2⁷ = 128"
+  },
+  {
+    "id": 577,
+    "category": "SMP",
+    "text": "Sebuah mobil melaju 60 km/jam selama 2,5 jam. Jaraknya adalah …",
+    "options": ["120 km", "140 km", "150 km", "160 km"],
+    "correct": "150 km",
+    "explanation": "Jarak = kecepatan × waktu = 60 × 2,5 = 150 km"
+  },
+  {
+    "id": 578,
+    "category": "SMP",
+    "text": "Suhu -8°C naik 12°C menjadi …",
+    "options": ["-20°C", "4°C", "-4°C", "20°C"],
+    "correct": "4°C",
+    "explanation": "-8 + 12 = 4°C"
+  },
+  {
+    "id": 579,
+    "category": "SMP",
+    "text": "Rumus pythagoras segitiga siku-siku alas a, tinggi b, miring c adalah …",
+    "options": ["a² + b² = c²", "a² - b² = c²", "a + b = c", "a² + c² = b²"],
+    "correct": "a² + b² = c²",
+    "explanation": "Teorema Pythagoras: a² + b² = c²"
+  },
+  {
+    "id": 580,
+    "category": "SMP",
+    "text": "Panjang hipotenusa segitiga siku-siku dengan sisi tegak 6 cm dan 8 cm adalah …",
+    "options": ["9 cm", "10 cm", "12 cm", "14 cm"],
+    "correct": "10 cm",
+    "explanation": "√(6² + 8²) = √(36 + 64) = √100 = 10 cm"
+  },
+  {
+    "id": 581,
+    "category": "SMP",
+    "text": "Suatu peta memiliki skala 1 : 100.000. Jarak 2 cm di peta mewakili … di lapangan.",
+    "options": ["1 km", "2 km", "10 km", "20 km"],
+    "correct": "2 km",
+    "explanation": "2 × 100.000 cm = 200.000 cm = 2 km"
+  },
+  {
+    "id": 582,
+    "category": "SMP",
+    "text": "Lensa cembung bersifat … cahaya.",
+    "options": ["mengumpulkan (konvergen)", "menyebarkan (divergen)", "memantulkan", "menyerap"],
+    "correct": "mengumpulkan (konvergen)",
+    "explanation": "Lensa cembung bersifat konvergen."
+  },
+  {
+    "id": 583,
+    "category": "SMP",
+    "text": "Penyakit miopi (rabun jauh) ditolong dengan kacamata berlensa …",
+    "options": ["cembung (+)", "cekung (-)", "ganda", "silindris"],
+    "correct": "cekung (-)",
+    "explanation": "Miopi dibantu lensa cekung (negatif)."
+  },
+  {
+    "id": 584,
+    "category": "SMP",
+    "text": "Organ ekskresi yang mengeluarkan zat sisa berupa keringat adalah …",
+    "options": ["ginjal", "kulit", "hati", "paru-paru"],
+    "correct": "kulit",
+    "explanation": "Kulit mengeluarkan keringat melalui kelenjar keringat."
+  },
+  {
+    "id": 585,
+    "category": "SMP",
+    "text": "Bagian ginjal yang berfungsi meremas/menyaring darah pertama kali adalah …",
+    "options": ["glomerulus", "ureter", "kandung kemih", "uretra"],
+    "correct": "glomerulus",
+    "explanation": "Filtrasi terjadi di glomerulus."
+  },
+  {
+    "id": 586,
+    "category": "SMP",
+    "text": "Pembuluh darah yang membawa darah kaya O₂ dari jantung ke seluruh tubuh dinamakan …",
+    "options": ["vena", "arteri (nadi)", "kapiler", "limfa"],
+    "correct": "arteri (nadi)",
+    "explanation": "Arteri membawa darah bersih dari jantung."
+  },
+  {
+    "id": 587,
+    "category": "SMP",
+    "text": "Peristiwa bertemunya sel sperma dan sel telur dinamakan …",
+    "options": ["ovulasi", "fertilasi / pembuahan", "menstruasi", "gestasi"],
+    "correct": "fertilasi / pembuahan",
+    "explanation": "Pembuahan = fertilisasi."
+  },
+  {
+    "id": 588,
+    "category": "SMP",
+    "text": "Zat aditif makanan yang berfungsi memberi warna kuning alami adalah …",
+    "options": ["kunyit", "tartrazin", "daun suji", "karamel"],
+    "correct": "kunyit",
+    "explanation": "Kunyit memberi warna kuning alami."
+  },
+  {
+    "id": 589,
+    "category": "SMP",
+    "text": "Bahan adiktif pada rokok yang menyebabkan ketergantungan adalah …",
+    "options": ["tar", "nikotin", "karbon monoksida", "kafein"],
+    "correct": "nikotin",
+    "explanation": "Nikotin memicu kecanduan/ketergantungan."
+  },
+  {
+    "id": 590,
+    "category": "SMP",
+    "text": "Gelombang yang arah getarnya sejajar dengan arah rambatnya disebut gelombang …",
+    "options": ["transversal", "longitudinal", "mekanik", "elektromagnetik"],
+    "correct": "longitudinal",
+    "explanation": "Longitudinal = sejajar (contoh: gelombang bunyi)."
+  },
+  {
+    "id": 591,
+    "category": "SMP",
+    "text": "Kerajaan Islam pertama di Indonesia adalah …",
+    "options": ["Demak", "Samudera Pasai", "Gowa-Tallo", "Aceh Darussalam"],
+    "correct": "Samudera Pasai",
+    "explanation": "Samudera Pasai di Aceh (abad ke-13)."
+  },
+  {
+    "id": 592,
+    "category": "SMP",
+    "text": "Tokoh pendiri Organisasi Budi Utomo tahun 1908 adalah …",
+    "options": ["Dr. Soetomo", "Ir. Soekarno", "Ki Hajar Dewantara", "D.D. Setiabudi"],
+    "correct": "Dr. Soetomo",
+    "explanation": "Dr. Soetomo dan para mahasiswa STOVIA."
+  },
+  {
+    "id": 593,
+    "category": "SMP",
+    "text": "Landasan idiil negara Indonesia adalah …",
+    "options": ["UUD 1945", "Pancasila", "TAP MPR", "GBHN"],
+    "correct": "Pancasila",
+    "explanation": "Landasan idiil = Pancasila."
+  },
+  {
+    "id": 594,
+    "category": "SMP",
+    "text": "Lembaga negara yang berwenang membuat Undang-Undang bersama Presiden adalah …",
+    "options": ["MA", "DPR", "MK", "BPK"],
+    "correct": "DPR",
+    "explanation": "DPR memegang kekuasaan legislatif."
+  },
+  {
+    "id": 595,
+    "category": "SMP",
+    "text": "Hukum dasar tertulis Republik Indonesia adalah …",
+    "options": ["Pancasila", "UUD 1945", "Proklamasi", "Sumpah Pemuda"],
+    "correct": "UUD 1945",
+    "explanation": "UUD 1945 adalah hukum dasar tertulis."
+  },
+  {
+    "id": 596,
+    "category": "SMP",
+    "text": "Interaksi sosial antara dua pihak yang saling menguntungkan disebut …",
+    "options": ["kooperasi / kerja sama", "konflik", "kompetisi", "asimilasi"],
+    "correct": "kooperasi / kerja sama",
+    "explanation": "Kerja sama (kooperasi) bersifat asosiatif."
+  },
+  {
+    "id": 597,
+    "category": "SMP",
+    "text": "Benua yang dijuluki Benua Hitam adalah …",
+    "options": ["Asia", "Afrika", "Amerika", "Eropa"],
+    "correct": "Afrika",
+    "explanation": "Afrika dikenal julukan Benua Hitam."
+  },
+  {
+    "id": 598,
+    "category": "SMP",
+    "text": "Terusan yang menghubungkan Laut Mediterania dengan Laut Merah adalah Terusan …",
+    "options": ["Panama", "Suez", "Kiel", "Gibraltar"],
+    "correct": "Suez",
+    "explanation": "Terusan Suez di Mesir."
+  },
+  {
+    "id": 599,
+    "category": "SMP",
+    "text": "Mata uang resmi negara Inggris (United Kingdom) adalah …",
+    "options": ["Euro", "Poundsterling", "Dollar", "Franc"],
+    "correct": "Poundsterling",
+    "explanation": "Poundsterling (GBP)."
+  },
+  {
+    "id": 600,
+    "category": "SMP",
+    "text": "Peristiwa Agresi Militer Belanda II berakibat ditangkapnya Presiden Soekarno di kota …",
+    "options": ["Jakarta", "Yogyakarta", "Bandung", "Bukittinggi"],
+    "correct": "Yogyakarta",
+    "explanation": "Yogyakarta diserang 19 Desember 1948."
+  },
+  {
+    "id": 601,
+    "category": "SMP",
+    "text": "Organisasi PBB yang menangani masalah anak-anak dunia adalah …",
+    "options": ["UNESCO", "UNICEF", "UNHCR", "UNDP"],
+    "correct": "UNICEF",
+    "explanation": "UNICEF = United Nations Children's Fund."
+  },
+  {
+    "id": 602,
+    "category": "SMP",
+    "text": "Perubahan iklim global terutama dipicu oleh meningkatnya konsentrasi gas …",
+    "options": ["Oksigen", "Karbon Dioksida (CO₂)", "Nitrogen", "Helium"],
+    "correct": "Karbon Dioksida (CO₂)",
+    "explanation": "CO₂ penyebab utama efek rumah kaca."
+  },
+  {
+    "id": 603,
+    "category": "SMP",
+    "text": "Pendiri Kerajaan Majapahit adalah …",
+    "options": ["Hayam Wuruk", "Raden Wijaya", "Gajah Mada", "Kertanegara"],
+    "correct": "Raden Wijaya",
+    "explanation": "Raden Wijaya mendirikan Majapahit 1293."
+  },
+  {
+    "id": 604,
+    "category": "SMP",
+    "text": "Teks fiksi prosa pendek yang fokus pada satu konflik utama disebut …",
+    "options": ["novel", "cerpen", "roman", "drama"],
+    "correct": "cerpen",
+    "explanation": "Cerpen = cerita pendek."
+  },
+  {
+    "id": 605,
+    "category": "SMP",
+    "text": "Bagian akhir cerita yang memuat penyelesaian masalah dinamakan …",
+    "options": ["orientasi", "komplikasi", "resolusi", "koda"],
+    "correct": "resolusi",
+    "explanation": "Resolusi = tahap penyelesaian konflik."
+  },
+  {
+    "id": 606,
+    "category": "SMP",
+    "text": "Kalimat yang mengandung ungkapan ajakan atau saran disebut kalimat …",
+    "options": ["persuasif", "imperatif", "deklaratif", "interogatif"],
+    "correct": "persuasif",
+    "explanation": "Persuasif = membujuk / mengajak."
+  },
+  {
+    "id": 607,
+    "category": "SMP",
+    "text": "Rangkaian peristiwa yang membentuk jalan cerita dinamakan …",
+    "options": ["tema", "alur / plot", "setting", "amanat"],
+    "correct": "alur / plot",
+    "explanation": "Alur adalah jalinan peristiwa."
+  },
+  {
+    "id": 608,
+    "category": "SMP",
+    "text": "Gaya bahasa sindiran yang paling kasar dinamakan …",
+    "options": ["ironi", "sinisme", "sarkasme", "metafora"],
+    "correct": "sarkasme",
+    "explanation": "Sarkasme = sindiran paling kasar."
+  },
+  {
+    "id": 609,
+    "category": "SMP",
+    "text": "Kata yang bermakna konotasi adalah kata yang memiliki makna …",
+    "options": ["sebenarnya", "kiasan / tidak sebenarnya", "baku", "denotatif"],
+    "correct": "kiasan / tidak sebenarnya",
+    "explanation": "Konotasi = makna kiasan."
+  },
+  {
+    "id": 610,
+    "category": "SMP",
+    "text": "Sinonim dari kata 'revolusi' adalah …",
+    "options": ["perubahan lambat", "perubahan cepat", "pembentukan", "kemunduran"],
+    "correct": "perubahan cepat",
+    "explanation": "Revolusi = perubahan secara mendasar & cepat."
+  },
+  {
+    "id": 611,
+    "category": "SMP",
+    "text": "Imbuhan ber- pada kata 'berbaju' mempunyai arti …",
+    "options": ["menggunakan / memakai", "membuat", "melakukan", "menjadi"],
+    "correct": "menggunakan / memakai",
+    "explanation": "Berbaju = memakai baju."
+  },
+  {
+    "id": 612,
+    "category": "SMP",
+    "text": "She _____ (write) a letter to her friend yesterday.",
+    "options": ["write", "writes", "wrote", "written"],
+    "correct": "wrote",
+    "explanation": "Past simple: write -> wrote."
+  },
+  {
+    "id": 613,
+    "category": "SMP",
+    "text": "Listen! The baby _____ right now.",
+    "options": ["cry", "cries", "is crying", "cried"],
+    "correct": "is crying",
+    "explanation": "Present continuous: is crying."
+  },
+  {
+    "id": 614,
+    "category": "SMP",
+    "text": "My house is _____ than yours.",
+    "options": ["big", "bigger", "biggest", "more big"],
+    "correct": "bigger",
+    "explanation": "Comparative degree: bigger than."
+  },
+  {
+    "id": 615,
+    "category": "SMP",
+    "text": "Mount Everest is the _____ mountain in the world.",
+    "options": ["high", "higher", "highest", "most high"],
+    "correct": "highest",
+    "explanation": "Superlative degree: the highest."
+  },
+  {
+    "id": 616,
+    "category": "SMP",
+    "text": "You _____ stop when the traffic light is red.",
+    "options": ["must", "may", "can", "might"],
+    "correct": "must",
+    "explanation": "Obligation = must."
+  },
+  {
+    "id": 617,
+    "category": "SMP",
+    "text": "If it rains, we _____ stay at home.",
+    "options": ["will", "would", "did", "have"],
+    "correct": "will",
+    "explanation": "Conditional type 1: If + present, will + V1."
+  },
+  {
+    "id": 618,
+    "category": "SMP",
+    "text": "The cat is sleeping _____ the table.",
+    "options": ["under", "between", "among", "into"],
+    "correct": "under",
+    "explanation": "Preposition of place: under (di bawah)."
+  },
+  {
+    "id": 619,
+    "category": "SMP",
+    "text": "How _____ sugar do you need for your tea?",
+    "options": ["many", "much", "few", "long"],
+    "correct": "much",
+    "explanation": "Uncountable noun (sugar) -> How much."
+  },
+  {
+    "id": 620,
+    "category": "SMP",
+    "text": "My sister is a doctor. _____ works at Central Hospital.",
+    "options": ["He", "She", "It", "They"],
+    "correct": "She",
+    "explanation": "Sister (female) -> She."
+  },
+  {
+    "id": 621,
+    "category": "SMP",
+    "text": "They have lived in Jakarta _____ 2010.",
+    "options": ["for", "since", "from", "during"],
+    "correct": "since",
+    "explanation": "Present perfect + since (sejak titik waktu)."
+  },
+  {
+    "id": 622,
+    "category": "SMP",
+    "text": "Persebaran fauna Indonesia dipisahkan oleh garis khayal …",
+    "options": ["Wallace dan Weber", "Khatulistiwa", "Lintang", "Bujur"],
+    "correct": "Wallace dan Weber",
+    "explanation": "Garis Wallace & Weber membagi persebaran fauna."
+  },
+  {
+    "id": 623,
+    "category": "SMP",
+    "text": "Bentuk negara Indonesia sesuai pasal 1 UUD 1945 adalah …",
+    "options": ["Serikat", "Kesatuan", "Monarki", "Federasi"],
+    "correct": "Kesatuan",
+    "explanation": "Negara Kesatuan Republik Indonesia."
+  },
+  {
+    "id": 624,
+    "category": "SMA",
+    "text": "Turunan pertama dari f(x) = 4x³ - 2x² + 5 adalah …",
+    "options": ["12x² - 4x", "12x² - 4", "8x² - 2x", "4x² - 4x"],
+    "correct": "12x² - 4x",
+    "explanation": "f'(x) = 4(3)x² - 2(2)x + 0 = 12x² - 4x"
+  },
+  {
+    "id": 625,
+    "category": "SMA",
+    "text": "Nilai dari ∫(3x² + 2x) dx adalah …",
+    "options": ["x³ + x² + C", "3x³ + 2x² + C", "6x + 2 + C", "x³ + 2x² + C"],
+    "correct": "x³ + x² + C",
+    "explanation": "∫3x² dx = x³, ∫2x dx = x² -> x³ + x² + C"
+  },
+  {
+    "id": 626,
+    "category": "SMA",
+    "text": "Nilai dari ᵃlog b × ᵇlog c adalah …",
+    "options": ["ᵃlog c", "ᵇlog a", "ᵃlog b", "1"],
+    "correct": "ᵃlog c",
+    "explanation": "Sifat logaritma: ᵃlog b × ᵇlog c = ᵃlog c"
+  },
+  {
+    "id": 627,
+    "category": "SMA",
+    "text": "Vektor a = (3, 4). Panjang (modulus) vektor a adalah …",
+    "options": ["5", "7", "12", "25"],
+    "correct": "5",
+    "explanation": "|a| = √(3² + 4²) = √25 = 5"
+  },
+  {
+    "id": 628,
+    "category": "SMA",
+    "text": "Nilai dari cos 60° adalah …",
+    "options": ["0", "1/2", "1/2 √2", "1/2 √3"],
+    "correct": "1/2",
+    "explanation": "cos 60° = 1/2"
+  },
+  {
+    "id": 629,
+    "category": "SMA",
+    "text": "Peluang munculnya angka genap pada pelemparan sebuah dadu adalah …",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "correct": "1/2",
+    "explanation": "Sebab angka genap {2, 4, 6} -> 3/6 = 1/2"
+  },
+  {
+    "id": 630,
+    "category": "SMA",
+    "text": "Akar-akar dari persamaan kuadrat x² - 7x + 12 = 0 adalah …",
+    "options": ["3 dan 4", "-3 dan -4", "2 dan 6", "-2 dan -6"],
+    "correct": "3 dan 4",
+    "explanation": "(x - 3)(x - 4) = 0 -> x = 3 atau x = 4"
+  },
+  {
+    "id": 631,
+    "category": "SMA",
+    "text": "Suku ke-n barisan geometri dirumuskan dengan Uₙ = a × rⁿ⁻¹. Jika a = 2 dan r = 3, maka U₄ adalah …",
+    "options": ["18", "24", "54", "162"],
+    "correct": "54",
+    "explanation": "U₄ = 2 × 3³ = 2 × 27 = 54"
+  },
+  {
+    "id": 632,
+    "category": "SMA",
+    "text": "Dua buah benda bermassa m₁ dan m₂ terpisah jarak r. Gaya gravitasi F berbanding lurus dengan …",
+    "options": ["m₁ + m₂", "m₁ × m₂", "r²", "r"],
+    "correct": "m₁ × m₂",
+    "explanation": "F = G (m₁ m₂) / r²"
+  },
+  {
+    "id": 633,
+    "category": "SMA",
+    "text": "Satuan dari Muatan Listrik dalam Sistem Internasional (SI) adalah …",
+    "options": ["Ampere", "Volt", "Coulomb", "Ohm"],
+    "correct": "Coulomb",
+    "explanation": "Muatan listrik = Coulomb (C)."
+  },
+  {
+    "id": 634,
+    "category": "SMA",
+    "text": "Gelombang elektromagnetik yang memiliki frekuensi tertinggi adalah …",
+    "options": ["Sinar Gamma", "Sinar X", "Sinar Ultraviolet", "Gelombang Radio"],
+    "correct": "Sinar Gamma",
+    "explanation": "Sinar gamma punya frekuensi terbesar & energi tertinggi."
+  },
+  {
+    "id": 635,
+    "category": "SMA",
+    "text": "Hukum Termodinamika I pada hakikatnya merupakan prinsip kekekalan …",
+    "options": ["Massa", "Energi", "Momentum", "Suhu"],
+    "correct": "Energi",
+    "explanation": "Hukum I Termodinamika = Kekekalan Energi (ΔU = Q - W)."
+  },
+  {
+    "id": 636,
+    "category": "SMA",
+    "text": "Ikatan yang terbentuk karena pemakaian bersama pasang elektron disebut ikatan …",
+    "options": ["ionik", "kovalen", "logam", "hidrogen"],
+    "correct": "kovalen",
+    "explanation": "Ikatan kovalen = pemakaian bersama pasangan elektron."
+  },
+  {
+    "id": 637,
+    "category": "SMA",
+    "text": "Unsur golongan VIIA dalam tabel periodik dikenal dengan sebutan …",
+    "options": ["Alkali", "Alkali Tanah", "Halogen", "Gas Mulia"],
+    "correct": "Halogen",
+    "explanation": "VIIA = Halogen (F, Cl, Br, I, At)."
+  },
+  {
+    "id": 638,
+    "category": "SMA",
+    "text": "pH larutan netral pada suhu 25°C adalah …",
+    "options": ["0", "7", "14", "1"],
+    "correct": "7",
+    "explanation": "pH netral = 7."
+  },
+  {
+    "id": 639,
+    "category": "SMA",
+    "text": "Reaksi penyabunan (saponifikasi) dibuat dari trigliserida (lemak) bereaksi dengan …",
+    "options": ["basa kuat (seperti NaOH)", "asam kuat", "air saja", "alkohol"],
+    "correct": "basa kuat (seperti NaOH)",
+    "explanation": "Lemak + Basa kuat -> Sabun + Gliserol."
+  },
+  {
+    "id": 640,
+    "category": "SMA",
+    "text": "Bagian sel tumbuhan yang berisi selulosa dan berfungsi memberi bentuk kaku adalah …",
+    "options": ["membran sel", "dinding sel", "vakuola", "plastida"],
+    "correct": "dinding sel",
+    "explanation": "Dinding sel terbuat dari selulosa."
+  },
+  {
+    "id": 641,
+    "category": "SMA",
+    "text": "Penyakit hemofilia merupakan kelainan genetik yang diturunkan melalui kromosom …",
+    "options": ["X (terpaut seks)", "Y", "Autosom 21", "Mitosom"],
+    "correct": "X (terpaut seks)",
+    "explanation": "Hemofilia terpaut kromosom sex X."
+  },
+  {
+    "id": 642,
+    "category": "SMA",
+    "text": "Proses translasi dalam sintesis protein terjadi di …",
+    "options": ["inti sel (nukleus)", "ribosom", "mitokondria", "lisosom"],
+    "correct": "ribosom",
+    "explanation": "Translasi RNAm terjadi di ribosom."
+  },
+  {
+    "id": 643,
+    "category": "SMA",
+    "text": "Hormon yang memicu pematangan buah pada tumbuhan adalah gas …",
+    "options": ["Auksin", "Giberelin", "Etilen", "Sitokinin"],
+    "correct": "Etilen",
+    "explanation": "Gas etilen memicu pematangan buah."
+  },
+  {
+    "id": 644,
+    "category": "SMA",
+    "text": "Garis imajiner yang membagi bumi menjadi belahan Utara dan Selatan adalah …",
+    "options": ["Garis Bujur", "Garis Khatulistiwa (Ekuator)", "Garis Meridian", "Garis Tropis"],
+    "correct": "Garis Khatulistiwa (Ekuator)",
+    "explanation": "Ekuator membagi Utara & Selatan."
+  },
+  {
+    "id": 645,
+    "category": "SMA",
+    "text": "Aktivitas pembentukan pegunungan akibat pergerakan lempeng tektonik dinamakan …",
+    "options": ["orogenesis", "epirogenesis", "vulkanisme", "seisme"],
+    "correct": "orogenesis",
+    "explanation": "Orogenesis = proses pembentukan pegunungan."
+  },
+  {
+    "id": 646,
+    "category": "SMA",
+    "text": "Jenis tanah vulkanis yang sangat subur berasal dari material hasil erupsi …",
+    "options": ["gunung api", "pelapukan organis", "endapan sungai", "pasir pantai"],
+    "correct": "gunung api",
+    "explanation": "Tanah vulkanik berasal dari abu/material gunung api."
+  },
+  {
+    "id": 647,
+    "category": "SMA",
+    "text": "Bapak Ilmu Ekonomi Dunia yang menulis buku 'The Wealth of Nations' adalah …",
+    "options": ["John Maynard Keynes", "Adam Smith", "David Ricardo", "Karl Marx"],
+    "correct": "Adam Smith",
+    "explanation": "Adam Smith = Bapak Ekonomi Klasik."
+  },
+  {
+    "id": 648,
+    "category": "SMA",
+    "text": "Hukum Penawaran menyatakan bahwa jika harga barang naik, maka jumlah barang yang ditawarkan akan …",
+    "options": ["turun", "naik", "tetap", "nol"],
+    "correct": "naik",
+    "explanation": "Harga naik -> Penawaran naik (berbanding lurus)."
+  },
+  {
+    "id": 649,
+    "category": "SMA",
+    "text": "Pasar di mana hanya ada satu penjual yang menguasai seluruh penawaran barang disebut pasar …",
+    "options": ["Monopoli", "Oligopoli", "Monopsoni", "Persaingan Sempurna"],
+    "correct": "Monopoli",
+    "explanation": "Monopoli = 1 penjual."
+  },
+  {
+    "id": 650,
+    "category": "SMA",
+    "text": "Lembaga eksekutif independen yang bertugas mengawasi sektor jasa keuangan di Indonesia adalah …",
+    "options": ["Bank Indonesia", "OJK (Otoritas Jasa Keuangan)", "LPS", "Kementerian Keuangan"],
+    "correct": "OJK (Otoritas Jasa Keuangan)",
+    "explanation": "OJK mengawasi perbankan & jasa keuangan."
+  },
+  {
+    "id": 651,
+    "category": "SMA",
+    "text": "Peristiwa Dekrit Presiden 5 Juli 1959 menandai berlakunya kembali …",
+    "options": ["UUDS 1950", "UUD 1945", "Konstitusi RIS", "GBHN"],
+    "correct": "UUD 1945",
+    "explanation": "Dekrit Presiden 1959 memberlakukan kembali UUD 1945."
+  },
+  {
+    "id": 652,
+    "category": "SMA",
+    "text": "Sidang pertama BPUPKI pada tanggal 29 Mei - 1 Juni 1945 membahas tentang …",
+    "options": ["Rancangan Batang Tubuh UUD", "Rumusan Dasar Negara", "Pemilihan Presiden", "Wilayah Negara"],
+    "correct": "Rumusan Dasar Negara",
+    "explanation": "Sidang I BPUPKI merumuskan dasar negara."
+  },
+  {
+    "id": 653,
+    "category": "SMA",
+    "text": "Istilah Trias Politica dikembangkan oleh tokoh filsuf bernama …",
+    "options": ["John Locke dan Montesquieu", "JJ Rousseau", "Machiavelli", "Thomas Hobbes"],
+    "correct": "John Locke dan Montesquieu",
+    "explanation": "Trias Politica dipopulerkan Montesquieu & John Locke."
+  },
+  {
+    "id": 654,
+    "category": "SMA",
+    "text": "Proses peleburan dua kebudayaan menjadi satu kebudayaan baru tanpa menghilangkan kebudayaan lama dinamakan …",
+    "options": ["Asimilasi", "Akulturasi", "Amalgamasi", "Diffusi"],
+    "correct": "Akulturasi",
+    "explanation": "Akulturasi = percampuran budaya tanpa menghilangkan ciri lama."
+  },
+  {
+    "id": 655,
+    "category": "SMA",
+    "text": "Status sosial yang diperoleh seseorang sejak lahir tanpa usaha disebut …",
+    "options": ["Achieved status", "Ascribed status", "Assigned status", "Social role"],
+    "correct": "Ascribed status",
+    "explanation": "Ascribed status = didapat otomatis sejak lahir (misal: kasta/keturunan raja)."
+  },
+  {
+    "id": 656,
+    "category": "SMA",
+    "text": "Kelompok sosial yang hubungan antar anggotanya sangat erat, personal, dan intim (seperti keluarga) dinamakan …",
+    "options": ["Gemeinschaft (Paguyuban)", "Gesellschaft (Patembayan)", "In-group", "Out-group"],
+    "correct": "Gemeinschaft (Paguyuban)",
+    "explanation": "Gemeinschaft (paguyuban) = ikatan batin erat & intim."
+  },
+  {
+    "id": 657,
+    "category": "SMA",
+    "text": "Kalimat berikut yang merupakan contoh kalimat efektif adalah …",
+    "options": ["Bagi seluruh siswa-siswa wajib hadir tepat waktu.", "Seluruh siswa wajib hadir tepat waktu.", "Para siswa-siswa sekalian disilakan masuk.", "Siswa-siswa semua harus belajar."],
+    "correct": "Seluruh siswa wajib hadir tepat waktu.",
+    "explanation": "Efektif, hemat kata, tidak pleonasme."
+  },
+  {
+    "id": 658,
+    "category": "SMA",
+    "text": "Penulisan ejaan gelar akademik yang tepat menurut PUEBI/EYD adalah …",
+    "options": ["Dr. Ahmad Yani S.Pd.", "Dr. Ahmad Yani, S.Pd.", "Dr Ahmad Yani S.Pd", "Dr, Ahmad Yani S.Pd"],
+    "correct": "Dr. Ahmad Yani, S.Pd.",
+    "explanation": "Antara nama dan gelar dipisahkan tanda koma."
+  },
+  {
+    "id": 659,
+    "category": "SMA",
+    "text": "Teks karya tulis ilmiah ringkas yang dibuat untuk memaparkan hasil penelitian dinamakan …",
+    "options": ["artikel ilmiah / jurnal", "novel", "hikayat", "cerpen"],
+    "correct": "artikel ilmiah / jurnal",
+    "explanation": "Artikel ilmiah memuat paparan riset terstruktur."
+  },
+  {
+    "id": 660,
+    "category": "SMA",
+    "text": "Pihak yang menentang atau menolak mosi dalam debat dinamakan tim …",
+    "options": ["Afirmatif", "Oposisi", "Netral", "Moderator"],
+    "correct": "Oposisi",
+    "explanation": "Oposisi = tim kontra/penentang mosi."
+  },
+  {
+    "id": 661,
+    "category": "SMA",
+    "text": "Gaya bahasa yang menggunakan dua kata bertentangan dalam satu klausa (seperti 'suka duka') disebut …",
+    "options": ["Oksimoron", "Paradoks", "Litotes", "Sarkasme"],
+    "correct": "Oksimoron",
+    "explanation": "Oksimoron menggabungkan dua istilah berlawanan."
+  },
+  {
+    "id": 662,
+    "category": "SMA",
+    "text": "Had I known you were coming, I _____ prepared some food.",
+    "options": ["will have", "would have", "had", "would"],
+    "correct": "would have",
+    "explanation": "Conditional Type 3: Had + V3 ..., would have + V3."
+  },
+  {
+    "id": 663,
+    "category": "SMA",
+    "text": "The patient is being examined by the doctor. The active form of this sentence is …",
+    "options": ["The doctor is examining the patient.", "The doctor examines the patient.", "The doctor has examined the patient.", "The doctor examined the patient."],
+    "correct": "The doctor is examining the patient.",
+    "explanation": "Present continuous passive -> Present continuous active."
+  },
+  {
+    "id": 664,
+    "category": "SMA",
+    "text": "In spite of _____ the exam, he was not satisfied with his score.",
+    "options": ["pass", "passed", "passing", "to pass"],
+    "correct": "passing",
+    "explanation": "In spite of + gerund (V-ing)."
+  },
+  {
+    "id": 665,
+    "category": "SMA",
+    "text": "He speaks as though he _____ everything about the project.",
+    "options": ["knows", "knew", "known", "has known"],
+    "correct": "knew",
+    "explanation": "Subjunctive mood: as though + V2 (knew)."
+  },
+  {
+    "id": 666,
+    "category": "SMA",
+    "text": "The company where I work has expanded _____ business abroad.",
+    "options": ["it's", "its", "their", "his"],
+    "correct": "its",
+    "explanation": "Possessive pronoun for company (singular) = its."
+  },
+  {
+    "id": 667,
+    "category": "SMA",
+    "text": "Neither the teacher nor the students _____ aware of the new policy.",
+    "options": ["is", "was", "were", "be"],
+    "correct": "were",
+    "explanation": "Neither ... nor ... (verb mengikuti subjek terdekat: students -> plural)."
+  },
+  {
+    "id": 668,
+    "category": "SMA",
+    "text": "The higher you climb the mountain, _____ the air becomes.",
+    "options": ["the colder", "colder", "coldest", "the coldest"],
+    "correct": "the colder",
+    "explanation": "Double comparative: The + comparative ..., the + comparative ..."
+  },
+  {
+    "id": 669,
+    "category": "SMA",
+    "text": "Analisislah majas dari kalimat: 'Nyiur melambai-lambai di tepi pantai.'",
+    "options": ["Personifikasi", "Metafora", "Hiperbola", "Ironi"],
+    "correct": "Personifikasi",
+    "explanation": "Nyiur (pohon kelapa) diberi sifat manusia (melambai)."
+  },
+  {
+    "id": 670,
+    "category": "SMA",
+    "text": "Ciri khas teks Anekdot adalah memuat unsur krisis yang berisi …",
+    "options": ["puncak masalah / humor sindiran", "salam pembuka", "data kuantitatif", "penjelasan umum"],
+    "correct": "puncak masalah / humor sindiran",
+    "explanation": "Krisis dalam anekdot berisi puncak sindiran/humor."
+  },
+  {
+    "id": 671,
+    "category": "SMA",
+    "text": "Revolusi Industri 4.0 ditandai terutama oleh perkembangan pesat teknologi …",
+    "options": ["Mesin Uap", "Listrik Massal", "Internet & kecerdasan buatan (AI)", "Komputer Analog"],
+    "correct": "Internet & kecerdasan buatan (AI)",
+    "explanation": "Industri 4.0 = AI, IoT, & cyber systems."
+  },
+  {
+    "id": 672,
+    "category": "SMA",
+    "text": "Organisasi kerja sama ekonomi Asia-Pasifik dinamakan …",
+    "options": ["APEC", "NAFTA", "OPEC", "AFTA"],
+    "correct": "APEC",
+    "explanation": "APEC = Asia-Pacific Economic Cooperation."
+  },
+  {
+    "id": 673,
+    "category": "SMA",
+    "text": "Negara yang termasuk anggota pendiri ASEAN selain Indonesia adalah …",
+    "options": ["Malaysia, Filipina, Singapura, Thailand", "Vietnam, Laos, Myanmar, Kamboja", "Brunei, Timor Leste, Vietnam", "Jepang, Korea, China"],
+    "correct": "Malaysia, Filipina, Singapura, Thailand",
+    "explanation": "5 pendiri ASEAN: Indonesia, Malaysia, Filipina, Singapura, Thailand."
+  },
+  {
+    "id": 674,
+    "category": "SMA",
+    "text": "Hukum Mendel I dikenal juga sebagai hukum …",
+    "options": ["Segregasi Bebas", "Asortasi Bebas", "Dominansi Alami", "Mutasi"],
+    "correct": "Segregasi Bebas",
+    "explanation": "Hukum I Mendel = Hukum Segregasi (pemisahan alel secara bebas)."
+  },
+  {
+    "id": 675,
+    "category": "SMA",
+    "text": "Partikel penyusun inti atom (nukleon) terdiri dari …",
+    "options": ["proton dan elektron", "proton dan neutron", "neutron dan elektron", "elektron saja"],
+    "correct": "proton dan neutron",
+    "explanation": "Inti atom memuat proton dan neutron."
+  },
+  {
+    "id": 676,
+    "category": "SMA",
+    "text": "Logaritma dari ᵃlog 1 adalah …",
+    "options": ["0", "1", "a", "tidak terdefinisi"],
+    "correct": "0",
+    "explanation": "Sebab a⁰ = 1, maka ᵃlog 1 = 0."
+  },
+  {
+    "id": 677,
+    "category": "SMA",
+    "text": "Nilai dari lim (x -> ∞) (2x² + 3) / (x² - 5) adalah …",
+    "options": ["0", "1", "2", "∞"],
+    "correct": "2",
+    "explanation": "Bagi koefisien pangkat tertinggi: 2 / 1 = 2."
+  },
+  {
+    "id": 678,
+    "category": "SMA",
+    "text": "Sikap politik luar negeri Indonesia yang diamanatkan UUD 1945 adalah …",
+    "options": ["Bebas Aktif", "Blok Barat", "Blok Timur", "Isolasi"],
+    "correct": "Bebas Aktif",
+    "explanation": "Politik luar negeri Indonesia bersifat Bebas Aktif."
+  },
+  {
+    "id": 679,
+    "category": "SMA",
+    "text": "Organisasi PBB yang bergerak memajukan Pendidikan, Sains, dan Kebudayaan adalah …",
+    "options": ["UNESCO", "UNICEF", "UNIDO", "UNCTAD"],
+    "correct": "UNESCO",
+    "explanation": "UNESCO = Educational, Scientific and Cultural Organization."
+  },
+  {
+    "id": 680,
+    "category": "SMA",
+    "text": "Gas berbahaya hasil pembakaran tidak sempurna yang mengikat hemoglobin darah adalah …",
+    "options": ["CO₂", "CO (Karbon Monoksida)", "SO₂", "NO₂"],
+    "correct": "CO (Karbon Monoksida)",
+    "explanation": "CO mengikat Hb jauh lebih kuat dibanding O₂."
+  },
+  {
+    "id": 681,
+    "category": "SMA",
+    "text": "Rumus molekul dari gas MEtana adalah …",
+    "options": ["CH₄", "C₂H₆", "C₃H₈", "C₄H₁₀"],
+    "correct": "CH₄",
+    "explanation": "Metana = CH₄."
+  },
+  {
+    "id": 682,
+    "category": "SMA",
+    "text": "Hukum Pembiasan Cahaya dirumuskan oleh ilmuwan bernama …",
+    "options": ["Snellius", "Newton", "Hooke", "Pascal"],
+    "correct": "Snellius",
+    "explanation": "Hukum Snellius tentang pembiasan."
+  },
+  {
+    "id": 683,
+    "category": "SMA",
+    "text": "Gelar Bapak Pembangunan Indonesia diberikan kepada Presiden …",
+    "options": ["Soekarno", "Soeharto", "B.J. Habibie", "Gus Dur"],
+    "correct": "Soeharto",
+    "explanation": "Presiden Soeharto dikenal sebagai Bapak Pembangunan."
+  },
+  {
+    "id": 684,
+    "category": "SD",
+    "text": "Hasil dari 18 + 25 adalah …",
+    "options": ["41", "43", "45", "33"],
+    "correct": "43",
+    "explanation": "18 + 25 = 43"
+  },
+  {
+    "id": 685,
+    "category": "SD",
+    "text": "Hasil dari 100 - 45 adalah …",
+    "options": ["55", "65", "45", "50"],
+    "correct": "55",
+    "explanation": "100 - 45 = 55"
+  },
+  {
+    "id": 686,
+    "category": "SD",
+    "text": "Hasil dari 7 × 8 adalah …",
+    "options": ["48", "54", "56", "64"],
+    "correct": "56",
+    "explanation": "7 × 8 = 56"
+  },
+  {
+    "id": 687,
+    "category": "SD",
+    "text": "Hasil dari 63 ÷ 9 adalah …",
+    "options": ["6", "7", "8", "9"],
+    "correct": "7",
+    "explanation": "63 ÷ 9 = 7"
+  },
+  {
+    "id": 688,
+    "category": "SD",
+    "text": "Bentuk pecahan biasa dari 0,5 adalah …",
+    "options": ["1/2", "1/4", "1/5", "2/5"],
+    "correct": "1/2",
+    "explanation": "0,5 = 5/10 = 1/2"
+  },
+  {
+    "id": 689,
+    "category": "SD",
+    "text": "Keliling persegi panjang dengan panjang 10 cm dan lebar 5 cm adalah …",
+    "options": ["15 cm", "30 cm", "50 cm", "25 cm"],
+    "correct": "30 cm",
+    "explanation": "Keliling = 2 × (10 + 5) = 30 cm"
+  },
+  {
+    "id": 690,
+    "category": "SD",
+    "text": "Luas persegi bersisi 6 cm adalah …",
+    "options": ["12 cm²", "24 cm²", "36 cm²", "18 cm²"],
+    "correct": "36 cm²",
+    "explanation": "Luas = 6 × 6 = 36 cm²"
+  },
+  {
+    "id": 691,
+    "category": "SD",
+    "text": "Angka 5 pada bilangan 3.520 menempati nilai tempat …",
+    "options": ["ribuan", "ratusan", "puluhan", "satuan"],
+    "correct": "ratusan",
+    "explanation": "5 bernilai 500 (ratusan)"
+  },
+  {
+    "id": 692,
+    "category": "SD",
+    "text": "Bilangan ganjil antara 10 dan 20 adalah …",
+    "options": ["11, 13, 15, 17, 19", "12, 14, 16, 18", "10, 12, 14, 16", "11, 12, 13, 14"],
+    "correct": "11, 13, 15, 17, 19",
+    "explanation": "Bilangan ganjil tidak habis dibagi 2."
+  },
+  {
+    "id": 693,
+    "category": "SD",
+    "text": "2 jam sama dengan … menit.",
+    "options": ["90", "120", "150", "180"],
+    "correct": "120",
+    "explanation": "2 × 60 = 120 menit"
+  },
+  {
+    "id": 694,
+    "category": "SD",
+    "text": "Hasil dari 9² adalah …",
+    "options": ["18", "72", "81", "90"],
+    "correct": "81",
+    "explanation": "9 × 9 = 81"
+  },
+  {
+    "id": 695,
+    "category": "SD",
+    "text": "1 kodi sama dengan … buah.",
+    "options": ["12", "20", "24", "144"],
+    "correct": "20",
+    "explanation": "1 kodi = 20 buah"
+  },
+  {
+    "id": 696,
+    "category": "SD",
+    "text": "1 gros sama dengan … buah.",
+    "options": ["12", "20", "100", "144"],
+    "correct": "144",
+    "explanation": "1 gros = 12 lusin = 144 buah"
+  },
+  {
+    "id": 697,
+    "category": "SD",
+    "text": "Bentuk persen dari 1/4 adalah …",
+    "options": ["20%", "25%", "50%", "75%"],
+    "correct": "25%",
+    "explanation": "1/4 × 100% = 25%"
+  },
+  {
+    "id": 698,
+    "category": "SD",
+    "text": "Hasil dari 3/5 + 1/5 adalah …",
+    "options": ["4/5", "2/5", "4/10", "3/25"],
+    "correct": "4/5",
+    "explanation": "3/5 + 1/5 = 4/5"
+  },
+  {
+    "id": 699,
+    "category": "SD",
+    "text": "Bangun datar yang tidak memiliki sudut adalah …",
+    "options": ["segitiga", "persegi", "lingkaran", "trapesium"],
+    "correct": "lingkaran",
+    "explanation": "Lingkaran berbentuk kurva tertutup tanpa titik sudut."
+  },
+  {
+    "id": 700,
+    "category": "SD",
+    "text": "Jumlah titik sudut pada kubus adalah …",
+    "options": ["4", "6", "8", "12"],
+    "correct": "8",
+    "explanation": "Kubus memiliki 8 titik sudut."
+  },
+  {
+    "id": 701,
+    "category": "SD",
+    "text": "Jumlah rusuk pada balok adalah …",
+    "options": ["6", "8", "10", "12"],
+    "correct": "12",
+    "explanation": "Balok memiliki 12 rusuk."
+  },
+  {
+    "id": 702,
+    "category": "SD",
+    "text": "Hasil dari 450 + 250 adalah …",
+    "options": ["600", "700", "650", "750"],
+    "correct": "700",
+    "explanation": "450 + 250 = 700"
+  },
+  {
+    "id": 703,
+    "category": "SD",
+    "text": "Hasil dari 120 ÷ 4 adalah …",
+    "options": ["20", "30", "40", "50"],
+    "correct": "30",
+    "explanation": "120 ÷ 4 = 30"
+  },
+  {
+    "id": 704,
+    "category": "SD",
+    "text": "KPK dari 3 dan 4 adalah …",
+    "options": ["6", "12", "18", "24"],
+    "correct": "12",
+    "explanation": "KPK dari 3 dan 4 adalah 12."
+  },
+  {
+    "id": 705,
+    "category": "SD",
+    "text": "FPB dari 12 dan 16 adalah …",
+    "options": ["2", "4", "6", "8"],
+    "correct": "4",
+    "explanation": "FPB dari 12 dan 16 adalah 4."
+  },
+  {
+    "id": 706,
+    "category": "SD",
+    "text": "Hasil dari 15 × 10 adalah …",
+    "options": ["105", "150", "1500", "155"],
+    "correct": "150",
+    "explanation": "15 × 10 = 150"
+  },
+  {
+    "id": 707,
+    "category": "SD",
+    "text": "Nilai dari √49 adalah …",
+    "options": ["6", "7", "8", "9"],
+    "correct": "7",
+    "explanation": "7 × 7 = 49"
+  },
+  {
+    "id": 708,
+    "category": "SD",
+    "text": "1 meter sama dengan … cm.",
+    "options": ["10", "100", "1000", "10000"],
+    "correct": "100",
+    "explanation": "1 m = 100 cm"
+  },
+  {
+    "id": 709,
+    "category": "SD",
+    "text": "1 kilogram sama dengan … gram.",
+    "options": ["10", "100", "1000", "10000"],
+    "correct": "1000",
+    "explanation": "1 kg = 1000 gram"
+  },
+  {
+    "id": 710,
+    "category": "SD",
+    "text": "1 ton sama dengan … kg.",
+    "options": ["100", "500", "1000", "10000"],
+    "correct": "1000",
+    "explanation": "1 ton = 1000 kg"
+  },
+  {
+    "id": 711,
+    "category": "SD",
+    "text": "Volume kubus bersisi 3 cm adalah …",
+    "options": ["9 cm³", "18 cm³", "27 cm³", "36 cm³"],
+    "correct": "27 cm³",
+    "explanation": "Volume = 3 × 3 × 3 = 27 cm³"
+  },
+  {
+    "id": 712,
+    "category": "SD",
+    "text": "Sudut tegak lurus memiliki besar …",
+    "options": ["45°", "60°", "90°", "180°"],
+    "correct": "90°",
+    "explanation": "Sudut siku-siku/tegak lurus besarnya 90°."
+  },
+  {
+    "id": 713,
+    "category": "SD",
+    "text": "Pecahan senilai dari 1/2 adalah …",
+    "options": ["2/3", "2/4", "3/5", "4/6"],
+    "correct": "2/4",
+    "explanation": "1/2 = 2/4"
+  },
+  {
+    "id": 714,
+    "category": "SD",
+    "text": "Sinonim kata 'pantas' adalah …",
+    "options": ["layak", "buruk", "salah", "aneh"],
+    "correct": "layak",
+    "explanation": "Pantas = layak"
+  },
+  {
+    "id": 715,
+    "category": "SD",
+    "text": "Antonim kata 'panas' adalah …",
+    "options": ["hangat", "terik", "dingin", "sejuk"],
+    "correct": "dingin",
+    "explanation": "Panas × Dingin"
+  },
+  {
+    "id": 716,
+    "category": "SD",
+    "text": "Kata dasar dari 'melihat' adalah …",
+    "options": ["lihat", "liat", "pelihat", "kelihatan"],
+    "correct": "lihat",
+    "explanation": "Me- + lihat = melihat"
+  },
+  {
+    "id": 717,
+    "category": "SD",
+    "text": "Kalimat yang berisi pertanyaan menggunakan kata tanya …",
+    "options": ["mungkin", "apa", "harus", "sudah"],
+    "correct": "apa",
+    "explanation": "Apa adalah kata tanya."
+  },
+  {
+    "id": 718,
+    "category": "SD",
+    "text": "Buku tulismu ada di mana? Kalimat tersebut adalah kalimat …",
+    "options": ["perintah", "tanya", "berita", "seruan"],
+    "correct": "tanya",
+    "explanation": "Diakhiri tanda tanya dan menanyakan tempat."
+  },
+  {
+    "id": 719,
+    "category": "SD",
+    "text": "Ungkapan 'rendah hati' artinya …",
+    "options": ["sombong", "pemalu", "tidak sombong", "penakut"],
+    "correct": "tidak sombong",
+    "explanation": "Rendah hati = tidak sombong."
+  },
+  {
+    "id": 720,
+    "category": "SD",
+    "text": "Ungkapan 'besar kepala' artinya …",
+    "options": ["pintar", "sombong", "dermawan", "penakut"],
+    "correct": "sombong",
+    "explanation": "Besar kepala = sombong."
+  },
+  {
+    "id": 721,
+    "category": "SD",
+    "text": "Dongeng hewan yang bisa berbicara dinamakan …",
+    "options": ["fabel", "mite", "legenda", "sage"],
+    "correct": "fabel",
+    "explanation": "Fabel cerita hewan bertingkah seperti manusia."
+  },
+  {
+    "id": 722,
+    "category": "SD",
+    "text": "Lawan kata 'murah' adalah …",
+    "options": ["bagus", "mahal", "indah", "mewah"],
+    "correct": "mahal",
+    "explanation": "Murah × Mahal"
+  },
+  {
+    "id": 723,
+    "category": "SD",
+    "text": "Pesan moral dalam cerita dinamakan …",
+    "options": ["alur", "tema", "amanat", "tokoh"],
+    "correct": "amanat",
+    "explanation": "Amanat = pesan moral."
+  },
+  {
+    "id": 724,
+    "category": "SD",
+    "text": "Kata 'sepatu' termasuk kata …",
+    "options": ["kerja", "sifat", "benda", "keterangan"],
+    "correct": "benda",
+    "explanation": "Sepatu nama benda."
+  },
+  {
+    "id": 725,
+    "category": "SD",
+    "text": "Kata 'berlari' termasuk kata …",
+    "options": ["kerja", "benda", "sifat", "bilangan"],
+    "correct": "kerja",
+    "explanation": "Berlari menunjukkan tindakan/aktivitas."
+  },
+  {
+    "id": 726,
+    "category": "SD",
+    "text": "Penulisan huruf kapital yang benar adalah …",
+    "options": ["saya tinggal di Jakarta.", "Saya tinggal di jakarta.", "Saya tinggal di Jakarta.", "saya tinggal di jakarta."],
+    "correct": "Saya tinggal di Jakarta.",
+    "explanation": "Awal kalimat dan nama kota huruf kapital."
+  },
+  {
+    "id": 727,
+    "category": "SD",
+    "text": "Sinonim dari 'cerdas' adalah …",
+    "options": ["pandai", "rajin", "malas", "sombong"],
+    "correct": "pandai",
+    "explanation": "Cerdas = pandai"
+  },
+  {
+    "id": 728,
+    "category": "SD",
+    "text": "Puisi tersusun atas baris-baris yang membentuk …",
+    "options": ["paragraf", "bait", "bab", "kalimat"],
+    "correct": "bait",
+    "explanation": "Puisi tersusun dalam bait."
+  },
+  {
+    "id": 729,
+    "category": "SD",
+    "text": "Matahari terbit dari arah …",
+    "options": ["Barat", "Timur", "Utara", "Selatan"],
+    "correct": "Timur",
+    "explanation": "Terbit di Timur, terbenam di Barat."
+  },
+  {
+    "id": 730,
+    "category": "SD",
+    "text": "Bagian tumbuhan yang ada di dalam tanah adalah …",
+    "options": ["daun", "batang", "bunga", "akar"],
+    "correct": "akar",
+    "explanation": "Akar berada di dalam tanah."
+  },
+  {
+    "id": 731,
+    "category": "SD",
+    "text": "Fotosintesis terjadi terutama pada bagian …",
+    "options": ["akar", "batang", "daun", "bunga"],
+    "correct": "daun",
+    "explanation": "Daun mengandung klorofil."
+  },
+  {
+    "id": 732,
+    "category": "SD",
+    "text": "Hewan yang memakan pemakan tumbuhan saja disebut …",
+    "options": ["herbivora", "karnivora", "omnivora", "insektivora"],
+    "correct": "herbivora",
+    "explanation": "Herbivora = pemakan tumbuhan."
+  },
+  {
+    "id": 733,
+    "category": "SD",
+    "text": "Contoh hewan pemakan segalanya (omnivora) adalah …",
+    "options": ["sapi", "harimau", "ayam", "kambing"],
+    "correct": "ayam",
+    "explanation": "Ayam makan biji-bijian dan serangga/cacing."
+  },
+  {
+    "id": 734,
+    "category": "SD",
+    "text": "Air berubah menjadi gas/uap dinamakan …",
+    "options": ["membeku", "mencair", "menguap", "mengembun"],
+    "correct": "menguap",
+    "explanation": "Cair -> Gas = Menguap"
+  },
+  {
+    "id": 735,
+    "category": "SD",
+    "text": "Benda padat berubah menjadi cair dinamakan …",
+    "options": ["mencair", "membeku", "mengembun", "menyublim"],
+    "correct": "mencair",
+    "explanation": "Padat -> Cair = Mencair"
+  },
+  {
+    "id": 736,
+    "category": "SD",
+    "text": "Alat pernapasan manusia adalah …",
+    "options": ["jantung", "paru-paru", "ginjal", "lambung"],
+    "correct": "paru-paru",
+    "explanation": "Paru-paru organ pernapasan utama."
+  },
+  {
+    "id": 737,
+    "category": "SD",
+    "text": "Ikan bernapas di dalam air menggunakan …",
+    "options": ["paru-paru", "insang", "kulit", "trakea"],
+    "correct": "insang",
+    "explanation": "Ikan bernapas dengan insang."
+  },
+  {
+    "id": 738,
+    "category": "SD",
+    "text": "Katak bernapas saat dewasa menggunakan paru-paru dan …",
+    "options": ["insang", "kulit basah", "sirip", "trakea"],
+    "correct": "kulit basah",
+    "explanation": "Amfibi bernapas dengan paru-paru dan kulit."
+  },
+  {
+    "id": 739,
+    "category": "SD",
+    "text": "Gaya tarik bumi dinamakan gaya …",
+    "options": ["gesek", "magnet", "gravitasi", "pegas"],
+    "correct": "gravitasi",
+    "explanation": "Gaya gravitasi menarik benda ke bawah."
+  },
+  {
+    "id": 740,
+    "category": "SD",
+    "text": "Sumber energi panas terbesar bagi bumi adalah …",
+    "options": ["api", "listrik", "matahari", "batu bara"],
+    "correct": "matahari",
+    "explanation": "Matahari sumber energi terbesar."
+  },
+  {
+    "id": 741,
+    "category": "SD",
+    "text": "Hewan bertelur disebut …",
+    "options": ["vivipar", "ovipar", "ovovivipar", "metamorfosis"],
+    "correct": "ovipar",
+    "explanation": "Ovipar = berkembang biak dengan bertelur."
+  },
+  {
+    "id": 742,
+    "category": "SD",
+    "text": "Hewan melahirkan disebut …",
+    "options": ["vivipar", "ovipar", "ovovivipar", "spora"],
+    "correct": "vivipar",
+    "explanation": "Vivipar = beranak/melahirkan."
+  },
+  {
+    "id": 743,
+    "category": "SD",
+    "text": "Satelit alami bagi planet bumi adalah …",
+    "options": ["Matahari", "Bulan", "Mars", "Venus"],
+    "correct": "Bulan",
+    "explanation": "Bulan mengelilingi bumi."
+  },
+  {
+    "id": 744,
+    "category": "SD",
+    "text": "Simbol Pancasila sila ke-1 adalah …",
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"],
+    "correct": "Bintang",
+    "explanation": "Bintang = Sila 1"
+  },
+  {
+    "id": 745,
+    "category": "SD",
+    "text": "Simbol Pancasila sila ke-2 adalah …",
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Padi dan Kapas"],
+    "correct": "Rantai",
+    "explanation": "Rantai = Sila 2"
+  },
+  {
+    "id": 746,
+    "category": "SD",
+    "text": "Sila ke-3 Pancasila berbunyi …",
+    "options": ["Ketuhanan Yang Maha Esa", "Persatuan Indonesia", "Keadilan Sosial", "Kemanusiaan yang Adil"],
+    "correct": "Persatuan Indonesia",
+    "explanation": "Sila 3 = Persatuan Indonesia"
+  },
+  {
+    "id": 747,
+    "category": "SD",
+    "text": "Menjaga kebersihan sekolah adalah tugas …",
+    "options": ["guru saja", "penjaga sekolah saja", "seluruh warga sekolah", "kepala sekolah"],
+    "correct": "seluruh warga sekolah",
+    "explanation": "Tugas bersama seluruh warga sekolah."
+  },
+  {
+    "id": 748,
+    "category": "SD",
+    "text": "Keputusan bersama dalam musyawarah dicapai melalui …",
+    "options": ["mufakat", "pertengkaran", "pemaksaan", "perselisihan"],
+    "correct": "mufakat",
+    "explanation": "Musyawarah untuk mufakat."
+  },
+  {
+    "id": 749,
+    "category": "SD",
+    "text": "Bendera negara Indonesia berwarna …",
+    "options": ["Merah Putih", "Merah Biru", "Putih Hijau", "Kuning Merah"],
+    "correct": "Merah Putih",
+    "explanation": "Merah Putih"
+  },
+  {
+    "id": 750,
+    "category": "SD",
+    "text": "Lagu kebangsaan Indonesia adalah …",
+    "options": ["Indonesia Pusaka", "Indonesia Raya", "Garuda Pancasila", "Bagimu Negeri"],
+    "correct": "Indonesia Raya",
+    "explanation": "Indonesia Raya diciptakan WR Supratman."
+  },
+  {
+    "id": 751,
+    "category": "SD",
+    "text": "Hari Kemerdekaan Indonesia diperingati setiap tanggal …",
+    "options": ["1 Juni", "17 Agustus", "28 Oktober", "10 November"],
+    "correct": "17 Agustus",
+    "explanation": "17 Agustus 1945"
+  },
+  {
+    "id": 752,
+    "category": "SD",
+    "text": "Pancasila terdiri dari … sila.",
+    "options": ["3", "4", "5", "6"],
+    "correct": "5",
+    "explanation": "5 dasar/sila"
+  },
+  {
+    "id": 753,
+    "category": "SD",
+    "text": "Kerja sama membersihkan kelas dinamakan …",
+    "options": ["piket kelas", "ujian kelas", "diskusi", "belajar mandiri"],
+    "correct": "piket kelas",
+    "explanation": "Piket kelas dilakukan bersama-sama."
+  },
+  {
+    "id": 754,
+    "category": "SD",
+    "text": "Semboyan negara Indonesia adalah …",
+    "options": ["Tut Wuri Handayani", "Bhinneka Tunggal Ika", "Pantang Mundur", "Bersatu Kita Teguh"],
+    "correct": "Bhinneka Tunggal Ika",
+    "explanation": "Berbeda-beda tetapi tetap satu jua."
+  },
+  {
+    "id": 755,
+    "category": "SD",
+    "text": "Sikap menghargai perbedaan dinamakan …",
+    "options": ["toleransi", "egois", "sombong", "iri"],
+    "correct": "toleransi",
+    "explanation": "Toleransi = sikap saling menghargai."
+  },
+  {
+    "id": 756,
+    "category": "SD",
+    "text": "Ibukota negara Indonesia adalah …",
+    "options": ["Surabaya", "Bandung", "Jakarta", "Medan"],
+    "correct": "Jakarta",
+    "explanation": "DKI Jakarta"
+  },
+  {
+    "id": 757,
+    "category": "SD",
+    "text": "Candi Borobudur terletak di provinsi …",
+    "options": ["Jawa Barat", "Jawa Tengah", "Jawa Timur", "Bali"],
+    "correct": "Jawa Tengah",
+    "explanation": "Terletak di Magelang, Jawa Tengah."
+  },
+  {
+    "id": 758,
+    "category": "SD",
+    "text": "Mata uang resmi Indonesia adalah …",
+    "options": ["Ringgit", "Rupiah", "Dollar", "Yen"],
+    "correct": "Rupiah",
+    "explanation": "Rupiah (IDR)"
+  },
+  {
+    "id": 759,
+    "category": "SD",
+    "text": "Pulau terbesar di Indonesia adalah …",
+    "options": ["Jawa", "Sumatera", "Kalimantan", "Sulawesi"],
+    "correct": "Kalimantan",
+    "explanation": "Kalimantan adalah pulau terbesar."
+  },
+  {
+    "id": 760,
+    "category": "SD",
+    "text": "Bapak Pendidikan Nasional Indonesia adalah …",
+    "options": ["Ir. Soekarno", "Ki Hajar Dewantara", "Moh. Hatta", "Cut Nyak Dien"],
+    "correct": "Ki Hajar Dewantara",
+    "explanation": "Ki Hajar Dewantara (2 Mei)."
+  },
+  {
+    "id": 761,
+    "category": "SD",
+    "text": "Kegiatan memakai/menggunakan barang dinamakan …",
+    "options": ["produksi", "distribusi", "konsumsi", "investasi"],
+    "correct": "konsumsi",
+    "explanation": "Konsumsi = memakai barang/jasa."
+  },
+  {
+    "id": 762,
+    "category": "SD",
+    "text": "Kegiatan menyalurkan barang dinamakan …",
+    "options": ["produksi", "distribusi", "konsumsi", "transaksi"],
+    "correct": "distribusi",
+    "explanation": "Distribusi = menyalurkan dari produsen ke konsumen."
+  },
+  {
+    "id": 763,
+    "category": "SD",
+    "text": "Alat petunjuk arah mata angin adalah …",
+    "options": ["penggaris", "kompas", "termometer", "jam"],
+    "correct": "kompas",
+    "explanation": "Kompas menunjukkan arah utara-selatan."
+  },
+  {
+    "id": 764,
+    "category": "SD",
+    "text": "Sungai terpanjang di Indonesia terletak di Kalimantan, yaitu Sungai …",
+    "options": ["Musi", "Kapuas", "Bengawan Solo", "Mahakam"],
+    "correct": "Kapuas",
+    "explanation": "Sungai Kapuas sungai terpanjang di Indonesia."
+  },
+  {
+    "id": 765,
+    "category": "SD",
+    "text": "Pakaian adat, rumah adat, dan tari daerah merupakan contoh …",
+    "options": ["keragaman budaya", "sumber daya alam", "teknologi", "olahraga"],
+    "correct": "keragaman budaya",
+    "explanation": "Termasuk keragaman budaya nasional."
+  },
+  {
+    "id": 766,
+    "category": "SD",
+    "text": "Kebutuhan utama manusia dinamakan kebutuhan …",
+    "options": ["primer", "sekunder", "tersier", "tambahan"],
+    "correct": "primer",
+    "explanation": "Kebutuhan pokok/primer (pangan, sandang, papan)."
+  },
+  {
+    "id": 767,
+    "category": "SD",
+    "text": "Tari Saman berasal dari daerah …",
+    "options": ["Aceh", "Jawa Barat", "Bali", "Papua"],
+    "correct": "Aceh",
+    "explanation": "Tari Saman dari Aceh."
+  },
+  {
+    "id": 768,
+    "category": "SD",
+    "text": "Alat musik Angklung dimainkan dengan cara …",
+    "options": ["dipukul", "ditiup", "digoyang", "dipetik"],
+    "correct": "digoyang",
+    "explanation": "Angklung digoyangkan."
+  },
+  {
+    "id": 769,
+    "category": "SD",
+    "text": "Warna campuran merah dan biru akan menghasilkan warna …",
+    "options": ["hijau", "ungu", "oranye", "cokelat"],
+    "correct": "ungu",
+    "explanation": "Merah + Biru = Ungu"
+  },
+  {
+    "id": 770,
+    "category": "SD",
+    "text": "Pencipta lagu 'Indonesia Raya' adalah …",
+    "options": ["W.R. Supratman", "Ibu Sud", "Ismail Marzuki", "C. Simanjuntak"],
+    "correct": "W.R. Supratman",
+    "explanation": "Wagiran Rudolf Supratman"
+  },
+  {
+    "id": 771,
+    "category": "SD",
+    "text": "Alat musik yang ditiup contohnya adalah …",
+    "options": ["suling", "gitar", "drum", "biola"],
+    "correct": "suling",
+    "explanation": "Suling dimainkan dengan ditiup."
+  },
+  {
+    "id": 772,
+    "category": "SD",
+    "text": "Gambar hiasan berpola yang digambar pada kain dinamakan …",
+    "options": ["batik", "patung", "lukisan minyak", "posters"],
+    "correct": "batik",
+    "explanation": "Batik adalah seni lukis kain khas Indonesia."
+  },
+  {
+    "id": 773,
+    "category": "SD",
+    "text": "Garis yang melengkung dinamakan garis …",
+    "options": ["lurus", "lengkung", "zig-zag", "putus-putus"],
+    "correct": "lengkung",
+    "explanation": "Garis lengkung."
+  },
+  {
+    "id": 774,
+    "category": "SD",
+    "text": "Patung terbuat dari bahan keras seperti …",
+    "options": ["batu / kayu", "kertas", "kain", "air"],
+    "correct": "batu / kayu",
+    "explanation": "Batu dan kayu adalah bahan pembuatan patung."
+  },
+  {
+    "id": 775,
+    "category": "SD",
+    "text": "Tempo lagu yang cepat menggambarkan perasaan …",
+    "options": ["sedih", "gembira / semangat", "duka", "kecewa"],
+    "correct": "gembira / semangat",
+    "explanation": "Tempo cepat bernuansa riang/semangat."
+  },
+  {
+    "id": 776,
+    "category": "SD",
+    "text": "Pameran karya seni dilakukan di …",
+    "options": ["galeri / sekolah", "pasar hewan", "sawah", "jalan raya"],
+    "correct": "galeri / sekolah",
+    "explanation": "Pameran dipajang di galeri atau sekolah."
+  },
+  {
+    "id": 777,
+    "category": "SD",
+    "text": "English for 'buku' is …",
+    "options": ["book", "pen", "pencil", "ruler"],
+    "correct": "book",
+    "explanation": "Buku = book"
+  },
+  {
+    "id": 778,
+    "category": "SD",
+    "text": "English for 'anjing' is …",
+    "options": ["cat", "dog", "bird", "fish"],
+    "correct": "dog",
+    "explanation": "Anjing = dog"
+  },
+  {
+    "id": 779,
+    "category": "SD",
+    "text": "Opposite of 'big' is …",
+    "options": ["small", "tall", "long", "heavy"],
+    "correct": "small",
+    "explanation": "Big × Small"
+  },
+  {
+    "id": 780,
+    "category": "SD",
+    "text": "I have two … (mata).",
+    "options": ["eyes", "ears", "hands", "legs"],
+    "correct": "eyes",
+    "explanation": "Mata = eyes"
+  },
+  {
+    "id": 781,
+    "category": "SD",
+    "text": "'Selamat pagi' in English is …",
+    "options": ["Good morning", "Good afternoon", "Good night", "Good evening"],
+    "correct": "Good morning",
+    "explanation": "Selamat pagi = Good morning"
+  },
+  {
+    "id": 782,
+    "category": "SD",
+    "text": "Color of milk is …",
+    "options": ["black", "red", "white", "yellow"],
+    "correct": "white",
+    "explanation": "Milk is white."
+  },
+  {
+    "id": 783,
+    "category": "SD",
+    "text": "Number 10 in English is …",
+    "options": ["one", "five", "ten", "twelve"],
+    "correct": "ten",
+    "explanation": "10 = ten"
+  },
+  {
+    "id": 784,
+    "category": "SD",
+    "text": "We walk with our …",
+    "options": ["hands", "feet", "eyes", "ears"],
+    "correct": "feet",
+    "explanation": "Walk with feet/legs."
+  },
+  {
+    "id": 785,
+    "category": "SD",
+    "text": "Hasil dari 5 + 5 × 2 adalah …",
+    "options": ["20", "15", "10", "25"],
+    "correct": "15",
+    "explanation": "Perkalian dulu: 5 × 2 = 10, lalu + 5 = 15."
+  },
+  {
+    "id": 786,
+    "category": "SD",
+    "text": "Hasil dari 50 - 20 ÷ 2 adalah …",
+    "options": ["15", "40", "30", "20"],
+    "correct": "40",
+    "explanation": "Pembagian dulu: 20 ÷ 2 = 10, lalu 50 - 10 = 40."
+  },
+  {
+    "id": 787,
+    "category": "SD",
+    "text": "Bangun datar yang memiliki 4 sisi sama panjang adalah …",
+    "options": ["persegi panjang", "persegi", "trapesium", "layang-layang"],
+    "correct": "persegi",
+    "explanation": "Persegi memiliki 4 sisi sama panjang."
+  },
+  {
+    "id": 788,
+    "category": "SD",
+    "text": "Bentuk pecahan dari 75% adalah …",
+    "options": ["1/2", "1/4", "3/4", "4/5"],
+    "correct": "3/4",
+    "explanation": "75/100 = 3/4"
+  },
+  {
+    "id": 789,
+    "category": "SD",
+    "text": "Jumlah hari pada bulan Januari adalah …",
+    "options": ["28", "29", "30", "31"],
+    "correct": "31",
+    "explanation": "Januari terdiri dari 31 hari."
+  },
+  {
+    "id": 790,
+    "category": "SD",
+    "text": "1 abad sama dengan … tahun.",
+    "options": ["10", "50", "100", "1000"],
+    "correct": "100",
+    "explanation": "1 abad = 100 tahun"
+  },
+  {
+    "id": 791,
+    "category": "SD",
+    "text": "1 dekade (dasawarsa) sama dengan … tahun.",
+    "options": ["5", "10", "25", "50"],
+    "correct": "10",
+    "explanation": "1 dasawarsa = 10 tahun"
+  },
+  {
+    "id": 792,
+    "category": "SD",
+    "text": "Luas segitiga yang memiliki alas 10 cm dan tinggi 8 cm adalah …",
+    "options": ["40 cm²", "80 cm²", "20 cm²", "50 cm²"],
+    "correct": "40 cm²",
+    "explanation": "1/2 × 10 × 8 = 40 cm²"
+  },
+  {
+    "id": 793,
+    "category": "SD",
+    "text": "Nilai dari 10² adalah …",
+    "options": ["20", "100", "200", "1000"],
+    "correct": "100",
+    "explanation": "10 × 10 = 100"
+  },
+  {
+    "id": 794,
+    "category": "SD",
+    "text": "Suhu air mendidih pada tekanan normal adalah … °C.",
+    "options": ["0", "50", "100", "120"],
+    "correct": "100",
+    "explanation": "Air mendidih pada suhu 100°C."
+  },
+  {
+    "id": 795,
+    "category": "SD",
+    "text": "Suhu air membeku menjadi es pada … °C.",
+    "options": ["0", "10", "-10", "100"],
+    "correct": "0",
+    "explanation": "Air membeku pada suhu 0°C."
+  },
+  {
+    "id": 796,
+    "category": "SD",
+    "text": "Alat pencernaan makanan pertama kali pada manusia adalah …",
+    "options": ["lambung", "mulut", "kerongkongan", "usus halus"],
+    "correct": "mulut",
+    "explanation": "Makanan dikunyah pertama kali di mulut."
+  },
+  {
+    "id": 797,
+    "category": "SD",
+    "text": "Zat yang diserap usus halus setelah makanan dicerna adalah …",
+    "options": ["air saja", "sari-sari makanan", "ampas makanan", "gas"],
+    "correct": "sari-sari makanan",
+    "explanation": "Usus halus menyerap sari-sari makanan."
+  },
+  {
+    "id": 798,
+    "category": "SD",
+    "text": "Bagian tubuh manusia yang bertulang keras dan menyokong tubuh adalah …",
+    "options": ["otot", "rangka / tulang", "kulit", "darah"],
+    "correct": "rangka / tulang",
+    "explanation": "Rangka menyokong dan memberi bentuk tubuh."
+  },
+  {
+    "id": 799,
+    "category": "SD",
+    "text": "Sendi yang dapat digerakkan ke segala arah adalah sendi …",
+    "options": ["engsel", "peluru", "putar", "geser"],
+    "correct": "peluru",
+    "explanation": "Sendi peluru dapat bergerak ke segala arah."
+  },
+  {
+    "id": 800,
+    "category": "SD",
+    "text": "Lawan kata 'rajin' adalah …",
+    "options": ["malas", "pintar", "cerdas", "tekun"],
+    "correct": "malas",
+    "explanation": "Rajin × Malas"
+  },
+  {
+    "id": 801,
+    "category": "SD",
+    "text": "Lawan kata 'tinggi' adalah …",
+    "options": ["rendah", "pendek", "kecil", "panjang"],
+    "correct": "rendah",
+    "explanation": "Tinggi × Rendah"
+  },
+  {
+    "id": 802,
+    "category": "SD",
+    "text": "Lawan kata 'panjang' adalah …",
+    "options": ["pendek", "kecil", "rendah", "singkat"],
+    "correct": "pendek",
+    "explanation": "Panjang × Pendek"
+  },
+  {
+    "id": 803,
+    "category": "SD",
+    "text": "Kata yang sama artinya dengan 'penjara' adalah …",
+    "options": ["bui / lembaga pemasyarakatan", "sekolah", "rumah", "pasar"],
+    "correct": "bui / lembaga pemasyarakatan",
+    "explanation": "Penjara = bui"
+  },
+  {
+    "id": 784,
+    "category": "SD",
+    "text": "Ibu memotong kue menjadi 4 bagian sama besar. Tiap bagian bernilai …",
+    "options": ["1/2", "1/3", "1/4", "1/5"],
+    "correct": "1/4",
+    "explanation": "1 kue dibagi 4 = 1/4"
+  },
+  {
+    "id": 805,
+    "category": "SD",
+    "text": "Hasil dari 0,5 + 0,2 adalah …",
+    "options": ["0,3", "0,7", "0,10", "1,0"],
+    "correct": "0,7",
+    "explanation": "0,5 + 0,2 = 0,7"
+  },
+  {
+    "id": 806,
+    "category": "SD",
+    "text": "Hasil dari 1 - 0,4 adalah …",
+    "options": ["0,6", "0,5", "0,4", "0,8"],
+    "correct": "0,6",
+    "explanation": "1 - 0,4 = 0,6"
+  },
+  {
+    "id": 807,
+    "category": "SD",
+    "text": "Ibukota Provinsi Jawa Barat adalah …",
+    "options": ["Bandung", "Bogor", "Cirebon", "Bekasi"],
+    "correct": "Bandung",
+    "explanation": "Bandung ibukota Jabar."
+  },
+  {
+    "id": 808,
+    "category": "SD",
+    "text": "Ibukota Provinsi Sumatera Utara adalah …",
+    "options": ["Medan", "Padang", "Palembang", "Pekanbaru"],
+    "correct": "Medan",
+    "explanation": "Medan ibukota Sumut."
+  },
+  {
+    "id": 809,
+    "category": "SD",
+    "text": "Mata uang negara Singapura adalah …",
+    "options": ["Dolar Singapura", "Ringgit", "Rupiah", "Baht"],
+    "correct": "Dolar Singapura",
+    "explanation": "SGD"
+  },
+  {
+    "id": 810,
+    "category": "SD",
+    "text": "Mata uang negara Malaysia adalah …",
+    "options": ["Ringgit", "Dolar", "Peso", "Rupiah"],
+    "correct": "Ringgit",
+    "explanation": "Ringgit Malaysia"
+  },
+  {
+    "id": 811,
+    "category": "SD",
+    "text": "Simbol Pancasila sila ke-4 adalah …",
+    "options": ["Bintang", "Rantai", "Pohon Beringin", "Kepala Banteng"],
+    "correct": "Kepala Banteng",
+    "explanation": "Kepala Banteng = Sila 4"
+  },
+  {
+    "id": 812,
+    "category": "SD",
+    "text": "Simbol Pancasila sila ke-5 adalah …",
+    "options": ["Padi dan Kapas", "Bintang", "Rantai", "Kepala Banteng"],
+    "correct": "Padi dan Kapas",
+    "explanation": "Padi dan Kapas = Sila 5"
+  },
+  {
+    "id": 813,
+    "category": "SD",
+    "text": "Gunung tertinggi di Pulau Jawa adalah Gunung …",
+    "options": ["Merapi", "Semeru", "Slamet", "Bromo"],
+    "correct": "Semeru",
+    "explanation": "Gunung Semeru (3.676 mdpl)."
+  },
+  {
+    "id": 814,
+    "category": "SD",
+    "text": "Candi Sewu dan Prambanan merupakan candi berunsur agama …",
+    "options": ["Hindu", "Buddha", "Islam", "Kristen"],
+    "correct": "Hindu",
+    "explanation": "Prambanan kompleks Hindu."
+  },
+  {
+    "id": 815,
+    "category": "SD",
+    "text": "Tari Pendet dan Tari Kecak berasal dari daerah …",
+    "options": ["Jawa Barat", "Bali", "Nusa Tenggara", "Lombok"],
+    "correct": "Bali",
+    "explanation": "Tari Kecak & Pendet khas Bali."
+  },
+  {
+    "id": 816,
+    "category": "SD",
+    "text": "Tari Jaipong berasal dari daerah …",
+    "options": ["Jawa Barat", "Jawa Tengah", "Jawa Timur", "DKI Jakarta"],
+    "correct": "Jawa Barat",
+    "explanation": "Jaipong khas Sunda/Jawa Barat."
+  },
+  {
+    "id": 817,
+    "category": "SD",
+    "text": "Suku Asmat dan Suku Dani berasal dari pulau …",
+    "options": ["Sumatera", "Kalimantan", "Sulawesi", "Papua"],
+    "correct": "Papua",
+    "explanation": "Suku Asmat & Dani dari Papua."
+  },
+  {
+    "id": 818,
+    "category": "SD",
+    "text": "Suku Bugis dan Toraja berasal dari pulau …",
+    "options": ["Sulawesi", "Kalimantan", "Jawa", "Sumatera"],
+    "correct": "Sulawesi",
+    "explanation": "Berasal dari Sulawesi Selatan."
+  },
+  {
+    "id": 819,
+    "category": "SD",
+    "text": "Alat pernapasan tumbuhan pada daun dinamakan …",
+    "options": ["stomata", "lentisel", "klorofil", "pembuluh kayu"],
+    "correct": "stomata",
+    "explanation": "Stomata = mulut daun."
+  },
+  {
+    "id": 820,
+    "category": "SD",
+    "text": "Perubahan wujud gas menjadi cair dinamakan …",
+    "options": ["menguap", "mengembun", "membeku", "mencair"],
+    "correct": "mengembun",
+    "explanation": "Gas -> Cair = Mengembun"
+  },
+  {
+    "id": 821,
+    "category": "SD",
+    "text": "Perubahan wujud padat menjadi gas dinamakan …",
+    "options": ["menyublim", "mengkristal", "menguap", "mencair"],
+    "correct": "menyublim",
+    "explanation": "Padat -> Gas = Menyublim (contoh: kapur barus)"
+  },
+  {
+    "id": 822,
+    "category": "SD",
+    "text": "Benda yang dapat menghantarkan panas dengan baik disebut …",
+    "options": ["konduktor", "isolator", "radiator", "resistor"],
+    "correct": "konduktor",
+    "explanation": "Konduktor penghantar panas/listrik yang baik."
+  },
+  {
+    "id": 823,
+    "category": "SD",
+    "text": "Benda yang tidak dapat menghantarkan panas dinamakan …",
+    "options": ["konduktor", "isolator", "semikonduktor", "kabel"],
+    "correct": "isolator",
+    "explanation": "Isolator penghambat panas (kayu, plastik)."
+  },
+  {
+    "id": 824,
+    "category": "SD",
+    "text": "Magnet memiliki dua kutub, yaitu kutub …",
+    "options": ["Utara dan Selatan", "Barat dan Timur", "Atas dan Bawah", "Depan dan Belakang"],
+    "correct": "Utara dan Selatan",
+    "explanation": "Kutub Utara (N) dan Selatan (S)."
+  },
+  {
+    "id": 825,
+    "category": "SD",
+    "text": "Dua kutub magnet yang senama jika didekatkan akan …",
+    "options": ["tarik-menarik", "tolak-menolak", "menempel", "diam saja"],
+    "correct": "tolak-menolak",
+    "explanation": "Kutub senama tolak-menolak."
+  },
+  {
+    "id": 826,
+    "category": "SD",
+    "text": "Dua kutub magnet yang tidak senama jika didekatkan akan …",
+    "options": ["tarik-menarik", "tolak-menolak", "menjauh", "pecah"],
+    "correct": "tarik-menarik",
+    "explanation": "Kutub berbeda jenis tarik-menarik."
+  },
+  {
+    "id": 827,
+    "category": "SD",
+    "text": "Alat penunjuk arah pada kompas menggunakan magnet berbentuk …",
+    "options": ["jarum", "batang", "silinder", "U"],
+    "correct": "jarum",
+    "explanation": "Kompas menggunakan magnet jarum."
+  },
+  {
+    "id": 828,
+    "category": "SD",
+    "text": "Planet terbesar dalam sistem tata surya kita adalah …",
+    "options": ["Bumi", "Mars", "Jupiter", "Saturnus"],
+    "correct": "Jupiter",
+    "explanation": "Jupiter planet terbesar."
+  },
+  {
+    "id": 829,
+    "category": "SD",
+    "text": "Planet yang mendapat julukan Planet Merah adalah …",
+    "options": ["Venus", "Mars", "Jupiter", "Merkurius"],
+    "correct": "Mars",
+    "explanation": "Mars berwarna kemerahan."
+  },
+  {
+    "id": 830,
+    "category": "SD",
+    "text": "Planet yang memiliki cincin paling indah dan jelas adalah …",
+    "options": ["Uranus", "Saturnus", "Neptunus", "Jupiter"],
+    "correct": "Saturnus",
+    "explanation": "Saturnus terkenal dengan cincin besarnya."
+  },
+  {
+    "id": 831,
+    "category": "SD",
+    "text": "Pusat tata surya kita adalah …",
+    "options": ["Bumi", "Matahari", "Bulan", "Jupiter"],
+    "correct": "Matahari",
+    "explanation": "Matahari sebagai pusat gravitasi tata surya."
+  },
+  {
+    "id": 832,
+    "category": "SD",
+    "text": "Gerakan bumi berputar pada porosnya dinamakan …",
+    "options": ["rotasi", "revolusi", "evaporasi", "kondensasi"],
+    "correct": "rotasi",
+    "explanation": "Rotasi bumi menyebabkan siang dan malam."
+  },
+  {
+    "id": 833,
+    "category": "SD",
+    "text": "Gerakan bumi mengelilingi matahari dinamakan …",
+    "options": ["rotasi", "revolusi", "orbit", "gravitasi"],
+    "correct": "revolusi",
+    "explanation": "Revolusi bumi butuh waktu 1 tahun."
+  },
+  {
+    "id": 834,
+    "category": "SD",
+    "text": "Akibat dari rotasi bumi adalah terjadinya perpindahan …",
+    "options": ["musim", "siang dan malam", "tahun", "bulan"],
+    "correct": "siang dan malam",
+    "explanation": "Rotasi memicu pergantian siang & malam."
+  },
+  {
+    "id": 835,
+    "category": "SD",
+    "text": "Waktu yang dibutuhkan bumi untuk satu kali rotasi adalah …",
+    "options": ["12 jam", "24 jam", "30 hari", "365 hari"],
+    "correct": "24 jam",
+    "explanation": "1 hari = 24 jam"
+  },
+  {
+    "id": 836,
+    "category": "SD",
+    "text": "Waktu yang dibutuhkan bumi untuk satu kali revolusi adalah …",
+    "options": ["24 jam", "30 hari", "365 1/4 hari", "100 hari"],
+    "correct": "365 1/4 hari",
+    "explanation": "1 tahun capai 365,25 hari."
+  },
+  {
+    "id": 837,
+    "category": "SD",
+    "text": "Tahun capai 366 hari yang muncul 4 tahun sekali disebut tahun …",
+    "options": ["kabisat", "masehi", "hijriah", "zodiac"],
+    "correct": "kabisat",
+    "explanation": "Tahun kabisat memiliki tanggal 29 Februari."
+  },
+  {
+    "id": 838,
+    "category": "SD",
+    "text": "Suara atau tiruan bunyi 'guk-guk' adalah suara …",
+    "options": ["kucing", "anjing", "sapi", "kambing"],
+    "correct": "anjing",
+    "explanation": "Suara anjing."
+  },
+  {
+    "id": 839,
+    "category": "SD",
+    "text": "Suara 'kukuruyuk' di pagi hari adalah suara burung / ayam …",
+    "options": ["jantan", "betina", "anak ayam", "bebek"],
+    "correct": "jantan",
+    "explanation": "Ayam jantan berkukuruyuk."
+  },
+  {
+    "id": 840,
+    "category": "SD",
+    "text": "Bunga nasional Indonesia yang dijuluki Puspa Bangsa adalah …",
+    "options": ["Melati Putih", "Anggrek Bulan", "Rafflesia Arnoldii", "Mawar Red"],
+    "correct": "Melati Putih",
+    "explanation": "Melati Putih = Puspa Bangsa."
+  },
+  {
+    "id": 841,
+    "category": "SD",
+    "text": "Bunga langka Raksasa yang menjadi Puspa Langka Indonesia adalah …",
+    "options": ["Melati", "Rafflesia Arnoldii", "Kamboja", "Mawar"],
+    "correct": "Rafflesia Arnoldii",
+    "explanation": "Rafflesia Arnoldii."
+  },
+  {
+    "id": 842,
+    "category": "SD",
+    "text": "Hewan langka bertanduk satu di Ujung Kulon adalah …",
+    "options": ["Gajah", "Badak Jawa", "Harimau", "Banteng"],
+    "correct": "Badak Jawa",
+    "explanation": "Badak bercula satu di Ujung Kulon."
+  },
+  {
+    "id": 843,
+    "category": "SD",
+    "text": "Komodo merupakan hewan endemik yang berasal dari provinsi …",
+    "options": ["Nusa Tenggara Timur", "Nusa Tenggara Barat", "Bali", "Maluku"],
+    "correct": "Nusa Tenggara Timur",
+    "explanation": "NTT (Pulau Komodo)."
+  },
+  {
+    "id": 844,
+    "category": "SD",
+    "text": "Tempat dilindunginya hewan langka dinamakan …",
+    "options": ["suaka margasatwa", "cagar alam", "hutan lindung", "taman kota"],
+    "correct": "suaka margasatwa",
+    "explanation": "Suaka margasatwa khusus melindungi hewan."
+  },
+  {
+    "id": 845,
+    "category": "SD",
+    "text": "Tempat dilindunginya tumbuhan langka dinamakan …",
+    "options": ["suaka margasatwa", "cagar alam", "kebun binatang", "museum"],
+    "correct": "cagar alam",
+    "explanation": "Cagar alam merawat keanekaragaman flora/tumbuhan."
+  },
+  {
+    "id": 846,
+    "category": "SD",
+    "text": "Alat pernapasan belalang dan serangga adalah …",
+    "options": ["insang", "paru-paru", "trakea", "kulit"],
+    "correct": "trakea",
+    "explanation": "Serangga bernapas dengan trakea."
+  },
+  {
+    "id": 847,
+    "category": "SD",
+    "text": "Penyerbukan pada bunga dibantu oleh serangga seperti …",
+    "options": ["lebah dan kupu-kupu", "semut dan cacing", "nyamuk", "kecoa"],
+    "correct": "lebah dan kupu-kupu",
+    "explanation": "Lebah & kupu-kupu membantu penyerbukan."
+  },
+  {
+    "id": 848,
+    "category": "SD",
+    "text": "Bagian jantan pada bunga dinamakan …",
+    "options": ["putik", "benang sari", "mahkota", "kelopak"],
+    "correct": "benang sari",
+    "explanation": "Benang sari organ jantan."
+  },
+  {
+    "id": 849,
+    "category": "SD",
+    "text": "Bagian betina pada bunga dinamakan …",
+    "options": ["putik", "benang sari", "tangkai", "daun"],
+    "correct": "putik",
+    "explanation": "Putik organ betina."
+  },
+  {
+    "id": 850,
+    "category": "SD",
+    "text": "Perubahan bentuk tubuh hewan dalam siklus hidupnya dinamakan …",
+    "options": ["metamorfosis", "fotosintesis", "adaptasi", "respirasi"],
+    "correct": "metamorfosis",
+    "explanation": "Metamorfosis (contoh: ulat -> kupu-kupu)."
+  },
+  {
+    "id": 851,
+    "category": "SD",
+    "text": "Contoh hewan yang mengalami metamorfosis sempurna adalah …",
+    "options": ["kupu-kupu", "belalang", "kecoa", "jangkrik"],
+    "correct": "kupu-kupu",
+    "explanation": "Kupu-kupu melewati fase kepompong (pupa)."
+  },
+  {
+    "id": 852,
+    "category": "SD",
+    "text": "Tahapan metamorfosis kupu-kupu setelah telur adalah …",
+    "options": ["ulat (larva)", "kepompong", "kupu-kupu muda", "kupu-kupu dewasa"],
+    "correct": "ulat (larva)",
+    "explanation": "Telur -> Ulat -> Kepompong -> Kupu-kupu."
+  },
+  {
+    "id": 853,
+    "category": "SD",
+    "text": "Kemampuan cecak memutuskan ekornya untuk mengelabui musuh disebut …",
+    "options": ["mimikri", "autotomi", "hibernasi", "kamuflase"],
+    "correct": "autotomi",
+    "explanation": "Autotomi = memutus bagian tubuh."
+  },
+  {
+    "id": 854,
+    "category": "SD",
+    "text": "Kemampuan bunglon mengubah warna kulitnya sesuai lingkungan disebut …",
+    "options": ["mimikri", "autotomi", "adaptation", "hibernasi"],
+    "correct": "mimikri",
+    "explanation": "Mimikri mengubah warna kulit."
+  },
+  {
+    "id": 855,
+    "category": "SD",
+    "text": "Tumbuhan pemakan serangga contohnya adalah …",
+    "options": ["kantong semar", "mawar", "melati", "padi"],
+    "correct": "kantong semar",
+    "explanation": "Kantong semar menjebak serangga."
+  },
+  {
+    "id": 856,
+    "category": "SD",
+    "text": "Tumbuhan yang menyimpan cadangan air di batangnya dan berdaun duri adalah …",
+    "options": ["kaktus", "teratai", "eceng gondok", "bakau"],
+    "correct": "kaktus",
+    "explanation": "Kaktus hidup di daerah kering."
+  },
+  {
+    "id": 857,
+    "category": "SD",
+    "text": "Tumbuhan yang hidup melayang di permukaan air contohnya …",
+    "options": ["eceng gondok", "kaktus", "cemara", "pohon jati"],
+    "correct": "eceng gondok",
+    "explanation": "Eceng gondok dan teratai hidup di air."
+  },
+  {
+    "id": 858,
+    "category": "SD",
+    "text": "Buah yang kaya akan Vitamin C dan rasanya masam manis adalah …",
+    "options": ["jeruk", "pisang", "alpukat", "kelapa"],
+    "correct": "jeruk",
+    "explanation": "Jeruk tinggi Vitamin C."
+  },
+  {
+    "id": 859,
+    "category": "SD",
+    "text": "Vitamin yang berguna menjaga kesehatan mata adalah Vitamin …",
+    "options": ["A", "B", "C", "D"],
+    "correct": "A",
+    "explanation": "Vitamin A untuk mata (contoh: wortel)."
+  },
+  {
+    "id": 860,
+    "category": "SD",
+    "text": "Vitamin yang pembentukannya dibantu oleh sinar matahari pagi adalah Vitamin …",
+    "options": ["A", "B", "C", "D"],
+    "correct": "D",
+    "explanation": "Vitamin D untuk tulang."
+  },
+  {
+    "id": 861,
+    "category": "SD",
+    "text": "Kekurangan Vitamin C dapat menyebabkan penyakit …",
+    "options": ["sariawan", "rabun ayam", "rakitis", "beriberi"],
+    "correct": "sariawan",
+    "explanation": "Sariawan akibat kurang Vitamin C."
+  },
+  {
+    "id": 862,
+    "category": "SD",
+    "text": "Zat yang diperlukan tubuh sebagai sumber energi utama adalah …",
+    "options": ["karbohidrat", "vitamin", "mineral", "air"],
+    "correct": "karbohidrat",
+    "explanation": "Karbohidrat sumber energi utama (nasi, jagung, sagu)."
+  },
+  {
+    "id": 863,
+    "category": "SD",
+    "text": "Zat yang berguna untuk pertumbuhan dan mengganti sel rusak adalah …",
+    "options": ["protein", "karbohidrat", "lemak", "vitamin"],
+    "correct": "protein",
+    "explanation": "Protein pembangun sel."
+  },
+  {
+    "id": 864,
+    "category": "SD",
+    "text": "Contoh makanan sumber karbohidrat adalah …",
+    "options": ["nasi dan roti", "telur dan daging", "jeruk dan apel", "minyak goreng"],
+    "correct": "nasi dan roti",
+    "explanation": "Nasi, roti, gandum, kentang."
+  },
+  {
+    "id": 865,
+    "category": "SD",
+    "text": "Mata uang negara Jepang adalah …",
+    "options": ["Yen", "Yuan", "Won", "Dollar"],
+    "correct": "Yen",
+    "explanation": "Yen Jepang."
+  },
+  {
+    "id": 866,
+    "category": "SD",
+    "text": "Mata uang negara Korea Selatan adalah …",
+    "options": ["Won", "Yen", "Yuan", "Peso"],
+    "correct": "Won",
+    "explanation": "South Korean Won."
+  },
+  {
+    "id": 867,
+    "category": "SD",
+    "text": "Mata uang negara Tiongkok / China adalah …",
+    "options": ["Yuan / Renminbi", "Yen", "Won", "Baht"],
+    "correct": "Yuan / Renminbi",
+    "explanation": "Yuan."
+  },
+  {
+    "id": 868,
+    "category": "SD",
+    "text": "Bendera negara Jepang bergambar lingkaran berwarna …",
+    "options": ["merah", "hitam", "kuning", "biru"],
+    "correct": "merah",
+    "explanation": "Lingkaran merah di tengah warna putih."
+  },
+  {
+    "id": 869,
+    "category": "SD",
+    "text": "Tokoh penjahit bendera Pusaka Merah Putih adalah Ibu …",
+    "options": ["Fatmawati", "Kartini", "Dewi Sartika", "Cut Nyak Dien"],
+    "correct": "Fatmawati",
+    "explanation": "Ibu Fatmawati menjahit bendera proklamasi."
+  },
+  {
+    "id": 770,
+    "category": "SD",
+    "text": "Naskah Proklamasi diketik oleh …",
+    "options": ["Sayuti Melik", "Sukarni", "Chaerul Saleh", "B.M. Diah"],
+    "correct": "Sayuti Melik",
+    "explanation": "Sayuti Melik pengetik naskah proklamasi."
+  },
+  {
+    "id": 871,
+    "category": "SD",
+    "text": "Kota tempat pembacaan teks Proklamasi Kemerdekaan adalah …",
+    "options": ["Jakarta", "Bandung", "Surabaya", "Yogyakarta"],
+    "correct": "Jakarta",
+    "explanation": "Di Jalan Pegangsaan Timur No. 56, Jakarta."
+  },
+  {
+    "id": 872,
+    "category": "SD",
+    "text": "Tiga warna sekunder dalam seni rupa adalah …",
+    "options": ["Oranye, Hijau, Ungu", "Merah, Kuning, Biru", "Hitam, Putih, Cokelat", "Emas, Perak, Perunggu"],
+    "correct": "Oranye, Hijau, Ungu",
+    "explanation": "Campuran dari warna primer."
+  },
+  {
+    "id": 873,
+    "category": "SD",
+    "text": "Alat untuk melukis dengan cat air dinamakan …",
+    "options": ["kuas", "pensil 2B", "spidol", "pulpen"],
+    "correct": "kuas",
+    "explanation": "Kuas digunakan memoles cat."
+  },
+  {
+    "id": 874,
+    "category": "SD",
+    "text": "Seni melipat kertas dari Jepang dinamakan …",
+    "options": ["origami", "ikebana", "manga", "kimono"],
+    "correct": "origami",
+    "explanation": "Origami = seni melipat kertas."
+  },
+  {
+    "id": 875,
+    "category": "SD",
+    "text": "Lagu 'Ibu Kita Kartini' diciptakan oleh …",
+    "options": ["W.R. Supratman", "Ibu Sud", "Ismail Marzuki", "Pak Dal"],
+    "correct": "W.R. Supratman",
+    "explanation": "W.R. Supratman."
+  },
+  {
+    "id": 876,
+    "category": "SD",
+    "text": "Lagu 'Halo-Halo Bandung' diciptakan oleh …",
+    "options": ["Ismail Marzuki", "W.R. Supratman", "Kusbini", "C. Simanjuntak"],
+    "correct": "Ismail Marzuki",
+    "explanation": "Ismail Marzuki."
+  },
+  {
+    "id": 877,
+    "category": "SD",
+    "text": "Tari Piring berasal dari provinsi …",
+    "options": ["Sumatera Barat", "Sumatera Utara", "Riau", "Jambi"],
+    "correct": "Sumatera Barat",
+    "explanation": "Tari Piring khas Minangkabau / Sumbar."
+  },
+  {
+    "id": 878,
+    "category": "SD",
+    "text": "Tari Kecak diiringi oleh suara manusia yang menyerukan kata …",
+    "options": ["cak cak cak", "ha ha ha", "la la la", "hoi hoi hoi"],
+    "correct": "cak cak cak",
+    "explanation": "Penari Kecak berseru 'cak cak cak'."
+  },
+  {
+    "id": 879,
+    "category": "SD",
+    "text": "Alat musik Kolintang berasal dari daerah …",
+    "options": ["Minahasa / Sulawesi Utara", "Jawa Tengah", "Nusa Tenggara", "Maluku"],
+    "correct": "Minahasa / Sulawesi Utara",
+    "explanation": "Kolintang terbuat dari kayu khas Sulut."
+  },
+  {
+    "id": 880,
+    "category": "SD",
+    "text": "What is 'Apple' in Indonesian?",
+    "options": ["Apel", "Jeruk", "Pisang", "Mangga"],
+    "correct": "Apel",
+    "explanation": "Apple = Apel"
+  },
+  {
+    "id": 881,
+    "category": "SD",
+    "text": "What is 'Banana' in Indonesian?",
+    "options": ["Pisang", "Apel", "Nanas", "Semangka"],
+    "correct": "Pisang",
+    "explanation": "Banana = Pisang"
+  },
+  {
+    "id": 882,
+    "category": "SD",
+    "text": "How many days are in a week?",
+    "options": ["7 days", "5 days", "10 days", "12 days"],
+    "correct": "7 days",
+    "explanation": "7 days a week."
+  },
+  {
+    "id": 883,
+    "category": "SD",
+    "text": "What do we use to smell things?",
+    "options": ["Nose", "Ears", "Eyes", "Mouth"],
+    "correct": "Nose",
+    "explanation": "Nose is for smelling."
+  },
+  {
+    "id": 884,
+    "category": "SD",
+    "text": "What do we use to hear music?",
+    "options": ["Ears", "Eyes", "Nose", "Hands"],
+    "correct": "Ears",
+    "explanation": "Ears are for hearing."
+  },
+  {
+    "id": 885,
+    "category": "SD",
+    "text": "A cow gives us …",
+    "options": ["milk", "juice", "tea", "coffee"],
+    "correct": "milk",
+    "explanation": "Cows produce milk."
+  },
+  {
+    "id": 886,
+    "category": "SD",
+    "text": "Fish lives in the …",
+    "options": ["water", "sky", "tree", "house"],
+    "correct": "water",
+    "explanation": "Fish live in water."
+  },
+  {
+    "id": 887,
+    "category": "SD",
+    "text": "Birds can … in the sky.",
+    "options": ["fly", "swim", "run", "jump"],
+    "correct": "fly",
+    "explanation": "Birds fly."
+  },
+  {
+    "id": 888,
+    "category": "SD",
+    "text": "Hasil dari 12 + 18 ÷ 3 adalah …",
+    "options": ["10", "18", "24", "30"],
+    "correct": "18",
+    "explanation": "18 ÷ 3 = 6; 12 + 6 = 18."
+  },
+  {
+    "id": 889,
+    "category": "SD",
+    "text": "Hasil dari (10 + 5) × 2 adalah …",
+    "options": ["20", "25", "30", "35"],
+    "correct": "30",
+    "explanation": "15 × 2 = 30."
+  },
+  {
+    "id": 890,
+    "category": "SD",
+    "text": "Pecahan 1/2 jika diubah ke bentuk desimal adalah …",
+    "options": ["0,2", "0,5", "0,25", "0,75"],
+    "correct": "0,5",
+    "explanation": "1/2 = 0,5"
+  },
+  {
+    "id": 891,
+    "category": "SD",
+    "text": "Pecahan 1/4 jika diubah ke bentuk desimal adalah …",
+    "options": ["0,25", "0,5", "0,4", "0,14"],
+    "correct": "0,25",
+    "explanation": "1/4 = 0,25"
+  },
+  {
+    "id": 892,
+    "category": "SD",
+    "text": "Pecahan 3/4 jika diubah ke bentuk desimal adalah …",
+    "options": ["0,34", "0,5", "0,75", "0,8"],
+    "correct": "0,75",
+    "explanation": "3/4 = 0,75"
+  },
+  {
+    "id": 893,
+    "category": "SD",
+    "text": "Sudut yang lancip besarnya kurang dari …",
+    "options": ["45°", "90°", "180°", "360°"],
+    "correct": "90°",
+    "explanation": "< 90° = sudut lancip"
+  },
+  {
+    "id": 894,
+    "category": "SD",
+    "text": "Sudut lurus besarnya adalah …",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correct": "180°",
+    "explanation": "Sudut lurus = 180°"
+  },
+  {
+    "id": 895,
+    "category": "SD",
+    "text": "Jumlah derajat satu putaran penuh adalah …",
+    "options": ["180°", "270°", "360°", "400°"],
+    "correct": "360°",
+    "explanation": "Satu lingkaran penuh = 360°."
+  },
+  {
+    "id": 896,
+    "category": "SD",
+    "text": "Luas persegi panjang 8 cm × 4 cm adalah …",
+    "options": ["12 cm²", "24 cm²", "32 cm²", "64 cm²"],
+    "correct": "32 cm²",
+    "explanation": "8 × 4 = 32 cm²"
+  },
+  {
+    "id": 897,
+    "category": "SD",
+    "text": "Keliling persegi bersisi 5 cm adalah …",
+    "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+    "correct": "20 cm",
+    "explanation": "4 × 5 = 20 cm"
+  },
+  {
+    "id": 898,
+    "category": "SD",
+    "text": "Organ tubuh yang berfungsi menyaring kotoran dalam udara yang kita hirup adalah …",
+    "options": ["rambut hidung / bulu hidung", "lidah", "gigi", "telinga"],
+    "correct": "rambut hidung / bulu hidung",
+    "explanation": "Bulu hidung memfilter debu."
+  },
+  {
+    "id": 899,
+    "category": "SD",
+    "text": "Indera perasa/pengecap pada manusia adalah …",
+    "options": ["mata", "kulit", "lidah", "hidung"],
+    "correct": "lidah",
+    "explanation": "Lidah merasakan manis, asin, asam, pahit."
+  },
+  {
+    "id": 900,
+    "category": "SD",
+    "text": "Indera peraba pada manusia adalah …",
+    "options": ["kulit", "telinga", "mata", "lidah"],
+    "correct": "kulit",
+    "explanation": "Kulit peka terhadap rasa panas, dingin, halus, kasar."
+  },
+  {
+    "id": 901,
+    "category": "SD",
+    "text": "Bagian mata yang mengatur banyaknya cahaya yang masuk adalah …",
+    "options": ["pupil", "retina", "kornea", "lensa"],
+    "correct": "pupil",
+    "explanation": "Pupil membesar/mengecil mengatur cahaya."
+  },
+  {
+    "id": 902,
+    "category": "SD",
+    "text": "Bagian mata tempat bayangan benda terbentuk adalah …",
+    "options": ["retina", "pupil", "iris", "kornea"],
+    "correct": "retina",
+    "explanation": "Bayangan jatuh tepat di retina."
+  },
+  {
+    "id": 903,
+    "category": "SD",
+    "text": "Bunyi dihasilkan oleh benda yang …",
+    "options": ["diam", "bergetar", "panas", "basah"],
+    "correct": "bergetar",
+    "explanation": "Getaran menghasilkan bunyi."
+  },
+  {
+    "id": 904,
+    "category": "SD",
+    "text": "Bunyi tidak dapat merambat di …",
+    "options": ["udara", "air", "benda padat", "ruang hampa udara"],
+    "correct": "ruang hampa udara",
+    "explanation": "Bunyi butuh medium untuk merambat."
+  },
+  {
+    "id": 905,
+    "category": "SD",
+    "text": "Cahaya merambat dalam garis …",
+    "options": ["lurus", "melengkung", "zig-zag", "patah-patah"],
+    "correct": "lurus",
+    "explanation": "Sifat cahaya merambat lurus."
+  },
+  {
+    "id": 906,
+    "category": "SD",
+    "text": "Pensil dalam gelas berisi air terlihat patah karena adanya sifat cahaya …",
+    "options": ["pemantulan", "pembiasan (penghamburan)", "penguraian", "penyerapan"],
+    "correct": "pembiasan (penghamburan)",
+    "explanation": "Pembiasan cahaya saat melewati medium berbeda."
+  },
+  {
+    "id": 907,
+    "category": "SD",
+    "text": "Pelangi terjadi karena cahaya matahari mengalami penguraian / …",
+    "options": ["pemantulan", "dispersi / pembiasan", "penyerapan", "pemanasan"],
+    "correct": "dispersi / pembiasan",
+    "explanation": "Pembiasan dan penguraian cahaya oleh tetes air hujan."
+  },
+  {
+    "id": 908,
+    "category": "SD",
+    "text": "Warna pelangi terdiri dari 7 warna yang biasa disingkat …",
+    "options": ["MEJIKUHIBINIU", "PELANGIKU", "MERAHKUNING", "WARNAWARNI"],
+    "correct": "MEJIKUHIBINIU",
+    "explanation": "Merah, Jingga, Kuning, Hijau, Biru, Nila, Ungu."
+  },
+  {
+    "id": 909,
+    "category": "SD",
+    "text": "Antonim dari 'sedih' adalah …",
+    "options": ["gembira / senang", "tangis", "duka", "kecewa"],
+    "correct": "gembira / senang",
+    "explanation": "Sedih × Gembira"
+  },
+  {
+    "id": 910,
+    "category": "SD",
+    "text": "Antonim dari 'terang' adalah …",
+    "options": ["gelap", "silau", "siang", "putih"],
+    "correct": "gelap",
+    "explanation": "Terang × Gelap"
+  },
+  {
+    "id": 911,
+    "category": "SD",
+    "text": "Sinonim dari 'melihat' adalah …",
+    "options": ["memandang / menatap", "mendengar", "meraba", "mencium"],
+    "correct": "memandang / menatap",
+    "explanation": "Melihat = memandang."
+  },
+  {
+    "id": 912,
+    "category": "SD",
+    "text": "Sinonim dari 'mendengar' adalah …",
+    "options": ["menyimak", "melihat", "membaca", "menulis"],
+    "correct": "menyimak",
+    "explanation": "Mendengar ≈ menyimak."
+  },
+  {
+    "id": 913,
+    "category": "SD",
+    "text": "Kata bentukan dari imbuhan me- + makan menjadi …",
+    "options": ["memakan", "memakankan", "termakan", "pemakan"],
+    "correct": "memakan",
+    "explanation": "Me- + makan = memakan"
+  },
+  {
+    "id": 914,
+    "category": "SD",
+    "text": "Kalimat yang menggunakan tanda titik dengan benar adalah …",
+    "options": ["Ibu memasak nasi.", "Ibu memasak nasi?", "Ibu memasak nasi!", "Ibu, memasak nasi"],
+    "correct": "Ibu memasak nasi.",
+    "explanation": "Kalimat berita diakhiri titik."
+  },
+  {
+    "id": 915,
+    "category": "SD",
+    "text": "Tempat pemberhentian kereta api dinamakan …",
+    "options": ["stasiun", "terminal", "bandara", "pelabuhan"],
+    "correct": "stasiun",
+    "explanation": "Kereta api berhenti di stasiun."
+  },
+  {
+    "id": 916,
+    "category": "SD",
+    "text": "Tempat pemberhentian kapal laut dinamakan …",
+    "options": ["pelabuhan", "stasiun", "bandara", "terminal"],
+    "correct": "pelabuhan",
+    "explanation": "Kapal laut berlabuh di pelabuhan."
+  },
+  {
+    "id": 917,
+    "category": "SD",
+    "text": "Tempat pemberhentian pesawat terbang dinamakan …",
+    "options": ["bandara (bandar udara)", "stasiun", "pelabuhan", "terminal"],
+    "correct": "bandara (bandar udara)",
+    "explanation": "Pesawat mendarat di bandara."
+  },
+  {
+    "id": 918,
+    "category": "SD",
+    "text": "Orang yang mengemudikan pesawat terbang disebut …",
+    "options": ["pilot", "nakhoda", "masinis", "sopir"],
+    "correct": "pilot",
+    "explanation": "Pilot menerbangkan pesawat."
+  },
+  {
+    "id": 919,
+    "category": "SD",
+    "text": "Orang yang mengemudikan kapal laut disebut …",
+    "options": ["nakhoda", "pilot", "masinis", "kusir"],
+    "correct": "nakhoda",
+    "explanation": "Nakhoda memimpin kapal laut."
+  },
+  {
+    "id": 920,
+    "category": "SD",
+    "text": "Orang yang mengemudikan kereta api disebut …",
+    "options": ["masinis", "pilot", "nakhoda", "kusir"],
+    "correct": "masinis",
+    "explanation": "Masinis menjalankan kereta."
+  },
+  {
+    "id": 921,
+    "category": "SD",
+    "text": "Orang yang mengendalikan delman / dokar disebut …",
+    "options": ["kusir", "masinis", "sopir", "pilot"],
+    "correct": "kusir",
+    "explanation": "Kusir mengendalikan kuda delman."
+  },
+  {
+    "id": 922,
+    "category": "SD",
+    "text": "Ibukota negara Filipina adalah …",
+    "options": ["Manila", "Bangkok", "Hanoi", "Kuala Lumpur"],
+    "correct": "Manila",
+    "explanation": "Manila ibukota Filipina."
+  },
+  {
+    "id": 923,
+    "category": "SD",
+    "text": "Ibukota negara Thailand adalah …",
+    "options": ["Bangkok", "Manila", "Hanoi", "Phnom Penh"],
+    "correct": "Bangkok",
+    "explanation": "Bangkok ibukota Thailand."
+  },
+  {
+    "id": 924,
+    "category": "SD",
+    "text": "Ibukota negara Vietnam adalah …",
+    "options": ["Hanoi", "Bangkok", "Vientiane", "Yangon"],
+    "correct": "Hanoi",
+    "explanation": "Hanoi ibukota Vietnam."
+  },
+  {
+    "id": 925,
+    "category": "SD",
+    "text": "Mata uang negara Filipina adalah …",
+    "options": ["Peso", "Baht", "Dong", "Rupiah"],
+    "correct": "Peso",
+    "explanation": "Philippine Peso."
+  },
+  {
+    "id": 926,
+    "category": "SD",
+    "text": "Mata uang negara Vietnam adalah …",
+    "options": ["Dong", "Baht", "Riel", "Kip"],
+    "correct": "Dong",
+    "explanation": "Vietnamese Dong."
+  },
+  {
+    "id": 927,
+    "category": "SD",
+    "text": "Candi Borobudur dibangun oleh pemeluk agama …",
+    "options": ["Buddha", "Hindu", "Islam", "Konghucu"],
+    "correct": "Buddha",
+    "explanation": "Borobudur adalah candi Buddha terbesar."
+  },
+  {
+    "id": 928,
+    "category": "SD",
+    "text": "Raja terkenal dari Kerajaan Majapahit dengan Patih Gajah Mada adalah Raja …",
+    "options": ["Hayam Wuruk", "Raden Wijaya", "Mulawarman", "Purnawarman"],
+    "correct": "Hayam Wuruk",
+    "explanation": "Masa kejayaan Majapahit dipimpin Hayam Wuruk."
+  },
+  {
+    "id": 929,
+    "category": "SD",
+    "text": "Sumpah terkenal yang diucapkan Patih Gajah Mada adalah Sumpah …",
+    "options": ["Palapa", "Pemuda", "Prajurit", "Setia"],
+    "correct": "Palapa",
+    "explanation": "Sumpah Palapa untuk menyatukan Nusantara."
+  },
+  {
+    "id": 930,
+    "category": "SD",
+    "text": "Hari Pahlawan diperingati untuk mengenang pertempuran di kota …",
+    "options": ["Surabaya", "Bandung", "Semarang", "Jakarta"],
+    "correct": "Surabaya",
+    "explanation": "Pertempuran Surabaya 10 November 1945."
+  },
+  {
+    "id": 931,
+    "category": "SD",
+    "text": "Tokoh pahlawan yang membakar semangat pemuda Surabaya lewat pidato radio adalah …",
+    "options": ["Bung Tomo", "Bung Karno", "Bung Hatta", "Jenderal Sudirman"],
+    "correct": "Bung Tomo",
+    "explanation": "Bung Tomo memimpin perjuangan fisik lewat siaran radio."
+  },
+  {
+    "id": 932,
+    "category": "SD",
+    "text": "Julukan bagi Kota Bandung yang pernah dibakar oleh rakyatnya sendiri adalah Bandung …",
+    "options": ["Lautan Api", "Lautan Air", "Kota Pahlawan", "Kota Hujan"],
+    "correct": "Lautan Api",
+    "explanation": "Bandung Lautan Api (23 Maret 1946)."
+  },
+  {
+    "id": 933,
+    "category": "SD",
+    "text": "Kota yang dijuluki Kota Hujan adalah …",
+    "options": ["Bogor", "Bandung", "Medan", "Surakarta"],
+    "correct": "Bogor",
+    "explanation": "Bogor memiliki curah hujan tinggi."
+  },
+  {
+    "id": 934,
+    "category": "SD",
+    "text": "Kota yang dijuluki Kota Pahlawan adalah …",
+    "options": ["Surabaya", "Jakarta", "Yogyakarta", "Semarang"],
+    "correct": "Surabaya",
+    "explanation": "Surabaya = Kota Pahlawan."
+  },
+  {
+    "id": 935,
+    "category": "SD",
+    "text": "Mata uang resmi negara Amerika Serikat adalah …",
+    "options": ["US Dollar ($)", "Euro (€)", "Pound (£)", "Yen (¥)"],
+    "correct": "US Dollar ($)",
+    "explanation": "Dolar Amerika Serikat."
+  },
+  {
+    "id": 936,
+    "category": "SD",
+    "text": "Mata uang negara-negara di Uni Eropa adalah …",
+    "options": ["Euro", "Dollar", "Pound", "Ruble"],
+    "correct": "Euro",
+    "explanation": "Euro (€) digunakan oleh mayoritas negara Uni Eropa."
+  },
+  {
+    "id": 937,
+    "category": "SD",
+    "text": "Alat musik Gitar dimainkan dengan cara …",
+    "options": ["dipetik", "ditiup", "dipukul", "digesek"],
+    "correct": "dipetik",
+    "explanation": "Gitar dipetik dawainya."
+  },
+  {
+    "id": 938,
+    "category": "SD",
+    "text": "Alat musik Biola dimainkan dengan cara …",
+    "options": ["digesek", "dipetik", "ditiup", "dipukul"],
+    "correct": "digesek",
+    "explanation": "Biola digesek dengan penggesek."
+  },
+  {
+    "id": 939,
+    "category": "SD",
+    "text": "Alat musik Drum dimainkan dengan cara …",
+    "options": ["dipukul", "dipetik", "ditiup", "digoyang"],
+    "correct": "dipukul",
+    "explanation": "Drum dipukul dengan stik drum."
+  },
+  {
+    "id": 940,
+    "category": "SD",
+    "text": "Alat musik Pianika dimainkan dengan cara ditiup dan ditekan …",
+    "options": ["tuts-nya", "senarnya", "kulitnya", "lubangnya"],
+    "correct": "tuts-nya",
+    "explanation": "Menekan tuts sambil ditiup."
+  },
+  {
+    "id": 941,
+    "category": "SD",
+    "text": "Tangga nada yang terdiri dari 7 nada dinamakan tangga nada …",
+    "options": ["diatonis", "pentatonis", "harmonis", "ritmis"],
+    "correct": "diatonis",
+    "explanation": "Diatonis memuat 7 nada (do re mi fa sol la si)."
+  },
+  {
+    "id": 942,
+    "category": "SD",
+    "text": "Tangga nada tradisional 5 nada dinamakan tangga nada …",
+    "options": ["pentatonis", "diatonis", "mayor", "minor"],
+    "correct": "pentatonis",
+    "explanation": "Penta = 5 nada."
+  },
+  {
+    "id": 943,
+    "category": "SD",
+    "text": "Tangga nada diatonis mayor biasanya bersifat …",
+    "options": ["riang gembira & semangat", "sedih & haru", "lambat", "sepi"],
+    "correct": "riang gembira & semangat",
+    "explanation": "Diatonis mayor bernuansa riang/semangat."
+  },
+  {
+    "id": 944,
+    "category": "SD",
+    "text": "Tangga nada diatonis minor biasanya bersifat …",
+    "options": ["sedih & kurang bersemangat", "gembira", "cepat", "sangat kencang"],
+    "correct": "sedih & kurang bersemangat",
+    "explanation": "Diatonis minor bernuansa syahdu/sedih."
+  },
+  {
+    "id": 945,
+    "category": "SD",
+    "text": "Contoh lagu nasional bertangga nada mayor adalah …",
+    "options": ["Maju Tak Gentar", "Gugur Bunga", "Mengheningkan Cipta", "Syukur"],
+    "correct": "Maju Tak Gentar",
+    "explanation": "Maju Tak Gentar berirama semangat (mayor)."
+  },
+  {
+    "id": 946,
+    "category": "SD",
+    "text": "Contoh lagu nasional bertangga nada minor adalah …",
+    "options": ["Gugur Bunga", "Garuda Pancasila", "Halo-Halo Bandung", "Maju Tak Gentar"],
+    "correct": "Gugur Bunga",
+    "explanation": "Gugur Bunga berirama syahdu/sedih (minor)."
+  },
+  {
+    "id": 947,
+    "category": "SD",
+    "text": "What is 'Dog' in Indonesian?",
+    "options": ["Anjing", "Kucing", "Kuda", "Sapi"],
+    "correct": "Anjing",
+    "explanation": "Dog = Anjing"
+  },
+  {
+    "id": 948,
+    "category": "SD",
+    "text": "What is 'Sun' in Indonesian?",
+    "options": ["Matahari", "Bulan", "Bintang", "Awan"],
+    "correct": "Matahari",
+    "explanation": "Sun = Matahari"
+  },
+  {
+    "id": 949,
+    "category": "SD",
+    "text": "What is 'Moon' in Indonesian?",
+    "options": ["Bulan", "Matahari", "Bintang", "Langit"],
+    "correct": "Bulan",
+    "explanation": "Moon = Bulan"
+  },
+  {
+    "id": 950,
+    "category": "SD",
+    "text": "What is 'Star' in Indonesian?",
+    "options": ["Bintang", "Bulan", "Awan", "Pelangi"],
+    "correct": "Bintang",
+    "explanation": "Star = Bintang"
+  },
+  {
+    "id": 951,
+    "category": "SD",
+    "text": "I read books in the … (perpustakaan).",
+    "options": ["library", "canteen", "classroom", "office"],
+    "correct": "library",
+    "explanation": "Perpustakaan = library"
+  },
+  {
+    "id": 952,
+    "category": "SD",
+    "text": "We buy food at school in the … (kantin).",
+    "options": ["canteen", "library", "field", "toilet"],
+    "correct": "canteen",
+    "explanation": "Kantin = canteen"
+  },
+  {
+    "id": 953,
+    "category": "SD",
+    "text": "My mother is cooking in the … (dapur).",
+    "options": ["kitchen", "bedroom", "living room", "bathroom"],
+    "correct": "kitchen",
+    "explanation": "Dapur = kitchen"
+  },
+  {
+    "id": 954,
+    "category": "SD",
+    "text": "I sleep in my … (kamar tidur).",
+    "options": ["bedroom", "kitchen", "garage", "garden"],
+    "correct": "bedroom",
+    "explanation": "Kamar tidur = bedroom"
+  },
+  {
+    "id": 955,
+    "category": "SD",
+    "text": "Hasil dari 100 ÷ 5 adalah …",
+    "options": ["15", "20", "25", "30"],
+    "correct": "20",
+    "explanation": "100 ÷ 5 = 20"
+  },
+  {
+    "id": 956,
+    "category": "SD",
+    "text": "Hasil dari 15 × 3 adalah …",
+    "options": ["35", "40", "45", "50"],
+    "correct": "45",
+    "explanation": "15 × 3 = 45"
+  },
+  {
+    "id": 957,
+    "category": "SD",
+    "text": "Hasil dari 80 - 35 adalah …",
+    "options": ["45", "55", "35", "50"],
+    "correct": "45",
+    "explanation": "80 - 35 = 45"
+  },
+  {
+    "id": 958,
+    "category": "SD",
+    "text": "Pecahan 2/5 jika diubah ke desimal adalah …",
+    "options": ["0,2", "0,4", "0,5", "0,25"],
+    "correct": "0,4",
+    "explanation": "2 ÷ 5 = 0,4"
+  },
+  {
+    "id": 959,
+    "category": "SD",
+    "text": "Bangun ruang yang tidak memiliki sudut dan rusuk adalah …",
+    "options": ["bola", "kubus", "balok", "prisma"],
+    "correct": "bola",
+    "explanation": "Bola hanya berupa bidang lengkung."
+  },
+  {
+    "id": 960,
+    "category": "SD",
+    "text": "Bangun ruang alas lingkaran dan puncak lancip dinamakan …",
+    "options": ["kerucut", "tabung", "bola", "limas"],
+    "correct": "kerucut",
+    "explanation": "Kerucut beralas lingkaran dan meruncing ke puncak."
+  },
+  {
+    "id": 961,
+    "category": "SD",
+    "text": "Bangun ruang dengan alas dan tutup lingkaran sama dinamakan …",
+    "options": ["tabung (silinder)", "kerucut", "bola", "kubus"],
+    "correct": "tabung (silinder)",
+    "explanation": "Tabung memiliki 2 sisi lingkaran paralel."
+  },
+  {
+    "id": 962,
+    "category": "SD",
+    "text": "Organ manusia yang berfungsi memompa darah adalah …",
+    "options": ["jantung", "paru-paru", "hati", "lambung"],
+    "correct": "jantung",
+    "explanation": "Jantung memompa darah ke seluruh tubuh."
+  },
+  {
+    "id": 963,
+    "category": "SD",
+    "text": "Pembuluh darah yang mengalirkan darah kembali ke jantung adalah pembuluh …",
+    "options": ["balik (vena)", "nadi (arteri)", "kapiler", "limfa"],
+    "correct": "balik (vena)",
+    "explanation": "Vena = pembuluh balik."
+  },
+  {
+    "id": 964,
+    "category": "SD",
+    "text": "Darah berwarna merah karena mengandung zat …",
+    "options": ["hemoglobin", "klorofil", "plasma", "trombosit"],
+    "correct": "hemoglobin",
+    "explanation": "Hemoglobin memberi warna merah pada eritrosit."
+  },
+  {
+    "id": 965,
+    "category": "SD",
+    "text": "Sel darah yang berfungsi melawan kuman penyakit adalah sel darah …",
+    "options": ["putih (leukosit)", "merah (eritrosit)", "keping darah", "plasma"],
+    "correct": "putih (leukosit)",
+    "explanation": "Leukosit berfungsi antibodi/pertahanan tubuh."
+  },
+  {
+    "id": 966,
+    "category": "SD",
+    "text": "Sel darah yang berfungsi membantu pembekuan darah saat luka adalah …",
+    "options": ["keping darah (trombosit)", "sel darah merah", "sel darah putih", "plasma darah"],
+    "correct": "keping darah (trombosit)",
+    "explanation": "Trombosit membekukan darah."
+  },
+  {
+    "id": 967,
+    "category": "SD",
+    "text": "Tanda baca koma (,) digunakan untuk memisahkan …",
+    "options": ["unsur perincian", "akhir kalimat", "kalimat perintah saja", "nama judul"],
+    "correct": "unsur perincian",
+    "explanation": "Dipakai dalam perincian atau pendaftaran."
+  },
+  {
+    "id": 968,
+    "category": "SD",
+    "text": "Kata dasar dari 'makanan' adalah …",
+    "options": ["makan", "makanan", "pangan", "makananmu"],
+    "correct": "makan",
+    "explanation": "Makan + sufiks -an."
+  },
+  {
+    "id": 969,
+    "category": "SD",
+    "text": "Kata 'indah' termasuk ke dalam jenis kata …",
+    "options": ["sifat / keadaan", "kerja", "benda", "keterangan"],
+    "correct": "sifat / keadaan",
+    "explanation": "Indah menunjukkan kata sifat (adjektiva)."
+  },
+  {
+    "id": 970,
+    "category": "SD",
+    "text": "Kalimat yang menggunakan kata sifat adalah …",
+    "options": ["Bunga itu sangat indah.", "Ibu membeli buah.", "Adik berlari cepat.", "Ayah membaca buku."],
+    "correct": "Bunga itu sangat indah.",
+    "explanation": "'Indah' adalah kata sifat."
+  },
+  {
+    "id": 971,
+    "category": "SD",
+    "text": "Tokoh utama dalam sebuah cerita dinamakan tokoh …",
+    "options": ["protagonis / utama", "figuran", "pembantu", "latar"],
+    "correct": "protagonis / utama",
+    "explanation": "Tokoh utama memegang peran sentral."
+  },
+  {
+    "id": 972,
+    "category": "SD",
+    "text": "Tokoh jahat atau penentang dalam cerita dinamakan tokoh …",
+    "options": ["antagonis", "protagonis", "tritagonis", "figuran"],
+    "correct": "antagonis",
+    "explanation": "Antagonis berkarakter jahat/penentang."
+  },
+  {
+    "id": 973,
+    "category": "SD",
+    "text": "Ibukota negara Australia adalah …",
+    "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+    "correct": "Canberra",
+    "explanation": "Canberra adalah ibukota Australia."
+  },
+  {
+    "id": 974,
+    "category": "SD",
+    "text": "Samudra terbesar di dunia adalah Samudra …",
+    "options": ["Pasifik", "Atlantik", "Hindia", "Arktik"],
+    "correct": "Pasifik",
+    "explanation": "Samudra Pasifik paling luas."
+  },
+  {
+    "id": 975,
+    "category": "SD",
+    "text": "Gunung tertinggi di dunia adalah Gunung …",
+    "options": ["Everest", "Kilimanjaro", "Fuji", "Elbrus"],
+    "correct": "Everest",
+    "explanation": "Mount Everest (8.848 m)."
+  },
+  {
+    "id": 976,
+    "category": "SD",
+    "text": "Sungai terpanjang di dunia terletak di benua Afrika, yaitu Sungai …",
+    "options": ["Nil", "Amazon", "Yangtze", "Mississippi"],
+    "correct": "Nil",
+    "explanation": "Sungai Nil di Afrika."
+  },
+  {
+    "id": 977,
+    "category": "SD",
+    "text": "Ibukota negara Inggris (United Kingdom) adalah …",
+    "options": ["London", "Paris", "Berlin", "Roma"],
+    "correct": "London",
+    "explanation": "London ibukota Inggris."
+  },
+  {
+    "id": 978,
+    "category": "SD",
+    "text": "Ibukota negara Prancis adalah …",
+    "options": ["Paris", "London", "Madrid", "Roma"],
+    "correct": "Paris",
+    "explanation": "Paris ibukota Prancis."
+  },
+  {
+    "id": 979,
+    "category": "SD",
+    "text": "Menghormati orang tua dan guru merupakan kewajiban …",
+    "options": ["setiap anak / siswa", "orang lain saja", "pemerintah", "tetangga"],
+    "correct": "setiap anak / siswa",
+    "explanation": "Kewajiban moral setiap anak dan siswa."
+  },
+  {
+    "id": 980,
+    "category": "SD",
+    "text": "Hak seorang anak di rumah antara lain mendapatkan …",
+    "options": ["kasih sayang dan perlindungan", "tugas rumah yang banyak", "hukuman", "pekerjaan berat"],
+    "correct": "kasih sayang dan perlindungan",
+    "explanation": "Hak anak mendapatkan kasih sayang dan perlindungan."
+  },
+  {
+    "id": 981,
+    "category": "SD",
+    "text": "Lambang sila ke-3 Pancasila adalah Pohon Beringin yang melambangkan …",
+    "options": ["persatuan dan tempat berteduh", "keberanian", "makanan pokok", "kemakmuran"],
+    "correct": "persatuan dan tempat berteduh",
+    "explanation": "Pohon beringin melambangkan persatuan."
+  },
+  {
+    "id": 982,
+    "category": "SD",
+    "text": "Hasil dari 8 × 6 adalah …",
+    "options": ["42", "48", "54", "56"],
+    "correct": "48",
+    "explanation": "8 × 6 = 48"
+  },
+  {
+    "id": 983,
+    "category": "SD",
+    "text": "Hasil dari 72 ÷ 8 adalah …",
+    "options": ["7", "8", "9", "10"],
+    "correct": "9",
+    "explanation": "72 ÷ 8 = 9"
   }
+]
 ]
