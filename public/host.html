@@ -8,11 +8,9 @@
   <script src="/socket.io/socket.io.js"></script>
   <!-- Canvas Confetti untuk efek menang -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-<!-- Library QR Code JS -->
-<script src="https://cdnjs.cloudflare.com/javascript-qrcode/1.0.0/javascript-qrcode.min.js"></script>
-<!-- ATAU bisa gunakan library QRCode.js standar ini: -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> 
- <style>
+  <!-- CDN QR Code JS Resmi & Stabil -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs2@0.0.4/qrcode.min.js"></script>
+  <style>
     body {
       background: #0f172a url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW9yODNpMzB3aW53cG9nZmJuOGtpZHF2bDVuNWppd3A1aWxoOXNuZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xd7QqFPv4IVAz8dnog/giphy.gif') center center / cover no-repeat fixed;
       min-height: 100vh;
@@ -46,20 +44,14 @@
         <p class="text-indigo-200 text-sm md:text-base drop-shadow">SD • SMP • SMA</p>
       </div>
 
-<!-- Kontainer Tempat QR Code Muncul -->
-<div id="qrcode-container" style="margin: 20px auto; text-align: center;">
-  <p>Scan untuk Join Permainan:</p>
-  <div id="qrcode" style="display: inline-block;"></div>
-</div>
-
       <!-- Musik Relax -->
       <div class="flex justify-center mb-4 gap-3 items-center">
         <button id="musicBtn" onclick="toggleMusic()" class="glass hover:bg-white/25 px-4 py-2 rounded-full text-sm flex items-center gap-2 transition">
           <span id="musicIcon">🎵</span> <span id="musicText">Putar Musik Relax</span>
         </button>
         <audio id="bgMusic" loop preload="auto">
-		<source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
-		</audio>
+          <source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
+        </audio>
       </div>
 
       <!-- Setup -->
@@ -67,10 +59,17 @@
         <button onclick="createRoom()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-10 rounded-full text-lg transition transform hover:scale-105 shadow-lg">
           Buat Room Baru
         </button>
-        <div id="roomInfo" class="mt-5 hidden">
+        <div id="roomInfo" class="mt-5 hidden flex-col items-center">
           <p class="text-indigo-200">Kode Room:</p>
           <p id="roomCode" class="text-5xl md:text-6xl font-mono font-bold tracking-widest my-3 text-yellow-300 drop-shadow-lg"></p>
-          <p class="text-sm text-indigo-300">Pemain buka link Cek-Kecerdasan-Otak.onrender.com/player.html</p>
+          
+          <!-- Kontainer Tempat QR Code Muncul -->
+          <div id="qrcode-container" class="my-4 text-center bg-white/10 p-4 rounded-xl border border-white/20 inline-block">
+            <p class="text-sm font-semibold mb-2 text-indigo-200">Scan QR Code untuk Join Permainan:</p>
+            <div id="qrcode" class="inline-block p-2 bg-white rounded-lg shadow-lg"></div>
+          </div>
+
+          <p class="text-sm text-indigo-300 mt-2">Atau pemain bisa buka link Cek-Kecerdasan-Otak.onrender.com/player.html</p>
         </div>
       </div>
 
@@ -182,26 +181,42 @@
       socket.emit('createRoom');
     }
 
-    socket.on('roomCreated', (roomCode) => {
-  // Tampilkan Kode Room Teks
-  document.getElementById('room-code-display').innerText = roomCode;
+	socket.on('roomCreated', (roomCode) => {
+      currentRoom = roomCode;
+      
+      // Tampilkan container informasi room
+      const roomInfo = document.getElementById('roomInfo');
+      roomInfo.classList.remove('hidden');
+      roomInfo.classList.add('flex');
+      document.getElementById('gameArea').classList.remove('hidden');
+      
+      // Tampilkan Kode Room Teks
+      document.getElementById('roomCode').innerText = roomCode;
 
-  // Buat URL lengkap yang akan dibuka pemain saat scan
-  const joinUrl = `${window.location.origin}/player.html?code=${roomCode}`;
+      // Buat URL lengkap yang akan dibuka pemain saat scan
+      const joinUrl = `${window.location.origin}/player.html?code=${roomCode}`;
 
-  // Bersihkan QR Code lama jika ada
-  document.getElementById('qrcode').innerHTML = '';
+      // Bersihkan QR Code lama
+      const qrElement = document.getElementById('qrcode');
+      qrElement.innerHTML = '';
 
-  // Generasi QR Code Baru
-  new QRCode(document.getElementById('qrcode'), {
-    text: joinUrl,
-    width: 180,
-    height: 180,
-    colorDark : "#000000",
-    colorLight : "#ffffff",
-    correctLevel : QRCode.CorrectLevel.H
-  });
-});
+      // Render QR Code dengan pengecekan library
+      setTimeout(() => {
+        if (typeof QRCode !== 'undefined') {
+          new QRCode(qrElement, {
+            text: joinUrl,
+            width: 160,
+            height: 160,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+          });
+        } else {
+          // Fallback jika CDN JS terblokir: gunakan API Gambar Google/QuickChart
+          qrElement.innerHTML = `<img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=${encodeURIComponent(joinUrl)}" alt="QR Code" class="mx-auto rounded-lg shadow-md" />`;
+        }
+      }, 100);
+    });
 
     function nextQuestion() {
       if (isPlaying) return;
@@ -263,36 +278,42 @@
       document.getElementById('answeredCounter').textContent = `Pemain Menjawab: ${count} / ${totalPlayersCount}`;
     }
 
-socket.on('questionEnded', (data) => {
-  // Sembunyikan container soal
-  document.getElementById('question-box').style.display = 'none';
-  
-  // Tampilkan pembahasan kunci jawaban
-  document.getElementById('explanation-box').style.display = 'block';
-  document.getElementById('correct-answer-text').innerText = data.correct;
-  document.getElementById('explanation-text').innerText = data.explanation;
+    socket.on('questionEnded', (data) => {
+      isPlaying = false;
+      document.getElementById('nextBtn').disabled = false;
+      document.getElementById('nextBtn').classList.remove('opacity-50');
 
-  // JANGAN tampilkan papan skor keseluruhan dulu di sini
-  document.getElementById('leaderboard-box').style.display = 'none';
-});
+      document.getElementById('questionContent').classList.add('hidden');
+      document.getElementById('resultBox').classList.remove('hidden');
 
-socket.on('gameFinished', (data) => {
-  // Sembunyikan box pembahasan
-  document.getElementById('explanation-box').style.display = 'none';
-  
-  // Tampilkan Papan Skor / Klasemen Akhir
-  const leaderboardBox = document.getElementById('leaderboard-box');
-  leaderboardBox.style.display = 'block';
-  
-  // Render daftar juara (Juara 1, 2, 3, dst)
-  let html = `<h2>🏆 HASIL AKHIR PERMAINAN 🏆</h2><ol>`;
-  data.scores.forEach(player => {
-    html += `<li><strong>${player.nickname}</strong>: ${player.score} Poin</li>`;
-  });
-  html += `</ol>`;
-  
-  leaderboardBox.innerHTML = html;
-});
+      document.getElementById('correctAnswer').textContent = data.correct;
+      document.getElementById('explanation').textContent = data.explanation || '';
+
+      // Tampilkan leaderboard sementara
+      const tempLb = document.getElementById('tempLeaderboard');
+      tempLb.innerHTML = '';
+      if (data.scores) {
+        data.scores.slice(0, 5).forEach((p, idx) => {
+          const div = document.createElement('div');
+          div.className = 'flex justify-between items-center bg-white/10 px-3 py-1.5 rounded-lg text-sm';
+          div.innerHTML = `<span>${idx + 1}. ${p.nickname}</span><span class="font-bold text-yellow-300">${p.score} pt</span>`;
+          tempLb.appendChild(div);
+        });
+      }
+
+      // Update daftar pemain dengan warna indikator benar/salah
+      socket.emit('getLeaderboard', currentRoom);
+    });
+
+    socket.on('gameFinished', (data) => {
+      isPlaying = false;
+      document.getElementById('questionContent').classList.add('hidden');
+      document.getElementById('resultBox').classList.add('hidden');
+      document.getElementById('waiting').classList.remove('hidden');
+      document.getElementById('waiting').textContent = 'Permainan Selesai!';
+
+      showPodium(data.scores);
+    });
 
     function showPodium(scores) {
       if (!scores || scores.length === 0) return;
